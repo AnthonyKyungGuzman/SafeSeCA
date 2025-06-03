@@ -11,10 +11,25 @@ Pose Space Graphic : index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 
 Observation Space : add_frite_parameters = False
 Action Space : index = 0, name = 3d, type = 0
 ***************
-constructor IK_DH time elapsed = 0:00:00.006173
+constructor IK_DH time elapsed = 0:00:00.008487
 NO ROS VERSION !
 rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.604,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
 rank: 0, BOX POS SPACE : low=[0.404,-0.4,0.221], high=[0.604,0.4,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.604,0.25,0.521]
+rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, BOX POS SPACE : low=[0.404,-0.4,0.221], high=[0.604,0.4,0.521]
+rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, nb actions = 3
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, IK PRECISION: pos desired=[0.603 0.158 0.455], pos fk=[0.52  0.146 0.437], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[0.603 0.158 0.455], orien=(-0.9344804360443165, -0.11252413032759503, 0.2777376235011878, 0.19221458642973727), q_values=[[  3.27621269]
+ [  5.57450214]
+ [-15.86341965]
+ [-32.32773398]
+ [-33.82618958]
+ [ -1.38282495]
+ [-46.76238539]], panda_num=0

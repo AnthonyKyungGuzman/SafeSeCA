@@ -13,9 +13,6 @@ melodie.daniel@sigma-clermont.fr
 """
 
 
-#TODO: use two agents for instead of just one set of parameters
-
-
 
 import sys
 import gym
@@ -70,17 +67,8 @@ parser.add_argument('--algo_config_file', default='./SeCA/config/algs/seca.yaml'
 
 args = parser.parse_args()
 
-
-
 wandb.login()
-# # wandb.tensorboard.patch(root_logdir="./SeCA/results/tb_logs/")
 wandb.tensorboard.patch()
-# wandb_run = wandb.init(project="seca_dlo", sync_tensorboard=True)
-
-
-
-
-
 
 def args_sanity_check(config, _log):
 
@@ -160,13 +148,6 @@ def main():
 	rank = MPI.COMM_WORLD.Get_rank()
 	size = MPI.COMM_WORLD.Get_size() 
 
-	# wandb_run = wandb.init(project="seca_dlo", 
-	# 						name=f"rank_{rank}",        # Unique run per process
-	# 						group=f"mpi_group",          # Optional: group all runs
-	# 						config={"rank": rank, "total_processes": size}, sync_tensorboard=True)
-	
-
-
 	########################## SeCA Params
 	# Get the defaults from default.yaml
 	with open(os.path.join(os.path.dirname(__file__), "SeCA/config", "default.yaml"), "r") as f:
@@ -194,7 +175,7 @@ def main():
 	seca_args.unique_token = unique_token
 	if seca_args.use_tensorboard:
 		# tb_logs_direc = "/kpl/tensorboard"
-		tb_logs_direc = os.path.join(dirname(dirname(abspath(__file__))), "MultiSeCA_DLO/SeCA/results", "tb_logs")
+		tb_logs_direc = os.path.join(dirname(dirname(abspath(__file__))), "src/SeCA/results", "tb_logs")
 		tb_exp_direc = os.path.join(tb_logs_direc, "{}").format(unique_token)
 
 		tb_exp_direc_path = Path(tb_exp_direc)
@@ -394,7 +375,9 @@ def main():
 			
 			for step in range(n_steps):
 				# action = agent.get_action(state)
-				action = agent.get_action(state, step, test_mode=True)
+				pos, orien = env.get_gripper_pos_orientation(panda_num)
+				pos_orien = [pos, orien]
+				action = agent.get_action(state, step, pos_orien,test_mode=True)
 				
 				print("action={}".format(action))
 				# file_log.write("action = {}\n".format(action))
@@ -466,359 +449,6 @@ def main():
 		input("hit return to start generate db !")
 		db.generate()
 		# input("hit return to exit !")
-			
-	elif args.mode == 'train':
-		print("TRAIN MODE !")
-		start=datetime.now()
-		
-		n_episodes = json_decoder.config_data["env_train"]["n_episodes"]
-		n_steps = json_decoder.config_data["env_train"]["n_steps"]
-		
-		
-		print("** ENV MODE TRAIN OPTIONS **")
-		print("n_episodes = {}".format(n_episodes))
-		print("n_steps = {}".format(n_steps))
-		print("ddpg_load = {}".format(ddpg_load))
-		
-		if rank == 0:
-			f_mean_rewards = open(logsFileDir + "mean_rewards.txt", "w+")
-			f_max_rewards = open(logsFileDir + "max_rewards.txt", "w+")
-			f_min_rewards = open(logsFileDir + "min_rewards.txt", "w+")
-			file_log.write("** ENV MODE TRAIN OPTIONS **\n")
-			file_log.write("config_file = {}\n".format(args.config_file))
-			file_log.write("n_episodes = {}\n".format(n_episodes))
-			file_log.write("n_steps = {}\n".format(n_steps))
-			file_log.write("ddpg_load = {}\n".format(ddpg_load))
-			file_log.flush()
-			
-		
-		#Debugging variables
-		firstEpi = True
-		firstRet = 0 
-		finalRet = 0
-
-
-		if ddpg_load:
-			agent.load()
-			
-		global_step_number = 0
-		episode_reward_previous = -300
-		episode_reward_best = -300
-		
-		# initial error
-		initial_error = 0
-
-		reward_ma_tracker = MovingAverageReward(window_size=100)
-
-		wandb_run_dir = wandb.run.dir  # example: 'wandb/run-20250411_XXXXXX-xxxxxx'
-
-		# Compose the path to output.log
-		wandb_output_log_path = os.path.join(wandb_run_dir, 'output.log')
-		wandb_output_file = open(wandb_output_log_path, "a")
-
-		batch_size = 1
-
-		agent.learner.debug_file_wandb(wandb,wandb_output_file)
-		
-		for episode in range(n_episodes):
-			#print("** rank {}, episode {}".format(rank,episode))
-			env.reset_env_bullet()
-			
-			agent.mac.init_hidden(batch_size=1)
-			agent.mac.reset_actions()
-			agent.mac.noise.reset()
-			agent.batch = agent.new_batch()
-
-			state, initial_error = env.reset_bullet(panda_num)
-				
-			if (args.gui):
-				env.draw_env_box()
-				env.draw_frite_parameters()
-
-			episode_reward = 0
-			episode_steps = 0
-			exploded = False
-			
-			for step in range(n_steps):
-				action, action_mean, action_std = agent.get_action(state, step) #include noise when selecting the action
-
-				new_state, reward, done, info = env.step_bullet(action,panda_num,rank,episode,step)
-				if info['exploded']:
-					exploded = True
-					print('*** Exploded dedected [{}] rank is: {}, episode is: {}'.format(datetime.now(), rank, episode))
-					break
-
-				# obs_t = np.concatenate([state, action_mean[1], action_std[1]])
-				# obs_o = np.concatenate([state, action_mean[0], action_std[0]])
-				obs = np.concatenate([state, np.zeros(seca_args.n_actions), np.zeros(seca_args.n_actions)])
-				transition_data = {
-					"state": [state],
-					"obs": [obs],
-					"actions": action,
-					"reward": [(reward,)],
-					"terminated": [(done,)],
-					"actions_mean": action_mean,
-					"actions_std": action_std,
-            	}
-
-				agent.batch.update(transition_data, ts=step)
-
-				global_step_number += 1
-				episode_steps +=1
-
-				state = new_state
-				episode_reward += reward
-				
-				# logger.tb_logger('reward',reward,step)
-				wandb.log({"reward": reward, "step": step})
-				
-				data_info_debug = '=> [{}] rank: {}, reward: {}, episode: {}, step: {}, done: {}, action: {}  \n'.format(datetime.now(), rank, reward, episode+1, step, done, action.flatten())
-				if step % 10 == 0:
-					print(data_info_debug)
-				else:
-					wandb_output_file.write(data_info_debug)
-					wandb_output_file.flush()
-
-				if done:
-					print("Achieved final pose rank:{} ............. DONE!!!!\n".format(rank))
-					break
-
-			#print('[{}] rank is: {}, episode is: {}, episode reward is: {:.3f}'.format(datetime.now(), rank, episode, episode_reward))
-
-			agent.buffer.insert_episode_batch(agent.batch)
-
-			# if agent.buffer.can_sample(seca_args.batch_size):
-
-			if agent.buffer.can_sample(batch_size):
-				agent.update(batch_size,episode)
-				batch_size  = seca_args.batch_size if batch_size > seca_args.batch_size else batch_size + 1
-
-				# for i in range(math.floor(n_steps/seca_args.batch_size)+1):
-					
-				# 	
-
-			# logger.tb_logger('return',episode_reward,episode)
-			# logger.tb_logger('exploded',exploded,episode)
-			reward_ma_tracker.add_reward(episode_reward)
-
-			
-			print('=> [{}] rank: {}, return: {}, episode: {}/{}, return_ma: {}, return_avg: {}'.format(datetime.now(), rank, episode_reward, episode+1, n_episodes, reward_ma_tracker.get_average(), episode_reward/episode_steps))
-
-			logger.tb_logger.flush()
-			wandb.log({"return": episode_reward, "return_ma": reward_ma_tracker.get_average(), "reward_avg": episode_reward/episode_steps,
-			  		   "episode": episode+1,})
-			
-			if episode_reward_best < reward_ma_tracker.get_average():
-				episode_reward_best = reward_ma_tracker.get_average()
-				if rank ==0 :
-					agent.save(best=True)
-			
-
-			if exploded:
-				episode_reward = episode_reward_previous
-				print('*** Exploded before reset env [{}] rank is: {}, episode is: {}, episode reward is: {:.3f}'.format(datetime.now(), rank, episode+1, episode_reward))
-				env.reset_env_bullet()
-				print('*** Exploded after reset env [{}] rank is: {}, episode is: {}, episode reward is: {:.3f}'.format(datetime.now(), rank, episode+1, episode_reward))
-			else:
-				episode_reward_previous = episode_reward
-			
-			global_reward = MPI.COMM_WORLD.allreduce(episode_reward, op=MPI.SUM)/MPI.COMM_WORLD.Get_size()
-			list_global_rewards.append(global_reward)
-			
-			min_reward = MPI.COMM_WORLD.allreduce(episode_reward, op=MPI.MIN)
-			max_reward = MPI.COMM_WORLD.allreduce(episode_reward, op=MPI.MAX)
-
-			#Debug
-			if firstEpi:
-				firstEpi = False
-				firstRet = episode_reward
-			
-			if episode == n_episodes-1:
-				finalRet = episode_reward
-			###
-
-			if rank == 0:
-				print('=> [{}] episode is: {}, eval success rate is: {:.3f}'.format(datetime.now(), episode+1, list_global_rewards[episode]))
-				# f_mean_rewards.write("{} {:.3f}\n".format(episode,global_reward))
-				# f_min_rewards.write("{} {:.3f}\n".format(episode, min_reward ))
-				# f_max_rewards.write("{} {:.3f}\n".format(episode, max_reward))
-				# print('=> [{}] episode is: {}, eval success rate is: {:.3f}'.format(datetime.now(), episode, list_global_rewards[episode]))
-				# file_log.write('=> [{}] episode is: {}, eval success rate is: {:.3f}\n'.format(datetime.now(), episode, list_global_rewards[episode])) 
-				# file_log.flush()
-				# f_mean_rewards.flush()
-				# f_min_rewards.flush()
-				# f_max_rewards.flush()
-				
-				# if episode % ddpg_log_interval == 0:
-				# 	agent.save()
-			if rank == 0:
-				agent.save()
-				  
-		if rank == 0:          
-			agent.save()
-			print("end mode train !")
-			print("time elapsed = {}".format(datetime.now()-start))
-			file_log.write("end mode train !\n")
-			file_log.write("time elapsed = {}\n".format(datetime.now()-start))
-			file_log.close()
-			f_mean_rewards.close()
-			f_min_rewards.close()
-			f_max_rewards.close()
-		
-		wandb_run.alert(
-        title="Training finished",
-        text=f"First return {firstRet}, final return {finalRet}, rank {rank}",
-        level=AlertLevel.INFO,
-    	)
-	
-	elif args.mode == 'test_real':
-		print("TEST REAL MODE !")
-
-		file_log.write("mode test real !\n")
-
-		# Display in rviz a time count
-		for cpt_timer in range(10):
-			env.env.publish_deformation_status_text("{}".format(cpt_timer))
-			time.sleep(1)
-			
-		env.env.publish_deformation_status_text("")
-
-		n_steps = json_decoder.config_data["env_test"]["n_steps"]
-
-		parameters_array = np.empty([18])
-		goal_array = np.empty([4,3])
-
-		db_real = open(json_decoder.config_dir_name + "db_selected_save.txt", "r")
-
-		line = db_real.readline()
-
-		nb_line_parameters = 1
-		num_episode = 1
-		
-		while line:
-			line_split_parameters = line.split()
-			nb_line_parameters+=1
-
-			env.env.debug_gui.draw_text("nb_line_parameters", a_text=str(nb_line_parameters), a_pos=[1,1,1], a_size=1.0)
-
-			for param in range(len(line_split_parameters)):
-				parameters_array[param] = float(line_split_parameters[param])
-
-			# set new env frite parameters
-			env.env.set_env_with_frite_parameters(parameters_array)
-
-			line = db_real.readline()
-			line_meshes = line.split()
-
-			for id_g in range(4):
-				for id_pos in range(3):
-					goal_array[id_g][id_pos] = line_meshes[id_g*3+id_pos]
-
-			# set new env goal
-			env.env.set_goal(goal_array)
-				
-			print("EPISODE INFOS :")
-			print("num_episode = {}".format(num_episode))
-			print("goal = {}, frite parameters = {}".format(goal_array, parameters_array))
-			print("n_steps = {}".format(n_steps))
-
-			print("Move robot to home position with initial orientation !")
-
-			# Need to do env.reset_ros() but WITHOUT SAMPLE A NEW GOAL
-			# SO : 
-			# 1-> MOVE TO HOME POSITION WITH GOOD ORIENTATION
-			# 2-> GET FIRST OBSERVATION
-
-			# move robot to home position and set initial orientation
-			env.env.update_gripper_orientation_ros()
-
-			# get the first observation
-			state = env.env.get_obs_ros()
-
-			# calculate initial error
-			nb_mesh_to_follow = len(env.env.position_mesh_to_follow)
-
-			max_d = 0
-			initial_error = 0
-
-			for i in range(nb_mesh_to_follow):
-				current_pos_mesh = state[(env.env.pos_of_mesh_in_obs+(i*3)):(env.env.pos_of_mesh_in_obs+(i*3)+3)]
-				goal_pos_id_frite = env.env.goal[i]
-				d =  np.linalg.norm(current_pos_mesh - goal_pos_id_frite, axis=-1)
-					
-				if (d > max_d):
-					max_d = d
-						
-			max_d = np.float32(max_d)
-
-			initial_error = -max_d
-
-			print("episode={}, initial error={}".format(num_episode,initial_error))
-			file_log.write("episode={}, initial error={}\n".format(num_episode,initial_error))
-			file_log.flush()
-
-			# EXECUTE RL
-
-			start=datetime.now()
-			
-			file_log.write("Execute RL !\n")
-			file_log.flush()
-
-			print("Execute RL !")
-
-			agent.load()
-
-			current_distance_error = 0
-
-			for step in range(n_steps):
-				action = agent.get_action(state)
-
-				print("action={}".format(action))
-				file_log.write("action = {}\n".format(action))
-				file_log.flush()
-
-				new_state, reward, done, info = env.step_ros(action)
-				current_distance_error = info['distance_error']
-
-				print("step={}, distance_error={}\n".format(step,info['distance_error']))
-				file_log.write("step={}, distance_error={}\n".format(step,info['distance_error']))
-				file_log.flush()
-
-				state = new_state
-			   
-				if done:
-					# Show text 'DONE' on RVIZ
-					env.env.publish_deformation_status_text("DONE")
-					print("DONE episode={}, step={}  !".format(num_episode,step))
-					file_log.write("DONE episode={}, step={}  !\n".format(num_episode,step))
-					file_log.flush()
-
-					time.sleep(2.0)
-					env.env.publish_deformation_status_text("")
-					break
-			
-			if not done:
-				print("FAILED episode={} !".format(num_episode))
-				file_log.write("FAILED episode={} !\n".format(num_episode))
-				file_log.flush()
-
-				# Show text 'FAILED' on RVIZ
-				env.env.publish_deformation_status_text("FAILED")
-				time.sleep(2.0)
-				env.env.publish_deformation_status_text("")
-							
-			file_log.write("time elapsed = {}\n".format(datetime.now()-start))
-			file_log.flush()
-					
-			# read a new episode
-			line = db_real.readline()
-			num_episode+=1
-				
-		db_real.close()
-		file_log.flush()
-		file_log.close()
-
-		input("hit return to exit !")
 				
 	else:
 		raise NameError("mode wrong!!!")

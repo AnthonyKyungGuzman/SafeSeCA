@@ -14,7 +14,6 @@ import os
 from utils import MovingAverageReward
 import contextlib
 
-wandb_group = "seca_dlo_off_policy"
 
 # Utility to handle different numpy dtypes
 _NP_TO_CT = {

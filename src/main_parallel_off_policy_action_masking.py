@@ -45,18 +45,16 @@ from VecEnv import VecEnv
 from json_decoder import JsonDecoder
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--mode', default='train', type=str) # mode = 'train' or 'test' or 'test_real' or 'generate_db'
+# parser.add_argument('--mode', default='train', type=str) # mode = 'train' or 'test' or 'test_real' or 'generate_db'
 parser.add_argument('--gui', default=False, type=bool) # use gui to see graphic results
 parser.add_argument('--config_file', default='./configs/default/default.json', type=str)
-parser.add_argument('--algo_config_file', default='/Users/kyung/Downloads/MultiSeCA_DLO/SeCA/config/algs/seca', type=str)
+parser.add_argument('--algo_config_file', default='./SeCA/config/algs/seca', type=str)
 
 args = parser.parse_args()
 
 
 wandb.login()
-# # wandb.tensorboard.patch(root_logdir="./SeCA/results/tb_logs/")
 wandb.tensorboard.patch()
-# wandb_run = wandb.init(project="seca_dlo", sync_tensorboard=True)
 wandb_group = "seca_dlo_off_policy_action_masking"
 
 def args_sanity_check(config, _log):
