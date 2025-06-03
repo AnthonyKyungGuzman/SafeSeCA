@@ -24,7 +24,6 @@ from gym_panda_frite.envs.panda_frite_env_wrapper_reward_max import PandaFriteEn
 
 ####################### Added ################################
 from SeCAAgent import SeCAAgent
-from SeCA_agent_envs import SeCA_agent_envs
 from SeCA.controllers import REGISTRY as mac_REGISTRY
 from pathlib import Path
 import yaml
@@ -40,7 +39,6 @@ import math
 from utils import MovingAverageReward
 import torch.multiprocessing as mp
 from queue import Empty
-from SeCA.components.episode_buffer import EpisodeBatch
 from functools import partial
 from VecEnv import VecEnv
 ##############################################################
@@ -177,7 +175,7 @@ def get_params():
     sim_args.seca_args.unique_token = unique_token
     if sim_args.seca_args.use_tensorboard:
 		# tb_logs_direc = "/kpl/tensorboard"
-        tb_logs_direc = os.path.join(dirname(dirname(abspath(__file__))), "MultiSeCA_DLO/SeCA/results", "tb_logs")
+        tb_logs_direc = os.path.join(dirname(dirname(abspath(__file__))), "src/SeCA/results", "tb_logs")
         tb_exp_direc = os.path.join(tb_logs_direc, "{}").format(unique_token)
 
         tb_exp_direc_path = Path(tb_exp_direc)

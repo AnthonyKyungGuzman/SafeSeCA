@@ -1,5 +1,4 @@
 from SeCA.modules.agents import REGISTRY as agent_REGISTRY
-from SeCA.components.action_selectors import REGISTRY as action_REGISTRY
 import torch as th
 import numpy as np
 from Action_Masking.action_masking import ActionMasking
@@ -15,12 +14,9 @@ class BasicMAC:
         self._build_agents(self.input_shape)
         self.agent_output_type = args.agent_output_type
 
-        self.action_selector = action_REGISTRY[args.action_selector](args)
-
         self.hidden_states = []
         
         ########
-
         self.reset_actions()
         self.noise = args.noise
         #Action masking
@@ -31,12 +27,8 @@ class BasicMAC:
 
 
     def select_actions(self, states, env, pos_orients, step, bs=slice(None), test_mode=False):
-        # Only select actions for the selected batch elements in bs
-        # ep_batch = self._build_inputs(ep_batch)
-        # agent_mean, agent_std = self.forward(ep_batch, 0)
         agent_mean, agent_log_std, self.hidden_states = self.agent(states, self.hidden_states)
         agent_std = th.clamp(agent_log_std, min=-20, max=2).exp()
-        # dist = th.distributions.Normal(agent_mean, agent_std)
         cov_matrix = th.diag_embed(agent_std ** 2)  # 
 
         if len(agent_mean.shape) > 2:
@@ -59,8 +51,6 @@ class BasicMAC:
                     action_nn_np = action_nn_np.squeeze(0).cpu().detach().numpy() if self.args.use_cuda else action_nn_np.squeeze(0).detach().numpy()
                     if self.args.action_masking:
                         action = self.masking.ray_masking(action)
-                    # else:               
-                    #     action = th.tanh(action)
                 else:
                     zero_indices = np.where(viable_arr == 0)[0]
                     action[zero_indices] = th.stack([dists[i].sample() for i in zero_indices])
@@ -69,8 +59,6 @@ class BasicMAC:
                     action_nn_np = action_nn_np.squeeze(0).cpu().detach().numpy() if self.args.use_cuda else action_nn_np.squeeze(0).detach().numpy()
                     if self.args.action_masking:
                         action[zero_indices] = self.masking.ray_masking(action[zero_indices])
-                    # else:               
-                    #     action[zero_indices]  = th.tanh(action[zero_indices])
             else:
                 action = dists.sample() 
                 action = th.tanh(action)
@@ -78,11 +66,7 @@ class BasicMAC:
                 action_nn_np = action_nn_np.squeeze(0).cpu().detach().numpy() if self.args.use_cuda else action_nn_np.squeeze(0).detach().numpy()
                 if self.args.action_masking:
                     action = self.masking.ray_masking(action)
-                # else:               
-                #     action = th.tanh(action)
-            # if not test_mode:
-            #     action = self.noise.get_action(action, step)
-            # action_np = action.cpu().detach().numpy() if self.args.use_cuda else action.detach().numpy()
+
             action_np = action.squeeze(0).cpu().detach().numpy() if self.args.use_cuda else action.squeeze(0).detach().numpy()
 
             if self.args.check_viability:
@@ -117,24 +101,9 @@ class BasicMAC:
 
         return action_np, action_nn_np
     
-   
 
-
-    def forward(self, ep_batch, t, training=False):
-        if training:
-            ep_batch, bs = self._build_inputs_training(ep_batch, t)
-
-        agent_inputs = ep_batch
-        agent_mean, agent_log_std, self.hidden_states = self.agent(agent_inputs, self.hidden_states)
-        agent_std = th.clamp(agent_log_std, min=-20, max=2).exp()
-
-        if training:
-            return agent_mean.view(bs, self.n_agents, -1), agent_std.view(bs, self.n_agents, -1)
-        else:
-            return agent_mean, agent_std
-
+    
     def init_hidden(self, batch_size):
-        # self.hidden_states = self.agent.init_hidden().repeat(self.n_agents, 1).unsqueeze(0).expand(batch_size, -1, -1)
         self.hidden_states = self.agent.init_hidden().unsqueeze(0).expand(batch_size, 1, -1)  # bav
 
         return self.hidden_states
@@ -170,26 +139,6 @@ class BasicMAC:
 
     def _build_agents(self, input_shape): #TODO: make n agents networks
         self.agent = agent_REGISTRY[self.args.agent](input_shape, self.args)
-        # self.agent= []
-        # for i in range(self.n_agents): 
-        #     self.agent.append(agent_REGISTRY[self.args.agent](input_shape, self.args))
-
-    # def _build_inputs(self, batch, t):
-    #     # Assumes homogenous agents with flat observations.
-    #     # Other MACs might want to e.g. delegate building inputs to each agent
-    #     bs = batch.batch_size
-    #     inputs = []
-    #     inputs.append(batch["obs"][:, t])  # b1av
-    #     if self.args.obs_last_action:
-    #         if t == 0:
-    #             inputs.append(th.zeros_like(batch["actions_onehot"][:, t]))
-    #         else:
-    #             inputs.append(batch["actions_onehot"][:, t-1])
-    #     if self.args.obs_agent_id:
-    #         inputs.append(th.eye(self.n_agents, device=batch.device).unsqueeze(0).expand(bs, -1, -1))
-
-    #     inputs = th.cat([x.reshape(bs*self.n_agents, -1) for x in inputs], dim=1)
-    #     return inputs
 
     def _get_input_shape(self, scheme):
         input_shape = scheme["obs"]["vshape"]
@@ -203,23 +152,4 @@ class BasicMAC:
     def reset_actions(self):
         self.agents_prev_actions = th.zeros(self.n_agents, self.args.n_actions*2, device="cuda" if self.args.use_cuda else "cpu") #*2 beacuse it is mean and std
 
-    def _build_inputs(self, states):
-        states = states.repeat(self.n_agents, 1)
-        inputs = th.cat([states, self.agents_prev_actions], dim=-1)
-        return inputs
-
-
-    def _build_inputs_training(self, batch, t):
-        # Assumes homogenous agents with flat observations.
-        # Other MACs might want to e.g. delegate building inputs to each agent
-        bs = batch.batch_size
-        # inputs = []
-        # inputs.append(batch["obs"][:, t])  # b1av
-        # inputs = th.cat([x.reshape(bs*self.n_agents, -1) for x in inputs], dim=1)
-        inputs = batch["obs"][:,t][:,:self.args.state_shape]
-
-
-        # inputs = batch["obs"][:, t]
-        # inputs = list(th.unbind(inputs, dim=1))
-
-        return inputs, bs
+  

@@ -1,13 +1,9 @@
 import copy
-from SeCA.components.episode_buffer import EpisodeBatch
 from SeCA.modules.critics.seca import SeCACritic
-from SeCA.components.action_selectors import multinomial_entropy
-from SeCA.utils.rl_utils import build_td_lambda_targets
 import torch as th
 from torch.optim import RMSprop, Adam
 import math
 
-# from utils import sync_grads, sync_networks
 from datetime import datetime
 
 #action masking
@@ -46,8 +42,6 @@ class SeCALearner:
         self.critic_q2_optimiser = Adam(params=self.critic_params_q2, lr=args.critic_lr)
 
         self.entropy_coef = args.entropy_coef
-        self.each_ig_step_num = args.each_ig_step_num
-        self.cal_order_len = args.cal_order_len
 
         self.init_order()
         if self.args.action_masking:
@@ -85,10 +79,6 @@ class SeCALearner:
 
         states, actions, rewards, next_states, dones = batch  
 
-        # if self.args.action_masking:
-        #     reparam_actions, log_prob, entropy, means, _, _ = self.mac.agent.sample_wo_action_bounds(states,None,reparametrized=True) #If using RNN, None should be the hidden states and should be initialized
-        #     #reparam_actions = self.masking.ray_masking(reparam_actions_dist)
-        # else:
         reparam_actions, log_prob, entropy, means, _, _ = self.mac.agent.sample(states,None,reparametrized=True) #If using RNN, None should be the hidden states and should be initialized
 
 
@@ -130,10 +120,6 @@ class SeCALearner:
         rewards = rewards.unsqueeze(-1)
         dones = dones.unsqueeze(-1)
         with th.no_grad():
-            # if self.args.action_masking:
-            #     next_actions, _, _, _, _, _ = self.mac.agent.sample_wo_action_bounds(next_states,None)
-            #     #next_actions = self.masking.ray_masking(next_actions)
-            # else:
             next_actions, _, _, _, _, _ = self.mac.agent.sample(next_states,None)
 
             next_target_q1_preds = self.target_critic_q1(next_actions, next_states)

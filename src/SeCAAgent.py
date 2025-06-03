@@ -2,7 +2,6 @@ from SeCA.learners.seca_learner import SeCALearner
 from SeCA.controllers.basic_controller import BasicMAC
 from SeCA.learners import REGISTRY as le_REGISTRY
 from SeCA.controllers import REGISTRY as mac_REGISTRY
-from SeCA.components.episode_buffer import ReplayBuffer, EpisodeBatch
 from utils import sync_networks, Memory
 import torch
 from functools import partial

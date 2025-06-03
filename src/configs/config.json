@@ -37,7 +37,7 @@
 			"name": "PandaFriteEnvRotationGripper-v0"
 		},
 		"reward_parameters": {
-			"distance_threshold": 0.10,
+			"distance_threshold": 0.05,
 			"reward_array": [ {"name": "mean", "value": 0}, {"name": "max", "value": 1}, {"name": "dtw", "value": 2} ],
 			"reward_index": 1
 		},
