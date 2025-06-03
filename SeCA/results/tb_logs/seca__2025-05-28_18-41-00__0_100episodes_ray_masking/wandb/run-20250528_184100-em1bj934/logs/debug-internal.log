@@ -1,0 +1,46 @@
+{"time":"2025-05-28T18:41:00.924720145+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/MultiSeCA_DLO/SeCA/results/tb_logs/seca__2025-05-28_18-41-00__0/wandb/run-20250528_184100-em1bj934/logs/debug-core.log"}
+{"time":"2025-05-28T18:41:01.029453919+02:00","level":"INFO","msg":"created new stream","id":"em1bj934"}
+{"time":"2025-05-28T18:41:01.02953333+02:00","level":"INFO","msg":"stream: started","id":"em1bj934"}
+{"time":"2025-05-28T18:41:01.029614545+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"em1bj934"}
+{"time":"2025-05-28T18:41:01.029640201+02:00","level":"INFO","msg":"handler: started","stream_id":"em1bj934"}
+{"time":"2025-05-28T18:41:01.029856819+02:00","level":"INFO","msg":"sender: started","stream_id":"em1bj934"}
+{"time":"2025-05-28T18:41:01.303324698+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-28T18:41:11.516239972+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-05-29T00:14:53.435854533+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-29T00:14:56.08659036+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-29T00:15:00.837439788+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-29T00:22:42.522723388+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-29T08:55:42.804981347+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:40600->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-29T18:51:59.046934198+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-29T22:29:50.501978726+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-29T23:09:15.327938738+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-29T23:09:22.68058059+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-29T23:16:42.835792383+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T15:09:35.293603284+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-30T17:08:56.637329247+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T17:09:28.719751504+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-30T17:10:03.265325245+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T17:10:42.072575799+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-30T17:11:08.805349923+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-05-30T17:11:20.93604464+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:41332->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-30T17:11:28.646182892+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T17:11:35.572831872+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:39699->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-30T17:11:53.814575144+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:49710->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-30T17:12:21.359454027+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:58510->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-30T17:12:32.35941811+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T17:13:03.487956822+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:38788->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-30T17:14:02.360744483+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-30T17:14:13.49017255+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:58782->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-30T17:15:32.362544421+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T19:39:32.648036948+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/kyung-guzman/seca_dlo/em1bj934/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-30T20:01:08.513865236+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-01T09:23:38.23935218+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-01T09:23:38.239775761+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-01T09:23:38.526255795+02:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-06-01T09:23:39.216257214+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.377628855,"progress":"771.6KB/771.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.237009216,"progress":"575B/575B"},{"desc":"uploading runs/em1bj934/events.out.tfevents.1748450461.anthony.1573705.0","runtime_seconds":0.237003377,"progress":"212.0KB/212.0KB"}],"total_operations":3}}
+{"time":"2025-06-01T09:23:39.704815111+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-01T09:23:40.019972698+02:00","level":"INFO","msg":"stream: closing","id":"em1bj934"}
+{"time":"2025-06-01T09:23:40.019983695+02:00","level":"INFO","msg":"handler: closed","stream_id":"em1bj934"}
+{"time":"2025-06-01T09:23:40.019989298+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"em1bj934"}
+{"time":"2025-06-01T09:23:40.020000786+02:00","level":"INFO","msg":"sender: closed","stream_id":"em1bj934"}
+{"time":"2025-06-01T09:23:40.020020637+02:00","level":"INFO","msg":"stream: closed","id":"em1bj934"}

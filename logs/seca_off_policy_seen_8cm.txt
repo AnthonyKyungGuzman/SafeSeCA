@@ -1,0 +1,2814 @@
+mode test !
+** ENV MODE TEST **
+config_file = /home/anthony/research/DLO/MultiSeCA_DLO/configs/config.json
+n_episodes = 100
+n_steps = 30
+do_reset_env = True
+wait_time_sleep_after_draw_env_box = 0.0
+wait_time_sleep_end_episode = 0.0
+do_episode_hit_return = False
+Episode : 0
+RESET ENV !
+initial distance error = -0.3135329782962799
+step=0, distance_error=0.23774628341197968
+step=1, distance_error=0.19238026440143585
+step=2, distance_error=0.16383138298988342
+step=3, distance_error=0.1581265777349472
+step=4, distance_error=0.15126873552799225
+step=5, distance_error=0.13302236795425415
+step=6, distance_error=0.142142653465271
+step=7, distance_error=0.13757026195526123
+step=8, distance_error=0.1607315093278885
+step=9, distance_error=0.15572069585323334
+step=10, distance_error=0.15840819478034973
+step=11, distance_error=0.16190659999847412
+step=12, distance_error=0.1466662585735321
+step=13, distance_error=0.15384426712989807
+step=14, distance_error=0.1554698497056961
+step=15, distance_error=0.1560148447751999
+step=16, distance_error=0.15633715689182281
+step=17, distance_error=0.16327907145023346
+step=18, distance_error=0.16750513017177582
+step=19, distance_error=0.15869081020355225
+step=20, distance_error=0.13994869589805603
+step=21, distance_error=0.13829532265663147
+step=22, distance_error=0.13861732184886932
+step=23, distance_error=0.1602650284767151
+step=24, distance_error=0.1549702137708664
+step=25, distance_error=0.15585879981517792
+step=26, distance_error=0.14764125645160675
+step=27, distance_error=0.15406417846679688
+step=28, distance_error=0.1415702998638153
+step=29, distance_error=0.14732180535793304
+Episode : 1
+RESET ENV !
+initial distance error = -0.2837255001068115
+step=0, distance_error=0.24503827095031738
+step=1, distance_error=0.2152475267648697
+step=2, distance_error=0.17732933163642883
+step=3, distance_error=0.18349026143550873
+step=4, distance_error=0.15411294996738434
+step=5, distance_error=0.13194730877876282
+step=6, distance_error=0.11699164658784866
+step=7, distance_error=0.12297360599040985
+step=8, distance_error=0.11456894129514694
+step=9, distance_error=0.10227303206920624
+step=10, distance_error=0.09844595193862915
+step=11, distance_error=0.10888734459877014
+step=12, distance_error=0.09906015545129776
+step=13, distance_error=0.0988486036658287
+step=14, distance_error=0.09876161813735962
+step=15, distance_error=0.09404471516609192
+step=16, distance_error=0.11527109891176224
+step=17, distance_error=0.10389631241559982
+step=18, distance_error=0.13411900401115417
+step=19, distance_error=0.133905827999115
+step=20, distance_error=0.1151706799864769
+step=21, distance_error=0.12259664386510849
+step=22, distance_error=0.1085166409611702
+step=23, distance_error=0.10604973882436752
+step=24, distance_error=0.1075480654835701
+step=25, distance_error=0.09590691328048706
+step=26, distance_error=0.09522923827171326
+step=27, distance_error=0.11509296298027039
+step=28, distance_error=0.14169803261756897
+step=29, distance_error=0.13698551058769226
+Episode : 2
+RESET ENV !
+initial distance error = -0.20099636912345886
+step=0, distance_error=0.17269285023212433
+step=1, distance_error=0.18015624582767487
+step=2, distance_error=0.1588858813047409
+step=3, distance_error=0.16189804673194885
+step=4, distance_error=0.12993325293064117
+step=5, distance_error=0.1267993450164795
+step=6, distance_error=0.1426808089017868
+step=7, distance_error=0.12876904010772705
+step=8, distance_error=0.16651637852191925
+step=9, distance_error=0.16463534533977509
+step=10, distance_error=0.16223415732383728
+step=11, distance_error=0.159992054104805
+step=12, distance_error=0.1699497550725937
+step=13, distance_error=0.15536199510097504
+step=14, distance_error=0.15479722619056702
+step=15, distance_error=0.17175039649009705
+step=16, distance_error=0.16540654003620148
+step=17, distance_error=0.15646959841251373
+step=18, distance_error=0.1110367625951767
+step=19, distance_error=0.1608382761478424
+step=20, distance_error=0.172677144408226
+step=21, distance_error=0.16390188038349152
+step=22, distance_error=0.17456357181072235
+step=23, distance_error=0.1575407087802887
+step=24, distance_error=0.15632055699825287
+step=25, distance_error=0.11389713734388351
+step=26, distance_error=0.14590008556842804
+step=27, distance_error=0.10519915074110031
+step=28, distance_error=0.14162565767765045
+step=29, distance_error=0.12973113358020782
+Episode : 3
+RESET ENV !
+initial distance error = -0.2851487994194031
+step=0, distance_error=0.2506563067436218
+step=1, distance_error=0.1998058557510376
+step=2, distance_error=0.15399950742721558
+step=3, distance_error=0.14212018251419067
+step=4, distance_error=0.1465628743171692
+step=5, distance_error=0.1377725452184677
+step=6, distance_error=0.1295756995677948
+step=7, distance_error=0.1348082572221756
+step=8, distance_error=0.12190264463424683
+step=9, distance_error=0.16452628374099731
+step=10, distance_error=0.16418735682964325
+step=11, distance_error=0.1808609515428543
+step=12, distance_error=0.1594979166984558
+step=13, distance_error=0.16735869646072388
+step=14, distance_error=0.16792207956314087
+step=15, distance_error=0.16834260523319244
+step=16, distance_error=0.16929544508457184
+step=17, distance_error=0.17202062904834747
+step=18, distance_error=0.18591125309467316
+step=19, distance_error=0.1938052773475647
+step=20, distance_error=0.17300382256507874
+step=21, distance_error=0.16119247674942017
+step=22, distance_error=0.1608954519033432
+step=23, distance_error=0.13822923600673676
+step=24, distance_error=0.14738401770591736
+step=25, distance_error=0.12884671986103058
+step=26, distance_error=0.13536639511585236
+step=27, distance_error=0.1406809687614441
+step=28, distance_error=0.12495968490839005
+step=29, distance_error=0.1321389377117157
+Episode : 4
+RESET ENV !
+initial distance error = -0.2285085916519165
+step=0, distance_error=0.20235006511211395
+step=1, distance_error=0.19839788973331451
+step=2, distance_error=0.15244385600090027
+step=3, distance_error=0.11513485014438629
+step=4, distance_error=0.11672048270702362
+step=5, distance_error=0.11761047691106796
+step=6, distance_error=0.12179967761039734
+step=7, distance_error=0.16185340285301208
+step=8, distance_error=0.1659913957118988
+step=9, distance_error=0.16350959241390228
+step=10, distance_error=0.16211621463298798
+step=11, distance_error=0.16210617125034332
+step=12, distance_error=0.1680757850408554
+step=13, distance_error=0.156199112534523
+step=14, distance_error=0.14332208037376404
+step=15, distance_error=0.16394703090190887
+step=16, distance_error=0.14562176167964935
+step=17, distance_error=0.14578835666179657
+step=18, distance_error=0.13636542856693268
+step=19, distance_error=0.13079915940761566
+step=20, distance_error=0.11400043219327927
+step=21, distance_error=0.13508781790733337
+step=22, distance_error=0.11761584132909775
+step=23, distance_error=0.14297589659690857
+step=24, distance_error=0.1683441698551178
+step=25, distance_error=0.13828453421592712
+step=26, distance_error=0.10357790440320969
+step=27, distance_error=0.09976254403591156
+step=28, distance_error=0.10578936338424683
+step=29, distance_error=0.09573374688625336
+Episode : 5
+RESET ENV !
+initial distance error = -0.1991868019104004
+step=0, distance_error=0.16722160577774048
+step=1, distance_error=0.15951013565063477
+step=2, distance_error=0.14162828028202057
+step=3, distance_error=0.14604459702968597
+step=4, distance_error=0.1431257128715515
+step=5, distance_error=0.12734666466712952
+step=6, distance_error=0.10526560246944427
+step=7, distance_error=0.13447058200836182
+step=8, distance_error=0.13754236698150635
+step=9, distance_error=0.14868444204330444
+step=10, distance_error=0.11358119547367096
+step=11, distance_error=0.11770457774400711
+step=12, distance_error=0.11975397169589996
+step=13, distance_error=0.11895786970853806
+step=14, distance_error=0.144533172249794
+step=15, distance_error=0.13695824146270752
+step=16, distance_error=0.13684773445129395
+step=17, distance_error=0.13927611708641052
+step=18, distance_error=0.1234111487865448
+step=19, distance_error=0.15324275195598602
+step=20, distance_error=0.1267545521259308
+step=21, distance_error=0.1626356989145279
+step=22, distance_error=0.15153388679027557
+step=23, distance_error=0.1408727914094925
+step=24, distance_error=0.11932476609945297
+step=25, distance_error=0.11591114848852158
+step=26, distance_error=0.11328328400850296
+step=27, distance_error=0.11287863552570343
+step=28, distance_error=0.11757761240005493
+step=29, distance_error=0.09521768987178802
+Episode : 6
+RESET ENV !
+initial distance error = -0.25241509079933167
+step=0, distance_error=0.21223165094852448
+step=1, distance_error=0.18711864948272705
+step=2, distance_error=0.15641577541828156
+step=3, distance_error=0.18333777785301208
+step=4, distance_error=0.17125867307186127
+step=5, distance_error=0.18510334193706512
+step=6, distance_error=0.1481194794178009
+step=7, distance_error=0.1323438435792923
+step=8, distance_error=0.15812470018863678
+step=9, distance_error=0.13850891590118408
+step=10, distance_error=0.14737603068351746
+step=11, distance_error=0.146628275513649
+step=12, distance_error=0.14595293998718262
+step=13, distance_error=0.1383134424686432
+step=14, distance_error=0.13691693544387817
+step=15, distance_error=0.1359245926141739
+step=16, distance_error=0.13534477353096008
+step=17, distance_error=0.14428827166557312
+step=18, distance_error=0.1452430933713913
+step=19, distance_error=0.17558249831199646
+step=20, distance_error=0.16971249878406525
+step=21, distance_error=0.12728461623191833
+step=22, distance_error=0.1306098848581314
+step=23, distance_error=0.11513549834489822
+step=24, distance_error=0.1142134740948677
+step=25, distance_error=0.11325425654649734
+step=26, distance_error=0.13702280819416046
+step=27, distance_error=0.13525927066802979
+step=28, distance_error=0.1388634890317917
+step=29, distance_error=0.1085069552063942
+Episode : 7
+RESET ENV !
+initial distance error = -0.17989325523376465
+step=0, distance_error=0.14686322212219238
+step=1, distance_error=0.10129764676094055
+step=2, distance_error=0.07237961888313293
+done with step=2  !
+Episode : 8
+RESET ENV !
+initial distance error = -0.2814869284629822
+step=0, distance_error=0.2719897925853729
+step=1, distance_error=0.24165546894073486
+step=2, distance_error=0.22374162077903748
+step=3, distance_error=0.18310514092445374
+step=4, distance_error=0.17885629832744598
+step=5, distance_error=0.16409248113632202
+step=6, distance_error=0.1635974794626236
+step=7, distance_error=0.17468540370464325
+step=8, distance_error=0.16857251524925232
+step=9, distance_error=0.16047315299510956
+step=10, distance_error=0.18270675837993622
+step=11, distance_error=0.16809941828250885
+step=12, distance_error=0.17968368530273438
+step=13, distance_error=0.1381676346063614
+step=14, distance_error=0.11826159060001373
+step=15, distance_error=0.14800222218036652
+step=16, distance_error=0.12420681864023209
+step=17, distance_error=0.1463954597711563
+step=18, distance_error=0.1850578784942627
+step=19, distance_error=0.20729617774486542
+step=20, distance_error=0.20634882152080536
+step=21, distance_error=0.2059946358203888
+step=22, distance_error=0.1841234266757965
+step=23, distance_error=0.15503308176994324
+step=24, distance_error=0.17598256468772888
+step=25, distance_error=0.14653745293617249
+step=26, distance_error=0.143653005361557
+step=27, distance_error=0.14425967633724213
+step=28, distance_error=0.14203135669231415
+step=29, distance_error=0.1422823965549469
+Episode : 9
+RESET ENV !
+initial distance error = -0.1253703087568283
+step=0, distance_error=0.12192139029502869
+step=1, distance_error=0.10967511683702469
+step=2, distance_error=0.07833084464073181
+done with step=2  !
+Episode : 10
+RESET ENV !
+initial distance error = -0.3096062242984772
+step=0, distance_error=0.23890796303749084
+step=1, distance_error=0.1786537915468216
+step=2, distance_error=0.14814123511314392
+step=3, distance_error=0.174483984708786
+step=4, distance_error=0.16485057771205902
+step=5, distance_error=0.15404769778251648
+step=6, distance_error=0.12885379791259766
+step=7, distance_error=0.12481559813022614
+step=8, distance_error=0.1430797129869461
+step=9, distance_error=0.1420348435640335
+step=10, distance_error=0.1271248310804367
+step=11, distance_error=0.10839271545410156
+step=12, distance_error=0.1248122975230217
+step=13, distance_error=0.12410686910152435
+step=14, distance_error=0.12370788305997849
+step=15, distance_error=0.12292948365211487
+step=16, distance_error=0.10816753655672073
+step=17, distance_error=0.09536654502153397
+step=18, distance_error=0.09429958462715149
+step=19, distance_error=0.10132037103176117
+step=20, distance_error=0.1007973700761795
+step=21, distance_error=0.1215737909078598
+step=22, distance_error=0.10053211450576782
+step=23, distance_error=0.09997683763504028
+step=24, distance_error=0.09933321177959442
+step=25, distance_error=0.1253691166639328
+step=26, distance_error=0.1253848820924759
+step=27, distance_error=0.10426892340183258
+step=28, distance_error=0.11379559338092804
+step=29, distance_error=0.10013166069984436
+Episode : 11
+RESET ENV !
+initial distance error = -0.2238391637802124
+step=0, distance_error=0.16029462218284607
+step=1, distance_error=0.15509116649627686
+step=2, distance_error=0.1217832937836647
+step=3, distance_error=0.11587654054164886
+step=4, distance_error=0.11645826697349548
+step=5, distance_error=0.11695383489131927
+step=6, distance_error=0.1308048516511917
+step=7, distance_error=0.13128475844860077
+step=8, distance_error=0.1317186802625656
+step=9, distance_error=0.13189645111560822
+step=10, distance_error=0.1322781890630722
+step=11, distance_error=0.13229574263095856
+step=12, distance_error=0.13245761394500732
+step=13, distance_error=0.12179895490407944
+step=14, distance_error=0.1214805468916893
+step=15, distance_error=0.133585587143898
+step=16, distance_error=0.13313984870910645
+step=17, distance_error=0.13239280879497528
+step=18, distance_error=0.13177929818630219
+step=19, distance_error=0.13109873235225677
+step=20, distance_error=0.12522394955158234
+step=21, distance_error=0.14935302734375
+step=22, distance_error=0.14969412982463837
+step=23, distance_error=0.14988639950752258
+step=24, distance_error=0.14985816180706024
+step=25, distance_error=0.1498328000307083
+step=26, distance_error=0.16443870961666107
+step=27, distance_error=0.1291104555130005
+step=28, distance_error=0.15674036741256714
+step=29, distance_error=0.19408591091632843
+Episode : 12
+RESET ENV !
+initial distance error = -0.14553679525852203
+step=0, distance_error=0.14727593958377838
+step=1, distance_error=0.13275621831417084
+step=2, distance_error=0.1294620931148529
+step=3, distance_error=0.14964622259140015
+step=4, distance_error=0.11594194173812866
+step=5, distance_error=0.10717050731182098
+step=6, distance_error=0.11798645555973053
+step=7, distance_error=0.09261655062437057
+step=8, distance_error=0.13669683039188385
+step=9, distance_error=0.13892677426338196
+step=10, distance_error=0.13944533467292786
+step=11, distance_error=0.1396983116865158
+step=12, distance_error=0.1298731416463852
+step=13, distance_error=0.16888751089572906
+step=14, distance_error=0.16903918981552124
+step=15, distance_error=0.1690698266029358
+step=16, distance_error=0.15229018032550812
+step=17, distance_error=0.17711371183395386
+step=18, distance_error=0.16929686069488525
+step=19, distance_error=0.14953851699829102
+step=20, distance_error=0.15015572309494019
+step=21, distance_error=0.11944712698459625
+step=22, distance_error=0.11930950731039047
+step=23, distance_error=0.1342536360025406
+step=24, distance_error=0.16999122500419617
+step=25, distance_error=0.11473134905099869
+step=26, distance_error=0.15567754209041595
+step=27, distance_error=0.14587390422821045
+step=28, distance_error=0.11557434499263763
+step=29, distance_error=0.12882541120052338
+Episode : 13
+RESET ENV !
+initial distance error = -0.35846248269081116
+step=0, distance_error=0.2938334345817566
+step=1, distance_error=0.26270654797554016
+step=2, distance_error=0.26533985137939453
+step=3, distance_error=0.21828040480613708
+step=4, distance_error=0.2130027711391449
+step=5, distance_error=0.18652795255184174
+step=6, distance_error=0.17782749235630035
+step=7, distance_error=0.1556660681962967
+step=8, distance_error=0.16302943229675293
+step=9, distance_error=0.16357573866844177
+step=10, distance_error=0.17917445302009583
+step=11, distance_error=0.1798795610666275
+step=12, distance_error=0.18111377954483032
+step=13, distance_error=0.18403297662734985
+step=14, distance_error=0.18412569165229797
+step=15, distance_error=0.18570536375045776
+step=16, distance_error=0.18646520376205444
+step=17, distance_error=0.18667002022266388
+step=18, distance_error=0.1867033988237381
+step=19, distance_error=0.18675509095191956
+step=20, distance_error=0.18682430684566498
+step=21, distance_error=0.1950739622116089
+step=22, distance_error=0.1894855499267578
+step=23, distance_error=0.17321090400218964
+step=24, distance_error=0.17308849096298218
+step=25, distance_error=0.17297349870204926
+step=26, distance_error=0.1765027493238449
+step=27, distance_error=0.1768525242805481
+step=28, distance_error=0.17726440727710724
+step=29, distance_error=0.1907789409160614
+Episode : 14
+RESET ENV !
+initial distance error = -0.28270578384399414
+step=0, distance_error=0.23645058274269104
+step=1, distance_error=0.21757420897483826
+step=2, distance_error=0.17642882466316223
+step=3, distance_error=0.18037621676921844
+step=4, distance_error=0.17697206139564514
+step=5, distance_error=0.21696259081363678
+step=6, distance_error=0.1797216385602951
+step=7, distance_error=0.17119558155536652
+step=8, distance_error=0.1842566877603531
+step=9, distance_error=0.14737087488174438
+step=10, distance_error=0.15466678142547607
+step=11, distance_error=0.16698339581489563
+step=12, distance_error=0.16713418066501617
+step=13, distance_error=0.15926556289196014
+step=14, distance_error=0.1641148030757904
+step=15, distance_error=0.16365523636341095
+step=16, distance_error=0.1632523238658905
+step=17, distance_error=0.13262198865413666
+step=18, distance_error=0.13297109305858612
+step=19, distance_error=0.13337171077728271
+step=20, distance_error=0.13383397459983826
+step=21, distance_error=0.11038508266210556
+step=22, distance_error=0.11236494779586792
+step=23, distance_error=0.1117633655667305
+step=24, distance_error=0.1114361509680748
+step=25, distance_error=0.12221381813287735
+step=26, distance_error=0.10508152842521667
+step=27, distance_error=0.13638700544834137
+step=28, distance_error=0.13632866740226746
+step=29, distance_error=0.13641208410263062
+Episode : 15
+RESET ENV !
+initial distance error = -0.2839362919330597
+step=0, distance_error=0.2392556518316269
+step=1, distance_error=0.18177974224090576
+step=2, distance_error=0.1412733942270279
+step=3, distance_error=0.13799893856048584
+step=4, distance_error=0.1376369148492813
+step=5, distance_error=0.15658366680145264
+step=6, distance_error=0.14651259779930115
+step=7, distance_error=0.14723646640777588
+step=8, distance_error=0.14759793877601624
+step=9, distance_error=0.14793846011161804
+step=10, distance_error=0.15318450331687927
+step=11, distance_error=0.15412463247776031
+step=12, distance_error=0.14410564303398132
+step=13, distance_error=0.14454221725463867
+step=14, distance_error=0.14500731229782104
+step=15, distance_error=0.14535021781921387
+step=16, distance_error=0.14568915963172913
+step=17, distance_error=0.15102596580982208
+step=18, distance_error=0.1500703990459442
+step=19, distance_error=0.14049360156059265
+step=20, distance_error=0.14031098783016205
+step=21, distance_error=0.1406487077474594
+step=22, distance_error=0.1408970057964325
+step=23, distance_error=0.14115624129772186
+step=24, distance_error=0.14141269028186798
+step=25, distance_error=0.14156955480575562
+step=26, distance_error=0.1375994086265564
+step=27, distance_error=0.15000304579734802
+step=28, distance_error=0.13292884826660156
+step=29, distance_error=0.14194543659687042
+Episode : 16
+RESET ENV !
+initial distance error = -0.17372147738933563
+step=0, distance_error=0.2104695439338684
+step=1, distance_error=0.22660446166992188
+step=2, distance_error=0.19027099013328552
+step=3, distance_error=0.1594099998474121
+step=4, distance_error=0.12908105552196503
+step=5, distance_error=0.11578518152236938
+step=6, distance_error=0.10607155412435532
+step=7, distance_error=0.0972817987203598
+step=8, distance_error=0.0963016003370285
+step=9, distance_error=0.09965183585882187
+step=10, distance_error=0.08878662437200546
+step=11, distance_error=0.09889286011457443
+step=12, distance_error=0.1276271939277649
+step=13, distance_error=0.1320878118276596
+step=14, distance_error=0.09281112998723984
+step=15, distance_error=0.08504930883646011
+step=16, distance_error=0.08998893946409225
+step=17, distance_error=0.08997809886932373
+step=18, distance_error=0.08994601666927338
+step=19, distance_error=0.09001549333333969
+step=20, distance_error=0.08998952805995941
+step=21, distance_error=0.09000544250011444
+step=22, distance_error=0.0847536027431488
+step=23, distance_error=0.08473522216081619
+step=24, distance_error=0.0847034826874733
+step=25, distance_error=0.08471605181694031
+step=26, distance_error=0.087812639772892
+step=27, distance_error=0.08815898001194
+step=28, distance_error=0.08335854858160019
+step=29, distance_error=0.09411472082138062
+Episode : 17
+RESET ENV !
+initial distance error = -0.18680347502231598
+step=0, distance_error=0.16420423984527588
+step=1, distance_error=0.1714838147163391
+step=2, distance_error=0.15162505209445953
+step=3, distance_error=0.14411844313144684
+step=4, distance_error=0.15714795887470245
+step=5, distance_error=0.11662444472312927
+step=6, distance_error=0.11637581884860992
+step=7, distance_error=0.11703566461801529
+step=8, distance_error=0.12539918720722198
+step=9, distance_error=0.11692677438259125
+step=10, distance_error=0.11348650604486465
+step=11, distance_error=0.1195891946554184
+step=12, distance_error=0.12360679358243942
+step=13, distance_error=0.14878326654434204
+step=14, distance_error=0.13731853663921356
+step=15, distance_error=0.17424266040325165
+step=16, distance_error=0.12499196827411652
+step=17, distance_error=0.13147953152656555
+step=18, distance_error=0.15910564363002777
+step=19, distance_error=0.14619022607803345
+step=20, distance_error=0.11410916596651077
+step=21, distance_error=0.11348788440227509
+step=22, distance_error=0.12051355093717575
+step=23, distance_error=0.10479865223169327
+step=24, distance_error=0.12679842114448547
+step=25, distance_error=0.12146352231502533
+step=26, distance_error=0.11093558371067047
+step=27, distance_error=0.09824667125940323
+step=28, distance_error=0.09267029911279678
+step=29, distance_error=0.11804022639989853
+Episode : 18
+RESET ENV !
+initial distance error = -0.12807267904281616
+step=0, distance_error=0.1408640593290329
+step=1, distance_error=0.10527423769235611
+step=2, distance_error=0.07960506528615952
+done with step=2  !
+Episode : 19
+RESET ENV !
+initial distance error = -0.11866836994886398
+step=0, distance_error=0.15301655232906342
+step=1, distance_error=0.13388824462890625
+step=2, distance_error=0.09320022165775299
+step=3, distance_error=0.06459450721740723
+done with step=3  !
+Episode : 20
+RESET ENV !
+initial distance error = -0.24022290110588074
+step=0, distance_error=0.24046556651592255
+step=1, distance_error=0.22585652768611908
+step=2, distance_error=0.21366675198078156
+step=3, distance_error=0.19104480743408203
+step=4, distance_error=0.15587115287780762
+step=5, distance_error=0.18182118237018585
+step=6, distance_error=0.1482659876346588
+step=7, distance_error=0.1458543837070465
+step=8, distance_error=0.14595825970172882
+step=9, distance_error=0.14792096614837646
+step=10, distance_error=0.10368695110082626
+step=11, distance_error=0.07449591159820557
+done with step=11  !
+Episode : 21
+RESET ENV !
+initial distance error = -0.23498836159706116
+step=0, distance_error=0.1732534021139145
+step=1, distance_error=0.13123445212841034
+step=2, distance_error=0.1569138616323471
+step=3, distance_error=0.13179674744606018
+step=4, distance_error=0.15543396770954132
+step=5, distance_error=0.15685127675533295
+step=6, distance_error=0.13800717890262604
+step=7, distance_error=0.1206049919128418
+step=8, distance_error=0.14295035600662231
+step=9, distance_error=0.16631555557250977
+step=10, distance_error=0.15155646204948425
+step=11, distance_error=0.13817250728607178
+step=12, distance_error=0.1622467041015625
+step=13, distance_error=0.17971865832805634
+step=14, distance_error=0.1429392546415329
+step=15, distance_error=0.1333431452512741
+step=16, distance_error=0.13354362547397614
+step=17, distance_error=0.15646058320999146
+step=18, distance_error=0.1439916044473648
+step=19, distance_error=0.11707688122987747
+step=20, distance_error=0.11743500828742981
+step=21, distance_error=0.11775252223014832
+step=22, distance_error=0.11806133389472961
+step=23, distance_error=0.09150911867618561
+step=24, distance_error=0.09221556037664413
+step=25, distance_error=0.09322872012853622
+step=26, distance_error=0.11009041965007782
+step=27, distance_error=0.12211421877145767
+step=28, distance_error=0.12195847183465958
+step=29, distance_error=0.1224227249622345
+Episode : 22
+RESET ENV !
+initial distance error = -0.20220322906970978
+step=0, distance_error=0.12990431487560272
+step=1, distance_error=0.14403480291366577
+step=2, distance_error=0.16039985418319702
+step=3, distance_error=0.131008118391037
+step=4, distance_error=0.12693467736244202
+step=5, distance_error=0.099234938621521
+step=6, distance_error=0.10429367423057556
+step=7, distance_error=0.13829438388347626
+step=8, distance_error=0.12696054577827454
+step=9, distance_error=0.13022717833518982
+step=10, distance_error=0.10971549898386002
+step=11, distance_error=0.10313914716243744
+step=12, distance_error=0.12117611616849899
+step=13, distance_error=0.09487397223711014
+step=14, distance_error=0.10488389432430267
+step=15, distance_error=0.11726608127355576
+step=16, distance_error=0.1255936473608017
+step=17, distance_error=0.1173357218503952
+step=18, distance_error=0.11397331207990646
+step=19, distance_error=0.09948805719614029
+step=20, distance_error=0.09797388315200806
+step=21, distance_error=0.11068359762430191
+step=22, distance_error=0.08737210184335709
+step=23, distance_error=0.09571503102779388
+step=24, distance_error=0.09690403193235397
+step=25, distance_error=0.12406176328659058
+step=26, distance_error=0.10858628153800964
+step=27, distance_error=0.10887933522462845
+step=28, distance_error=0.10109421610832214
+step=29, distance_error=0.08865413814783096
+Episode : 23
+RESET ENV !
+initial distance error = -0.04224562644958496
+step=0, distance_error=0.11612723767757416
+step=1, distance_error=0.09711522608995438
+step=2, distance_error=0.1375867873430252
+step=3, distance_error=0.1444861739873886
+step=4, distance_error=0.13081097602844238
+step=5, distance_error=0.13874326646327972
+step=6, distance_error=0.12918365001678467
+step=7, distance_error=0.12267988175153732
+step=8, distance_error=0.1373419463634491
+step=9, distance_error=0.11530391126871109
+step=10, distance_error=0.07261572033166885
+done with step=10  !
+Episode : 24
+RESET ENV !
+initial distance error = -0.14953474700450897
+step=0, distance_error=0.11396469175815582
+step=1, distance_error=0.09632160514593124
+step=2, distance_error=0.0800885483622551
+step=3, distance_error=0.06472444534301758
+done with step=3  !
+Episode : 25
+RESET ENV !
+initial distance error = -0.1843840330839157
+step=0, distance_error=0.14753477275371552
+step=1, distance_error=0.10661797225475311
+step=2, distance_error=0.10630156099796295
+step=3, distance_error=0.11975379288196564
+step=4, distance_error=0.11161866784095764
+step=5, distance_error=0.09924252331256866
+step=6, distance_error=0.09924682974815369
+step=7, distance_error=0.10516947507858276
+step=8, distance_error=0.08893800526857376
+step=9, distance_error=0.10122286528348923
+step=10, distance_error=0.12192536145448685
+step=11, distance_error=0.11921621859073639
+step=12, distance_error=0.1388595700263977
+step=13, distance_error=0.12236365675926208
+step=14, distance_error=0.11528580635786057
+step=15, distance_error=0.11546192318201065
+step=16, distance_error=0.11203092336654663
+step=17, distance_error=0.10472217202186584
+step=18, distance_error=0.13764818012714386
+step=19, distance_error=0.10228127986192703
+step=20, distance_error=0.13158616423606873
+step=21, distance_error=0.11329135298728943
+step=22, distance_error=0.12350316345691681
+step=23, distance_error=0.11902369558811188
+step=24, distance_error=0.13184896111488342
+step=25, distance_error=0.14642766118049622
+step=26, distance_error=0.1215345486998558
+step=27, distance_error=0.15860866010189056
+step=28, distance_error=0.1061653420329094
+step=29, distance_error=0.1647387444972992
+Episode : 26
+RESET ENV !
+initial distance error = -0.18800489604473114
+step=0, distance_error=0.15986423194408417
+step=1, distance_error=0.13721981644630432
+step=2, distance_error=0.09022343158721924
+step=3, distance_error=0.0835091769695282
+step=4, distance_error=0.07535179704427719
+done with step=4  !
+Episode : 27
+RESET ENV !
+initial distance error = -0.12420520931482315
+step=0, distance_error=0.12452083081007004
+step=1, distance_error=0.11123919486999512
+step=2, distance_error=0.10176414251327515
+step=3, distance_error=0.09417542815208435
+step=4, distance_error=0.14324802160263062
+step=5, distance_error=0.14386174082756042
+step=6, distance_error=0.15405142307281494
+step=7, distance_error=0.14635531604290009
+step=8, distance_error=0.11209969967603683
+step=9, distance_error=0.135833278298378
+step=10, distance_error=0.1560746282339096
+step=11, distance_error=0.14533983170986176
+step=12, distance_error=0.1457957923412323
+step=13, distance_error=0.1727306991815567
+step=14, distance_error=0.18578237295150757
+step=15, distance_error=0.19376923143863678
+step=16, distance_error=0.1936100721359253
+step=17, distance_error=0.18012651801109314
+step=18, distance_error=0.13035769760608673
+step=19, distance_error=0.1123771071434021
+step=20, distance_error=0.1120695173740387
+step=21, distance_error=0.11310378462076187
+step=22, distance_error=0.11880847066640854
+step=23, distance_error=0.1149558573961258
+step=24, distance_error=0.07995712012052536
+done with step=24  !
+Episode : 28
+RESET ENV !
+initial distance error = -0.15953315794467926
+step=0, distance_error=0.1640634536743164
+step=1, distance_error=0.13777554035186768
+step=2, distance_error=0.11689569801092148
+step=3, distance_error=0.12784968316555023
+step=4, distance_error=0.11134713143110275
+step=5, distance_error=0.09942542016506195
+step=6, distance_error=0.09799108654260635
+step=7, distance_error=0.08490877598524094
+step=8, distance_error=0.09488379210233688
+step=9, distance_error=0.09266040474176407
+step=10, distance_error=0.07916368544101715
+done with step=10  !
+Episode : 29
+RESET ENV !
+initial distance error = -0.3220254182815552
+step=0, distance_error=0.2855750620365143
+step=1, distance_error=0.2599855959415436
+step=2, distance_error=0.23374375700950623
+step=3, distance_error=0.1871514469385147
+step=4, distance_error=0.19111020863056183
+step=5, distance_error=0.1881893128156662
+step=6, distance_error=0.18746373057365417
+step=7, distance_error=0.16013796627521515
+step=8, distance_error=0.14540153741836548
+step=9, distance_error=0.17150889337062836
+step=10, distance_error=0.17312829196453094
+step=11, distance_error=0.17319786548614502
+step=12, distance_error=0.15845242142677307
+step=13, distance_error=0.15858396887779236
+step=14, distance_error=0.15859225392341614
+step=15, distance_error=0.15863634645938873
+step=16, distance_error=0.15861162543296814
+step=17, distance_error=0.15857534110546112
+step=18, distance_error=0.15855355560779572
+step=19, distance_error=0.17192724347114563
+step=20, distance_error=0.17097054421901703
+step=21, distance_error=0.169902965426445
+step=22, distance_error=0.16923436522483826
+step=23, distance_error=0.1687062829732895
+step=24, distance_error=0.16818632185459137
+step=25, distance_error=0.18804931640625
+step=26, distance_error=0.16356651484966278
+step=27, distance_error=0.17401906847953796
+step=28, distance_error=0.16478535532951355
+step=29, distance_error=0.1576359122991562
+Episode : 30
+RESET ENV !
+initial distance error = -0.1721864640712738
+step=0, distance_error=0.1892170011997223
+step=1, distance_error=0.15808233618736267
+step=2, distance_error=0.1338185966014862
+step=3, distance_error=0.1021295115351677
+step=4, distance_error=0.09487277269363403
+step=5, distance_error=0.09481580555438995
+step=6, distance_error=0.09473946690559387
+step=7, distance_error=0.07581894844770432
+done with step=7  !
+Episode : 31
+RESET ENV !
+initial distance error = -0.24206127226352692
+step=0, distance_error=0.22188110649585724
+step=1, distance_error=0.17710019648075104
+step=2, distance_error=0.19564497470855713
+step=3, distance_error=0.18375946581363678
+step=4, distance_error=0.177615225315094
+step=5, distance_error=0.15312273800373077
+step=6, distance_error=0.15306290984153748
+step=7, distance_error=0.15295742452144623
+step=8, distance_error=0.1561240553855896
+step=9, distance_error=0.15637913346290588
+step=10, distance_error=0.15665000677108765
+step=11, distance_error=0.15678967535495758
+step=12, distance_error=0.1569146364927292
+step=13, distance_error=0.17483118176460266
+step=14, distance_error=0.16242298483848572
+step=15, distance_error=0.1572454571723938
+step=16, distance_error=0.15622609853744507
+step=17, distance_error=0.15463805198669434
+step=18, distance_error=0.16002550721168518
+step=19, distance_error=0.1472734808921814
+step=20, distance_error=0.14775747060775757
+step=21, distance_error=0.14815832674503326
+step=22, distance_error=0.1485196352005005
+step=23, distance_error=0.1487940102815628
+step=24, distance_error=0.14910347759723663
+step=25, distance_error=0.15978679060935974
+step=26, distance_error=0.1605115532875061
+step=27, distance_error=0.17416971921920776
+step=28, distance_error=0.17381858825683594
+step=29, distance_error=0.16200104355812073
+Episode : 32
+RESET ENV !
+initial distance error = -0.24284453690052032
+step=0, distance_error=0.19515711069107056
+step=1, distance_error=0.1651228368282318
+step=2, distance_error=0.15561820566654205
+step=3, distance_error=0.13618198037147522
+step=4, distance_error=0.12230786681175232
+step=5, distance_error=0.1184970960021019
+step=6, distance_error=0.16009455919265747
+step=7, distance_error=0.16008184850215912
+step=8, distance_error=0.16004778444766998
+step=9, distance_error=0.15710212290287018
+step=10, distance_error=0.13068480789661407
+step=11, distance_error=0.1399592012166977
+step=12, distance_error=0.11461789160966873
+step=13, distance_error=0.12855298817157745
+step=14, distance_error=0.13557997345924377
+step=15, distance_error=0.15217240154743195
+step=16, distance_error=0.14760726690292358
+step=17, distance_error=0.13850395381450653
+step=18, distance_error=0.10890013724565506
+step=19, distance_error=0.12620869278907776
+step=20, distance_error=0.13899697363376617
+step=21, distance_error=0.12437883764505386
+step=22, distance_error=0.11301001161336899
+step=23, distance_error=0.11197534948587418
+step=24, distance_error=0.11097870767116547
+step=25, distance_error=0.10642106831073761
+step=26, distance_error=0.0960143655538559
+step=27, distance_error=0.1449212282896042
+step=28, distance_error=0.11228421330451965
+step=29, distance_error=0.11369312554597855
+Episode : 33
+RESET ENV !
+initial distance error = -0.0965840145945549
+step=0, distance_error=0.09395034611225128
+step=1, distance_error=0.09645184874534607
+step=2, distance_error=0.09771576523780823
+step=3, distance_error=0.10732150077819824
+step=4, distance_error=0.09531473368406296
+step=5, distance_error=0.10704389214515686
+step=6, distance_error=0.12364767491817474
+step=7, distance_error=0.13117113709449768
+step=8, distance_error=0.11165308207273483
+step=9, distance_error=0.14189064502716064
+step=10, distance_error=0.14035604894161224
+step=11, distance_error=0.14815780520439148
+step=12, distance_error=0.14475013315677643
+step=13, distance_error=0.1440420001745224
+step=14, distance_error=0.14403046667575836
+step=15, distance_error=0.13488322496414185
+step=16, distance_error=0.11818894743919373
+step=17, distance_error=0.12573598325252533
+step=18, distance_error=0.11304721981287003
+step=19, distance_error=0.09966026246547699
+step=20, distance_error=0.10750925540924072
+step=21, distance_error=0.11331766098737717
+step=22, distance_error=0.12715600430965424
+step=23, distance_error=0.12570136785507202
+step=24, distance_error=0.10884317010641098
+step=25, distance_error=0.09730996936559677
+step=26, distance_error=0.12773069739341736
+step=27, distance_error=0.1098162904381752
+step=28, distance_error=0.09817846119403839
+step=29, distance_error=0.11667262762784958
+Episode : 34
+RESET ENV !
+initial distance error = -0.13844165205955505
+step=0, distance_error=0.11460453271865845
+step=1, distance_error=0.10235205292701721
+step=2, distance_error=0.10989630967378616
+step=3, distance_error=0.10747908800840378
+step=4, distance_error=0.11238754540681839
+step=5, distance_error=0.1093592643737793
+step=6, distance_error=0.13610439002513885
+step=7, distance_error=0.14350634813308716
+step=8, distance_error=0.13089893758296967
+step=9, distance_error=0.13112257421016693
+step=10, distance_error=0.13126200437545776
+step=11, distance_error=0.13138049840927124
+step=12, distance_error=0.1119789332151413
+step=13, distance_error=0.10982335358858109
+step=14, distance_error=0.1174171045422554
+step=15, distance_error=0.11984843760728836
+step=16, distance_error=0.10063927620649338
+step=17, distance_error=0.11933669447898865
+step=18, distance_error=0.09290394186973572
+step=19, distance_error=0.09564971923828125
+step=20, distance_error=0.09564202278852463
+step=21, distance_error=0.11128295212984085
+step=22, distance_error=0.09415271133184433
+step=23, distance_error=0.09441478550434113
+step=24, distance_error=0.0946926474571228
+step=25, distance_error=0.10900687426328659
+step=26, distance_error=0.11642248183488846
+step=27, distance_error=0.12581294775009155
+step=28, distance_error=0.11748936772346497
+step=29, distance_error=0.11636501550674438
+Episode : 35
+RESET ENV !
+initial distance error = -0.26366710662841797
+step=0, distance_error=0.23554489016532898
+step=1, distance_error=0.21155862510204315
+step=2, distance_error=0.20864693820476532
+step=3, distance_error=0.2015840858221054
+step=4, distance_error=0.18980734050273895
+step=5, distance_error=0.1943100094795227
+step=6, distance_error=0.2072203904390335
+step=7, distance_error=0.19277139008045197
+step=8, distance_error=0.18556614220142365
+step=9, distance_error=0.18587340414524078
+step=10, distance_error=0.1862877458333969
+step=11, distance_error=0.18668745458126068
+step=12, distance_error=0.18684330582618713
+step=13, distance_error=0.18709267675876617
+step=14, distance_error=0.18729978799819946
+step=15, distance_error=0.19978220760822296
+step=16, distance_error=0.20002812147140503
+step=17, distance_error=0.21050205826759338
+step=18, distance_error=0.19940486550331116
+step=19, distance_error=0.19145314395427704
+step=20, distance_error=0.19154711067676544
+step=21, distance_error=0.2177169919013977
+step=22, distance_error=0.1915600299835205
+step=23, distance_error=0.1914169192314148
+step=24, distance_error=0.191407710313797
+step=25, distance_error=0.1913841962814331
+step=26, distance_error=0.19140596687793732
+step=27, distance_error=0.19064973294734955
+step=28, distance_error=0.189457505941391
+step=29, distance_error=0.18787704408168793
+Episode : 36
+RESET ENV !
+initial distance error = -0.09639908373355865
+step=0, distance_error=0.12234653532505035
+step=1, distance_error=0.11705508083105087
+step=2, distance_error=0.15650101006031036
+step=3, distance_error=0.14287833869457245
+step=4, distance_error=0.13292884826660156
+step=5, distance_error=0.10561750829219818
+step=6, distance_error=0.09758616983890533
+step=7, distance_error=0.08504589647054672
+step=8, distance_error=0.07507608830928802
+done with step=8  !
+Episode : 37
+RESET ENV !
+initial distance error = -0.27794909477233887
+step=0, distance_error=0.2389463633298874
+step=1, distance_error=0.2305312305688858
+step=2, distance_error=0.20846939086914062
+step=3, distance_error=0.18175679445266724
+step=4, distance_error=0.16792668402194977
+step=5, distance_error=0.17587609589099884
+step=6, distance_error=0.15222293138504028
+step=7, distance_error=0.15826962888240814
+step=8, distance_error=0.15573978424072266
+step=9, distance_error=0.13466784358024597
+step=10, distance_error=0.12772397696971893
+step=11, distance_error=0.15195153653621674
+step=12, distance_error=0.16742956638336182
+step=13, distance_error=0.1851164698600769
+step=14, distance_error=0.19499683380126953
+step=15, distance_error=0.15616939961910248
+step=16, distance_error=0.12914656102657318
+step=17, distance_error=0.12472566962242126
+step=18, distance_error=0.1231331080198288
+step=19, distance_error=0.12308536469936371
+step=20, distance_error=0.1393512636423111
+step=21, distance_error=0.14788486063480377
+step=22, distance_error=0.13803720474243164
+step=23, distance_error=0.12768547236919403
+step=24, distance_error=0.13525106012821198
+step=25, distance_error=0.13523149490356445
+step=26, distance_error=0.13518306612968445
+step=27, distance_error=0.13575315475463867
+step=28, distance_error=0.11903596669435501
+step=29, distance_error=0.11898189783096313
+Episode : 38
+RESET ENV !
+initial distance error = -0.20788738131523132
+step=0, distance_error=0.15566664934158325
+step=1, distance_error=0.16330593824386597
+step=2, distance_error=0.11805657297372818
+step=3, distance_error=0.11953438818454742
+step=4, distance_error=0.12119302898645401
+step=5, distance_error=0.12138345837593079
+step=6, distance_error=0.13446789979934692
+step=7, distance_error=0.14484411478042603
+step=8, distance_error=0.16405270993709564
+step=9, distance_error=0.1640034168958664
+step=10, distance_error=0.11901834607124329
+step=11, distance_error=0.13679741322994232
+step=12, distance_error=0.1349247395992279
+step=13, distance_error=0.12388680875301361
+step=14, distance_error=0.13022474944591522
+step=15, distance_error=0.127100870013237
+step=16, distance_error=0.12760357558727264
+step=17, distance_error=0.12825191020965576
+step=18, distance_error=0.12843634188175201
+step=19, distance_error=0.1543770432472229
+step=20, distance_error=0.15037022531032562
+step=21, distance_error=0.16801153123378754
+step=22, distance_error=0.12480209767818451
+step=23, distance_error=0.11216888576745987
+step=24, distance_error=0.13295337557792664
+step=25, distance_error=0.13250431418418884
+step=26, distance_error=0.1321047693490982
+step=27, distance_error=0.13176019489765167
+step=28, distance_error=0.11231961101293564
+step=29, distance_error=0.11186426877975464
+Episode : 39
+RESET ENV !
+initial distance error = -0.14652198553085327
+step=0, distance_error=0.12978456914424896
+step=1, distance_error=0.1358776092529297
+step=2, distance_error=0.13471269607543945
+step=3, distance_error=0.12726227939128876
+step=4, distance_error=0.12627758085727692
+step=5, distance_error=0.13906575739383698
+step=6, distance_error=0.12626491487026215
+step=7, distance_error=0.11243146657943726
+step=8, distance_error=0.10729756951332092
+step=9, distance_error=0.11815167218446732
+step=10, distance_error=0.1335553526878357
+step=11, distance_error=0.16031990945339203
+step=12, distance_error=0.12413927167654037
+step=13, distance_error=0.13837549090385437
+step=14, distance_error=0.14693401753902435
+step=15, distance_error=0.13199539482593536
+step=16, distance_error=0.14500926434993744
+step=17, distance_error=0.13804207742214203
+step=18, distance_error=0.14591459929943085
+step=19, distance_error=0.15937505662441254
+step=20, distance_error=0.15637646615505219
+step=21, distance_error=0.144995778799057
+step=22, distance_error=0.17974157631397247
+step=23, distance_error=0.1531425267457962
+step=24, distance_error=0.14552733302116394
+step=25, distance_error=0.13760808110237122
+step=26, distance_error=0.1373065710067749
+step=27, distance_error=0.12359979003667831
+step=28, distance_error=0.14013727009296417
+step=29, distance_error=0.11375714838504791
+Episode : 40
+RESET ENV !
+initial distance error = -0.25629571080207825
+step=0, distance_error=0.20729586482048035
+step=1, distance_error=0.19535915553569794
+step=2, distance_error=0.18808810412883759
+step=3, distance_error=0.16303561627864838
+step=4, distance_error=0.15347284078598022
+step=5, distance_error=0.15218865871429443
+step=6, distance_error=0.161736398935318
+step=7, distance_error=0.1745339035987854
+step=8, distance_error=0.1679476648569107
+step=9, distance_error=0.1539367288351059
+step=10, distance_error=0.1595298796892166
+step=11, distance_error=0.1509566605091095
+step=12, distance_error=0.16129913926124573
+step=13, distance_error=0.166891410946846
+step=14, distance_error=0.15955188870429993
+step=15, distance_error=0.16217420995235443
+step=16, distance_error=0.1578458547592163
+step=17, distance_error=0.131083682179451
+step=18, distance_error=0.12515856325626373
+step=19, distance_error=0.14633364975452423
+step=20, distance_error=0.17010624706745148
+step=21, distance_error=0.16836221516132355
+step=22, distance_error=0.15598125755786896
+step=23, distance_error=0.13033480942249298
+step=24, distance_error=0.11009842157363892
+step=25, distance_error=0.13649240136146545
+step=26, distance_error=0.1366589367389679
+step=27, distance_error=0.1368647664785385
+step=28, distance_error=0.11342170834541321
+step=29, distance_error=0.11066894978284836
+Episode : 41
+RESET ENV !
+initial distance error = -0.20664188265800476
+step=0, distance_error=0.1568819284439087
+step=1, distance_error=0.12681899964809418
+step=2, distance_error=0.13126897811889648
+step=3, distance_error=0.13854743540287018
+step=4, distance_error=0.15122081339359283
+step=5, distance_error=0.14661145210266113
+step=6, distance_error=0.17377647757530212
+step=7, distance_error=0.14067442715168
+step=8, distance_error=0.16732361912727356
+step=9, distance_error=0.1934317797422409
+step=10, distance_error=0.16170692443847656
+step=11, distance_error=0.15450304746627808
+step=12, distance_error=0.16220852732658386
+step=13, distance_error=0.17203360795974731
+step=14, distance_error=0.1321648508310318
+step=15, distance_error=0.13270507752895355
+step=16, distance_error=0.11992372572422028
+step=17, distance_error=0.14429539442062378
+step=18, distance_error=0.13907070457935333
+step=19, distance_error=0.14719079434871674
+step=20, distance_error=0.1452271044254303
+step=21, distance_error=0.14213809370994568
+step=22, distance_error=0.14705853164196014
+step=23, distance_error=0.16456428170204163
+step=24, distance_error=0.12155801057815552
+step=25, distance_error=0.12164998799562454
+step=26, distance_error=0.10611548274755478
+step=27, distance_error=0.11902914941310883
+step=28, distance_error=0.11847490817308426
+step=29, distance_error=0.11784346401691437
+Episode : 42
+RESET ENV !
+initial distance error = -0.23590324819087982
+step=0, distance_error=0.2102304846048355
+step=1, distance_error=0.18416139483451843
+step=2, distance_error=0.15750868618488312
+step=3, distance_error=0.13441260159015656
+step=4, distance_error=0.13408178091049194
+step=5, distance_error=0.13377705216407776
+step=6, distance_error=0.13357004523277283
+step=7, distance_error=0.1333482414484024
+step=8, distance_error=0.13320209085941315
+step=9, distance_error=0.13303816318511963
+step=10, distance_error=0.13290254771709442
+step=11, distance_error=0.17151285707950592
+step=12, distance_error=0.1647472083568573
+step=13, distance_error=0.13465455174446106
+step=14, distance_error=0.14382274448871613
+step=15, distance_error=0.1447727233171463
+step=16, distance_error=0.14072756469249725
+step=17, distance_error=0.11317773908376694
+step=18, distance_error=0.09748159348964691
+step=19, distance_error=0.10318709909915924
+step=20, distance_error=0.10306809097528458
+step=21, distance_error=0.14426976442337036
+step=22, distance_error=0.10673785209655762
+step=23, distance_error=0.15211765468120575
+step=24, distance_error=0.1364886462688446
+step=25, distance_error=0.15539959073066711
+step=26, distance_error=0.11702203005552292
+step=27, distance_error=0.1400434970855713
+step=28, distance_error=0.142243891954422
+step=29, distance_error=0.1416388899087906
+Episode : 43
+RESET ENV !
+initial distance error = -0.27995285391807556
+step=0, distance_error=0.24097466468811035
+step=1, distance_error=0.1802251636981964
+step=2, distance_error=0.15373985469341278
+step=3, distance_error=0.11948464065790176
+step=4, distance_error=0.13042257726192474
+step=5, distance_error=0.1628873497247696
+step=6, distance_error=0.20235738158226013
+step=7, distance_error=0.15480990707874298
+step=8, distance_error=0.1570305973291397
+step=9, distance_error=0.15062914788722992
+step=10, distance_error=0.15652203559875488
+step=11, distance_error=0.17986337840557098
+step=12, distance_error=0.15016286075115204
+step=13, distance_error=0.16549871861934662
+step=14, distance_error=0.15792158246040344
+step=15, distance_error=0.18181824684143066
+step=16, distance_error=0.1843002736568451
+step=17, distance_error=0.1826564520597458
+step=18, distance_error=0.18544434010982513
+step=19, distance_error=0.17332573235034943
+step=20, distance_error=0.15007978677749634
+step=21, distance_error=0.18479079008102417
+step=22, distance_error=0.18644006550312042
+step=23, distance_error=0.15607982873916626
+step=24, distance_error=0.16673526167869568
+step=25, distance_error=0.16372895240783691
+step=26, distance_error=0.18705986440181732
+step=27, distance_error=0.18466946482658386
+step=28, distance_error=0.18333065509796143
+step=29, distance_error=0.14434196054935455
+Episode : 44
+RESET ENV !
+initial distance error = -0.17970316112041473
+step=0, distance_error=0.1849154233932495
+step=1, distance_error=0.14872419834136963
+step=2, distance_error=0.11548139154911041
+step=3, distance_error=0.05682266131043434
+done with step=3  !
+Episode : 45
+RESET ENV !
+initial distance error = -0.17811816930770874
+step=0, distance_error=0.14706140756607056
+step=1, distance_error=0.09356465935707092
+step=2, distance_error=0.07866647094488144
+done with step=2  !
+Episode : 46
+RESET ENV !
+initial distance error = -0.3065606653690338
+step=0, distance_error=0.2764202654361725
+step=1, distance_error=0.21918265521526337
+step=2, distance_error=0.17927993834018707
+step=3, distance_error=0.1565408557653427
+step=4, distance_error=0.14242878556251526
+step=5, distance_error=0.14259149134159088
+step=6, distance_error=0.16023236513137817
+step=7, distance_error=0.1504141390323639
+step=8, distance_error=0.15184549987316132
+step=9, distance_error=0.14069122076034546
+step=10, distance_error=0.12274353206157684
+step=11, distance_error=0.12178351730108261
+step=12, distance_error=0.12045935541391373
+step=13, distance_error=0.14015911519527435
+step=14, distance_error=0.1370944231748581
+step=15, distance_error=0.13645806908607483
+step=16, distance_error=0.14295046031475067
+step=17, distance_error=0.11981219798326492
+step=18, distance_error=0.11472882330417633
+step=19, distance_error=0.1376277357339859
+step=20, distance_error=0.11382538825273514
+step=21, distance_error=0.1353157013654709
+step=22, distance_error=0.13871660828590393
+step=23, distance_error=0.13862019777297974
+step=24, distance_error=0.14226144552230835
+step=25, distance_error=0.17396104335784912
+step=26, distance_error=0.15830077230930328
+step=27, distance_error=0.1464131772518158
+step=28, distance_error=0.17303770780563354
+step=29, distance_error=0.13690610229969025
+Episode : 47
+RESET ENV !
+initial distance error = -0.26795774698257446
+step=0, distance_error=0.1954662799835205
+step=1, distance_error=0.17556282877922058
+step=2, distance_error=0.1920415610074997
+step=3, distance_error=0.17189081013202667
+step=4, distance_error=0.17184260487556458
+step=5, distance_error=0.15854407846927643
+step=6, distance_error=0.14051851630210876
+step=7, distance_error=0.1538875848054886
+step=8, distance_error=0.15615764260292053
+step=9, distance_error=0.14066165685653687
+step=10, distance_error=0.1463984251022339
+step=11, distance_error=0.1545114368200302
+step=12, distance_error=0.15921185910701752
+step=13, distance_error=0.14578840136528015
+step=14, distance_error=0.15306180715560913
+step=15, distance_error=0.1535913199186325
+step=16, distance_error=0.1495521366596222
+step=17, distance_error=0.1583026945590973
+step=18, distance_error=0.18006226420402527
+step=19, distance_error=0.16653381288051605
+step=20, distance_error=0.16658222675323486
+step=21, distance_error=0.1934705227613449
+step=22, distance_error=0.2214922457933426
+step=23, distance_error=0.17248065769672394
+step=24, distance_error=0.16502442955970764
+step=25, distance_error=0.1653425693511963
+step=26, distance_error=0.14442987740039825
+step=27, distance_error=0.1748354732990265
+step=28, distance_error=0.15034794807434082
+step=29, distance_error=0.1503847986459732
+Episode : 48
+RESET ENV !
+initial distance error = -0.10194771736860275
+step=0, distance_error=0.0805630013346672
+step=1, distance_error=0.08469215780496597
+step=2, distance_error=0.08833771198987961
+step=3, distance_error=0.05648049712181091
+done with step=3  !
+Episode : 49
+RESET ENV !
+initial distance error = -0.12528452277183533
+step=0, distance_error=0.14010712504386902
+step=1, distance_error=0.10738366097211838
+step=2, distance_error=0.13368633389472961
+step=3, distance_error=0.13151656091213226
+step=4, distance_error=0.10041499137878418
+step=5, distance_error=0.12907099723815918
+step=6, distance_error=0.09886741638183594
+step=7, distance_error=0.09886934608221054
+step=8, distance_error=0.09895268082618713
+step=9, distance_error=0.08749009668827057
+step=10, distance_error=0.08752872794866562
+step=11, distance_error=0.08760076016187668
+step=12, distance_error=0.08766958117485046
+step=13, distance_error=0.08777546882629395
+step=14, distance_error=0.08785368502140045
+step=15, distance_error=0.08799552172422409
+step=16, distance_error=0.0658123791217804
+done with step=16  !
+Episode : 50
+RESET ENV !
+initial distance error = -0.2768085300922394
+step=0, distance_error=0.21963532269001007
+step=1, distance_error=0.15149302780628204
+step=2, distance_error=0.11747316271066666
+step=3, distance_error=0.09605399519205093
+step=4, distance_error=0.09637634456157684
+step=5, distance_error=0.09685596823692322
+step=6, distance_error=0.10061642527580261
+step=7, distance_error=0.10645877569913864
+step=8, distance_error=0.09097041934728622
+step=9, distance_error=0.09575053304433823
+step=10, distance_error=0.09640881419181824
+step=11, distance_error=0.09705870598554611
+step=12, distance_error=0.09177584201097488
+step=13, distance_error=0.0991315022110939
+step=14, distance_error=0.10057885199785233
+step=15, distance_error=0.10124173015356064
+step=16, distance_error=0.10188861936330795
+step=17, distance_error=0.10196588188409805
+step=18, distance_error=0.10221301764249802
+step=19, distance_error=0.1025753915309906
+step=20, distance_error=0.11274785548448563
+step=21, distance_error=0.11301583796739578
+step=22, distance_error=0.12219617515802383
+step=23, distance_error=0.1059482991695404
+step=24, distance_error=0.1059749647974968
+step=25, distance_error=0.10357975959777832
+step=26, distance_error=0.10373156517744064
+step=27, distance_error=0.12174775451421738
+step=28, distance_error=0.12174967676401138
+step=29, distance_error=0.09576307237148285
+Episode : 51
+RESET ENV !
+initial distance error = -0.2092517465353012
+step=0, distance_error=0.19554460048675537
+step=1, distance_error=0.1699668914079666
+step=2, distance_error=0.13216730952262878
+step=3, distance_error=0.1090998500585556
+step=4, distance_error=0.10831247270107269
+step=5, distance_error=0.13648711144924164
+step=6, distance_error=0.16643087565898895
+step=7, distance_error=0.13387879729270935
+step=8, distance_error=0.11446451395750046
+step=9, distance_error=0.11516071110963821
+step=10, distance_error=0.128258615732193
+step=11, distance_error=0.1286969631910324
+step=12, distance_error=0.1186264231801033
+step=13, distance_error=0.12493934482336044
+step=14, distance_error=0.12701527774333954
+step=15, distance_error=0.1277768313884735
+step=16, distance_error=0.15541477501392365
+step=17, distance_error=0.13294948637485504
+step=18, distance_error=0.12364716082811356
+step=19, distance_error=0.12467678636312485
+step=20, distance_error=0.13260015845298767
+step=21, distance_error=0.14532427489757538
+step=22, distance_error=0.13067808747291565
+step=23, distance_error=0.15939609706401825
+step=24, distance_error=0.15964533388614655
+step=25, distance_error=0.15905994176864624
+step=26, distance_error=0.15854588150978088
+step=27, distance_error=0.13522201776504517
+step=28, distance_error=0.13602906465530396
+step=29, distance_error=0.1768283247947693
+Episode : 52
+RESET ENV !
+initial distance error = -0.26712971925735474
+step=0, distance_error=0.21039631962776184
+step=1, distance_error=0.1796521544456482
+step=2, distance_error=0.18269339203834534
+step=3, distance_error=0.1579267382621765
+step=4, distance_error=0.15369439125061035
+step=5, distance_error=0.15169595181941986
+step=6, distance_error=0.13212719559669495
+step=7, distance_error=0.12240330874919891
+step=8, distance_error=0.14636392891407013
+step=9, distance_error=0.1615315079689026
+step=10, distance_error=0.14967572689056396
+step=11, distance_error=0.17040501534938812
+step=12, distance_error=0.16364368796348572
+step=13, distance_error=0.1838936060667038
+step=14, distance_error=0.1811905801296234
+step=15, distance_error=0.13670316338539124
+step=16, distance_error=0.12493929266929626
+step=17, distance_error=0.13290023803710938
+step=18, distance_error=0.1191396489739418
+step=19, distance_error=0.11967965960502625
+step=20, distance_error=0.14748050272464752
+step=21, distance_error=0.14987990260124207
+step=22, distance_error=0.1556786149740219
+step=23, distance_error=0.13468654453754425
+step=24, distance_error=0.13257479667663574
+step=25, distance_error=0.13414064049720764
+step=26, distance_error=0.15458863973617554
+step=27, distance_error=0.15476152300834656
+step=28, distance_error=0.15141426026821136
+step=29, distance_error=0.12490097433328629
+Episode : 53
+RESET ENV !
+initial distance error = -0.26946568489074707
+step=0, distance_error=0.2792048752307892
+step=1, distance_error=0.23250405490398407
+step=2, distance_error=0.21781335771083832
+step=3, distance_error=0.20919761061668396
+step=4, distance_error=0.1980002224445343
+step=5, distance_error=0.17474956810474396
+step=6, distance_error=0.15602770447731018
+step=7, distance_error=0.15798231959342957
+step=8, distance_error=0.15873131155967712
+step=9, distance_error=0.15919581055641174
+step=10, distance_error=0.15712106227874756
+step=11, distance_error=0.16576069593429565
+step=12, distance_error=0.1643206626176834
+step=13, distance_error=0.1642947643995285
+step=14, distance_error=0.13253110647201538
+step=15, distance_error=0.12615631520748138
+step=16, distance_error=0.15590651333332062
+step=17, distance_error=0.12256518751382828
+step=18, distance_error=0.12525266408920288
+step=19, distance_error=0.12538155913352966
+step=20, distance_error=0.1177574172616005
+step=21, distance_error=0.1176362857222557
+step=22, distance_error=0.1289459466934204
+step=23, distance_error=0.1295887976884842
+step=24, distance_error=0.1374487578868866
+step=25, distance_error=0.14466321468353271
+step=26, distance_error=0.17251496016979218
+step=27, distance_error=0.17701001465320587
+step=28, distance_error=0.18385131657123566
+step=29, distance_error=0.17766188085079193
+Episode : 54
+RESET ENV !
+initial distance error = -0.25388064980506897
+step=0, distance_error=0.22013409435749054
+step=1, distance_error=0.22586064040660858
+step=2, distance_error=0.16972798109054565
+step=3, distance_error=0.1765923947095871
+step=4, distance_error=0.16762252151966095
+step=5, distance_error=0.15420545637607574
+step=6, distance_error=0.14077246189117432
+step=7, distance_error=0.14610928297042847
+step=8, distance_error=0.14627011120319366
+step=9, distance_error=0.1463097631931305
+step=10, distance_error=0.17350728809833527
+step=11, distance_error=0.16940748691558838
+step=12, distance_error=0.16424106061458588
+step=13, distance_error=0.14349466562271118
+step=14, distance_error=0.15234766900539398
+step=15, distance_error=0.11370963603258133
+step=16, distance_error=0.14825798571109772
+step=17, distance_error=0.15492619574069977
+step=18, distance_error=0.13978448510169983
+step=19, distance_error=0.1419876515865326
+step=20, distance_error=0.14448803663253784
+step=21, distance_error=0.1476878821849823
+step=22, distance_error=0.15107128024101257
+step=23, distance_error=0.15124113857746124
+step=24, distance_error=0.1686534881591797
+step=25, distance_error=0.18229317665100098
+step=26, distance_error=0.155512735247612
+step=27, distance_error=0.16167502105236053
+step=28, distance_error=0.1924656331539154
+step=29, distance_error=0.16551004350185394
+Episode : 55
+RESET ENV !
+initial distance error = -0.23039335012435913
+step=0, distance_error=0.19045794010162354
+step=1, distance_error=0.19289733469486237
+step=2, distance_error=0.15825116634368896
+step=3, distance_error=0.11479539424180984
+step=4, distance_error=0.10119819641113281
+step=5, distance_error=0.13778775930404663
+step=6, distance_error=0.14327122271060944
+step=7, distance_error=0.10847176611423492
+step=8, distance_error=0.10906454920768738
+step=9, distance_error=0.10944516211748123
+step=10, distance_error=0.10992661118507385
+step=11, distance_error=0.11028079688549042
+step=12, distance_error=0.11054744571447372
+step=13, distance_error=0.11083979904651642
+step=14, distance_error=0.11107491701841354
+step=15, distance_error=0.11122644692659378
+step=16, distance_error=0.1114150881767273
+step=17, distance_error=0.12256496399641037
+step=18, distance_error=0.11222140491008759
+step=19, distance_error=0.1121174618601799
+step=20, distance_error=0.11225232481956482
+step=21, distance_error=0.11248639971017838
+step=22, distance_error=0.11265254765748978
+step=23, distance_error=0.11285679042339325
+step=24, distance_error=0.11297079175710678
+step=25, distance_error=0.1130913719534874
+step=26, distance_error=0.12346621602773666
+step=27, distance_error=0.1113583967089653
+step=28, distance_error=0.1226712241768837
+step=29, distance_error=0.16044245660305023
+Episode : 56
+RESET ENV !
+initial distance error = -0.31050097942352295
+step=0, distance_error=0.2968740463256836
+step=1, distance_error=0.2684056758880615
+step=2, distance_error=0.257266640663147
+step=3, distance_error=0.23123879730701447
+step=4, distance_error=0.2120688557624817
+step=5, distance_error=0.21126751601696014
+step=6, distance_error=0.18682518601417542
+step=7, distance_error=0.1797865331172943
+step=8, distance_error=0.1795077919960022
+step=9, distance_error=0.17306099832057953
+step=10, distance_error=0.18456068634986877
+step=11, distance_error=0.16810022294521332
+step=12, distance_error=0.16092297434806824
+step=13, distance_error=0.16186565160751343
+step=14, distance_error=0.17483873665332794
+step=15, distance_error=0.15646986663341522
+step=16, distance_error=0.1454111784696579
+step=17, distance_error=0.14481601119041443
+step=18, distance_error=0.14432725310325623
+step=19, distance_error=0.14360862970352173
+step=20, distance_error=0.14317280054092407
+step=21, distance_error=0.14264731109142303
+step=22, distance_error=0.14221656322479248
+step=23, distance_error=0.14169925451278687
+step=24, distance_error=0.14125503599643707
+step=25, distance_error=0.13143935799598694
+step=26, distance_error=0.13174760341644287
+step=27, distance_error=0.1324971616268158
+step=28, distance_error=0.1356355845928192
+step=29, distance_error=0.1368553787469864
+Episode : 57
+RESET ENV !
+initial distance error = -0.22126401960849762
+step=0, distance_error=0.2101244479417801
+step=1, distance_error=0.19632788002490997
+step=2, distance_error=0.19636744260787964
+step=3, distance_error=0.20448936522006989
+step=4, distance_error=0.19075080752372742
+step=5, distance_error=0.18216250836849213
+step=6, distance_error=0.17734630405902863
+step=7, distance_error=0.17777752876281738
+step=8, distance_error=0.17817571759223938
+step=9, distance_error=0.1785634160041809
+step=10, distance_error=0.1787026822566986
+step=11, distance_error=0.1789221465587616
+step=12, distance_error=0.1790439784526825
+step=13, distance_error=0.17905111610889435
+step=14, distance_error=0.17914414405822754
+step=15, distance_error=0.17907975614070892
+step=16, distance_error=0.17993788421154022
+step=17, distance_error=0.18045666813850403
+step=18, distance_error=0.1788964718580246
+step=19, distance_error=0.178124338388443
+step=20, distance_error=0.177627831697464
+step=21, distance_error=0.17695412039756775
+step=22, distance_error=0.17651566863059998
+step=23, distance_error=0.18520429730415344
+step=24, distance_error=0.17045649886131287
+step=25, distance_error=0.17135728895664215
+step=26, distance_error=0.1722017526626587
+step=27, distance_error=0.17292122542858124
+step=28, distance_error=0.20864632725715637
+step=29, distance_error=0.20841917395591736
+Episode : 58
+RESET ENV !
+initial distance error = -0.11249174922704697
+step=0, distance_error=0.13962677121162415
+step=1, distance_error=0.0970877856016159
+step=2, distance_error=0.10473418980836868
+step=3, distance_error=0.06308446079492569
+done with step=3  !
+Episode : 59
+RESET ENV !
+initial distance error = -0.10761311650276184
+step=0, distance_error=0.12306942045688629
+step=1, distance_error=0.09303314983844757
+step=2, distance_error=0.09289836138486862
+step=3, distance_error=0.11216288805007935
+step=4, distance_error=0.12692663073539734
+step=5, distance_error=0.11341404169797897
+step=6, distance_error=0.09100659191608429
+step=7, distance_error=0.09657078981399536
+step=8, distance_error=0.11864929646253586
+step=9, distance_error=0.14000503718852997
+step=10, distance_error=0.14021553099155426
+step=11, distance_error=0.12888355553150177
+step=12, distance_error=0.10322094708681107
+step=13, distance_error=0.12165634334087372
+step=14, distance_error=0.11808303743600845
+step=15, distance_error=0.14763277769088745
+step=16, distance_error=0.1455734819173813
+step=17, distance_error=0.11540430784225464
+step=18, distance_error=0.12060380727052689
+step=19, distance_error=0.12012184411287308
+step=20, distance_error=0.14789706468582153
+step=21, distance_error=0.14834611117839813
+step=22, distance_error=0.1484023928642273
+step=23, distance_error=0.11057337373495102
+step=24, distance_error=0.12719571590423584
+step=25, distance_error=0.10654763132333755
+step=26, distance_error=0.11088501662015915
+step=27, distance_error=0.10306932032108307
+step=28, distance_error=0.11149556189775467
+step=29, distance_error=0.11133252829313278
+Episode : 60
+RESET ENV !
+initial distance error = -0.2973255515098572
+step=0, distance_error=0.2896452248096466
+step=1, distance_error=0.2532409429550171
+step=2, distance_error=0.19988761842250824
+step=3, distance_error=0.16857638955116272
+step=4, distance_error=0.15536095201969147
+step=5, distance_error=0.15504443645477295
+step=6, distance_error=0.162545844912529
+step=7, distance_error=0.13966694474220276
+step=8, distance_error=0.13889801502227783
+step=9, distance_error=0.13961651921272278
+step=10, distance_error=0.12320420891046524
+step=11, distance_error=0.12992484867572784
+step=12, distance_error=0.13931265473365784
+step=13, distance_error=0.13507404923439026
+step=14, distance_error=0.15772423148155212
+step=15, distance_error=0.1294129341840744
+step=16, distance_error=0.12829717993736267
+step=17, distance_error=0.15154342353343964
+step=18, distance_error=0.14175932109355927
+step=19, distance_error=0.14409208297729492
+step=20, distance_error=0.129867285490036
+step=21, distance_error=0.1305380016565323
+step=22, distance_error=0.1606736034154892
+step=23, distance_error=0.1448642611503601
+step=24, distance_error=0.1628844439983368
+step=25, distance_error=0.13527047634124756
+step=26, distance_error=0.1356867104768753
+step=27, distance_error=0.13602988421916962
+step=28, distance_error=0.1364106684923172
+step=29, distance_error=0.1367163211107254
+Episode : 61
+RESET ENV !
+initial distance error = -0.3205394744873047
+step=0, distance_error=0.2875458300113678
+step=1, distance_error=0.28452056646347046
+step=2, distance_error=0.24857978522777557
+step=3, distance_error=0.20178350806236267
+step=4, distance_error=0.23602594435214996
+step=5, distance_error=0.19241318106651306
+step=6, distance_error=0.16610056161880493
+step=7, distance_error=0.16197219491004944
+step=8, distance_error=0.16104741394519806
+step=9, distance_error=0.13975411653518677
+step=10, distance_error=0.16400259733200073
+step=11, distance_error=0.1634356826543808
+step=12, distance_error=0.12620536983013153
+step=13, distance_error=0.11955125629901886
+step=14, distance_error=0.12689799070358276
+step=15, distance_error=0.11683651059865952
+step=16, distance_error=0.10568082332611084
+step=17, distance_error=0.10005193948745728
+step=18, distance_error=0.11729701608419418
+step=19, distance_error=0.1075047180056572
+step=20, distance_error=0.12393254786729813
+step=21, distance_error=0.12439226359128952
+step=22, distance_error=0.13532529771327972
+step=23, distance_error=0.11748146265745163
+step=24, distance_error=0.12195124477148056
+step=25, distance_error=0.12228234112262726
+step=26, distance_error=0.14938926696777344
+step=27, distance_error=0.14912639558315277
+step=28, distance_error=0.1382535845041275
+step=29, distance_error=0.1362951546907425
+Episode : 62
+RESET ENV !
+initial distance error = -0.26949697732925415
+step=0, distance_error=0.2602892816066742
+step=1, distance_error=0.23836803436279297
+step=2, distance_error=0.2304583340883255
+step=3, distance_error=0.1965690404176712
+step=4, distance_error=0.18359681963920593
+step=5, distance_error=0.16947707533836365
+step=6, distance_error=0.1583959460258484
+step=7, distance_error=0.1583588719367981
+step=8, distance_error=0.15587151050567627
+step=9, distance_error=0.1683254987001419
+step=10, distance_error=0.16256214678287506
+step=11, distance_error=0.15776994824409485
+step=12, distance_error=0.15231168270111084
+step=13, distance_error=0.1763179898262024
+step=14, distance_error=0.17329826951026917
+step=15, distance_error=0.19548307359218597
+step=16, distance_error=0.171049565076828
+step=17, distance_error=0.15814070403575897
+step=18, distance_error=0.1440311223268509
+step=19, distance_error=0.13881517946720123
+step=20, distance_error=0.14774709939956665
+step=21, distance_error=0.14503566920757294
+step=22, distance_error=0.17081375420093536
+step=23, distance_error=0.15033771097660065
+step=24, distance_error=0.15845175087451935
+step=25, distance_error=0.16772930324077606
+step=26, distance_error=0.15486036241054535
+step=27, distance_error=0.13358478248119354
+step=28, distance_error=0.14954589307308197
+step=29, distance_error=0.14844146370887756
+Episode : 63
+RESET ENV !
+initial distance error = -0.2737262547016144
+step=0, distance_error=0.21513260900974274
+step=1, distance_error=0.2317040115594864
+step=2, distance_error=0.2342529594898224
+step=3, distance_error=0.205477774143219
+step=4, distance_error=0.22737810015678406
+step=5, distance_error=0.1901615709066391
+step=6, distance_error=0.16635259985923767
+step=7, distance_error=0.16992929577827454
+step=8, distance_error=0.1743152141571045
+step=9, distance_error=0.17432135343551636
+step=10, distance_error=0.16915187239646912
+step=11, distance_error=0.1514727622270584
+step=12, distance_error=0.15383832156658173
+step=13, distance_error=0.16074194014072418
+step=14, distance_error=0.15825890004634857
+step=15, distance_error=0.18189017474651337
+step=16, distance_error=0.14427219331264496
+step=17, distance_error=0.11370120197534561
+step=18, distance_error=0.11347340047359467
+step=19, distance_error=0.10576267540454865
+step=20, distance_error=0.10765506327152252
+step=21, distance_error=0.13980929553508759
+step=22, distance_error=0.11688558757305145
+step=23, distance_error=0.1322784125804901
+step=24, distance_error=0.13888435065746307
+step=25, distance_error=0.13410894572734833
+step=26, distance_error=0.10209419578313828
+step=27, distance_error=0.1043047159910202
+step=28, distance_error=0.102950818836689
+step=29, distance_error=0.12082405388355255
+Episode : 64
+RESET ENV !
+initial distance error = -0.16526584327220917
+step=0, distance_error=0.14828714728355408
+step=1, distance_error=0.13291923701763153
+step=2, distance_error=0.1371101438999176
+step=3, distance_error=0.13881108164787292
+step=4, distance_error=0.1330505907535553
+step=5, distance_error=0.15498846769332886
+step=6, distance_error=0.16385173797607422
+step=7, distance_error=0.15984933078289032
+step=8, distance_error=0.1531224250793457
+step=9, distance_error=0.11651565879583359
+step=10, distance_error=0.12615080177783966
+step=11, distance_error=0.11264937371015549
+step=12, distance_error=0.11855576932430267
+step=13, distance_error=0.10622292757034302
+step=14, distance_error=0.11310658603906631
+step=15, distance_error=0.11807048320770264
+step=16, distance_error=0.12231547385454178
+step=17, distance_error=0.11844205856323242
+step=18, distance_error=0.12265191972255707
+step=19, distance_error=0.11985572427511215
+step=20, distance_error=0.12950624525547028
+step=21, distance_error=0.1389603316783905
+step=22, distance_error=0.13896393775939941
+step=23, distance_error=0.1371115893125534
+step=24, distance_error=0.1481562852859497
+step=25, distance_error=0.15246519446372986
+step=26, distance_error=0.14205092191696167
+step=27, distance_error=0.10948149859905243
+step=28, distance_error=0.1239314004778862
+step=29, distance_error=0.14949996769428253
+Episode : 65
+RESET ENV !
+initial distance error = -0.2779533863067627
+step=0, distance_error=0.28966501355171204
+step=1, distance_error=0.27749714255332947
+step=2, distance_error=0.25305652618408203
+step=3, distance_error=0.23890499770641327
+step=4, distance_error=0.21411985158920288
+step=5, distance_error=0.20644322037696838
+step=6, distance_error=0.2090398669242859
+step=7, distance_error=0.19117502868175507
+step=8, distance_error=0.1681920289993286
+step=9, distance_error=0.15837758779525757
+step=10, distance_error=0.15678352117538452
+step=11, distance_error=0.15548062324523926
+step=12, distance_error=0.16323955357074738
+step=13, distance_error=0.20077413320541382
+step=14, distance_error=0.1894802302122116
+step=15, distance_error=0.17621558904647827
+step=16, distance_error=0.18494242429733276
+step=17, distance_error=0.19786719977855682
+step=18, distance_error=0.17870678007602692
+step=19, distance_error=0.17817150056362152
+step=20, distance_error=0.17773465812206268
+step=21, distance_error=0.17732301354408264
+step=22, distance_error=0.1994747370481491
+step=23, distance_error=0.19890868663787842
+step=24, distance_error=0.17427144944667816
+step=25, distance_error=0.17330984771251678
+step=26, distance_error=0.17059849202632904
+step=27, distance_error=0.16937312483787537
+step=28, distance_error=0.18546171486377716
+step=29, distance_error=0.1638534814119339
+Episode : 66
+RESET ENV !
+initial distance error = -0.24102284014225006
+step=0, distance_error=0.1948188692331314
+step=1, distance_error=0.19128219783306122
+step=2, distance_error=0.17412681877613068
+step=3, distance_error=0.16382674872875214
+step=4, distance_error=0.13078449666500092
+step=5, distance_error=0.13033491373062134
+step=6, distance_error=0.125576913356781
+step=7, distance_error=0.12490004301071167
+step=8, distance_error=0.12443316727876663
+step=9, distance_error=0.1244412437081337
+step=10, distance_error=0.13697205483913422
+step=11, distance_error=0.14162388443946838
+step=12, distance_error=0.1267586499452591
+step=13, distance_error=0.13730370998382568
+step=14, distance_error=0.13785812258720398
+step=15, distance_error=0.16418437659740448
+step=16, distance_error=0.17515139281749725
+step=17, distance_error=0.15888899564743042
+step=18, distance_error=0.11854884028434753
+step=19, distance_error=0.1186545118689537
+step=20, distance_error=0.11884171515703201
+step=21, distance_error=0.14229297637939453
+step=22, distance_error=0.14255362749099731
+step=23, distance_error=0.1427142322063446
+step=24, distance_error=0.14279669523239136
+step=25, distance_error=0.13542437553405762
+step=26, distance_error=0.14253011345863342
+step=27, distance_error=0.1426989734172821
+step=28, distance_error=0.12494632601737976
+step=29, distance_error=0.129352405667305
+Episode : 67
+RESET ENV !
+initial distance error = -0.18684406578540802
+step=0, distance_error=0.15450558066368103
+step=1, distance_error=0.1482117772102356
+step=2, distance_error=0.1477413922548294
+step=3, distance_error=0.13591855764389038
+step=4, distance_error=0.15045732259750366
+step=5, distance_error=0.15046830475330353
+step=6, distance_error=0.12908722460269928
+step=7, distance_error=0.12445592880249023
+step=8, distance_error=0.10502412170171738
+step=9, distance_error=0.12268869578838348
+step=10, distance_error=0.12792706489562988
+step=11, distance_error=0.12864536046981812
+step=12, distance_error=0.12933632731437683
+step=13, distance_error=0.12733671069145203
+step=14, distance_error=0.148458793759346
+step=15, distance_error=0.1597994565963745
+step=16, distance_error=0.1653597205877304
+step=17, distance_error=0.14821723103523254
+step=18, distance_error=0.17154470086097717
+step=19, distance_error=0.14191834628582
+step=20, distance_error=0.16150088608264923
+step=21, distance_error=0.16163349151611328
+step=22, distance_error=0.12105666100978851
+step=23, distance_error=0.09906640648841858
+step=24, distance_error=0.09994053840637207
+step=25, distance_error=0.14869935810565948
+step=26, distance_error=0.1346723735332489
+step=27, distance_error=0.12037109583616257
+step=28, distance_error=0.12344274669885635
+step=29, distance_error=0.10872271656990051
+Episode : 68
+RESET ENV !
+initial distance error = -0.15768519043922424
+step=0, distance_error=0.1098242700099945
+step=1, distance_error=0.07281046360731125
+done with step=1  !
+Episode : 69
+RESET ENV !
+initial distance error = -0.22922679781913757
+step=0, distance_error=0.1679777055978775
+step=1, distance_error=0.10767973959445953
+step=2, distance_error=0.15198838710784912
+step=3, distance_error=0.15198282897472382
+step=4, distance_error=0.1191864088177681
+step=5, distance_error=0.136300727725029
+step=6, distance_error=0.13628201186656952
+step=7, distance_error=0.13616734743118286
+step=8, distance_error=0.1360427588224411
+step=9, distance_error=0.1359388381242752
+step=10, distance_error=0.10092131048440933
+step=11, distance_error=0.10060864686965942
+step=12, distance_error=0.10046137124300003
+step=13, distance_error=0.10032191127538681
+step=14, distance_error=0.0555332787334919
+done with step=14  !
+Episode : 70
+RESET ENV !
+initial distance error = -0.19274482131004333
+step=0, distance_error=0.1353157013654709
+step=1, distance_error=0.1642148196697235
+step=2, distance_error=0.13311217725276947
+step=3, distance_error=0.11888521909713745
+step=4, distance_error=0.12137758731842041
+step=5, distance_error=0.10417068749666214
+step=6, distance_error=0.14852792024612427
+step=7, distance_error=0.12884993851184845
+step=8, distance_error=0.10831867903470993
+step=9, distance_error=0.12057168781757355
+step=10, distance_error=0.14773914217948914
+step=11, distance_error=0.12229300290346146
+step=12, distance_error=0.12266968935728073
+step=13, distance_error=0.1458713710308075
+step=14, distance_error=0.14538677036762238
+step=15, distance_error=0.13869859278202057
+step=16, distance_error=0.13493739068508148
+step=17, distance_error=0.13127073645591736
+step=18, distance_error=0.12248319387435913
+step=19, distance_error=0.12875063717365265
+step=20, distance_error=0.13234788179397583
+step=21, distance_error=0.15093301236629486
+step=22, distance_error=0.1376020908355713
+step=23, distance_error=0.1260710507631302
+step=24, distance_error=0.11992383748292923
+step=25, distance_error=0.11944527179002762
+step=26, distance_error=0.1324504166841507
+step=27, distance_error=0.12193360179662704
+step=28, distance_error=0.12178750336170197
+step=29, distance_error=0.13597472012043
+Episode : 71
+RESET ENV !
+initial distance error = -0.2653816342353821
+step=0, distance_error=0.24573981761932373
+step=1, distance_error=0.1953621655702591
+step=2, distance_error=0.187357097864151
+step=3, distance_error=0.14781925082206726
+step=4, distance_error=0.1228887066245079
+step=5, distance_error=0.13379503786563873
+step=6, distance_error=0.169398695230484
+step=7, distance_error=0.15747103095054626
+step=8, distance_error=0.1525578498840332
+step=9, distance_error=0.11756682395935059
+step=10, distance_error=0.11360909789800644
+step=11, distance_error=0.13384012877941132
+step=12, distance_error=0.13470083475112915
+step=13, distance_error=0.1405058354139328
+step=14, distance_error=0.13872279226779938
+step=15, distance_error=0.0997595265507698
+step=16, distance_error=0.09023832529783249
+step=17, distance_error=0.10406629741191864
+step=18, distance_error=0.1149040013551712
+step=19, distance_error=0.11541742086410522
+step=20, distance_error=0.12183181196451187
+step=21, distance_error=0.10353777557611465
+step=22, distance_error=0.09664342552423477
+step=23, distance_error=0.11314830929040909
+step=24, distance_error=0.12900638580322266
+step=25, distance_error=0.12907405197620392
+step=26, distance_error=0.1291060894727707
+step=27, distance_error=0.12496296316385269
+step=28, distance_error=0.10010690987110138
+step=29, distance_error=0.08512259274721146
+Episode : 72
+RESET ENV !
+initial distance error = -0.2163500189781189
+step=0, distance_error=0.1895703226327896
+step=1, distance_error=0.1604994684457779
+step=2, distance_error=0.14729958772659302
+step=3, distance_error=0.13382883369922638
+step=4, distance_error=0.15471819043159485
+step=5, distance_error=0.1439812183380127
+step=6, distance_error=0.15555430948734283
+step=7, distance_error=0.19045276939868927
+step=8, distance_error=0.19043050706386566
+step=9, distance_error=0.15021531283855438
+step=10, distance_error=0.1640026867389679
+step=11, distance_error=0.1692458540201187
+step=12, distance_error=0.15752457082271576
+step=13, distance_error=0.15034952759742737
+step=14, distance_error=0.1625974327325821
+step=15, distance_error=0.16007600724697113
+step=16, distance_error=0.1786142885684967
+step=17, distance_error=0.17066314816474915
+step=18, distance_error=0.16925881803035736
+step=19, distance_error=0.1684672087430954
+step=20, distance_error=0.1754142940044403
+step=21, distance_error=0.18016374111175537
+step=22, distance_error=0.15801405906677246
+step=23, distance_error=0.1331011950969696
+step=24, distance_error=0.1321326494216919
+step=25, distance_error=0.14823554456233978
+step=26, distance_error=0.15483443439006805
+step=27, distance_error=0.14952592551708221
+step=28, distance_error=0.14127185940742493
+step=29, distance_error=0.12855535745620728
+Episode : 73
+RESET ENV !
+initial distance error = -0.2455362230539322
+step=0, distance_error=0.23475073277950287
+step=1, distance_error=0.18805982172489166
+step=2, distance_error=0.17207327485084534
+step=3, distance_error=0.17853082716464996
+step=4, distance_error=0.1695466786623001
+step=5, distance_error=0.15283744037151337
+step=6, distance_error=0.16805510222911835
+step=7, distance_error=0.14317119121551514
+step=8, distance_error=0.16570723056793213
+step=9, distance_error=0.16708090901374817
+step=10, distance_error=0.16626743972301483
+step=11, distance_error=0.14105969667434692
+step=12, distance_error=0.12186597287654877
+step=13, distance_error=0.12178396433591843
+step=14, distance_error=0.15229962766170502
+step=15, distance_error=0.14667296409606934
+step=16, distance_error=0.14548248052597046
+step=17, distance_error=0.14480315148830414
+step=18, distance_error=0.1438138633966446
+step=19, distance_error=0.14947307109832764
+step=20, distance_error=0.12245700508356094
+step=21, distance_error=0.10114456713199615
+step=22, distance_error=0.1150066927075386
+step=23, distance_error=0.14646615087985992
+step=24, distance_error=0.10718226432800293
+step=25, distance_error=0.10300439596176147
+step=26, distance_error=0.14319340884685516
+step=27, distance_error=0.14346840977668762
+step=28, distance_error=0.09486857056617737
+step=29, distance_error=0.11131469905376434
+Episode : 74
+RESET ENV !
+initial distance error = -0.32504457235336304
+step=0, distance_error=0.2469918131828308
+step=1, distance_error=0.19556380808353424
+step=2, distance_error=0.17834961414337158
+step=3, distance_error=0.17047041654586792
+step=4, distance_error=0.15975229442119598
+step=5, distance_error=0.15995189547538757
+step=6, distance_error=0.16740109026432037
+step=7, distance_error=0.16933074593544006
+step=8, distance_error=0.16904224455356598
+step=9, distance_error=0.18789337575435638
+step=10, distance_error=0.14831355214118958
+step=11, distance_error=0.14452743530273438
+step=12, distance_error=0.14532873034477234
+step=13, distance_error=0.14586305618286133
+step=14, distance_error=0.14638572931289673
+step=15, distance_error=0.1467326581478119
+step=16, distance_error=0.1472662091255188
+step=17, distance_error=0.14756450057029724
+step=18, distance_error=0.14789819717407227
+step=19, distance_error=0.15709489583969116
+step=20, distance_error=0.15664924681186676
+step=21, distance_error=0.12624062597751617
+step=22, distance_error=0.1375037133693695
+step=23, distance_error=0.13806886970996857
+step=24, distance_error=0.13864095509052277
+step=25, distance_error=0.13931035995483398
+step=26, distance_error=0.13994713127613068
+step=27, distance_error=0.15126729011535645
+step=28, distance_error=0.15211404860019684
+step=29, distance_error=0.16627603769302368
+Episode : 75
+RESET ENV !
+initial distance error = -0.195157989859581
+step=0, distance_error=0.13949579000473022
+step=1, distance_error=0.12009978294372559
+step=2, distance_error=0.1492585688829422
+step=3, distance_error=0.1297016143798828
+step=4, distance_error=0.11498165875673294
+step=5, distance_error=0.10680820792913437
+step=6, distance_error=0.10643848031759262
+step=7, distance_error=0.10615473240613937
+step=8, distance_error=0.10590434819459915
+step=9, distance_error=0.09750042110681534
+step=10, distance_error=0.09760542213916779
+step=11, distance_error=0.09761032462120056
+step=12, distance_error=0.09763649106025696
+step=13, distance_error=0.09761490672826767
+step=14, distance_error=0.09760316461324692
+step=15, distance_error=0.09756407886743546
+step=16, distance_error=0.11288939416408539
+step=17, distance_error=0.11192820221185684
+step=18, distance_error=0.11286427080631256
+step=19, distance_error=0.11351284384727478
+step=20, distance_error=0.11399948596954346
+step=21, distance_error=0.12432843446731567
+step=22, distance_error=0.12281278520822525
+step=23, distance_error=0.13945221900939941
+step=24, distance_error=0.14235137403011322
+step=25, distance_error=0.1530158519744873
+step=26, distance_error=0.11925283074378967
+step=27, distance_error=0.09789061546325684
+step=28, distance_error=0.09937763214111328
+step=29, distance_error=0.10043337196111679
+Episode : 76
+RESET ENV !
+initial distance error = -0.2991529405117035
+step=0, distance_error=0.2779994010925293
+step=1, distance_error=0.23719348013401031
+step=2, distance_error=0.1785225123167038
+step=3, distance_error=0.191059872508049
+step=4, distance_error=0.1909601390361786
+step=5, distance_error=0.13003680109977722
+step=6, distance_error=0.15819460153579712
+step=7, distance_error=0.12430531531572342
+step=8, distance_error=0.12940713763237
+step=9, distance_error=0.1251077950000763
+step=10, distance_error=0.13970915973186493
+step=11, distance_error=0.12065434455871582
+step=12, distance_error=0.14550016820430756
+step=13, distance_error=0.12048845738172531
+step=14, distance_error=0.12054193764925003
+step=15, distance_error=0.12141364067792892
+step=16, distance_error=0.16211490333080292
+step=17, distance_error=0.17325805127620697
+step=18, distance_error=0.18115104734897614
+step=19, distance_error=0.1801633983850479
+step=20, distance_error=0.15766353905200958
+step=21, distance_error=0.1415746957063675
+step=22, distance_error=0.15601055324077606
+step=23, distance_error=0.17849627137184143
+step=24, distance_error=0.17882762849330902
+step=25, distance_error=0.17339260876178741
+step=26, distance_error=0.1796557605266571
+step=27, distance_error=0.17055334150791168
+step=28, distance_error=0.12329281121492386
+step=29, distance_error=0.10665342956781387
+Episode : 77
+RESET ENV !
+initial distance error = -0.33618488907814026
+step=0, distance_error=0.2494308203458786
+step=1, distance_error=0.19748224318027496
+step=2, distance_error=0.1641121208667755
+step=3, distance_error=0.1369282603263855
+step=4, distance_error=0.1220991387963295
+step=5, distance_error=0.1297081559896469
+step=6, distance_error=0.1161716878414154
+step=7, distance_error=0.13092298805713654
+step=8, distance_error=0.12786437571048737
+step=9, distance_error=0.14689777791500092
+step=10, distance_error=0.1613091677427292
+step=11, distance_error=0.1567607969045639
+step=12, distance_error=0.1731867641210556
+step=13, distance_error=0.15107880532741547
+step=14, distance_error=0.1686645895242691
+step=15, distance_error=0.16834692656993866
+step=16, distance_error=0.16530370712280273
+step=17, distance_error=0.14349237084388733
+step=18, distance_error=0.15179859101772308
+step=19, distance_error=0.15031279623508453
+step=20, distance_error=0.14176280796527863
+step=21, distance_error=0.12985777854919434
+step=22, distance_error=0.12985382974147797
+step=23, distance_error=0.12970833480358124
+step=24, distance_error=0.12950950860977173
+step=25, distance_error=0.11930227279663086
+step=26, distance_error=0.13276131451129913
+step=27, distance_error=0.1511736661195755
+step=28, distance_error=0.15138046443462372
+step=29, distance_error=0.15150895714759827
+Episode : 78
+RESET ENV !
+initial distance error = -0.23227253556251526
+step=0, distance_error=0.22060535848140717
+step=1, distance_error=0.1924831122159958
+step=2, distance_error=0.16872557997703552
+step=3, distance_error=0.15583588182926178
+step=4, distance_error=0.15999308228492737
+step=5, distance_error=0.18326058983802795
+step=6, distance_error=0.17721301317214966
+step=7, distance_error=0.178082674741745
+step=8, distance_error=0.19638383388519287
+step=9, distance_error=0.18312032520771027
+step=10, distance_error=0.18973366916179657
+step=11, distance_error=0.20215541124343872
+step=12, distance_error=0.18997682631015778
+step=13, distance_error=0.15601781010627747
+step=14, distance_error=0.15628518164157867
+step=15, distance_error=0.15653574466705322
+step=16, distance_error=0.1569540947675705
+step=17, distance_error=0.15035298466682434
+step=18, distance_error=0.16300451755523682
+step=19, distance_error=0.1506260633468628
+step=20, distance_error=0.18469290435314178
+step=21, distance_error=0.20757423341274261
+step=22, distance_error=0.16057881712913513
+step=23, distance_error=0.12678156793117523
+step=24, distance_error=0.12497764080762863
+step=25, distance_error=0.12530885636806488
+step=26, distance_error=0.12552930414676666
+step=27, distance_error=0.1274116039276123
+step=28, distance_error=0.13740268349647522
+step=29, distance_error=0.14822325110435486
+Episode : 79
+RESET ENV !
+initial distance error = -0.3044106662273407
+step=0, distance_error=0.25724998116493225
+step=1, distance_error=0.22385568916797638
+step=2, distance_error=0.23704774677753448
+step=3, distance_error=0.24711360037326813
+step=4, distance_error=0.2390529066324234
+step=5, distance_error=0.220793679356575
+step=6, distance_error=0.21674473583698273
+step=7, distance_error=0.21698172390460968
+step=8, distance_error=0.21713310480117798
+step=9, distance_error=0.20216719806194305
+step=10, distance_error=0.20138293504714966
+step=11, distance_error=0.17570848762989044
+step=12, distance_error=0.17469966411590576
+step=13, distance_error=0.17389097809791565
+step=14, distance_error=0.1695549488067627
+step=15, distance_error=0.16868485510349274
+step=16, distance_error=0.15996839106082916
+step=17, distance_error=0.18052491545677185
+step=18, distance_error=0.16127333045005798
+step=19, distance_error=0.16225184500217438
+step=20, distance_error=0.16293853521347046
+step=21, distance_error=0.1636541783809662
+step=22, distance_error=0.16415570676326752
+step=23, distance_error=0.16466881334781647
+step=24, distance_error=0.1890411674976349
+step=25, distance_error=0.17346206307411194
+step=26, distance_error=0.17267870903015137
+step=27, distance_error=0.1715715378522873
+step=28, distance_error=0.18177136778831482
+step=29, distance_error=0.1807735115289688
+Episode : 80
+RESET ENV !
+initial distance error = -0.1790396124124527
+step=0, distance_error=0.1278476119041443
+step=1, distance_error=0.14458055794239044
+step=2, distance_error=0.11235499382019043
+step=3, distance_error=0.11748762428760529
+step=4, distance_error=0.12055343389511108
+step=5, distance_error=0.1391555368900299
+step=6, distance_error=0.15601475536823273
+step=7, distance_error=0.1340562254190445
+step=8, distance_error=0.13140958547592163
+step=9, distance_error=0.12750689685344696
+step=10, distance_error=0.11590155214071274
+step=11, distance_error=0.10684343427419662
+step=12, distance_error=0.11658211797475815
+step=13, distance_error=0.13545586168766022
+step=14, distance_error=0.12568828463554382
+step=15, distance_error=0.14092183113098145
+step=16, distance_error=0.1283925324678421
+step=17, distance_error=0.14770233631134033
+step=18, distance_error=0.13443170487880707
+step=19, distance_error=0.14118807017803192
+step=20, distance_error=0.13781389594078064
+step=21, distance_error=0.11295779049396515
+step=22, distance_error=0.11265876144170761
+step=23, distance_error=0.10914742946624756
+step=24, distance_error=0.09304352849721909
+step=25, distance_error=0.1036980152130127
+step=26, distance_error=0.15579599142074585
+step=27, distance_error=0.15569351613521576
+step=28, distance_error=0.15570196509361267
+step=29, distance_error=0.1444009244441986
+Episode : 81
+RESET ENV !
+initial distance error = -0.3051026463508606
+step=0, distance_error=0.23548993468284607
+step=1, distance_error=0.16435980796813965
+step=2, distance_error=0.1324499398469925
+step=3, distance_error=0.13694927096366882
+step=4, distance_error=0.1536390334367752
+step=5, distance_error=0.1477043628692627
+step=6, distance_error=0.13370990753173828
+step=7, distance_error=0.13371407985687256
+step=8, distance_error=0.13368408381938934
+step=9, distance_error=0.13368336856365204
+step=10, distance_error=0.12496531009674072
+step=11, distance_error=0.12629660964012146
+step=12, distance_error=0.12721212208271027
+step=13, distance_error=0.12794910371303558
+step=14, distance_error=0.1284247785806656
+step=15, distance_error=0.12897488474845886
+step=16, distance_error=0.1295403093099594
+step=17, distance_error=0.15690010786056519
+step=18, distance_error=0.15806956589221954
+step=19, distance_error=0.15936368703842163
+step=20, distance_error=0.16448576748371124
+step=21, distance_error=0.1743653118610382
+step=22, distance_error=0.15783730149269104
+step=23, distance_error=0.14408284425735474
+step=24, distance_error=0.14311794936656952
+step=25, distance_error=0.14235135912895203
+step=26, distance_error=0.14184953272342682
+step=27, distance_error=0.14209330081939697
+step=28, distance_error=0.15316960215568542
+step=29, distance_error=0.15236753225326538
+Episode : 82
+RESET ENV !
+initial distance error = -0.300895094871521
+step=0, distance_error=0.24153953790664673
+step=1, distance_error=0.21604909002780914
+step=2, distance_error=0.22834019362926483
+step=3, distance_error=0.19794374704360962
+step=4, distance_error=0.19328826665878296
+step=5, distance_error=0.17932799458503723
+step=6, distance_error=0.19307871162891388
+step=7, distance_error=0.19518108665943146
+step=8, distance_error=0.18863044679164886
+step=9, distance_error=0.17744436860084534
+step=10, distance_error=0.17790091037750244
+step=11, distance_error=0.17831699550151825
+step=12, distance_error=0.18139436841011047
+step=13, distance_error=0.18107549846172333
+step=14, distance_error=0.1825638860464096
+step=15, distance_error=0.20038823783397675
+step=16, distance_error=0.19789239764213562
+step=17, distance_error=0.19482286274433136
+step=18, distance_error=0.1755591481924057
+step=19, distance_error=0.19524775445461273
+step=20, distance_error=0.20655670762062073
+step=21, distance_error=0.19750015437602997
+step=22, distance_error=0.14883925020694733
+step=23, distance_error=0.1395092010498047
+step=24, distance_error=0.16247235238552094
+step=25, distance_error=0.18333463370800018
+step=26, distance_error=0.1802082061767578
+step=27, distance_error=0.1526067703962326
+step=28, distance_error=0.1725231558084488
+step=29, distance_error=0.18442033231258392
+Episode : 83
+RESET ENV !
+initial distance error = -0.23068645596504211
+step=0, distance_error=0.1891840398311615
+step=1, distance_error=0.17987440526485443
+step=2, distance_error=0.18618009984493256
+step=3, distance_error=0.18015936017036438
+step=4, distance_error=0.16434574127197266
+step=5, distance_error=0.16860376298427582
+step=6, distance_error=0.15512996912002563
+step=7, distance_error=0.14623384177684784
+step=8, distance_error=0.17110298573970795
+step=9, distance_error=0.14574845135211945
+step=10, distance_error=0.13854289054870605
+step=11, distance_error=0.15468688309192657
+step=12, distance_error=0.17004095017910004
+step=13, distance_error=0.16846492886543274
+step=14, distance_error=0.16474293172359467
+step=15, distance_error=0.1888694316148758
+step=16, distance_error=0.18602712452411652
+step=17, distance_error=0.20122811198234558
+step=18, distance_error=0.18969577550888062
+step=19, distance_error=0.17037883400917053
+step=20, distance_error=0.18776613473892212
+step=21, distance_error=0.15877729654312134
+step=22, distance_error=0.13783875107765198
+step=23, distance_error=0.1487581878900528
+step=24, distance_error=0.1319844275712967
+step=25, distance_error=0.15201954543590546
+step=26, distance_error=0.1776607781648636
+step=27, distance_error=0.20200002193450928
+step=28, distance_error=0.15432658791542053
+step=29, distance_error=0.15158116817474365
+Episode : 84
+RESET ENV !
+initial distance error = -0.24426987767219543
+step=0, distance_error=0.16613607108592987
+step=1, distance_error=0.22543908655643463
+step=2, distance_error=0.16972418129444122
+step=3, distance_error=0.12335071712732315
+step=4, distance_error=0.10554548352956772
+step=5, distance_error=0.09968798607587814
+step=6, distance_error=0.09963667392730713
+step=7, distance_error=0.09959620237350464
+step=8, distance_error=0.10988271236419678
+step=9, distance_error=0.10988868772983551
+step=10, distance_error=0.1280043125152588
+step=11, distance_error=0.1430077850818634
+step=12, distance_error=0.13134261965751648
+step=13, distance_error=0.11549033969640732
+step=14, distance_error=0.11533623933792114
+step=15, distance_error=0.11526206880807877
+step=16, distance_error=0.11259656399488449
+step=17, distance_error=0.13736592233181
+step=18, distance_error=0.12790179252624512
+step=19, distance_error=0.14138515293598175
+step=20, distance_error=0.1225573867559433
+step=21, distance_error=0.1332254707813263
+step=22, distance_error=0.13514679670333862
+step=23, distance_error=0.11424276232719421
+step=24, distance_error=0.12388761341571808
+step=25, distance_error=0.12854818999767303
+step=26, distance_error=0.14723797142505646
+step=27, distance_error=0.11596505343914032
+step=28, distance_error=0.11595088243484497
+step=29, distance_error=0.11593584716320038
+Episode : 85
+RESET ENV !
+initial distance error = -0.1474727839231491
+step=0, distance_error=0.18563219904899597
+step=1, distance_error=0.14859840273857117
+step=2, distance_error=0.14382602274417877
+step=3, distance_error=0.08478493988513947
+step=4, distance_error=0.12023834139108658
+step=5, distance_error=0.14878547191619873
+step=6, distance_error=0.14713166654109955
+step=7, distance_error=0.14708799123764038
+step=8, distance_error=0.14706788957118988
+step=9, distance_error=0.14703021943569183
+step=10, distance_error=0.13542240858078003
+step=11, distance_error=0.101481594145298
+step=12, distance_error=0.10162200778722763
+step=13, distance_error=0.09577544778585434
+step=14, distance_error=0.10715341567993164
+step=15, distance_error=0.09631174057722092
+step=16, distance_error=0.09633217006921768
+step=17, distance_error=0.09615391492843628
+step=18, distance_error=0.09751225262880325
+step=19, distance_error=0.10046975314617157
+step=20, distance_error=0.09063027799129486
+step=21, distance_error=0.09024854749441147
+step=22, distance_error=0.08958054333925247
+step=23, distance_error=0.08909624814987183
+step=24, distance_error=0.08891898393630981
+step=25, distance_error=0.08847911655902863
+step=26, distance_error=0.08848969638347626
+step=27, distance_error=0.08822877705097198
+step=28, distance_error=0.10776083916425705
+step=29, distance_error=0.10696596652269363
+Episode : 86
+RESET ENV !
+initial distance error = -0.23068919777870178
+step=0, distance_error=0.18924519419670105
+step=1, distance_error=0.1762528419494629
+step=2, distance_error=0.17742516100406647
+step=3, distance_error=0.1473836600780487
+step=4, distance_error=0.14579208195209503
+step=5, distance_error=0.15011495351791382
+step=6, distance_error=0.1477643996477127
+step=7, distance_error=0.14570468664169312
+step=8, distance_error=0.14492575824260712
+step=9, distance_error=0.14238709211349487
+step=10, distance_error=0.14252930879592896
+step=11, distance_error=0.11394546926021576
+step=12, distance_error=0.14351488649845123
+step=13, distance_error=0.1187303438782692
+step=14, distance_error=0.1529175192117691
+step=15, distance_error=0.15358120203018188
+step=16, distance_error=0.1656452715396881
+step=17, distance_error=0.14968709647655487
+step=18, distance_error=0.16905415058135986
+step=19, distance_error=0.16218741238117218
+step=20, distance_error=0.17704997956752777
+step=21, distance_error=0.1700076311826706
+step=22, distance_error=0.14316950738430023
+step=23, distance_error=0.14102204144001007
+step=24, distance_error=0.17068655788898468
+step=25, distance_error=0.22003379464149475
+step=26, distance_error=0.21999236941337585
+step=27, distance_error=0.1969064176082611
+step=28, distance_error=0.2008908987045288
+step=29, distance_error=0.18431076407432556
+Episode : 87
+RESET ENV !
+initial distance error = -0.21401537954807281
+step=0, distance_error=0.19832012057304382
+step=1, distance_error=0.18778054416179657
+step=2, distance_error=0.20023471117019653
+step=3, distance_error=0.19602744281291962
+step=4, distance_error=0.1699407994747162
+step=5, distance_error=0.17776766419410706
+step=6, distance_error=0.15647423267364502
+step=7, distance_error=0.14686205983161926
+step=8, distance_error=0.1690613180398941
+step=9, distance_error=0.15520690381526947
+step=10, distance_error=0.17793945968151093
+step=11, distance_error=0.18271222710609436
+step=12, distance_error=0.17354333400726318
+step=13, distance_error=0.18196743726730347
+step=14, distance_error=0.14516687393188477
+step=15, distance_error=0.15886768698692322
+step=16, distance_error=0.13892285525798798
+step=17, distance_error=0.12452768534421921
+step=18, distance_error=0.13666655123233795
+step=19, distance_error=0.14270804822444916
+step=20, distance_error=0.17082279920578003
+step=21, distance_error=0.13518932461738586
+step=22, distance_error=0.1336740106344223
+step=23, distance_error=0.1516711264848709
+step=24, distance_error=0.1665206104516983
+step=25, distance_error=0.1704694777727127
+step=26, distance_error=0.15038351714611053
+step=27, distance_error=0.13336463272571564
+step=28, distance_error=0.13105508685112
+step=29, distance_error=0.1415376365184784
+Episode : 88
+RESET ENV !
+initial distance error = -0.11249174922704697
+step=0, distance_error=0.09745895862579346
+step=1, distance_error=0.07841203361749649
+done with step=1  !
+Episode : 89
+RESET ENV !
+initial distance error = -0.18845881521701813
+step=0, distance_error=0.20261158049106598
+step=1, distance_error=0.17535001039505005
+step=2, distance_error=0.1445055454969406
+step=3, distance_error=0.12866966426372528
+step=4, distance_error=0.12284708023071289
+step=5, distance_error=0.12345279008150101
+step=6, distance_error=0.12394619733095169
+step=7, distance_error=0.1419462412595749
+step=8, distance_error=0.11862973123788834
+step=9, distance_error=0.11906815320253372
+step=10, distance_error=0.11930394917726517
+step=11, distance_error=0.11952785402536392
+step=12, distance_error=0.14123088121414185
+step=13, distance_error=0.14847305417060852
+step=14, distance_error=0.12259887903928757
+step=15, distance_error=0.11608926951885223
+step=16, distance_error=0.11667463928461075
+step=17, distance_error=0.11727950721979141
+step=18, distance_error=0.12717890739440918
+step=19, distance_error=0.12762488424777985
+step=20, distance_error=0.15397827327251434
+step=21, distance_error=0.15964245796203613
+step=22, distance_error=0.13725188374519348
+step=23, distance_error=0.148972287774086
+step=24, distance_error=0.14708957076072693
+step=25, distance_error=0.16136735677719116
+step=26, distance_error=0.15795008838176727
+step=27, distance_error=0.11479969322681427
+step=28, distance_error=0.12362492829561234
+step=29, distance_error=0.1344977468252182
+Episode : 90
+RESET ENV !
+initial distance error = -0.10287649929523468
+step=0, distance_error=0.09200868755578995
+step=1, distance_error=0.08870526403188705
+step=2, distance_error=0.11675406992435455
+step=3, distance_error=0.09793182462453842
+step=4, distance_error=0.08597191423177719
+step=5, distance_error=0.1195114478468895
+step=6, distance_error=0.15745499730110168
+step=7, distance_error=0.11623603105545044
+step=8, distance_error=0.12464787065982819
+step=9, distance_error=0.11508405208587646
+step=10, distance_error=0.1284734308719635
+step=11, distance_error=0.11823168396949768
+step=12, distance_error=0.12109702825546265
+step=13, distance_error=0.139132559299469
+step=14, distance_error=0.11003165692090988
+step=15, distance_error=0.1425507515668869
+step=16, distance_error=0.130970299243927
+step=17, distance_error=0.11453506350517273
+step=18, distance_error=0.10766866058111191
+step=19, distance_error=0.10841759294271469
+step=20, distance_error=0.1104952022433281
+step=21, distance_error=0.1011994332075119
+step=22, distance_error=0.1164911761879921
+step=23, distance_error=0.10522530227899551
+step=24, distance_error=0.10483857244253159
+step=25, distance_error=0.13064998388290405
+step=26, distance_error=0.10182718187570572
+step=27, distance_error=0.11613225191831589
+step=28, distance_error=0.1037897914648056
+step=29, distance_error=0.1138380616903305
+Episode : 91
+RESET ENV !
+initial distance error = -0.15550269186496735
+step=0, distance_error=0.12402021139860153
+step=1, distance_error=0.12997378408908844
+step=2, distance_error=0.1471002995967865
+step=3, distance_error=0.1787283569574356
+step=4, distance_error=0.13332730531692505
+step=5, distance_error=0.13629621267318726
+step=6, distance_error=0.14306193590164185
+step=7, distance_error=0.11345753818750381
+step=8, distance_error=0.11405633389949799
+step=9, distance_error=0.11079168319702148
+step=10, distance_error=0.12095768749713898
+step=11, distance_error=0.11210505664348602
+step=12, distance_error=0.13472512364387512
+step=13, distance_error=0.12178996950387955
+step=14, distance_error=0.144331157207489
+step=15, distance_error=0.11213105916976929
+step=16, distance_error=0.10109401494264603
+step=17, distance_error=0.1133694276213646
+step=18, distance_error=0.1374380886554718
+step=19, distance_error=0.1453450471162796
+step=20, distance_error=0.13032186031341553
+step=21, distance_error=0.1278388500213623
+step=22, distance_error=0.12634021043777466
+step=23, distance_error=0.13526363670825958
+step=24, distance_error=0.12456586211919785
+step=25, distance_error=0.11272072792053223
+step=26, distance_error=0.12807409465312958
+step=27, distance_error=0.1125468835234642
+step=28, distance_error=0.12079627066850662
+step=29, distance_error=0.10619672387838364
+Episode : 92
+RESET ENV !
+initial distance error = -0.18436777591705322
+step=0, distance_error=0.17836324870586395
+step=1, distance_error=0.1535782665014267
+step=2, distance_error=0.12058576941490173
+step=3, distance_error=0.09624389559030533
+step=4, distance_error=0.09455856680870056
+step=5, distance_error=0.12329971045255661
+step=6, distance_error=0.058080460876226425
+done with step=6  !
+Episode : 93
+RESET ENV !
+initial distance error = -0.18711477518081665
+step=0, distance_error=0.184418186545372
+step=1, distance_error=0.13303740322589874
+step=2, distance_error=0.1427137404680252
+step=3, distance_error=0.12683634459972382
+step=4, distance_error=0.11319997906684875
+step=5, distance_error=0.12100116163492203
+step=6, distance_error=0.12119629979133606
+step=7, distance_error=0.12088073045015335
+step=8, distance_error=0.14775905013084412
+step=9, distance_error=0.11543180048465729
+step=10, distance_error=0.12793217599391937
+step=11, distance_error=0.14430706202983856
+step=12, distance_error=0.0988679975271225
+step=13, distance_error=0.11046530306339264
+step=14, distance_error=0.11894811689853668
+step=15, distance_error=0.12744268774986267
+step=16, distance_error=0.1274668276309967
+step=17, distance_error=0.12746722996234894
+step=18, distance_error=0.12076756358146667
+step=19, distance_error=0.119572713971138
+step=20, distance_error=0.12923885881900787
+step=21, distance_error=0.13644219934940338
+step=22, distance_error=0.1364019811153412
+step=23, distance_error=0.12138064205646515
+step=24, distance_error=0.11101777106523514
+step=25, distance_error=0.12331854552030563
+step=26, distance_error=0.12281008064746857
+step=27, distance_error=0.12279479205608368
+step=28, distance_error=0.12283763289451599
+step=29, distance_error=0.12286204099655151
+Episode : 94
+RESET ENV !
+initial distance error = -0.32242998480796814
+step=0, distance_error=0.25635236501693726
+step=1, distance_error=0.22854731976985931
+step=2, distance_error=0.2611619234085083
+step=3, distance_error=0.2422952651977539
+step=4, distance_error=0.2119157761335373
+step=5, distance_error=0.1814098060131073
+step=6, distance_error=0.15495729446411133
+step=7, distance_error=0.1489560902118683
+step=8, distance_error=0.14886721968650818
+step=9, distance_error=0.1505284458398819
+step=10, distance_error=0.160749152302742
+step=11, distance_error=0.18436434864997864
+step=12, distance_error=0.14248767495155334
+step=13, distance_error=0.1534697413444519
+step=14, distance_error=0.14392483234405518
+step=15, distance_error=0.14464305341243744
+step=16, distance_error=0.13635531067848206
+step=17, distance_error=0.1587298959493637
+step=18, distance_error=0.13716056942939758
+step=19, distance_error=0.13740617036819458
+step=20, distance_error=0.13766637444496155
+step=21, distance_error=0.16628752648830414
+step=22, distance_error=0.15995880961418152
+step=23, distance_error=0.14157038927078247
+step=24, distance_error=0.14123548567295074
+step=25, distance_error=0.1620093733072281
+step=26, distance_error=0.1545441746711731
+step=27, distance_error=0.16249902546405792
+step=28, distance_error=0.15174663066864014
+step=29, distance_error=0.15232111513614655
+Episode : 95
+RESET ENV !
+initial distance error = -0.0415596142411232
+step=0, distance_error=0.12544678151607513
+step=1, distance_error=0.08908113092184067
+step=2, distance_error=0.06615777313709259
+done with step=2  !
+Episode : 96
+RESET ENV !
+initial distance error = -0.25067439675331116
+step=0, distance_error=0.2361425906419754
+step=1, distance_error=0.21424847841262817
+step=2, distance_error=0.20483915507793427
+step=3, distance_error=0.17671537399291992
+step=4, distance_error=0.17381905019283295
+step=5, distance_error=0.15361465513706207
+step=6, distance_error=0.13115194439888
+step=7, distance_error=0.1709192395210266
+step=8, distance_error=0.17319415509700775
+step=9, distance_error=0.1715877801179886
+step=10, distance_error=0.12882043421268463
+step=11, distance_error=0.10719259083271027
+step=12, distance_error=0.11435837298631668
+step=13, distance_error=0.1127656102180481
+step=14, distance_error=0.12974068522453308
+step=15, distance_error=0.12961052358150482
+step=16, distance_error=0.12444708496332169
+step=17, distance_error=0.13650794327259064
+step=18, distance_error=0.13816021382808685
+step=19, distance_error=0.1273706555366516
+step=20, distance_error=0.14742636680603027
+step=21, distance_error=0.14733590185642242
+step=22, distance_error=0.14208242297172546
+step=23, distance_error=0.13278919458389282
+step=24, distance_error=0.15113769471645355
+step=25, distance_error=0.15794478356838226
+step=26, distance_error=0.1533990353345871
+step=27, distance_error=0.12760701775550842
+step=28, distance_error=0.12732340395450592
+step=29, distance_error=0.14033657312393188
+Episode : 97
+RESET ENV !
+initial distance error = -0.19261394441127777
+step=0, distance_error=0.16203469038009644
+step=1, distance_error=0.1550956517457962
+step=2, distance_error=0.14257562160491943
+step=3, distance_error=0.15122446417808533
+step=4, distance_error=0.18782949447631836
+step=5, distance_error=0.1419837474822998
+step=6, distance_error=0.12837845087051392
+step=7, distance_error=0.11235371232032776
+step=8, distance_error=0.13033847510814667
+step=9, distance_error=0.11914150416851044
+step=10, distance_error=0.12023378163576126
+step=11, distance_error=0.13338030874729156
+step=12, distance_error=0.13344967365264893
+step=13, distance_error=0.18391801416873932
+step=14, distance_error=0.1721736192703247
+step=15, distance_error=0.199250265955925
+step=16, distance_error=0.14561302959918976
+step=17, distance_error=0.11933176219463348
+step=18, distance_error=0.152602419257164
+step=19, distance_error=0.12133663147687912
+step=20, distance_error=0.15780194103717804
+step=21, distance_error=0.11218442767858505
+step=22, distance_error=0.10855589061975479
+step=23, distance_error=0.13048401474952698
+step=24, distance_error=0.12063591182231903
+step=25, distance_error=0.13801591098308563
+step=26, distance_error=0.12936705350875854
+step=27, distance_error=0.1313866674900055
+step=28, distance_error=0.11786384135484695
+step=29, distance_error=0.14955921471118927
+Episode : 98
+RESET ENV !
+initial distance error = -0.13345246016979218
+step=0, distance_error=0.09841950982809067
+step=1, distance_error=0.06979312747716904
+done with step=1  !
+Episode : 99
+RESET ENV !
+initial distance error = -0.3182486295700073
+step=0, distance_error=0.2797852158546448
+step=1, distance_error=0.21741238236427307
+step=2, distance_error=0.19342760741710663
+step=3, distance_error=0.1808592528104782
+step=4, distance_error=0.15927952527999878
+step=5, distance_error=0.1598205268383026
+step=6, distance_error=0.14244577288627625
+step=7, distance_error=0.13649658858776093
+step=8, distance_error=0.13616348803043365
+step=9, distance_error=0.15407589077949524
+step=10, distance_error=0.14939743280410767
+step=11, distance_error=0.1626601368188858
+step=12, distance_error=0.17457522451877594
+step=13, distance_error=0.16546843945980072
+step=14, distance_error=0.15170733630657196
+step=15, distance_error=0.14589349925518036
+step=16, distance_error=0.15713639557361603
+step=17, distance_error=0.14956216514110565
+step=18, distance_error=0.13990505039691925
+step=19, distance_error=0.12688136100769043
+step=20, distance_error=0.15382295846939087
+step=21, distance_error=0.15398290753364563
+step=22, distance_error=0.15408746898174286
+step=23, distance_error=0.17656025290489197
+step=24, distance_error=0.13725070655345917
+step=25, distance_error=0.13628998398780823
+step=26, distance_error=0.12692268192768097
+step=27, distance_error=0.14796718955039978
+step=28, distance_error=0.1479407101869583
+step=29, distance_error=0.18407860398292542
+time_set_action = 2.0
+nb dones = 23
+mean distance error = 0.12133933361619711
+sum distance error = 12.133933361619711
+Average steps =  23.71
+std error episode = 0.03726954013109207, min error episode = 0.0555332787334919, max error episode = 0.20841917395591736
+success rate = 0.23
+mean initial distance error = -0.2176395782083273
+max initial distance error = -0.0415596142411232
+min initial distance error = -0.35846248269081116
+time elapsed = 1:34:53.601030
