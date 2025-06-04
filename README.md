@@ -4,7 +4,7 @@
 ## 📖 Abstract
 
 
-![screenshot or logo](images/SafeSeCA_framework.png)
+![SafeSeCA Framework](images/SafeSeCA_framework.jpg)
 
 ---
 
