@@ -60,7 +60,7 @@ from utils import MovingAverageReward
 from json_decoder import JsonDecoder
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--mode', default='train', type=str) # mode = 'train' or 'test' or 'test_real' or 'generate_db'
+parser.add_argument('--mode', default='test', type=str) # mode = 'train' or 'test' or 'test_real' or 'generate_db'
 parser.add_argument('--gui', default=False, type=bool) # use gui to see graphic results
 parser.add_argument('--config_file', default='./configs/default/default.json', type=str)
 parser.add_argument('--algo_config_file', default='./SeCA/config/algs/seca.yaml', type=str)

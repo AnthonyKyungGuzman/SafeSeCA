@@ -90,8 +90,6 @@ class SeCALearner:
         entropy_loss = entropy.sum(dim=-1).mean()
         epsilon = 1e-6
         entropy_ratio = self.entropy_coef / (entropy_loss.item() + epsilon)
-        entropy_ratio = max(min(entropy_ratio, 10.0), 0.025)
-
         mix_loss = - mix_loss - entropy_ratio * entropy_loss
 
         # Optimise agents

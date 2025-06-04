@@ -51,7 +51,7 @@ n_states: 42 #includes the agents mean and std
 # --- Experiment running params ---
 repeat_id: 1
 label: "default_label"
-n_workers: 2
+n_workers: 10
 check_viability: True
 
 # --- Action Masking parameters ---
