@@ -12,10 +12,12 @@ This paper introduces SafeSeCA, a new Multi-Agent Reinforcement Learning (MARL) 
 
 
 ## 📁 Folder structure
+
+```bash
 SafeSeCA/
 ├── README.md
 ├── requirements.txt
-├── src/               # Code
+├── src/               
     ├──configs/
         ├──config.json              # Config file for environment, reward, dataset, batch size and folder to load weights
         ├──db.txt                   # Database for training, same as db_seen.txt
@@ -30,6 +32,7 @@ SafeSeCA/
             ├──seca_off_policy/     # Action replacement weights
             ├──safeSeca/            # SafeSeCA weights
 
+```
 
 ## 🛠️ Installation
 ### Requirements
