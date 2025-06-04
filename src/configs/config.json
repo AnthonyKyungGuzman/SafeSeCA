@@ -99,7 +99,7 @@
 		 "log_interval": 2,
 		 "batch_size": 128,
 		 "load_from_dir": true,
-		 "weights_folder": "seca__2025-05-28_18-41-01_masking_vtest",
+		 "weights_folder": "safeSeca",
 		 "max_memory_size": 50000,
 		 "load": true,
 		 "cuda": true

@@ -64,12 +64,6 @@ def args_sanity_check(config, _log):
     if config["use_cuda"] and not th.cuda.is_available():
         config["use_cuda"] = False
         _log.warning("CUDA flag use_cuda was switched OFF automatically because no CUDA devices are available!")
-
-    if config["test_nepisode"] < config["batch_size_run"]:
-        config["test_nepisode"] = config["batch_size_run"]
-    else:
-        config["test_nepisode"] = (config["test_nepisode"]//config["batch_size_run"]) * config["batch_size_run"]
-
     return config
 
 def recursive_dict_update(d, u):
@@ -243,8 +237,6 @@ def SeCA_setup(params):
         torch.cuda.manual_seed(params.env_random_seed + 0)
 	
 	#Params for SeCA Agent
-    # params.seca_args.n_actions = env.get_nb_action_values()   declared in seca params
-    # params.seca_args.n_states = env.get_nb_obs_values()       declared in seca params
     params.seca_args.max_memory_size = params.max_memory_size
     params.seca_args.weights_dir = str(params.weights_dir)
     params.seca_args.batch_size = params.batch_size

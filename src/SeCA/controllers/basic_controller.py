@@ -12,7 +12,6 @@ class BasicMAC:
         self.args = args
         self.input_shape = self._get_input_shape(scheme)
         self._build_agents(self.input_shape)
-        self.agent_output_type = args.agent_output_type
 
         self.hidden_states = []
         
@@ -142,11 +141,6 @@ class BasicMAC:
 
     def _get_input_shape(self, scheme):
         input_shape = scheme["obs"]["vshape"]
-        if self.args.obs_last_action:
-            input_shape += scheme["actions_onehot"]["vshape"][0]
-        if self.args.obs_agent_id:
-            input_shape += self.n_agents
-
         return input_shape
     
     def reset_actions(self):

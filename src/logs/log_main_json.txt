@@ -9,17 +9,5 @@ wait_time_sleep_end_episode = 0.0
 do_episode_hit_return = False
 Episode : 0
 RESET ENV !
-initial distance error = -0.31314313411712646
-step=0, distance_error=0.2704577147960663
-step=1, distance_error=0.2446674257516861
-step=2, distance_error=0.2193339467048645
-step=3, distance_error=0.1911548227071762
-step=4, distance_error=0.20713728666305542
-step=5, distance_error=0.1612311601638794
-step=6, distance_error=0.18932969868183136
-step=7, distance_error=0.15805445611476898
-step=8, distance_error=0.1410406529903412
-step=9, distance_error=0.1372976452112198
-step=10, distance_error=0.13302409648895264
-step=11, distance_error=0.10734770447015762
-step=12, distance_error=0.16171467304229736
+initial distance error = -0.31312841176986694
+step=0, distance_error=0.27038124203681946

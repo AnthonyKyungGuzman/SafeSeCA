@@ -78,11 +78,6 @@ def args_sanity_check(config, _log):
         config["use_cuda"] = False
         _log.warning("CUDA flag use_cuda was switched OFF automatically because no CUDA devices are available!")
 
-    if config["test_nepisode"] < config["batch_size_run"]:
-        config["test_nepisode"] = config["batch_size_run"]
-    else:
-        config["test_nepisode"] = (config["test_nepisode"]//config["batch_size_run"]) * config["batch_size_run"]
-
     return config
 
 def recursive_dict_update(d, u):

@@ -56,6 +56,10 @@ When training you can setup the trainig to use it with or withou out masking and
 
  
 ## 🚀 Testing
+The trained weights will appear in the folder: src/SeCA/weights/
+To load a specific set of weights, in the src/configs/config.json file in ddpg add the name of the folder to the "weights_folder" and set the flag load and load_from_dir to true.
+Then run the following command. 
+
 ```bash
 cd src
 python main.py --mode test --config_file ./src/configs/config.json --algo_config_file seca --gui True
