@@ -5,6 +5,7 @@
 
 
 ![SafeSeCA Framework](images/SafeSeCA_framework.jpg)
+![SafeSeCA Test](images/demoSafeSeCA.png)
 
 ---
 

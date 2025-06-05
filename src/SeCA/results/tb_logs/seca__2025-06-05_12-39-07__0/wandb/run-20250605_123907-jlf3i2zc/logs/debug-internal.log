@@ -1,0 +1,8 @@
+{"time":"2025-06-05T12:39:07.054531869+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-06-05_12-39-07__0/wandb/run-20250605_123907-jlf3i2zc/logs/debug-core.log"}
+{"time":"2025-06-05T12:39:07.160214721+02:00","level":"INFO","msg":"created new stream","id":"jlf3i2zc"}
+{"time":"2025-06-05T12:39:07.160291809+02:00","level":"INFO","msg":"stream: started","id":"jlf3i2zc"}
+{"time":"2025-06-05T12:39:07.160352174+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"jlf3i2zc"}
+{"time":"2025-06-05T12:39:07.160426665+02:00","level":"INFO","msg":"sender: started","stream_id":"jlf3i2zc"}
+{"time":"2025-06-05T12:39:07.160626296+02:00","level":"INFO","msg":"handler: started","stream_id":"jlf3i2zc"}
+{"time":"2025-06-05T12:39:07.468704137+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-05T12:39:17.924489856+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

@@ -1,0 +1,538 @@
+[DEBUG] Logging to runs/1ypgkim5
+** ENVIRONNEMENT PARAMETERS **
+time_step_sleep = 0.001, n_substeps = 15, gui = True
+GENERATE DB FROM JSON 'database/frite_parameters/parameters_array' !
+load name = db.txt, generate name = generate_db.txt
+path load = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/, path_generate = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/
+****** PandaFriteEnvComplete !!!! ************
+=> LOAD DATABASE Name = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/db.txt
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=0.00000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.20000, y_down=0.20000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.15000, y_up=0.32500, y_down=0.32500, z_down=0.30000
+Nb Goal random=1000.00000
+nb lines = 4000, nb points = 4, nb_deformations = 1000
+** Gripper Orientation *******************
+index = 0, name = from_initial, type = 0, panda_num=0
+*********************************
+** Goal Space *******************
+index = 1, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.25, y_down = 0.25, z_down = 0.25
+*********************************
+** Goal Space Graphic *******************
+index = 0, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.2, y_down = 0.2, z_down = 0.25
+*********************************
+** Pose Space *******************
+index = 3, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.4, y_down = 0.4, z_down = 0.3
+*********************************
+** Pose Space Graphic *******************
+index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.325, y_down = 0.325, z_down = 0.3
+*********************************
+** Observation Space *******************
+add_frite_parameters = False
+*********************************
+** Action Space *******************
+index = 0, name = 3d, type = 0
+*********************************
+constructor IK_DH
+constructor IK_DH time elapsed = 0:00:00.006053
+
+calculate_DK
+calculate_DK time elapsed = 0:00:00.476727
+
+calculate_Jacobian
+calculate_Jacobian time elapsed = 0:00:02.192910
+
+start init IK DH !
+calculate _A_init
+calculate _A_init time elapsed = 0:00:06.267589
+
+calculate A_final
+calculate _A_init time elapsed = 0:00:00.000189
+
+calculate incremental_ik
+calculate incremental_ik time elapsed = 0:01:22.314866
+
+end init IK DH !
+*** NO ROS VERSION !!!!!!!!!!!! *********
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+$$$$$ CONSTRUCTOR PandaFriteEnvWrapperRewardMax $$$$$
+TEST MODE !
+Loading weights ...
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/controllers/basic_controller.py:137: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent.load_state_dict(th.load(agent_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:226: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1.load_state_dict(th.load(critic_q1_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:227: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2.load_state_dict(th.load(critic_q2_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:232: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent_optimiser.load_state_dict(th.load(agent_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:233: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1_optimiser.load_state_dict(th.load(critic_q1_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:234: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2_optimiser.load_state_dict(th.load(critic_q2_opt_str.format(path), map_location=lambda storage, loc: storage))
+** ENV MODE TEST **
+n_episodes = 100
+n_steps = 30
+do_reset_env = True
+wait_time_sleep_after_draw_env_box = 0.0
+wait_time_sleep_end_episode = 0.0
+do_episode_hit_return = False
+Episode : 0
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+[DEBUG 12:05:13] matplotlib.pyplot Loaded backend tkagg version 8.6.
+Backend tkagg is interactive backend. Turning interactive mode on.
+action=[[ 1.          1.          1.        ]
+ [-0.17762366  0.2108795  -0.3241714 ]]
+step=0, distance_error=0.27053356170654297
+
+done with step=0  !
+Episode : 1
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.20018387  0.31532943 -0.36207092]]
+step=0, distance_error=0.24706891179084778
+
+done with step=0  !
+Episode : 2
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.10556132 -0.6888956  -1.        ]]
+step=0, distance_error=0.15088817477226257
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4810013   0.21263593 -0.7824124 ]]
+step=1, distance_error=0.1399436742067337
+
+action=[[1.         1.         1.        ]
+ [0.00282143 1.         1.        ]]
+step=2, distance_error=0.1532045602798462
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -1.         -0.38195968]]
+step=3, distance_error=0.12095094472169876
+
+action=[[ 1.          1.          1.        ]
+ [ 0.45338506 -0.28737563  0.52077144]]
+step=4, distance_error=0.1415647566318512
+
+action=[[ 1.          1.          1.        ]
+ [-0.01537302  0.16568533 -0.75575995]]
+step=5, distance_error=0.11363694816827774
+
+action=[[ 1.          1.          1.        ]
+ [ 0.54328173  0.23325853 -0.60658103]]
+step=6, distance_error=0.10716275870800018
+
+action=[[1.         1.         1.        ]
+ [0.74894536 1.         1.        ]]
+step=7, distance_error=0.14206410944461823
+
+action=[[1.         1.         1.        ]
+ [0.82149756 0.10246801 0.7955661 ]]
+step=8, distance_error=0.14104492962360382
+
+action=[[ 1.          1.          1.        ]
+ [ 0.9918232  -0.07289722  0.5457311 ]]
+step=9, distance_error=0.1405818909406662
+
+action=[[ 1.          1.          1.        ]
+ [-0.24830477 -0.45823935  0.2042374 ]]
+step=10, distance_error=0.13373588025569916
+
+action=[[1.         1.         1.        ]
+ [0.6727484  0.6964928  0.27698535]]
+step=11, distance_error=0.13412608206272125
+
+action=[[ 1.          1.          1.        ]
+ [-0.14231198  0.08869679 -0.7246854 ]]
+step=12, distance_error=0.10768593102693558
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=13, distance_error=0.13414661586284637
+
+action=[[ 1.          1.          1.        ]
+ [-0.8855108   0.26642743 -0.49881938]]
+step=14, distance_error=0.13766518235206604
+
+action=[[ 1.          1.          1.        ]
+ [ 0.79113907 -0.38262796  0.5912984 ]]
+step=15, distance_error=0.1330111175775528
+
+action=[[ 1.          1.          1.        ]
+ [ 0.9002306  -0.04583591  0.61204416]]
+step=16, distance_error=0.13297942280769348
+
+action=[[ 1.          1.          1.        ]
+ [ 0.19691025 -0.3556465   0.19009638]]
+step=17, distance_error=0.12974844872951508
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=18, distance_error=0.09360627084970474
+
+action=[[ 1.          1.          1.        ]
+ [ 0.27278966 -0.3470131   0.5971364 ]]
+step=19, distance_error=0.10443827509880066
+
+action=[[ 1.          1.          1.        ]
+ [-0.7467748  -0.38042316  0.4439448 ]]
+step=20, distance_error=0.13405904173851013
+
+action=[[ 1.          1.          1.        ]
+ [ 0.41348052  0.35884663 -0.4663411 ]]
+step=21, distance_error=0.10950744897127151
+
+action=[[ 1.          1.          1.        ]
+ [-0.27473935  0.17731556 -0.26223066]]
+step=22, distance_error=0.10926461964845657
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.81646925 -0.03384244]]
+step=23, distance_error=0.09640072286128998
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.67098415]]
+step=24, distance_error=0.08867166936397552
+
+action=[[1.         1.         1.        ]
+ [1.         0.36434618 1.        ]]
+step=25, distance_error=0.08737881481647491
+
+action=[[ 1.         1.         1.       ]
+ [ 0.4320594 -1.        -1.       ]]
+step=26, distance_error=0.08696616441011429
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=27, distance_error=0.08674025535583496
+
+action=[[ 1.          1.          1.        ]
+ [-0.28303334  1.          1.        ]]
+step=28, distance_error=0.11688047647476196
+
+action=[[ 1.          1.          1.        ]
+ [ 0.5403351  -0.6184383   0.20476666]]
+step=29, distance_error=0.11839587986469269
+
+Episode : 3
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.         1.         1.       ]
+ [ 0.5093774 -0.8921972 -1.       ]]
+step=0, distance_error=0.2585694193840027
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=1, distance_error=0.2701258957386017
+
+action=[[ 1.          1.          1.        ]
+ [ 0.10589713  0.49133158 -0.2990263 ]]
+step=2, distance_error=0.2514526844024658
+
+action=[[ 1.          1.          1.        ]
+ [ 0.17255194 -0.1638325  -0.74498737]]
+step=3, distance_error=0.2173493653535843
+
+action=[[ 1.          1.          1.        ]
+ [ 0.01438941 -0.5268547   0.10896642]]
+step=4, distance_error=0.23595206439495087
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8503267   0.44543517 -0.36350122]]
+step=5, distance_error=0.20879383385181427
+
+action=[[ 1.          1.          1.        ]
+ [-0.89290774  1.          1.        ]]
+step=6, distance_error=0.2118505984544754
+
+action=[[ 1.          1.          1.        ]
+ [-0.25653538  0.3297158  -0.23404767]]
+step=7, distance_error=0.1957000195980072
+
+action=[[ 1.          1.          1.        ]
+ [-0.60556704  0.4525562  -0.43740714]]
+step=8, distance_error=0.15933066606521606
+
+action=[[ 1.          1.          1.        ]
+ [-0.56431353  1.          1.        ]]
+step=9, distance_error=0.1884809136390686
+
+action=[[ 1.          1.          1.        ]
+ [ 0.23012385 -1.         -1.        ]]
+step=10, distance_error=0.15989115834236145
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.8040743   0.98270637]]
+step=11, distance_error=0.19602848589420319
+
+action=[[ 1.          1.          1.        ]
+ [-0.3279884   0.3298213  -0.30945578]]
+step=12, distance_error=0.1865542083978653
+
+action=[[ 1.        1.        1.      ]
+ [ 1.       -1.       -0.801708]]
+step=13, distance_error=0.1562419980764389
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=14, distance_error=0.19203390181064606
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.51063216 -0.417788  ]]
+step=15, distance_error=0.1614983081817627
+
+action=[[ 1.          1.          1.        ]
+ [-0.06162253  0.4190792  -0.5231542 ]]
+step=16, distance_error=0.1424662172794342
+
+action=[[ 1.          1.          1.        ]
+ [-0.1203327   0.65063584 -0.02608437]]
+step=17, distance_error=0.14706167578697205
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4499822  -0.29524028  0.63196146]]
+step=18, distance_error=0.16301928460597992
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=19, distance_error=0.13285677134990692
+
+action=[[ 1.          1.          1.        ]
+ [-0.09236061  0.10240017  0.5301345 ]]
+step=20, distance_error=0.15073518455028534
+
+action=[[ 1.         1.         1.       ]
+ [-0.5964545  0.1669359 -0.7608674]]
+step=21, distance_error=0.11037802696228027
+
+action=[[ 1.          1.          1.        ]
+ [-0.16295807 -0.37820396  0.29930022]]
+step=22, distance_error=0.1256638467311859
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.36285362 -0.96900296]]
+step=23, distance_error=0.09054315835237503
+
+action=[[ 1.          1.          1.        ]
+ [-0.5076537   0.39531353 -0.5608713 ]]
+step=24, distance_error=0.0634869635105133
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=25, distance_error=0.114285908639431
+
+action=[[ 1.         1.         1.       ]
+ [ 0.1648304  0.463751  -0.3990364]]
+step=26, distance_error=0.108077272772789
+
+action=[[1.         1.         1.        ]
+ [0.16877677 1.         1.        ]]
+step=27, distance_error=0.10689245164394379
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=28, distance_error=0.08592582494020462
+
+action=[[ 1.          1.          1.        ]
+ [-0.2323031  -0.31949127  0.45298538]]
+step=29, distance_error=0.08686447143554688
+
+Episode : 4
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.73324955 -1.         -1.        ]]
+step=0, distance_error=0.17667324841022491
+
+done with step=0  !
+Episode : 5
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.36628318 -0.19619597  0.17314853]]
+step=0, distance_error=0.19461330771446228
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=1, distance_error=0.13922667503356934
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=2, distance_error=0.1910533756017685
+
+action=[[ 1.          1.          1.        ]
+ [ 0.28575176  0.25575817 -0.327337  ]]
+step=3, distance_error=0.18421758711338043
+
+action=[[ 1.          1.          1.        ]
+ [ 0.00325777 -0.58210105  0.4032171 ]]
+step=4, distance_error=0.1798589527606964
+
+action=[[1.         1.         1.        ]
+ [1.         0.86019486 1.        ]]
+step=5, distance_error=0.19784201681613922
+
+action=[[ 1.          1.          1.        ]
+ [ 0.36538234  0.19829656 -0.6701914 ]]
+step=6, distance_error=0.18492910265922546
+
+action=[[ 1.          1.          1.        ]
+ [ 0.73469025 -0.6340201  -0.18096422]]
+step=7, distance_error=0.16591449081897736
+
+action=[[ 1.          1.          1.        ]
+ [ 0.45456663 -0.5379944   0.32836446]]
+step=8, distance_error=0.1658409684896469
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.5769976]]
+step=9, distance_error=0.1658598631620407
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.46202967 -0.02211798]]
+step=10, distance_error=0.17071300745010376
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.45696414 -0.4662788 ]]
+step=11, distance_error=0.18035462498664856
+
+action=[[ 1.          1.          1.        ]
+ [ 0.24582069 -0.06270728 -0.92953765]]
+step=12, distance_error=0.16459083557128906
+
+action=[[ 1.         1.         1.       ]
+ [ 0.9984653 -1.        -1.       ]]
+step=13, distance_error=0.1189718097448349
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.6656715]]
+step=14, distance_error=0.09127091616392136
+
+action=[[ 1.          1.          1.        ]
+ [-0.36645842 -0.748671    0.23923941]]
+step=15, distance_error=0.054464831948280334
+
+action=[[ 1.          1.          1.        ]
+ [-0.37146965 -0.476466    0.48678052]]
+step=16, distance_error=0.03417753800749779
+
+done with step=16  !
+Episode : 6
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=0, distance_error=0.23489941656589508
+
+action=[[ 1.          1.          1.        ]
+ [-0.75290394  0.5869308  -0.37262142]]
+step=1, distance_error=0.20232971012592316
+
+action=[[ 1.          1.          1.        ]
+ [ 0.60537225 -0.7531462   0.24188535]]
+step=2, distance_error=0.21915626525878906
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.48269165  0.8394832 ]]
+step=3, distance_error=0.2123734951019287
+
+action=[[ 1.         1.         1.       ]
+ [ 0.9290452 -1.        -1.       ]]
+step=4, distance_error=0.2036246359348297
+
+action=[[ 1.          1.          1.        ]
+ [ 0.41485256  0.41100958 -0.33192596]]
+step=5, distance_error=0.2007988840341568
+
+action=[[ 1.          1.          1.        ]
+ [ 0.37587425  0.37705943 -0.40402594]]
+step=6, distance_error=0.18728552758693695
+
+action=[[ 1.          1.          1.        ]
+ [-0.5161646  -0.6911609   0.10362668]]
+step=7, distance_error=0.16458116471767426
+
+action=[[ 1.         1.         1.       ]
+ [ 0.342483   0.4654426 -0.4112478]]
+step=8, distance_error=0.16180658340454102
+
+action=[[ 1.         1.         1.       ]
+ [ 0.3816069 -0.5117027 -0.6687988]]
+step=9, distance_error=0.14660097658634186
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -0.9178503 -1.       ]]
+step=10, distance_error=0.09428147971630096
+
+action=[[1.         1.         1.        ]
+ [0.39645907 1.         0.4158513 ]]
+step=11, distance_error=0.10795551538467407
+
+action=[[ 1.          1.          1.        ]
+ [-0.28642434  0.13489184 -0.3830276 ]]
+step=12, distance_error=0.09169074147939682
+
+action=[[ 1.          1.          1.        ]
+ [ 0.7586609   0.59381986 -0.35783267]]
+step=13, distance_error=0.12067370861768723
+
+action=[[ 1.          1.          1.        ]
+ [ 0.20750025  0.05381322 -0.7286459 ]]
+step=14, distance_error=0.13509297370910645
+
+action=[[ 1.          1.          1.        ]
+ [ 0.42051056 -0.50375664  0.36953312]]

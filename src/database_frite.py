@@ -19,6 +19,9 @@ from numpy import random
 import math
 import time
 from datetime import datetime
+from json_decoder import JsonDecoder
+import os
+
 
 class Database_Frite:
 	def __init__(self, json_decoder=None):
@@ -100,6 +103,7 @@ class Database_Frite:
 			return (list(self.dico_data)[index_frite_parameters], self.dico_data[list(self.dico_data)[index_frite_parameters]][index_data])
 		else:
 			return None
+	
 			
 	def get_random_targets(self):
 		if self.data is not None:
@@ -274,3 +278,7 @@ class Database_Frite:
 		f.close()
 		
 		print("End generate db with time elapsed = {}".format(datetime.now()-start_time_generate))
+
+
+
+
