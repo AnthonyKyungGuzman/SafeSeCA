@@ -1,8 +1,0 @@
-{"time":"2025-07-09T10:12:10.653992466+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-09_10-12-10__0/wandb/run-20250709_101210-zi15hlcv/logs/debug-core.log"}
-{"time":"2025-07-09T10:12:10.757309428+02:00","level":"INFO","msg":"created new stream","id":"zi15hlcv"}
-{"time":"2025-07-09T10:12:10.757347948+02:00","level":"INFO","msg":"stream: started","id":"zi15hlcv"}
-{"time":"2025-07-09T10:12:10.757377526+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"zi15hlcv"}
-{"time":"2025-07-09T10:12:10.757436356+02:00","level":"INFO","msg":"sender: started","stream_id":"zi15hlcv"}
-{"time":"2025-07-09T10:12:10.757461713+02:00","level":"INFO","msg":"handler: started","stream_id":"zi15hlcv"}
-{"time":"2025-07-09T10:12:11.0471848+02:00","level":"INFO","msg":"Starting system monitor"}
-{"time":"2025-07-09T10:12:21.468566243+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
