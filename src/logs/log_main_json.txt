@@ -9,209 +9,207 @@ wait_time_sleep_end_episode = 0.0
 do_episode_hit_return = False
 Episode : 0
 RESET ENV !
-initial distance error = -0.3131386935710907
-step=0, distance_error=0.24736802279949188
+initial distance error = -0.09077268093824387
+action = [[ 1.          1.          1.        ]
+ [-0.2826794  -0.05938395 -0.45442164]]
+step=0, distance_error=0.042208995670080185, angle dlo gripper=47.52096514486777, physical_enery=[2.07425876]
 done with step=0  !
 Episode : 1
 RESET ENV !
-initial distance error = -0.2837112247943878
-step=0, distance_error=0.24047616124153137
-step=1, distance_error=0.18137279152870178
-done with step=1  !
+initial distance error = -0.34208881855010986
+action = [[ 1.          1.          1.        ]
+ [ 0.18335411  0.46201283 -0.38289347]]
+step=0, distance_error=0.2815640866756439, angle dlo gripper=60.56913356795235, physical_enery=[3.23086565]
+done with step=0  !
 Episode : 2
 RESET ENV !
-initial distance error = -0.20138604938983917
-step=0, distance_error=0.16422034800052643
-step=1, distance_error=0.1551748514175415
-step=2, distance_error=0.12279319018125534
-step=3, distance_error=0.12860290706157684
-step=4, distance_error=0.12007202953100204
-step=5, distance_error=0.12980417907238007
-step=6, distance_error=0.12940490245819092
-step=7, distance_error=0.14045529067516327
-step=8, distance_error=0.1470939964056015
-step=9, distance_error=0.13053062558174133
-step=10, distance_error=0.13391822576522827
-step=11, distance_error=0.13019420206546783
-step=12, distance_error=0.1567450314760208
-step=13, distance_error=0.15664401650428772
-step=14, distance_error=0.14565178751945496
-step=15, distance_error=0.16814322769641876
-step=16, distance_error=0.15059678256511688
-step=17, distance_error=0.12021703273057938
-step=18, distance_error=0.1319655179977417
-step=19, distance_error=0.13198158144950867
-step=20, distance_error=0.13155771791934967
-step=21, distance_error=0.12529510259628296
-step=22, distance_error=0.12209021300077438
-step=23, distance_error=0.11263194680213928
-step=24, distance_error=0.13233883678913116
-step=25, distance_error=0.11247771978378296
-step=26, distance_error=0.1284504234790802
-step=27, distance_error=0.12277264147996902
-step=28, distance_error=0.13097834587097168
-step=29, distance_error=0.12863680720329285
+initial distance error = -0.19212189316749573
+action = [[ 1.          1.          1.        ]
+ [-0.09788469 -0.7734775  -1.        ]]
+step=0, distance_error=0.14003364741802216, angle dlo gripper=47.7367763303358, physical_enery=[9.01421871]
+done with step=0  !
 Episode : 3
 RESET ENV !
-initial distance error = -0.28516528010368347
-step=0, distance_error=0.28145861625671387
-step=1, distance_error=0.24916793406009674
-step=2, distance_error=0.19760270416736603
-step=3, distance_error=0.20567913353443146
-step=4, distance_error=0.18273581564426422
-step=5, distance_error=0.18671292066574097
-step=6, distance_error=0.16876785457134247
-step=7, distance_error=0.15455958247184753
-step=8, distance_error=0.15948620438575745
-step=9, distance_error=0.14373810589313507
-step=10, distance_error=0.14366759359836578
-step=11, distance_error=0.140787735581398
-step=12, distance_error=0.1277441382408142
-step=13, distance_error=0.13072411715984344
-step=14, distance_error=0.11890352517366409
-step=15, distance_error=0.1294533610343933
-step=16, distance_error=0.12922163307666779
-step=17, distance_error=0.1258460283279419
-step=18, distance_error=0.14279329776763916
-step=19, distance_error=0.12556643784046173
-step=20, distance_error=0.12622132897377014
-step=21, distance_error=0.12039495259523392
-step=22, distance_error=0.13240492343902588
-step=23, distance_error=0.1391185224056244
-step=24, distance_error=0.14725759625434875
-step=25, distance_error=0.15918976068496704
-step=26, distance_error=0.14680828154087067
-step=27, distance_error=0.16988320648670197
-step=28, distance_error=0.1478363424539566
-step=29, distance_error=0.15915600955486298
+initial distance error = -0.2578063905239105
+action = [[ 1.          1.          1.        ]
+ [ 0.12605211  0.3327647  -0.64083326]]
+step=0, distance_error=0.2248334139585495, angle dlo gripper=54.128356956685124, physical_enery=[4.62163752]
+done with step=0  !
 Episode : 4
 RESET ENV !
-initial distance error = -0.2285228818655014
-step=0, distance_error=0.22320738434791565
+initial distance error = -0.16055244207382202
+action = [[ 1.          1.          1.        ]
+ [-0.39651936  0.96201146  0.40466776]]
+step=0, distance_error=0.19200992584228516, angle dlo gripper=69.21917784856768, physical_enery=[0.11639129]
 done with step=0  !
 Episode : 5
 RESET ENV !
-initial distance error = -0.1995501071214676
-step=0, distance_error=0.14147131145000458
-step=1, distance_error=0.20121917128562927
-step=2, distance_error=0.18402062356472015
-step=3, distance_error=0.17757652699947357
-step=4, distance_error=0.20041562616825104
-step=5, distance_error=0.17725098133087158
-step=6, distance_error=0.13248610496520996
-step=7, distance_error=0.1323135644197464
-step=8, distance_error=0.13054633140563965
-step=9, distance_error=0.11598394066095352
-step=10, distance_error=0.11610611528158188
-step=11, distance_error=0.13584451377391815
-step=12, distance_error=0.1306307315826416
-step=13, distance_error=0.11690200120210648
-step=14, distance_error=0.08493692427873611
-step=15, distance_error=0.07265886664390564
-step=16, distance_error=0.11264060437679291
-step=17, distance_error=0.10060757398605347
-step=18, distance_error=0.09903768450021744
-step=19, distance_error=0.07961304485797882
-step=20, distance_error=0.10055980831384659
-step=21, distance_error=0.085812047123909
-step=22, distance_error=0.10320931673049927
-step=23, distance_error=0.0813574343919754
-step=24, distance_error=0.10166211426258087
-step=25, distance_error=0.09509754925966263
-step=26, distance_error=0.09438789635896683
-step=27, distance_error=0.1020839735865593
-step=28, distance_error=0.10659081488847733
-step=29, distance_error=0.14087072014808655
+initial distance error = -0.24485239386558533
+action = [[ 1.          1.          1.        ]
+ [-1.         -0.42691174 -0.67502785]]
+step=0, distance_error=0.18552760779857635, angle dlo gripper=42.815429239501015, physical_enery=[3.76917165]
+done with step=0  !
 Episode : 6
 RESET ENV !
-initial distance error = -0.25274500250816345
-step=0, distance_error=0.19235111773014069
-step=1, distance_error=0.1977338045835495
-step=2, distance_error=0.17197053134441376
-step=3, distance_error=0.1538044661283493
-step=4, distance_error=0.11636935919523239
-step=5, distance_error=0.12429551780223846
-step=6, distance_error=0.13032421469688416
-step=7, distance_error=0.1347566694021225
-step=8, distance_error=0.12313108146190643
-step=9, distance_error=0.12445883452892303
-step=10, distance_error=0.12514811754226685
-step=11, distance_error=0.12561869621276855
-step=12, distance_error=0.12576653063297272
-step=13, distance_error=0.12762978672981262
-step=14, distance_error=0.13605767488479614
-step=15, distance_error=0.13470032811164856
-step=16, distance_error=0.12477824091911316
-step=17, distance_error=0.1258412003517151
-step=18, distance_error=0.11704210191965103
-step=19, distance_error=0.09964793920516968
-step=20, distance_error=0.12292711436748505
-step=21, distance_error=0.10698844492435455
-step=22, distance_error=0.11875239759683609
-step=23, distance_error=0.13371820747852325
-step=24, distance_error=0.1062508150935173
-step=25, distance_error=0.10730960965156555
-step=26, distance_error=0.10810156166553497
-step=27, distance_error=0.1383768916130066
-step=28, distance_error=0.13598394393920898
-step=29, distance_error=0.13656066358089447
+initial distance error = -0.17626209557056427
+action = [[ 1.         1.         1.       ]
+ [ 0.1683015 -0.2246711  0.2574745]]
+step=0, distance_error=0.16060683131217957, angle dlo gripper=67.60920623054854, physical_enery=[1.36194436]
+done with step=0  !
 Episode : 7
 RESET ENV !
-initial distance error = -0.17983776330947876
-step=0, distance_error=0.13401958346366882
+initial distance error = -0.20863652229309082
+action = [[ 1.          1.          1.        ]
+ [-0.24471997  0.19526035 -0.63654375]]
+step=0, distance_error=0.13727419078350067, angle dlo gripper=45.610143615170415, physical_enery=[3.0317736]
 done with step=0  !
 Episode : 8
 RESET ENV !
-initial distance error = -0.2820987403392792
-step=0, distance_error=0.24538230895996094
-done with step=0  !
+initial distance error = -0.24308466911315918
+action = [[ 1.          1.          1.        ]
+ [ 0.5405838  -0.23070034 -0.97333   ]]
+step=0, distance_error=0.23531071841716766, angle dlo gripper=53.440684382653004, physical_enery=[10.22615447]
+action = [[1.        1.        1.       ]
+ [0.7431166 0.6239472 1.       ]]
+step=1, distance_error=0.28409385681152344, angle dlo gripper=81.42542129849865, physical_enery=[0.31304424]
+action = [[ 1.          1.          1.        ]
+ [ 0.48692068 -0.2707161   0.42172602]]
+step=2, distance_error=0.28581926226615906, angle dlo gripper=67.33943523650757, physical_enery=[0.29261471]
+action = [[ 1.          1.          1.        ]
+ [ 0.5577155  -0.40358981  0.2135439 ]]
+step=3, distance_error=0.28580188751220703, angle dlo gripper=70.03604069610454, physical_enery=[0.18797232]
+action = [[ 1.          1.          1.        ]
+ [-0.2673101  -0.68532556  0.15492609]]
+step=4, distance_error=0.25977787375450134, angle dlo gripper=45.99606662525136, physical_enery=[-0.29786162]
+action = [[1.         1.         1.        ]
+ [1.         0.10034323 0.1800436 ]]
+step=5, distance_error=0.25974270701408386, angle dlo gripper=50.87893774212435, physical_enery=[-0.45863924]
+action = [[ 1.          1.          1.        ]
+ [-0.20994717 -0.46568504 -1.        ]]
+step=6, distance_error=0.21965381503105164, angle dlo gripper=7.273672203294211, physical_enery=[5.01826296]
+action = [[ 1.         1.         1.       ]
+ [-1.         0.7346091  1.       ]]
+step=7, distance_error=0.23955507576465607, angle dlo gripper=30.952198983025255, physical_enery=[-1.93563103]
+action = [[ 1.          1.          1.        ]
+ [-1.         -0.06183808 -0.80984664]]
+step=8, distance_error=0.20492887496948242, angle dlo gripper=42.19668410131575, physical_enery=[1.18340307]
+action = [[ 1.          1.          1.        ]
+ [ 0.71572554 -0.46347243  0.50836635]]
+step=9, distance_error=0.2087475061416626, angle dlo gripper=60.940063948559896, physical_enery=[-1.62867191]
+action = [[ 1.          1.          1.        ]
+ [ 0.67327136 -0.24717337  0.4086768 ]]
+step=10, distance_error=0.20859301090240479, angle dlo gripper=59.99046382116492, physical_enery=[-1.5005818]
+action = [[ 1.          1.          1.        ]
+ [ 0.2275718  -0.49510315  0.17656828]]
+step=11, distance_error=0.1963781714439392, angle dlo gripper=67.49627024981318, physical_enery=[-1.83396162]
+action = [[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=12, distance_error=0.12237588316202164, angle dlo gripper=62.02856836164965, physical_enery=[0.46378878]
+action = [[ 1.          1.          1.        ]
+ [ 0.25601315 -0.3894522   0.5465992 ]]
+step=13, distance_error=0.1325361430644989, angle dlo gripper=73.06850683910436, physical_enery=[-1.75524304]
+action = [[ 1.          1.          1.        ]
+ [-0.65310055 -0.44792598  0.36325967]]
+step=14, distance_error=0.133032888174057, angle dlo gripper=80.3981926997413, physical_enery=[-4.09891214]
+action = [[ 1.          1.          1.        ]
+ [ 0.45521462  0.3152435  -0.5184047 ]]
+step=15, distance_error=0.12072475254535675, angle dlo gripper=65.95124893094186, physical_enery=[-0.39150643]
+action = [[ 1.          1.          1.        ]
+ [-0.3408724   0.08314297 -0.3661132 ]]
+step=16, distance_error=0.10673105716705322, angle dlo gripper=64.68594861485298, physical_enery=[-0.48839389]
+action = [[ 1.          1.          1.        ]
+ [ 1.         -0.8607823  -0.07742829]]
+step=17, distance_error=0.10618617385625839, angle dlo gripper=66.13974681031748, physical_enery=[-0.28859898]
+action = [[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.8143205]]
+step=18, distance_error=0.10450843721628189, angle dlo gripper=69.29570285970584, physical_enery=[-1.05811789]
+action = [[ 1.          1.          1.        ]
+ [ 1.         -0.16363108  0.7790307 ]]
+step=19, distance_error=0.1038389801979065, angle dlo gripper=70.96888160791895, physical_enery=[-1.51134787]
+action = [[ 1.         1.         1.       ]
+ [ 0.4980534 -1.        -1.       ]]
+step=20, distance_error=0.103364959359169, angle dlo gripper=72.39060073293288, physical_enery=[-1.7711373]
+action = [[1. 1. 1.]
+ [1. 1. 1.]]
+step=21, distance_error=0.10294434428215027, angle dlo gripper=73.46739744744221, physical_enery=[-1.84816033]
+action = [[ 1.          1.          1.        ]
+ [-0.18941937  0.6661383   1.        ]]
+step=22, distance_error=0.1386972814798355, angle dlo gripper=85.20809463179573, physical_enery=[-4.01896191]
+action = [[ 1.          1.          1.        ]
+ [ 0.58136463 -0.71592265  0.18152541]]
+step=23, distance_error=0.13841195404529572, angle dlo gripper=82.28473014078817, physical_enery=[-4.07830244]
+action = [[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=24, distance_error=0.13834477961063385, angle dlo gripper=80.30287714188512, physical_enery=[-3.6775394]
+action = [[ 1.         1.         1.       ]
+ [ 1.        -0.2646575  0.6977084]]
+step=25, distance_error=0.1383151113986969, angle dlo gripper=79.43927988154987, physical_enery=[-3.54299275]
+action = [[ 1.          1.          1.        ]
+ [ 0.45295572 -0.15161994 -0.53727573]]
+step=26, distance_error=0.1382981687784195, angle dlo gripper=79.170816663671, physical_enery=[-3.51969585]
+action = [[ 1.          1.          1.        ]
+ [ 0.72607726 -1.         -1.        ]]
+step=27, distance_error=0.1382949948310852, angle dlo gripper=78.91365142266694, physical_enery=[-3.46507999]
+action = [[ 1.          1.          1.        ]
+ [ 0.1391717  -0.79367477  0.14813925]]
+step=28, distance_error=0.13829255104064941, angle dlo gripper=78.81966565513292, physical_enery=[-3.43993746]
+action = [[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.6406097]]
+step=29, distance_error=0.13828232884407043, angle dlo gripper=78.84666288384103, physical_enery=[-3.44823316]
 Episode : 9
 RESET ENV !
-initial distance error = -0.12550358474254608
-step=0, distance_error=0.1382174789905548
-done with step=0  !
-Episode : 10
-RESET ENV !
-initial distance error = -0.30951961874961853
-step=0, distance_error=0.26442447304725647
-done with step=0  !
-Episode : 11
-RESET ENV !
-initial distance error = -0.22406715154647827
-step=0, distance_error=0.16637474298477173
-done with step=0  !
-Episode : 12
-RESET ENV !
-initial distance error = -0.1462213546037674
-step=0, distance_error=0.128437802195549
-step=1, distance_error=0.10911278426647186
-step=2, distance_error=0.08935120701789856
-step=3, distance_error=0.08931570500135422
-step=4, distance_error=0.08928606659173965
-step=5, distance_error=0.1093272864818573
-step=6, distance_error=0.12280678749084473
-step=7, distance_error=0.10177577286958694
-step=8, distance_error=0.10224692523479462
-step=9, distance_error=0.10183719545602798
-step=10, distance_error=0.09888515621423721
-step=11, distance_error=0.08473867177963257
-step=12, distance_error=0.10596811026334763
-step=13, distance_error=0.09276732802391052
-step=14, distance_error=0.11239343881607056
-step=15, distance_error=0.1309024691581726
-step=16, distance_error=0.10541193932294846
-step=17, distance_error=0.1040024384856224
-step=18, distance_error=0.09688146412372589
-step=19, distance_error=0.11145786195993423
-step=20, distance_error=0.0922144204378128
-step=21, distance_error=0.1078619658946991
-step=22, distance_error=0.11218595504760742
-step=23, distance_error=0.0888109803199768
-step=24, distance_error=0.09690587967634201
-step=25, distance_error=0.1114068254828453
-step=26, distance_error=0.12081362307071686
-step=27, distance_error=0.11947456002235413
-step=28, distance_error=0.13577872514724731
-step=29, distance_error=0.1328245997428894
-Episode : 13
-RESET ENV !
+initial distance error = -0.20485882461071014
+action = [[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=0, distance_error=0.16438452899456024, angle dlo gripper=68.77049094427977, physical_enery=[0.20959566]
+action = [[ 1.          1.          1.        ]
+ [-0.5454823  -0.3875234  -0.49322394]]
+step=1, distance_error=0.1384507268667221, angle dlo gripper=20.19275941561395, physical_enery=[0.39879698]
+action = [[ 1.          1.          1.        ]
+ [-1.          0.05101221 -0.80982506]]
+step=2, distance_error=0.11695640534162521, angle dlo gripper=23.204312957350396, physical_enery=[0.66835995]
+action = [[ 1.          1.          1.        ]
+ [-0.32471213  0.8840885   1.        ]]
+step=3, distance_error=0.16847427189350128, angle dlo gripper=66.97846651532775, physical_enery=[-3.98180945]
+action = [[ 1.          1.          1.        ]
+ [ 0.51775485 -1.         -1.        ]]
+step=4, distance_error=0.10926755517721176, angle dlo gripper=38.25303371703944, physical_enery=[0.36942769]
+action = [[ 1.          1.          1.        ]
+ [-0.7094364  -0.20198971  0.5614926 ]]
+step=5, distance_error=0.12478236854076385, angle dlo gripper=70.51689037643975, physical_enery=[-4.04263597]
+action = [[ 1.          1.          1.        ]
+ [-0.46169046  0.20057675 -0.38217577]]
+step=6, distance_error=0.13287247717380524, angle dlo gripper=66.43325514510184, physical_enery=[-3.38942868]
+action = [[ 1.          1.          1.        ]
+ [ 0.7437621  -1.         -0.28819844]]
+step=7, distance_error=0.0851571187376976, angle dlo gripper=61.21533079087895, physical_enery=[-2.02765443]
+action = [[1.        1.        1.       ]
+ [1.        0.9566389 1.       ]]
+step=8, distance_error=0.12435282766819, angle dlo gripper=73.4487883321556, physical_enery=[-4.29545805]
+action = [[ 1.          1.          1.        ]
+ [-1.         -0.04833756 -0.5244819 ]]
+step=9, distance_error=0.11867114156484604, angle dlo gripper=71.37035253150843, physical_enery=[-3.60340819]
+action = [[ 1.          1.          1.        ]
+ [-0.02299047  0.34782198 -0.5699125 ]]
+step=10, distance_error=0.12283742427825928, angle dlo gripper=64.3666817181275, physical_enery=[-2.2658181]
+action = [[ 1.          1.          1.        ]
+ [-0.06658784  0.5778041   0.14087732]]
+step=11, distance_error=0.14688333868980408, angle dlo gripper=66.92778400089409, physical_enery=[-3.02780596]
+action = [[ 1.         1.         1.       ]
+ [ 0.40775   -0.3890495  0.5484669]]
+step=12, distance_error=0.13415050506591797, angle dlo gripper=69.09650582511264, physical_enery=[-3.65984668]
+action = [[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.7475409]]
+step=13, distance_error=0.0773686096072197, angle dlo gripper=56.07307965463012, physical_enery=[0.78186532]
+action = [[ 1.          1.          1.        ]
+ [-0.00119034 -0.1570965   0.34897932]]
+step=14, distance_error=0.07993853092193604, angle dlo gripper=64.53557627669223, physical_enery=[-1.10021241]
+action = [[ 1.          1.          1.        ]
+ [-0.74480337 -0.07043774 -0.9737175 ]]
+step=15, distance_error=0.07292931526899338, angle dlo gripper=62.6930287841281, physical_enery=[-0.38952371]
+action = [[ 1.          1.          1.        ]
+ [-0.12824766 -0.4389765   0.34488857]]
+step=16, distance_error=0.06664835661649704, angle dlo gripper=72.62858525733124, physical_enery=[-2.52413457]
+action = [[ 1.          1.          1.        ]
+ [ 1.         -0.7182611  -0.90871274]]
+step=17, distance_error=0.02506871335208416, angle dlo gripper=61.08599726396871, physical_enery=[0.72340245]

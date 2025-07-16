@@ -207,6 +207,10 @@ class PandaFriteEnvComplete(gym.Env):
 		# For Graphic Cross Update
 		self.mutex_get_mesh_data = threading.Lock()
 		self.update_cross_is_running = True
+
+		#Comparison metrics
+		self.angle_between_dlo_and_gripper = None
+		self.joint_q_values = None
 		
 		if self.gui == True and self.is_graphic_mode == True:
 			print('START GRAPHIC THREAD TO UPDATE CROSS !')
@@ -248,6 +252,8 @@ class PandaFriteEnvComplete(gym.Env):
 	
 		# set gym spaces
 		self.set_gym_spaces()
+
+		self.env_pybullet.reset_camera_view_position()
 		
 		if use_frite:
 			# load frite
@@ -478,6 +484,7 @@ class PandaFriteEnvComplete(gym.Env):
 					self.env_file_log.flush()
 				else:
 					self.panda_arm[panda_num].execute_qvalues(q_values)
+					self.set_joint_q_values(q_values)
 			else:
 				self.env_file_log.write("rank: {}, OUT OF BOX !, panda_num={}\n".format(self.rank,panda_num))
 				self.env_file_log.flush()
@@ -1288,6 +1295,13 @@ class PandaFriteEnvComplete(gym.Env):
 				a_normal_pt = self.shift_point_in_normal_direction(pt_left=a_pt_left_under, pt_right=a_pt_right_under, pt_mean=self.mean_position_to_follow[i], a_distance = 0.1)
 				self.draw_normal_plane(i, data, a_normal_pt)
 	
+	def get_mesh_data(self,frite_num):
+		self.mutex_get_mesh_data.acquire()
+		try:
+			data = p.getMeshData(self.frite_id[frite_num], -1, flags=p.MESH_DATA_SIMULATION_MESH)
+		finally:
+			self.mutex_get_mesh_data.release()
+		return data
 	
 	def conv_module_d_young_to_lame(self, E, NU):
 		a_lambda = (E * NU)/((1+NU)*(1-2*NU))
@@ -1326,8 +1340,9 @@ class PandaFriteEnvComplete(gym.Env):
 			if max_distance != 0.0 and max_distance <= 0.0001:
 				finish = True
 			
-			#print("total seconds = {}".format((datetime.now()-start).total_seconds()))
+			print("total seconds = {}".format((datetime.now()-start).total_seconds()))
 			if ((datetime.now()-start).total_seconds() > 60):
+			# if ((datetime.now()-start).total_seconds() > 3):
 				finish = True
 			
 			positions_previous = positions_current
@@ -1397,6 +1412,21 @@ class PandaFriteEnvComplete(gym.Env):
 	def get_gripper_pos_orientation(self, panda_num):
 		cur_pos, cur_orien = self.panda_arm[panda_num].ee_pose(to_euler=False)
 		return cur_pos, cur_orien
+	
+	def get_angle_between_dlo_and_gripper(self):
+		return self.angle_between_dlo_and_gripper
+	
+	def set_angle_between_dlo_and_gripper(self, value):
+		self.angle_between_dlo_and_gripper = value
+
+	def set_joint_q_values(self, values):
+		self.joint_q_values = values
+	
+	def get_joint_q_values(self):
+		return self.joint_q_values
+	
+	def get_torque(self,panda_num):
+		return self.panda_arm[panda_num].torque()
 
 	##################
 

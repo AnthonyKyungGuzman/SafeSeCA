@@ -110,6 +110,8 @@ class PandaFriteEnvWrapperRewardMean(Wrapper):
 			self.env.previous_reward = reward
 		"""
 		
+		
+
 		if (d > self.env.distance_threshold):
 			done = False
 			
@@ -121,7 +123,10 @@ class PandaFriteEnvWrapperRewardMean(Wrapper):
 
 		# p.configureDebugVisualizer(p.COV_ENABLE_RENDERING, self.if_render) enble if want to control rendering 
 		return obs, reward, done, info
+
 	
+
+
 	# ROS
 	
 	def reset_ros(self):

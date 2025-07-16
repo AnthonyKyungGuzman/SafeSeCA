@@ -11,7 +11,7 @@ Pose Space Graphic : index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 
 Observation Space : add_frite_parameters = False
 Action Space : index = 0, name = 3d, type = 0
 ***************
-constructor IK_DH time elapsed = 0:00:00.008698
+constructor IK_DH time elapsed = 0:00:00.006249
 NO ROS VERSION !
 rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.604,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
@@ -23,112 +23,179 @@ rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
 rank: 0, BOX POS SPACE : low=[0.404,-0.4,0.221], high=[0.604,0.4,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.494,0.2,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.334,-0.3,0.211], high=[0.494,0.3,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.494,0.2,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.334,-0.3,0.211], high=[0.494,0.3,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.604,0.25,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.334,-0.4,0.211], high=[0.604,0.4,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.604,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.334,-0.4,0.211], high=[0.604,0.4,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.24,0.271], high=[0.594,0.25,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.24,0.211], high=[0.594,0.5,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.24,0.271], high=[0.594,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.404,-0.24,0.211], high=[0.594,0.5,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.594,0.25,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.48,0.211], high=[0.594,0.25,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.594,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.404,-0.48,0.211], high=[0.594,0.25,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.494,0.23,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.334,-0.5,0.211], high=[0.494,0.23,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.494,0.23,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.334,-0.5,0.211], high=[0.494,0.23,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.594,0.25,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.48,0.211], high=[0.594,0.25,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.594,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.404,-0.48,0.211], high=[0.594,0.25,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.594,0.25,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.48,0.211], high=[0.594,0.25,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.594,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.404,-0.48,0.211], high=[0.594,0.25,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.494,0.2,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.334,-0.3,0.211], high=[0.494,0.3,0.521]
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.494,0.2,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.334,-0.3,0.211], high=[0.494,0.3,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.604,0.25,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.334,-0.4,0.211], high=[0.684,0.4,0.521]
+rank: 0, IK PRECISION: pos desired=[ 0.656 -0.015  0.521], pos fk=[ 0.589 -0.025  0.478], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.656 -0.015  0.521], orien=(-0.9632895690741835, -0.054846224781851055, 0.11120447802585881, 0.23811480803815793), q_values=[[  3.23969577]
+ [ -7.96337388]
+ [ 19.44025022]
+ [ -7.58530933]
+ [  9.79815874]
+ [ -6.06808824]
+ [-11.02329491]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.663 -0.023  0.521], pos fk=[ 0.574 -0.029  0.498], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.663 -0.023  0.521], orien=(-0.9601681750331392, -0.06740790791229956, 0.13880114901805926, 0.23295383799303346), q_values=[[ 62.70589707]
+ [ 13.74469268]
+ [ 45.21921701]
+ [ -5.83855826]
+ [-19.10650169]
+ [ 25.72578261]
+ [-30.6305552 ]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.58  -0.051  0.521], pos fk=[ 0.535 -0.053  0.488], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.58  -0.051  0.521], orien=(-0.9411263868816502, -0.10845657934908293, 0.24828779925282882, 0.20216691879032464), q_values=[[-12.77452781]
+ [  0.94029994]
+ [ 15.91959647]
+ [-31.30534981]
+ [-15.60645297]
+ [ 13.0397697 ]
+ [  0.45940863]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.583 -0.212  0.419], pos fk=[ 0.551 -0.199  0.406], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.583 -0.212  0.419], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[ -28.62024548]
+ [ -26.65554296]
+ [ 150.75851424]
+ [ -44.66131966]
+ [-116.24729478]
+ [  18.99739326]
+ [  56.54833258]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.583 -0.175  0.491], pos fk=[ 0.518 -0.159  0.451], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.583 -0.175  0.491], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[-3.45637247]
+ [-1.03317888]
+ [ 0.03998713]
+ [-6.22524268]
+ [ 3.15921449]
+ [ 0.4003818 ]
+ [ 0.15489588]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.561 -0.212  0.411], pos fk=[ 0.523 -0.249  0.391], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.561 -0.212  0.411], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[ -3.59021667]
+ [-14.17426773]
+ [  6.3954298 ]
+ [ -7.07139112]
+ [  3.25485597]
+ [  6.36568293]
+ [  0.27696285]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.583 -0.122  0.501], pos fk=[ 0.544 -0.103  0.478], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.583 -0.122  0.501], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[-9.61814169]
+ [ 5.07286008]
+ [ 6.46735764]
+ [12.24973778]
+ [-3.19130975]
+ [ 0.21622956]
+ [ 0.29481105]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.549 -0.168  0.504], pos fk=[ 0.278 -0.08   0.365], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.549 -0.168  0.504], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[-3.35283363]
+ [ 4.02519552]
+ [25.2259293 ]
+ [-2.3211356 ]
+ [-9.42648893]
+ [-0.74953553]
+ [12.75364509]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.568 -0.181  0.451], pos fk=[ 0.472 -0.161  0.388], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.568 -0.181  0.451], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[-16.05203317]
+ [  5.46856775]
+ [  0.06698159]
+ [  0.55346101]
+ [-15.76984399]
+ [  6.95577461]
+ [-18.78320947]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.568 -0.147  0.521], pos fk=[ 0.529 -0.122  0.492], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.568 -0.147  0.521], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[12.08781044]
+ [-5.54797473]
+ [ 0.53484941]
+ [-6.87465188]
+ [-0.14728429]
+ [ 0.58373496]
+ [ 6.70224346]], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.543 -0.142  0.472], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[ -0.25545883]
+ [-11.36836738]
+ [ -9.27165885]
+ [-12.83403957]
+ [ 21.93650649]
+ [  0.24148578]
+ [  0.21745653]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.555 -0.181  0.451], pos fk=[ 0.432 -0.192  0.383], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.555 -0.181  0.451], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[ -5.80380506]
+ [ 33.12948517]
+ [-20.90852411]
+ [ -7.62859268]
+ [ 22.47147161]
+ [ 23.67741478]
+ [ -5.33637387]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.529 -0.171  0.503], pos fk=[ 0.512 -0.178  0.5  ], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.529 -0.171  0.503], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[-2.18788498e-01]
+ [-5.49292243e+00]
+ [-4.14416175e-01]
+ [-1.29880233e+01]
+ [ 2.73475311e-01]
+ [ 6.78579975e+00]
+ [-6.96470647e-03]], panda_num=0
+rank: 0, IK PRECISION: pos desired=[ 0.568 -0.181  0.467], pos fk=[ 0.525 -0.169  0.443], panda_num=0
+rank: 0, OUT OF LIMITS: pos=[ 0.568 -0.181  0.467], orien=(-0.924741799503007, -0.172941284080072, 0.2915745801569487, 0.17299763211956212), q_values=[[ -6.58361347]
+ [ -5.7079624 ]
+ [  6.25291339]
+ [ -7.21185522]
+ [-12.53566309]
+ [  0.81204223]
+ [ -6.19359606]], panda_num=0
+rank: 0, BOX GOAL SPACE : low=[0.454,-0.25,0.271], high=[0.604,0.25,0.521]
 rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, BOX POS SPACE : low=[0.334,-0.4,0.211], high=[0.684,0.4,0.521]
 rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
 rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, OUT OF BOX !, panda_num=0
-rank: 0, BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX GOAL SPACE GRAPHIC : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, BOX POS SPACE GRAPHIC : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
-rank: 0, nb actions = 3
-rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.2,0.271], high=[0.604,0.2,0.521]
-rank: 0, UPDATE ENV BOX POS SPACE : low=[0.404,-0.325,0.221], high=[0.604,0.325,0.521]
+rank: 0, UPDATE ENV BOX GOAL SPACE : low=[0.454,-0.23,0.271], high=[0.494,0.25,0.521]
+rank: 0, UPDATE ENV BOX POS SPACE : low=[0.334,-0.23,0.211], high=[0.494,0.51,0.521]

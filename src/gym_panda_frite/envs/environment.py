@@ -42,6 +42,7 @@ class Environment():
 		
 		p.connect(p.GUI if self.gui else p.DIRECT)
 		
+		
 		self.reset()
 	
 	def startThread(self):
@@ -87,5 +88,17 @@ class Environment():
 		#p.setTimeStep(self.time_step)
 		
 		#p.setRealTimeSimulation(1)
+
+		p.configureDebugVisualizer(p.COV_ENABLE_GUI, 0)
+		
+
 		
 		self.start()
+
+	def reset_camera_view_position(self):
+		p.resetDebugVisualizerCamera(
+				cameraDistance=2,            # Zoom level
+				cameraYaw=128.80,                  # Left-right angle (degrees)
+				cameraPitch=-28.20,              # Up-down angle (degrees)
+				cameraTargetPosition=[0, 0, 0]  # Where the camera looks at
+				)

@@ -291,3 +291,13 @@ class PandaArm():
 			joint_angles.append(joint_state[0])
 
 		return np.array(joint_angles)
+
+	def torque(self):
+		torque = []
+
+		for idx in self._movable_joint_list_ids:
+			joint_state = p.getJointState(self._id, idx)
+
+			torque.append(joint_state[3])
+
+		return np.array(torque)

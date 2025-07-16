@@ -76,3 +76,6 @@ class SeCAAgent:
             return actions, actions_nn
         else:
             return actions
+
+    def get_count_of_actions(self):
+        return self.mac.get_count_of_actions()

@@ -155,5 +155,7 @@ class RNNAgent(nn.Module):
         log_prob = dist.log_prob(z)
         entropy = dist.entropy()
         return action, log_prob, entropy, mean, std, h
+    
+   
 
 

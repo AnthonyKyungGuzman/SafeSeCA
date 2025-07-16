@@ -1,0 +1,17 @@
+{"time":"2025-07-01T21:16:20.555771724+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-01_21-16-20__0/wandb/run-20250701_211620-8unv36ih/logs/debug-core.log"}
+{"time":"2025-07-01T21:16:20.65924586+02:00","level":"INFO","msg":"created new stream","id":"8unv36ih"}
+{"time":"2025-07-01T21:16:20.659270808+02:00","level":"INFO","msg":"stream: started","id":"8unv36ih"}
+{"time":"2025-07-01T21:16:20.659284635+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"8unv36ih"}
+{"time":"2025-07-01T21:16:20.659295652+02:00","level":"INFO","msg":"sender: started","stream_id":"8unv36ih"}
+{"time":"2025-07-01T21:16:20.659327051+02:00","level":"INFO","msg":"handler: started","stream_id":"8unv36ih"}
+{"time":"2025-07-01T21:16:20.995640402+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-01T21:16:31.208042057+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-07-01T22:21:37.321923972+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-01T22:21:37.322295143+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-01T22:21:38.357119684+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.632283462,"progress":"318.7KB/318.7KB"}],"total_operations":1}}
+{"time":"2025-07-01T22:21:38.511935232+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-01T22:21:38.860279811+02:00","level":"INFO","msg":"stream: closing","id":"8unv36ih"}
+{"time":"2025-07-01T22:21:38.86030282+02:00","level":"INFO","msg":"handler: closed","stream_id":"8unv36ih"}
+{"time":"2025-07-01T22:21:38.860308519+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8unv36ih"}
+{"time":"2025-07-01T22:21:38.860328305+02:00","level":"INFO","msg":"sender: closed","stream_id":"8unv36ih"}
+{"time":"2025-07-01T22:21:38.860373469+02:00","level":"INFO","msg":"stream: closed","id":"8unv36ih"}

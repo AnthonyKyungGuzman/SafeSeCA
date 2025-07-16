@@ -1,0 +1,8 @@
+{"time":"2025-06-18T16:07:55.389018774+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-06-18_16-07-55__0/wandb/run-20250618_160755-vbr3quhz/logs/debug-core.log"}
+{"time":"2025-06-18T16:07:55.711056239+02:00","level":"INFO","msg":"created new stream","id":"vbr3quhz"}
+{"time":"2025-06-18T16:07:55.71121346+02:00","level":"INFO","msg":"stream: started","id":"vbr3quhz"}
+{"time":"2025-06-18T16:07:55.711279041+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"vbr3quhz"}
+{"time":"2025-06-18T16:07:55.7113607+02:00","level":"INFO","msg":"handler: started","stream_id":"vbr3quhz"}
+{"time":"2025-06-18T16:07:55.711562145+02:00","level":"INFO","msg":"sender: started","stream_id":"vbr3quhz"}
+{"time":"2025-06-18T16:07:56.346495072+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-18T16:08:07.042822626+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

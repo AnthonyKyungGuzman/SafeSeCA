@@ -1,0 +1,353 @@
+[DEBUG] Logging to runs/kdt3or6k
+** ENVIRONNEMENT PARAMETERS **
+time_step_sleep = 0.001, n_substeps = 15, gui = False
+GENERATE DB FROM JSON 'database/frite_parameters/parameters_array' !
+load name = db.txt, generate name = generate_db.txt
+path load = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/, path_generate = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/
+****** PandaFriteEnvComplete !!!! ************
+=> LOAD DATABASE Name = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/db.txt
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=0.00000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.20000, y_down=0.20000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.15000, y_up=0.32500, y_down=0.32500, z_down=0.30000
+Nb Goal random=1000.00000
+nb lines = 4000, nb points = 4, nb_deformations = 1000
+** Gripper Orientation *******************
+index = 0, name = from_initial, type = 0, panda_num=0
+*********************************
+** Goal Space *******************
+index = 1, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.25, y_down = 0.25, z_down = 0.25
+*********************************
+** Goal Space Graphic *******************
+index = 0, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.2, y_down = 0.2, z_down = 0.25
+*********************************
+** Pose Space *******************
+index = 3, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.4, y_down = 0.4, z_down = 0.3
+*********************************
+** Pose Space Graphic *******************
+index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.325, y_down = 0.325, z_down = 0.3
+*********************************
+** Observation Space *******************
+add_frite_parameters = False
+*********************************
+** Action Space *******************
+index = 0, name = 3d, type = 0
+*********************************
+constructor IK_DH
+constructor IK_DH time elapsed = 0:00:00.002107
+
+calculate_DK
+calculate_DK time elapsed = 0:00:00.150352
+
+calculate_Jacobian
+calculate_Jacobian time elapsed = 0:00:00.733450
+
+start init IK DH !
+calculate _A_init
+calculate _A_init time elapsed = 0:00:03.028814
+
+calculate A_final
+calculate _A_init time elapsed = 0:00:00.000271
+
+calculate incremental_ik
+calculate incremental_ik time elapsed = 0:00:45.263218
+
+end init IK DH !
+*** NO ROS VERSION !!!!!!!!!!!! *********
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+$$$$$ CONSTRUCTOR PandaFriteEnvWrapperRewardMax $$$$$
+TEST MODE !
+Loading weights ...
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/controllers/basic_controller.py:143: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent.load_state_dict(th.load(agent_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:226: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1.load_state_dict(th.load(critic_q1_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:227: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2.load_state_dict(th.load(critic_q2_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:232: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent_optimiser.load_state_dict(th.load(agent_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:233: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1_optimiser.load_state_dict(th.load(critic_q1_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:234: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2_optimiser.load_state_dict(th.load(critic_q2_opt_str.format(path), map_location=lambda storage, loc: storage))
+** ENV MODE TEST **
+n_episodes = 2
+n_steps = 30
+do_reset_env = True
+wait_time_sleep_after_draw_env_box = 0.0
+wait_time_sleep_end_episode = 0.0
+do_episode_hit_return = False
+Episode : 0
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.17637064  0.21345215 -0.32051244]]
+step=0, distance_error=0.2680991590023041, angle dlo gripper=65.69887207152357, physical_enery=[1.96857464]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.36949217  0.5015332  -0.4352194 ]]
+step=1, distance_error=0.2419387847185135, angle dlo gripper=56.348300100866226, physical_enery=[4.32378317]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.11206701  0.3083368  -0.38198128]]
+step=2, distance_error=0.21746401488780975, angle dlo gripper=45.70171867777279, physical_enery=[5.99397544]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.33061266  0.4074948  -0.589814  ]]
+step=3, distance_error=0.1897059679031372, angle dlo gripper=36.479458062921054, physical_enery=[6.64009166]
+
+action=[[ 1.          1.          1.        ]
+ [-0.14804064  1.          0.67656946]]
+step=4, distance_error=0.2060697376728058, angle dlo gripper=57.02860544256821, physical_enery=[2.59672613]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.08082621 -0.6726166 ]]
+step=5, distance_error=0.15977062284946442, angle dlo gripper=10.561484573041497, physical_enery=[4.13137512]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.5298192 -0.1636355  0.6064864]]
+step=6, distance_error=0.18817546963691711, angle dlo gripper=0.13469639275186296, physical_enery=[1.88742704]
+
+action=[[ 1.          1.          1.        ]
+ [-0.05713725  0.28824693 -0.6579707 ]]
+step=7, distance_error=0.15673917531967163, angle dlo gripper=12.446634643483634, physical_enery=[3.90474093]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4588249   0.32702923 -0.56097907]]
+step=8, distance_error=0.1397099792957306, angle dlo gripper=16.688082634601415, physical_enery=[4.69874697]
+
+action=[[1.         1.         1.        ]
+ [0.79286957 1.         1.        ]]
+step=9, distance_error=0.13776211440563202, angle dlo gripper=12.89871862389748, physical_enery=[4.53607825]
+
+action=[[1.         1.         1.        ]
+ [1.         0.6848744  0.97433525]]
+step=10, distance_error=0.13654014468193054, angle dlo gripper=10.972545388266752, physical_enery=[4.12605221]
+
+action=[[1.         1.         1.        ]
+ [1.         0.6789129  0.55695885]]
+step=11, distance_error=0.16901908814907074, angle dlo gripper=7.434919590481712, physical_enery=[2.5919923]
+
+action=[[ 1.          1.          1.        ]
+ [-0.3028208  -0.3480527   0.13180745]]
+step=12, distance_error=0.16574855148792267, angle dlo gripper=19.871942370604046, physical_enery=[3.46586474]
+
+action=[[1.         1.         1.        ]
+ [0.38443205 0.65050703 0.0544145 ]]
+step=13, distance_error=0.1657586693763733, angle dlo gripper=17.76722005384414, physical_enery=[3.33811377]
+
+action=[[ 1.          1.          1.        ]
+ [-0.16211078  0.2360639  -0.6243969 ]]
+step=14, distance_error=0.13892298936843872, angle dlo gripper=14.406711860416351, physical_enery=[5.79836864]
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=15, distance_error=0.16148997843265533, angle dlo gripper=18.136430840202422, physical_enery=[0.59048958]
+
+action=[[ 1.          1.          1.        ]
+ [-0.6465378   0.35402045 -0.4404129 ]]
+step=16, distance_error=0.14512741565704346, angle dlo gripper=23.97906263573816, physical_enery=[2.17127212]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.99609035 -0.28515115  0.6856283 ]]
+step=17, distance_error=0.1809157431125641, angle dlo gripper=26.030178387412292, physical_enery=[0.35084684]
+
+action=[[1.         1.         1.        ]
+ [1.         0.3241953  0.64859736]]
+step=18, distance_error=0.18186888098716736, angle dlo gripper=25.147944988065433, physical_enery=[0.49819448]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.16942526 -0.27268946  0.11247481]]
+step=19, distance_error=0.1893175095319748, angle dlo gripper=27.836415578667015, physical_enery=[0.20773478]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=20, distance_error=0.12629088759422302, angle dlo gripper=34.25084811648756, physical_enery=[2.97312324]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.26079223 -0.2880112   0.64412487]]
+step=21, distance_error=0.15527738630771637, angle dlo gripper=42.18806680341291, physical_enery=[0.89339008]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.35699397  0.48749727]]
+step=22, distance_error=0.17264096438884735, angle dlo gripper=61.378488452379784, physical_enery=[-1.97823564]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.38668966  0.3918282  -0.4786341 ]]
+step=23, distance_error=0.1511877179145813, angle dlo gripper=45.065851982749194, physical_enery=[0.91535298]
+
+action=[[ 1.          1.          1.        ]
+ [-0.2759601   0.2326003  -0.30130532]]
+step=24, distance_error=0.13773244619369507, angle dlo gripper=43.493859917889694, physical_enery=[1.20729455]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.8015493  -0.38493988]]
+step=25, distance_error=0.12781913578510284, angle dlo gripper=38.569301701047465, physical_enery=[3.20072157]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.78813905 -0.7770313  -0.70981723]]
+step=26, distance_error=0.11500728875398636, angle dlo gripper=35.589126401236456, physical_enery=[5.07119565]
+
+action=[[1.         1.         1.        ]
+ [1.         0.44402257 1.        ]]
+step=27, distance_error=0.11486607044935226, angle dlo gripper=37.96502435438026, physical_enery=[4.09437465]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.33384106 -1.         -1.        ]]
+step=28, distance_error=0.1250687688589096, angle dlo gripper=35.04818734001256, physical_enery=[6.45139527]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=29, distance_error=0.13445135951042175, angle dlo gripper=35.181578005695116, physical_enery=[2.7483428]
+
+Episode : 1
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.82600087  0.6146641   0.29235035]]
+step=0, distance_error=0.24259281158447266, angle dlo gripper=71.29959714208677, physical_enery=[0.74247442]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.60579365 -0.6949214   0.08659744]]
+step=1, distance_error=0.25645390152931213, angle dlo gripper=53.86675753539632, physical_enery=[0.6094904]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.6959483 -1.       ]]
+step=2, distance_error=0.2224660962820053, angle dlo gripper=38.64981247541456, physical_enery=[5.36121053]
+
+action=[[1.         1.         1.        ]
+ [1.         0.66484505 0.94989634]]
+step=3, distance_error=0.2640906870365143, angle dlo gripper=67.86504293539902, physical_enery=[-0.20094878]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.13363695  0.21002373 -0.30763268]]
+step=4, distance_error=0.249073788523674, angle dlo gripper=26.592692957374624, physical_enery=[1.64117588]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.39281434 -1.         -1.        ]]
+step=5, distance_error=0.20034611225128174, angle dlo gripper=3.2781189030382336, physical_enery=[5.17859812]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.05556352 -0.7586725   0.07665509]]
+step=6, distance_error=0.21017354726791382, angle dlo gripper=29.982859227306676, physical_enery=[3.21471566]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.          0.10687703 -0.7095127 ]]
+step=7, distance_error=0.1724236011505127, angle dlo gripper=31.92285442284421, physical_enery=[4.76362978]
+
+action=[[ 1.          1.          1.        ]
+ [-0.81633854  1.          1.        ]]
+step=8, distance_error=0.18936550617218018, angle dlo gripper=61.05694143080906, physical_enery=[-0.26381405]
+
+action=[[ 1.          1.          1.        ]
+ [-0.24085456  0.1682505  -0.25023925]]
+step=9, distance_error=0.1706933081150055, angle dlo gripper=57.23540253724967, physical_enery=[1.23160431]
+
+action=[[ 1.          1.          1.        ]
+ [-0.6976076   0.35952833 -0.518986  ]]
+step=10, distance_error=0.13877488672733307, angle dlo gripper=52.057915226767335, physical_enery=[2.3049643]
+
+action=[[ 1.         1.         1.       ]
+ [-0.5690693  1.         1.       ]]
+step=11, distance_error=0.18730436265468597, angle dlo gripper=67.29257034008226, physical_enery=[-1.55603417]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.33446196 -1.         -1.        ]]
+step=12, distance_error=0.14009937644004822, angle dlo gripper=50.831164152762, physical_enery=[2.96533988]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.34867018  0.9547823 ]]
+step=13, distance_error=0.18651331961154938, angle dlo gripper=71.1469324460804, physical_enery=[-2.21937207]
+
+action=[[ 1.          1.          1.        ]
+ [-0.3388194   0.2828512  -0.33464944]]
+step=14, distance_error=0.18116751313209534, angle dlo gripper=65.43567780105215, physical_enery=[-0.90839758]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.74279606]]
+step=15, distance_error=0.1379428505897522, angle dlo gripper=56.4533379860931, physical_enery=[1.85755536]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=16, distance_error=0.17803740501403809, angle dlo gripper=62.432686963316655, physical_enery=[-0.41236699]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.39040405 -0.53257436]]
+step=17, distance_error=0.16338223218917847, angle dlo gripper=56.428036775127325, physical_enery=[0.94588807]
+
+action=[[ 1.          1.          1.        ]
+ [-0.05238941  0.39414248 -0.54788834]]
+step=18, distance_error=0.1511838436126709, angle dlo gripper=49.844252131670345, physical_enery=[2.23526292]
+
+action=[[ 1.          1.          1.        ]
+ [-0.0983825   0.54725957 -0.03169797]]
+step=19, distance_error=0.1625308096408844, angle dlo gripper=50.76591496653958, physical_enery=[1.61714983]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.42110673 -0.34115547  0.58407843]]
+step=20, distance_error=0.1699264794588089, angle dlo gripper=59.86301916791305, physical_enery=[0.00509431]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=21, distance_error=0.11635364592075348, angle dlo gripper=44.673897793646205, physical_enery=[4.12573161]
+
+action=[[ 1.          1.          1.        ]
+ [-0.05357744 -0.03097243  0.38606864]]
+step=22, distance_error=0.12997587025165558, angle dlo gripper=55.6167930165672, physical_enery=[1.50625836]
+
+action=[[ 1.          1.          1.        ]
+ [-0.6423501   0.09646048 -0.8306838 ]]
+step=23, distance_error=0.09993879497051239, angle dlo gripper=48.757755099077116, physical_enery=[2.91307619]
+
+action=[[ 1.          1.          1.        ]
+ [-0.1591715  -0.4116969   0.30613235]]
+step=24, distance_error=0.10828977078199387, angle dlo gripper=62.34206768508575, physical_enery=[0.62010365]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.46114433 -0.9719508 ]]
+step=25, distance_error=0.06752785295248032, angle dlo gripper=48.620549666419635, physical_enery=[3.20315414]
+
+action=[[ 1.          1.          1.        ]
+ [-0.51150584  0.388272   -0.5683697 ]]
+step=26, distance_error=0.044981829822063446, angle dlo gripper=48.452989297870204, physical_enery=[3.26435739]
+
+done with step=26  !
+time_set_action = 2.0
+nb dones = 1
+mean distance error = 0.0897165946662426
+sum distance error = 0.1794331893324852
+Average steps =  27.5
+std error episode = 0.04473476484417915, min error episode = 0.044981829822063446, max error episode = 0.13445135951042175
+success rate = 0.5
+total amount of steps = 55
+
+mean angle dlo gripper = 40.47484063290187
+sum angle dlo gripper = 2307.0659160754067
+std angle dlo gripper episode = 19.080853530050938, min angle dlo gripper episode = 0.13469639275186296, max angle dlo gripper episode = 71.29959714208677
+physical energy = 134.14330540195422
+mean physical energy = 2.3533913228413024, std physical energy= 2.107742137427938, min physical energy = [-2.21937207], max phyiscal energy = [6.64009166]
+Total smoothness = 72291.73211594665
+Mean smoothness = 1314.3951293808482, std smoothness= 593.7981396899673, min smootheness=266.81453541534177, max smootheness=2787.500471847258
+Traceback (most recent call last):
+  File "/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/main.py", line 505, in <module>
+    main()
+  File "/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/main.py", line 453, in main
+    print("unsafe action count = {}, total action count = {},  unsafe_action_percentage={}".format(unsafe_action_count, total_action_count, unsafe_action_count/total_action_count))
+ZeroDivisionError: division by zero

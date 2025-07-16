@@ -1,0 +1,712 @@
+[DEBUG] Logging to runs/j1v0re76
+** ENVIRONNEMENT PARAMETERS **
+time_step_sleep = 0.001, n_substeps = 15, gui = False
+GENERATE DB FROM JSON 'database/frite_parameters/parameters_array' !
+load name = db.txt, generate name = generate_db.txt
+path load = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/, path_generate = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/
+****** PandaFriteEnvComplete !!!! ************
+=> LOAD DATABASE Name = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/db.txt
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=0.00000, z=0.00000
+Goal space x_up=0.04000, x_down=0.10000, y_up=0.25000, y_down=0.24000, z_down=0.25000
+Pos space x_up=0.04000, x_down=0.15000, y_up=0.50000, y_down=0.24000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=0.00000, z=0.00000
+Goal space x_up=0.04000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.04000, x_down=0.15000, y_up=0.25000, y_down=0.48000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.20000, y_down=0.20000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.30000, y_down=0.30000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.13000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.25000, y_down=0.23000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.51000, y_down=0.23000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.23000, y_down=0.25000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.23000, y_down=0.50000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+** Gripper Orientation *******************
+index = 0, name = from_initial, type = 0, panda_num=0
+*********************************
+** Goal Space *******************
+index = 1, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.25, y_down = 0.25, z_down = 0.25
+*********************************
+** Goal Space Graphic *******************
+index = 0, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.2, y_down = 0.2, z_down = 0.25
+*********************************
+** Pose Space *******************
+index = 3, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.4, y_down = 0.4, z_down = 0.3
+*********************************
+** Pose Space Graphic *******************
+index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.325, y_down = 0.325, z_down = 0.3
+*********************************
+** Observation Space *******************
+add_frite_parameters = False
+*********************************
+** Action Space *******************
+index = 0, name = 3d, type = 0
+*********************************
+constructor IK_DH
+constructor IK_DH time elapsed = 0:00:00.002605
+
+calculate_DK
+calculate_DK time elapsed = 0:00:00.117597
+
+calculate_Jacobian
+calculate_Jacobian time elapsed = 0:00:00.556945
+
+start init IK DH !
+calculate _A_init
+calculate _A_init time elapsed = 0:00:01.975454
+
+calculate A_final
+calculate _A_init time elapsed = 0:00:00.000095
+
+calculate incremental_ik
+calculate incremental_ik time elapsed = 0:00:19.999929
+
+end init IK DH !
+*** NO ROS VERSION !!!!!!!!!!!! *********
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+$$$$$ CONSTRUCTOR PandaFriteEnvWrapperRewardMax $$$$$
+TEST MODE !
+Loading weights ...
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/controllers/basic_controller.py:137: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent.load_state_dict(th.load(agent_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:226: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1.load_state_dict(th.load(critic_q1_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:227: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2.load_state_dict(th.load(critic_q2_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:232: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent_optimiser.load_state_dict(th.load(agent_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:233: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1_optimiser.load_state_dict(th.load(critic_q1_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:234: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2_optimiser.load_state_dict(th.load(critic_q2_opt_str.format(path), map_location=lambda storage, loc: storage))
+** ENV MODE TEST **
+n_episodes = 100
+n_steps = 30
+do_reset_env = True
+wait_time_sleep_after_draw_env_box = 0.0
+wait_time_sleep_end_episode = 0.0
+do_episode_hit_return = False
+Episode : 0
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.71476185 -0.22051492  0.5395355 ]]
+step=0, distance_error=0.05545073375105858
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.08763593  0.59777063 -0.30768156]]
+step=1, distance_error=0.03399893641471863
+
+done with step=1  !
+Episode : 1
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.2636139   0.26339152 -0.52020544]]
+step=0, distance_error=0.2717142701148987
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.09481901  0.49603304 -0.50343454]]
+step=1, distance_error=0.23714131116867065
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.5217742   0.79547465 -0.20220234]]
+step=2, distance_error=0.20294848084449768
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.5744665   0.5128701  -0.4279215 ]]
+step=3, distance_error=0.17372816801071167
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.7189615   1.          1.        ]]
+step=4, distance_error=0.18777616322040558
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.32274145  0.4509401  -0.53755486]]
+step=5, distance_error=0.16087132692337036
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.19206823  0.44732106 -0.5208715 ]]
+step=6, distance_error=0.14462211728096008
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.45862767  1.          1.        ]]
+step=7, distance_error=0.16431640088558197
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.45003006  0.9461525   0.2972847 ]]
+step=8, distance_error=0.1738399714231491
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.04467521  0.16250302 -0.1873838 ]]
+step=9, distance_error=0.1722857803106308
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.         -1.         -0.7214866 ]]
+step=10, distance_error=0.15088674426078796
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.01716594  0.47853065 -0.23555094]]
+step=11, distance_error=0.14485900104045868
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.39715305  0.19999442 -0.7446858 ]]
+step=12, distance_error=0.12905007600784302
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          1.        ]]
+step=13, distance_error=0.17329315841197968
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.58037627  0.23735131 -0.5550157 ]]
+step=14, distance_error=0.17919977009296417
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.8173261  -0.44475165  0.5280205 ]]
+step=15, distance_error=0.16410043835639954
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          0.14418721  0.20362335]]
+step=16, distance_error=0.1541644036769867
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.12574571 -0.9035255  -0.31590998]]
+step=17, distance_error=0.14551855623722076
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.         -1.         -1.        ]]
+step=18, distance_error=0.13044649362564087
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.22866885 -0.31956598  0.61115485]]
+step=19, distance_error=0.1434338539838791
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.         -0.6325112   0.2274776 ]]
+step=20, distance_error=0.1877361536026001
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.40120786  0.45049146 -0.49975035]]
+step=21, distance_error=0.15733902156352997
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.242108    0.3197724  -0.41937467]]
+step=22, distance_error=0.15449006855487823
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -0.7205656  -0.70902884]]
+step=23, distance_error=0.11475220322608948
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.8409863  -0.9164503  -0.76582175]]
+step=24, distance_error=0.10625284165143967
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          0.7014306   1.        ]]
+step=25, distance_error=0.10620329529047012
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.45535514 -1.         -1.        ]]
+step=26, distance_error=0.1071876510977745
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          1.          1.        ]]
+step=27, distance_error=0.10773579031229019
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          0.9347827 ]]
+step=28, distance_error=0.1052338033914566
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.5244658  -0.9757425  -0.08142613]]
+step=29, distance_error=0.1192626953125
+
+Episode : 2
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.92670745 -1.         -1.        ]]
+step=0, distance_error=0.14984261989593506
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -0.5479642   0.1576433 ]]
+step=1, distance_error=0.15877267718315125
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.3345362   0.1421274  -0.6894955 ]]
+step=2, distance_error=0.12336994707584381
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.6960039  -1.         -1.        ]]
+step=3, distance_error=0.0857132151722908
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.23550108 -1.         -0.07176405]]
+step=4, distance_error=0.08286180347204208
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.8164901   0.04846747 -0.66333723]]
+step=5, distance_error=0.08154807239770889
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          1.        ]]
+step=6, distance_error=0.08005306124687195
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.38029134  0.13681747 -0.49573225]]
+step=7, distance_error=0.07312314957380295
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.6928933   0.27124694 -0.6024846 ]]
+step=8, distance_error=0.09002656489610672
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.20106272  1.          1.        ]]
+step=9, distance_error=0.12967664003372192
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.6418543  -1.         -1.        ]]
+step=10, distance_error=0.07489654421806335
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.8716397  -0.07112012  0.6932691 ]]
+step=11, distance_error=0.11831428855657578
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.27030134  0.28264338 -0.4448888 ]]
+step=12, distance_error=0.1254994124174118
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -1.         -0.80577314]]
+step=13, distance_error=0.07751844078302383
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          1.          1.        ]]
+step=14, distance_error=0.0717073380947113
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          0.12624393 -0.8154736 ]]
+step=15, distance_error=0.08862178027629852
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.01074509  0.37814045 -0.57798684]]
+step=16, distance_error=0.0993923768401146
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.0365447   1.          0.8832672 ]]
+step=17, distance_error=0.13076066970825195
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.36694095 -0.4526321   0.51886123]]
+step=18, distance_error=0.11188478767871857
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -1.         -1.        ]]
+step=19, distance_error=0.0837574303150177
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.16429557 -0.20563887  0.37274364]]
+step=20, distance_error=0.06842667609453201
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.84641993 -0.066622   -1.        ]]
+step=21, distance_error=0.08079083263874054
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.08301964 -0.42940992  0.40134662]]
+step=22, distance_error=0.07841616123914719
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -0.6355602  -0.98407364]]
+step=23, distance_error=0.06556670367717743
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.4775805   0.42628628 -0.52942723]]
+step=24, distance_error=0.09293815493583679
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          1.          1.        ]]
+step=25, distance_error=0.09148266911506653
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.06125187  0.4735294  -0.38424766]]
+step=26, distance_error=0.11117246001958847
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.28631243  1.          1.        ]]
+step=27, distance_error=0.1250137984752655
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -1.         -1.        ]]
+step=28, distance_error=0.11321041733026505
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.34780204 -0.44651684  0.4857694 ]]
+step=29, distance_error=0.08528845757246017
+
+Episode : 3
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.31153032 -0.63151395 -0.02029302]]
+step=0, distance_error=0.27562659978866577
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.18384917  1.          1.        ]]
+step=1, distance_error=0.2323409765958786
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.44333085  0.47845805 -0.47914204]]
+step=2, distance_error=0.20138542354106903
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          1.        ]]
+step=3, distance_error=0.1718473732471466
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.0287756   0.648496   -0.3375479 ]]
+step=4, distance_error=0.13883619010448456
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.22050482 -0.3651377   0.43009982]]
+step=5, distance_error=0.16292770206928253
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          1.          1.        ]]
+step=6, distance_error=0.12077781558036804
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.10594526  0.5166555  -0.4411144 ]]
+step=7, distance_error=0.08964090049266815
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.21645586  1.          0.23452137]]
+step=8, distance_error=0.06811980903148651
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.19722198 -0.24926741  0.4767382 ]]
+step=9, distance_error=0.08179688453674316
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -0.74208194 -0.28313076]]
+step=10, distance_error=0.10182363539934158
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          0.37091556]]
+step=11, distance_error=0.07665487378835678
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.86963004  0.820199   -0.14302348]]
+step=12, distance_error=0.07576866447925568
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.07331143  0.38261816 -0.4378811 ]]
+step=13, distance_error=0.06612507253885269
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.24196327 -1.         -1.        ]]
+step=14, distance_error=0.04895623400807381
+
+done with step=14  !
+Episode : 4
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.09067327 -0.54888517  0.40766752]]
+step=0, distance_error=0.14057229459285736
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.46971253 -0.5707588   0.4277583 ]]
+step=1, distance_error=0.1186159998178482
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.44557074 -0.4959298   0.49720117]]
+step=2, distance_error=0.09890859574079514
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -1.         -1.        ]]
+step=3, distance_error=0.09627103060483932
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          0.7892695 ]]
+step=4, distance_error=0.1098068505525589
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.3271129  -0.5518161   0.44755125]]
+step=5, distance_error=0.08262363821268082
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.64111793 -0.19245183  0.66446304]]
+step=6, distance_error=0.0762600377202034
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.33688387 -1.         -0.982636  ]]
+step=7, distance_error=0.06438995897769928
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.65048593  0.755291    0.1380039 ]]
+step=8, distance_error=0.08922700583934784
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.20251785  0.29919356 -0.18495184]]
+step=9, distance_error=0.11294900625944138
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.46255034 -0.5180278   0.43021455]]
+step=10, distance_error=0.07664026319980621
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.18403639  0.5467792  -0.24613279]]
+step=11, distance_error=0.10574276000261307
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.1976611  -0.4483926   0.2583152 ]]
+step=12, distance_error=0.08088669180870056
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.         -1.         -1.        ]]
+step=13, distance_error=0.09145506471395493
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.41914216  1.          1.        ]]
+step=14, distance_error=0.08432763069868088
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.         -0.4919944   0.08676794]]
+step=15, distance_error=0.08418794721364975
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          1.          0.06296264]]
+step=16, distance_error=0.09559585154056549
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.24024874 -0.5349559  -1.        ]]
+step=17, distance_error=0.11531984061002731
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.29630405 -0.46865693  0.46910805]]
+step=18, distance_error=0.08037152886390686
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          0.50115776  0.87283623]]
+step=19, distance_error=0.09159205108880997
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.40654412 -0.35272628  0.32331765]]
+step=20, distance_error=0.07308195531368256
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.67774713 -0.8405027  -0.15885487]]
+step=21, distance_error=0.09863372892141342
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.46868727  0.46405828 -0.45060208]]
+step=22, distance_error=0.07481824606657028
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          0.26592258  0.8273739 ]]
+step=23, distance_error=0.05705651268362999
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.09797718  0.27945334 -0.4581158 ]]
+step=24, distance_error=0.07004383206367493
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          0.8727636   1.        ]]
+step=25, distance_error=0.10899186134338379
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.48272797  0.55650824 -0.02330698]]
+step=26, distance_error=0.13974334299564362
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.944154    0.19247784  0.9173838 ]]
+step=27, distance_error=0.13982559740543365
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.53432983 -0.46294472  0.5025516 ]]
+step=28, distance_error=0.14794856309890747
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.45022893 -0.06705004 -0.45787063]]
+step=29, distance_error=0.14786237478256226
+
+Episode : 5
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.         -1.         -1.        ]]
+step=0, distance_error=0.1892997920513153
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.2690564   0.5056669  -0.47751173]]
+step=1, distance_error=0.1501559168100357
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.38712823  0.28254992 -0.6766773 ]]
+step=2, distance_error=0.12509852647781372
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          1.        ]]
+step=3, distance_error=0.135882169008255
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.58155704  0.4758235  -0.5129274 ]]
+step=4, distance_error=0.12235546857118607
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.19252235 -1.         -1.        ]]
+step=5, distance_error=0.08661264181137085
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.23268618  0.07315093 -0.01439158]]
+step=6, distance_error=0.08832672238349915
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.69556725  0.6436486  -0.14192759]]
+step=7, distance_error=0.09817727655172348
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          0.857296    0.47765875]]
+step=8, distance_error=0.10408308357000351
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.8339112  -0.2907011   0.49601978]]
+step=9, distance_error=0.10973800718784332
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.06592145  0.02430378  0.4717794 ]]
+step=10, distance_error=0.12777890264987946
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.         -0.5718983  -1.        ]]
+step=11, distance_error=0.09944747388362885
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.17517269  0.20837076 -0.58832234]]
+step=12, distance_error=0.08727037906646729
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.08952991 -0.44534284  0.01976761]]
+step=13, distance_error=0.09019447863101959
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 1.          0.4422892   1.        ]]
+step=14, distance_error=0.10526929050683975
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.05118533  0.27846077 -0.39363948]]
+step=15, distance_error=0.09566500037908554
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.         -1.         -1.        ]]
+step=16, distance_error=0.08817799389362335
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.34914133  1.          1.        ]]
+step=17, distance_error=0.1067502573132515
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.29591283  0.36085412 -0.49401674]]
+step=18, distance_error=0.10572819411754608
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.09882428 -0.04547666  0.14511026]]
+step=19, distance_error=0.11159191280603409
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-1.          1.          1.        ]]
+step=20, distance_error=0.17757849395275116
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.14355098  0.29921955 -0.56177974]]
+step=21, distance_error=0.17647993564605713
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.06675781  0.00866264 -0.04067934]]
+step=22, distance_error=0.17459736764431
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.44548458 -0.9700272  -0.19973247]]
+step=23, distance_error=0.16924075782299042
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.8571666  -1.         -1.        ]]
+step=24, distance_error=0.1691809892654419
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [ 0.1557957  -0.12094937  0.62407744]]
+step=25, distance_error=0.17570579051971436
+
+action=[[ 0.49995434 -0.49995434  0.49995434]
+ [-0.42363784 -1.         -1.        ]]

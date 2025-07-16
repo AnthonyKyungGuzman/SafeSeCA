@@ -1,0 +1,17 @@
+{"time":"2025-07-01T22:58:08.19070289+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-01_22-58-08__0/wandb/run-20250701_225808-4krczrc1/logs/debug-core.log"}
+{"time":"2025-07-01T22:58:08.294814674+02:00","level":"INFO","msg":"created new stream","id":"4krczrc1"}
+{"time":"2025-07-01T22:58:08.294876456+02:00","level":"INFO","msg":"stream: started","id":"4krczrc1"}
+{"time":"2025-07-01T22:58:08.294981157+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"4krczrc1"}
+{"time":"2025-07-01T22:58:08.295027872+02:00","level":"INFO","msg":"sender: started","stream_id":"4krczrc1"}
+{"time":"2025-07-01T22:58:08.295095496+02:00","level":"INFO","msg":"handler: started","stream_id":"4krczrc1"}
+{"time":"2025-07-01T22:58:08.728783168+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-01T22:58:18.93871413+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-07-01T23:53:23.567774432+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-01T23:53:23.568124663+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-01T23:53:24.58497573+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.646074321,"progress":"264.1KB/264.1KB"}],"total_operations":1}}
+{"time":"2025-07-01T23:53:24.644352515+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-01T23:53:25.032540463+02:00","level":"INFO","msg":"stream: closing","id":"4krczrc1"}
+{"time":"2025-07-01T23:53:25.032554147+02:00","level":"INFO","msg":"handler: closed","stream_id":"4krczrc1"}
+{"time":"2025-07-01T23:53:25.032560309+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4krczrc1"}
+{"time":"2025-07-01T23:53:25.032596821+02:00","level":"INFO","msg":"sender: closed","stream_id":"4krczrc1"}
+{"time":"2025-07-01T23:53:25.032602258+02:00","level":"INFO","msg":"stream: closed","id":"4krczrc1"}

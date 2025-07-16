@@ -114,6 +114,8 @@ class PandaFriteEnvWrapperRewardMax(Wrapper):
 		else:
 			self.env.previous_reward = reward
 		"""
+
+		self.env.set_angle_between_dlo_and_gripper(self.angle_at_grasp())
 		
 		if (max_d > self.env.distance_threshold):
 			done = False
@@ -130,6 +132,52 @@ class PandaFriteEnvWrapperRewardMax(Wrapper):
 		# p.configureDebugVisualizer(p.COV_ENABLE_RENDERING, self.if_render) enble if want to control rendering 
 		return obs, reward, done, info
 	
+	def angle_at_grasp(self):
+		data = self.env.get_mesh_data(0)
+		points = data[1]
+
+		vec_normal_plane = self.compute_plane_normal(np.array(points[1]),np.array(points[6]),np.array(points[8]))
+		pos, orien = self.env.get_gripper_pos_orientation(0)
+		gripper_z = self.quat_2_rot_mat_gripper_z(orien)
+		angle_rad, angle_degrees = self.angle_between_vectors(vec_normal_plane, gripper_z)
+		return 180 - angle_degrees
+
+	def quat_2_rot_mat_gripper_z(self,q):
+		# Convert to rotation matrix
+		x, y, z, w = q
+		rot_mat = np.array([  [1 - 2*y**2 - 2*z**2,     2*x*y - 2*z*w,     2*x*z + 2*y*w],
+        			[2*x*y + 2*z*w,     1 - 2*x**2 - 2*z**2,     2*y*z - 2*x*w],
+        			[2*x*z - 2*y*w,         2*y*z + 2*x*w, 1 - 2*x**2 - 2*y**2]
+    	])
+		gripper_z = rot_mat[:, 2]  # third column
+		return gripper_z
+
+	def compute_plane_normal(self,P1, P2, P3):
+		v1 = P2 - P1
+		v2 = P3 - P1
+		normal = np.cross(v1, v2)
+		return normal / np.linalg.norm(normal)
+	
+	def angle_between_vectors(self, v1, v2):
+		v1 = v1 / np.linalg.norm(v1)
+		v2 = v2 / np.linalg.norm(v2)
+		dot = np.dot(v1, v2)
+		dot = np.clip(dot, -1.0, 1.0)  # for safety
+		angle_rad = np.arccos(dot)
+		return angle_rad, np.degrees(angle_rad)
+
+	def get_angle_between_dlo_and_gripper(self):
+		return self.env.get_angle_between_dlo_and_gripper()
+	
+	def get_joint_q_values(self):
+		return self.env.get_joint_q_values()
+	
+	def get_torque(self):
+		return self.env.get_torque(0)
+
+	def get_dt(self):
+		return self.env.dt
+
 	# ROS
 	
 	def reset_ros(self):

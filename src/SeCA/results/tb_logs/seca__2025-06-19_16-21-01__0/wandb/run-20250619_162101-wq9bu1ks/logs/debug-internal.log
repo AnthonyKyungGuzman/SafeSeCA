@@ -1,0 +1,17 @@
+{"time":"2025-06-19T16:21:01.849447908+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-06-19_16-21-01__0/wandb/run-20250619_162101-wq9bu1ks/logs/debug-core.log"}
+{"time":"2025-06-19T16:21:01.955480971+02:00","level":"INFO","msg":"created new stream","id":"wq9bu1ks"}
+{"time":"2025-06-19T16:21:01.955584794+02:00","level":"INFO","msg":"stream: started","id":"wq9bu1ks"}
+{"time":"2025-06-19T16:21:01.955728365+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"wq9bu1ks"}
+{"time":"2025-06-19T16:21:01.955792273+02:00","level":"INFO","msg":"sender: started","stream_id":"wq9bu1ks"}
+{"time":"2025-06-19T16:21:01.955977341+02:00","level":"INFO","msg":"handler: started","stream_id":"wq9bu1ks"}
+{"time":"2025-06-19T16:21:02.335711754+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T16:21:12.745812322+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-06-19T18:08:55.830638121+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T18:08:55.830979748+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T18:08:56.83562854+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.725410212,"progress":"500.4KB/500.4KB"}],"total_operations":1}}
+{"time":"2025-06-19T18:08:56.933149169+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T18:08:57.197753742+02:00","level":"INFO","msg":"stream: closing","id":"wq9bu1ks"}
+{"time":"2025-06-19T18:08:57.197763977+02:00","level":"INFO","msg":"handler: closed","stream_id":"wq9bu1ks"}
+{"time":"2025-06-19T18:08:57.197788108+02:00","level":"INFO","msg":"sender: closed","stream_id":"wq9bu1ks"}
+{"time":"2025-06-19T18:08:57.197769531+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wq9bu1ks"}
+{"time":"2025-06-19T18:08:57.197819196+02:00","level":"INFO","msg":"stream: closed","id":"wq9bu1ks"}

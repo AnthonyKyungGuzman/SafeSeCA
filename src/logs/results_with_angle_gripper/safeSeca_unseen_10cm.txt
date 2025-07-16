@@ -1,0 +1,1583 @@
+mode test !
+** ENV MODE TEST **
+config_file = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/config.json
+n_episodes = 100
+n_steps = 30
+do_reset_env = True
+wait_time_sleep_after_draw_env_box = 0.0
+wait_time_sleep_end_episode = 0.0
+do_episode_hit_return = False
+Episode : 0
+RESET ENV !
+initial distance error = -0.09056612104177475
+step=0, distance_error=0.040679510682821274, angle dlo gripper=123.88304006936231
+done with step=0  !
+Episode : 1
+RESET ENV !
+initial distance error = -0.3423129618167877
+step=0, distance_error=0.2755025029182434, angle dlo gripper=112.88788888302919
+step=1, distance_error=0.2426682561635971, angle dlo gripper=122.23866030101864
+step=2, distance_error=0.21114693582057953, angle dlo gripper=127.209853359511
+step=3, distance_error=0.21769602596759796, angle dlo gripper=111.38997175187085
+step=4, distance_error=0.17531529068946838, angle dlo gripper=145.8935038096205
+step=5, distance_error=0.22542798519134521, angle dlo gripper=140.6318502799095
+step=6, distance_error=0.1925337165594101, angle dlo gripper=176.57731608516173
+step=7, distance_error=0.17000214755535126, angle dlo gripper=178.60657759776186
+step=8, distance_error=0.16914136707782745, angle dlo gripper=178.45882978677918
+step=9, distance_error=0.16865858435630798, angle dlo gripper=176.01935376026393
+step=10, distance_error=0.16829119622707367, angle dlo gripper=174.17956012725324
+step=11, distance_error=0.16692769527435303, angle dlo gripper=152.1353255627096
+step=12, distance_error=0.17301222681999207, angle dlo gripper=155.4817645866469
+step=13, distance_error=0.1495797485113144, angle dlo gripper=157.19425165756974
+step=14, distance_error=0.16714128851890564, angle dlo gripper=142.0145321133191
+step=15, distance_error=0.15904578566551208, angle dlo gripper=144.11922376444363
+step=16, distance_error=0.1590382605791092, angle dlo gripper=143.5335710043338
+step=17, distance_error=0.15904301404953003, angle dlo gripper=143.45267618352642
+step=18, distance_error=0.1596696823835373, angle dlo gripper=140.66044849891978
+step=19, distance_error=0.13195742666721344, angle dlo gripper=136.59011032356125
+step=20, distance_error=0.14898738265037537, angle dlo gripper=129.60285991532737
+step=21, distance_error=0.18925398588180542, angle dlo gripper=119.0804733049575
+step=22, distance_error=0.16348665952682495, angle dlo gripper=124.07740834363344
+step=23, distance_error=0.16152822971343994, angle dlo gripper=125.28041415706322
+step=24, distance_error=0.13363546133041382, angle dlo gripper=135.210240554256
+step=25, distance_error=0.10822973400354385, angle dlo gripper=143.45974455472012
+step=26, distance_error=0.14368119835853577, angle dlo gripper=148.9345374152423
+step=27, distance_error=0.12227564305067062, angle dlo gripper=155.36272663449935
+step=28, distance_error=0.12223951518535614, angle dlo gripper=155.83845910389172
+step=29, distance_error=0.14046506583690643, angle dlo gripper=153.82407965983313
+Episode : 2
+RESET ENV !
+initial distance error = -0.192266047000885
+step=0, distance_error=0.18415117263793945, angle dlo gripper=110.16781935483549
+step=1, distance_error=0.1496669501066208, angle dlo gripper=133.82354899779878
+step=2, distance_error=0.19098332524299622, angle dlo gripper=103.69005833032149
+step=3, distance_error=0.1797584593296051, angle dlo gripper=153.55952914210653
+step=4, distance_error=0.13327613472938538, angle dlo gripper=173.62391284673862
+step=5, distance_error=0.1514948606491089, angle dlo gripper=143.4060870894115
+step=6, distance_error=0.11784636229276657, angle dlo gripper=143.5325796351555
+step=7, distance_error=0.13805632293224335, angle dlo gripper=109.20145991695459
+step=8, distance_error=0.12122958898544312, angle dlo gripper=116.97972088690105
+step=9, distance_error=0.10995291918516159, angle dlo gripper=118.42095408640661
+step=10, distance_error=0.16479454934597015, angle dlo gripper=103.19845939839018
+step=11, distance_error=0.1120346337556839, angle dlo gripper=122.3200874359494
+step=12, distance_error=0.16635538637638092, angle dlo gripper=103.32554323279905
+step=13, distance_error=0.16973961889743805, angle dlo gripper=109.81784746174559
+step=14, distance_error=0.13035456836223602, angle dlo gripper=115.29809132308594
+step=15, distance_error=0.1573365479707718, angle dlo gripper=105.48908361658306
+step=16, distance_error=0.1614396721124649, angle dlo gripper=111.66821682195913
+step=17, distance_error=0.1565094292163849, angle dlo gripper=119.15483493871298
+step=18, distance_error=0.17589564621448517, angle dlo gripper=117.07783706731449
+step=19, distance_error=0.17266157269477844, angle dlo gripper=108.49585174467076
+step=20, distance_error=0.11147861927747726, angle dlo gripper=124.7948125559469
+step=21, distance_error=0.1244705468416214, angle dlo gripper=113.92808534508384
+step=22, distance_error=0.11111082136631012, angle dlo gripper=123.68794838180197
+step=23, distance_error=0.11523057520389557, angle dlo gripper=111.04016172527734
+step=24, distance_error=0.059428393840789795, angle dlo gripper=125.55467072514422
+done with step=24  !
+Episode : 3
+RESET ENV !
+initial distance error = -0.2577807605266571
+step=0, distance_error=0.21998071670532227, angle dlo gripper=116.03372871567879
+step=1, distance_error=0.1912742257118225, angle dlo gripper=103.45551701119744
+step=2, distance_error=0.16140379011631012, angle dlo gripper=122.65321599162333
+step=3, distance_error=0.13362354040145874, angle dlo gripper=117.21324939916664
+step=4, distance_error=0.11815803498029709, angle dlo gripper=142.34668812747165
+step=5, distance_error=0.12573572993278503, angle dlo gripper=147.77357268833308
+step=6, distance_error=0.14093023538589478, angle dlo gripper=176.76165275057895
+step=7, distance_error=0.14072126150131226, angle dlo gripper=174.58378549488103
+step=8, distance_error=0.12011610716581345, angle dlo gripper=174.87775390737227
+step=9, distance_error=0.08389211446046829, angle dlo gripper=143.83227548900393
+done with step=9  !
+Episode : 4
+RESET ENV !
+initial distance error = -0.16039302945137024
+step=0, distance_error=0.17510740458965302, angle dlo gripper=122.23691126053812
+step=1, distance_error=0.1441366821527481, angle dlo gripper=137.06991311592247
+step=2, distance_error=0.15034933388233185, angle dlo gripper=175.1953602561134
+step=3, distance_error=0.17633458971977234, angle dlo gripper=168.71004834054833
+step=4, distance_error=0.15510237216949463, angle dlo gripper=140.59758375928723
+step=5, distance_error=0.12107503414154053, angle dlo gripper=117.51572360169723
+step=6, distance_error=0.0833863765001297, angle dlo gripper=114.10451781038154
+done with step=6  !
+Episode : 5
+RESET ENV !
+initial distance error = -0.24528108537197113
+step=0, distance_error=0.1891145259141922, angle dlo gripper=115.09988559192381
+step=1, distance_error=0.17177815735340118, angle dlo gripper=136.50246993078136
+step=2, distance_error=0.15411238372325897, angle dlo gripper=154.03471450552024
+step=3, distance_error=0.10468800365924835, angle dlo gripper=169.51621973725094
+step=4, distance_error=0.07376449555158615, angle dlo gripper=171.38736166972484
+done with step=4  !
+Episode : 6
+RESET ENV !
+initial distance error = -0.17629793286323547
+step=0, distance_error=0.15509521961212158, angle dlo gripper=115.61921428400863
+step=1, distance_error=0.15626884996891022, angle dlo gripper=164.02325676828954
+step=2, distance_error=0.1706036776304245, angle dlo gripper=168.33714961519516
+step=3, distance_error=0.129478320479393, angle dlo gripper=165.10660299344923
+step=4, distance_error=0.16522347927093506, angle dlo gripper=143.10654785270157
+step=5, distance_error=0.14232668280601501, angle dlo gripper=103.90562565046905
+step=6, distance_error=0.16037604212760925, angle dlo gripper=132.6188547720959
+step=7, distance_error=0.13350225985050201, angle dlo gripper=134.26114038507905
+step=8, distance_error=0.11402992159128189, angle dlo gripper=134.3705163355098
+step=9, distance_error=0.1231728121638298, angle dlo gripper=116.21708871407299
+step=10, distance_error=0.10135627537965775, angle dlo gripper=127.90440118038504
+step=11, distance_error=0.09593674540519714, angle dlo gripper=130.11785005052334
+done with step=11  !
+Episode : 7
+RESET ENV !
+initial distance error = -0.20877031981945038
+step=0, distance_error=0.17080479860305786, angle dlo gripper=133.67752182729942
+step=1, distance_error=0.13643969595432281, angle dlo gripper=114.18016726841742
+step=2, distance_error=0.10956717282533646, angle dlo gripper=165.0607592231624
+step=3, distance_error=0.07998934388160706, angle dlo gripper=171.66458063337453
+done with step=3  !
+Episode : 8
+RESET ENV !
+initial distance error = -0.24278005957603455
+step=0, distance_error=0.213562473654747, angle dlo gripper=119.93878688011823
+step=1, distance_error=0.21002064645290375, angle dlo gripper=121.00520659632357
+step=2, distance_error=0.1749403476715088, angle dlo gripper=169.30145808618903
+step=3, distance_error=0.17033237218856812, angle dlo gripper=174.10355282097495
+step=4, distance_error=0.11000429093837738, angle dlo gripper=147.1467780748529
+step=5, distance_error=0.12536154687404633, angle dlo gripper=141.86847253044454
+step=6, distance_error=0.1247754842042923, angle dlo gripper=134.71022850598146
+step=7, distance_error=0.1236157938838005, angle dlo gripper=132.39401236580088
+step=8, distance_error=0.12482524663209915, angle dlo gripper=106.9431695349001
+step=9, distance_error=0.12977628409862518, angle dlo gripper=110.33721597003561
+step=10, distance_error=0.14804694056510925, angle dlo gripper=102.20855132376624
+step=11, distance_error=0.13909831643104553, angle dlo gripper=101.14314210946382
+step=12, distance_error=0.13619840145111084, angle dlo gripper=111.26140670579301
+step=13, distance_error=0.08372166752815247, angle dlo gripper=118.114589119572
+done with step=13  !
+Episode : 9
+RESET ENV !
+initial distance error = -0.2047826647758484
+step=0, distance_error=0.153741717338562, angle dlo gripper=119.81799446762068
+step=1, distance_error=0.11555752903223038, angle dlo gripper=151.88131205055333
+step=2, distance_error=0.13911163806915283, angle dlo gripper=164.2333501257583
+step=3, distance_error=0.1433320790529251, angle dlo gripper=129.888448373289
+step=4, distance_error=0.09073925018310547, angle dlo gripper=145.05234654561636
+done with step=4  !
+Episode : 10
+RESET ENV !
+initial distance error = -0.1906895488500595
+step=0, distance_error=0.1647791862487793, angle dlo gripper=109.09123540475294
+step=1, distance_error=0.16663672029972076, angle dlo gripper=113.50318585052898
+step=2, distance_error=0.13819627463817596, angle dlo gripper=120.99093037023185
+step=3, distance_error=0.15246622264385223, angle dlo gripper=130.43406581624387
+step=4, distance_error=0.1491648405790329, angle dlo gripper=147.2270465506152
+step=5, distance_error=0.0918709859251976, angle dlo gripper=176.67629901231038
+done with step=5  !
+Episode : 11
+RESET ENV !
+initial distance error = -0.18325300514698029
+step=0, distance_error=0.16059575974941254, angle dlo gripper=123.99198279460792
+step=1, distance_error=0.1370684802532196, angle dlo gripper=139.79258272693167
+step=2, distance_error=0.13087773323059082, angle dlo gripper=137.27914337113899
+step=3, distance_error=0.1325054168701172, angle dlo gripper=170.72736994474062
+step=4, distance_error=0.09197112917900085, angle dlo gripper=155.08367946516057
+done with step=4  !
+Episode : 12
+RESET ENV !
+initial distance error = -0.178285151720047
+step=0, distance_error=0.1402636021375656, angle dlo gripper=106.23281996657438
+step=1, distance_error=0.13768693804740906, angle dlo gripper=125.08381597042495
+step=2, distance_error=0.15617293119430542, angle dlo gripper=126.54377176603941
+step=3, distance_error=0.1959657371044159, angle dlo gripper=160.13053984622144
+step=4, distance_error=0.20028673112392426, angle dlo gripper=155.53844927785107
+step=5, distance_error=0.22079342603683472, angle dlo gripper=141.46320559518506
+step=6, distance_error=0.2150930017232895, angle dlo gripper=123.44434259725936
+step=7, distance_error=0.2115626037120819, angle dlo gripper=119.11699957849027
+step=8, distance_error=0.22301141917705536, angle dlo gripper=105.63249684975312
+step=9, distance_error=0.22700181603431702, angle dlo gripper=109.12377570681033
+step=10, distance_error=0.21630661189556122, angle dlo gripper=106.99562220063302
+step=11, distance_error=0.21155284345149994, angle dlo gripper=116.99896552485028
+step=12, distance_error=0.19816875457763672, angle dlo gripper=111.98273788842799
+step=13, distance_error=0.20196659862995148, angle dlo gripper=111.55462233896948
+step=14, distance_error=0.19733530282974243, angle dlo gripper=117.47028144163514
+step=15, distance_error=0.16369478404521942, angle dlo gripper=123.59622546712525
+step=16, distance_error=0.15328769385814667, angle dlo gripper=116.11714801340543
+step=17, distance_error=0.1380341798067093, angle dlo gripper=125.03950380731393
+step=18, distance_error=0.12276364117860794, angle dlo gripper=121.57807275809341
+step=19, distance_error=0.11713236570358276, angle dlo gripper=127.17551273470242
+step=20, distance_error=0.12331689894199371, angle dlo gripper=129.2382636100754
+step=21, distance_error=0.10152185708284378, angle dlo gripper=126.76137438413092
+step=22, distance_error=0.13418202102184296, angle dlo gripper=113.09216441457224
+step=23, distance_error=0.0975789800286293, angle dlo gripper=115.37764741868135
+done with step=23  !
+Episode : 13
+RESET ENV !
+initial distance error = -0.31039509177207947
+step=0, distance_error=0.26985859870910645, angle dlo gripper=117.75658627676438
+step=1, distance_error=0.28365957736968994, angle dlo gripper=100.91589049920682
+step=2, distance_error=0.2439391165971756, angle dlo gripper=146.17411469723004
+step=3, distance_error=0.1997271478176117, angle dlo gripper=174.7522542739751
+step=4, distance_error=0.18437054753303528, angle dlo gripper=149.3148328433596
+step=5, distance_error=0.1941366195678711, angle dlo gripper=121.95280287014295
+step=6, distance_error=0.19401061534881592, angle dlo gripper=124.66526171362743
+step=7, distance_error=0.15969088673591614, angle dlo gripper=140.7901978515366
+step=8, distance_error=0.11019530892372131, angle dlo gripper=135.93567913994988
+step=9, distance_error=0.11323942244052887, angle dlo gripper=128.46685697184256
+step=10, distance_error=0.1125061884522438, angle dlo gripper=126.34457962537198
+step=11, distance_error=0.11185368150472641, angle dlo gripper=123.81653118201763
+step=12, distance_error=0.0551341250538826, angle dlo gripper=120.54389036433406
+done with step=12  !
+Episode : 14
+RESET ENV !
+initial distance error = -0.16861321032047272
+step=0, distance_error=0.13841316103935242, angle dlo gripper=113.77001842998813
+step=1, distance_error=0.12940771877765656, angle dlo gripper=124.12140557496261
+step=2, distance_error=0.08330502361059189, angle dlo gripper=109.87085195238254
+done with step=2  !
+Episode : 15
+RESET ENV !
+initial distance error = -0.11077843606472015
+step=0, distance_error=0.05027015879750252, angle dlo gripper=122.6490904263983
+done with step=0  !
+Episode : 16
+RESET ENV !
+initial distance error = -0.31011590361595154
+step=0, distance_error=0.2634081542491913, angle dlo gripper=104.35435833234558
+step=1, distance_error=0.2494039684534073, angle dlo gripper=109.27793710986991
+step=2, distance_error=0.2165631353855133, angle dlo gripper=124.93975280061248
+step=3, distance_error=0.18920953571796417, angle dlo gripper=131.4315929829768
+step=4, distance_error=0.17257434129714966, angle dlo gripper=144.70731942633427
+step=5, distance_error=0.18508265912532806, angle dlo gripper=148.7553653986354
+step=6, distance_error=0.16839107871055603, angle dlo gripper=162.99116011951625
+step=7, distance_error=0.12472446262836456, angle dlo gripper=171.9862704853841
+step=8, distance_error=0.10657618939876556, angle dlo gripper=179.16095408262987
+step=9, distance_error=0.05593963339924812, angle dlo gripper=156.66059206039435
+done with step=9  !
+Episode : 17
+RESET ENV !
+initial distance error = -0.24119357764720917
+step=0, distance_error=0.256143718957901, angle dlo gripper=108.1919581271477
+step=1, distance_error=0.20409409701824188, angle dlo gripper=126.88120693046797
+step=2, distance_error=0.24208490550518036, angle dlo gripper=113.74032296120897
+step=3, distance_error=0.2784643769264221, angle dlo gripper=116.00894199641178
+step=4, distance_error=0.2246568351984024, angle dlo gripper=175.28607938145709
+step=5, distance_error=0.19227950274944305, angle dlo gripper=140.0531819181804
+step=6, distance_error=0.1368061602115631, angle dlo gripper=139.33701972613696
+step=7, distance_error=0.13406629860401154, angle dlo gripper=121.2624713980704
+step=8, distance_error=0.14410340785980225, angle dlo gripper=110.86039915704748
+step=9, distance_error=0.10928482562303543, angle dlo gripper=120.71302199900994
+step=10, distance_error=0.14520008862018585, angle dlo gripper=105.12732603701811
+step=11, distance_error=0.15825220942497253, angle dlo gripper=113.8805365470732
+step=12, distance_error=0.12402437627315521, angle dlo gripper=116.03090892883002
+step=13, distance_error=0.143898144364357, angle dlo gripper=107.10276262996281
+step=14, distance_error=0.12799915671348572, angle dlo gripper=111.27193730270776
+step=15, distance_error=0.10709119588136673, angle dlo gripper=115.49553809919469
+step=16, distance_error=0.10343944281339645, angle dlo gripper=118.33052535729571
+step=17, distance_error=0.12645050883293152, angle dlo gripper=103.47906779408208
+step=18, distance_error=0.08292209357023239, angle dlo gripper=114.85552574430994
+done with step=18  !
+Episode : 18
+RESET ENV !
+initial distance error = -0.21393068134784698
+step=0, distance_error=0.14357945322990417, angle dlo gripper=123.51509366964714
+step=1, distance_error=0.10083992034196854, angle dlo gripper=164.11296292088576
+step=2, distance_error=0.13926392793655396, angle dlo gripper=158.06586261219974
+step=3, distance_error=0.141098752617836, angle dlo gripper=164.45118387159152
+step=4, distance_error=0.11552097648382187, angle dlo gripper=168.3872334191171
+step=5, distance_error=0.11880020052194595, angle dlo gripper=160.329002358401
+step=6, distance_error=0.11855438351631165, angle dlo gripper=151.89949894954077
+step=7, distance_error=0.11588893830776215, angle dlo gripper=131.7842692047285
+step=8, distance_error=0.08352591097354889, angle dlo gripper=139.74915702485842
+done with step=8  !
+Episode : 19
+RESET ENV !
+initial distance error = -0.2436153143644333
+step=0, distance_error=0.2653208374977112, angle dlo gripper=124.31358666409227
+step=1, distance_error=0.2556513249874115, angle dlo gripper=136.88934744899316
+step=2, distance_error=0.24109801650047302, angle dlo gripper=161.04119652202112
+step=3, distance_error=0.20809055864810944, angle dlo gripper=161.38048503953817
+step=4, distance_error=0.19384637475013733, angle dlo gripper=179.0652337362453
+step=5, distance_error=0.14285893738269806, angle dlo gripper=140.0697515789665
+step=6, distance_error=0.17018774151802063, angle dlo gripper=164.66951331048605
+step=7, distance_error=0.131174698472023, angle dlo gripper=174.0767555604942
+step=8, distance_error=0.1312989890575409, angle dlo gripper=174.48027075894228
+step=9, distance_error=0.09876419603824615, angle dlo gripper=147.8345315457813
+done with step=9  !
+Episode : 20
+RESET ENV !
+initial distance error = -0.24105224013328552
+step=0, distance_error=0.17339400947093964, angle dlo gripper=109.16812155830249
+step=1, distance_error=0.15824860334396362, angle dlo gripper=135.07575423142967
+step=2, distance_error=0.15498486161231995, angle dlo gripper=130.46356698976734
+step=3, distance_error=0.10114308446645737, angle dlo gripper=170.33155831892893
+step=4, distance_error=0.1311461180448532, angle dlo gripper=174.39716574469261
+step=5, distance_error=0.08746331930160522, angle dlo gripper=164.65371031199902
+done with step=5  !
+Episode : 21
+RESET ENV !
+initial distance error = -0.15992312133312225
+step=0, distance_error=0.11174863576889038, angle dlo gripper=120.56490822965368
+step=1, distance_error=0.13673841953277588, angle dlo gripper=107.08498064021691
+step=2, distance_error=0.1160588338971138, angle dlo gripper=135.43785818039424
+step=3, distance_error=0.10631857812404633, angle dlo gripper=152.5376227071424
+step=4, distance_error=0.11303365230560303, angle dlo gripper=163.12816722447087
+step=5, distance_error=0.08148950338363647, angle dlo gripper=171.32270696633285
+done with step=5  !
+Episode : 22
+RESET ENV !
+initial distance error = -0.1491948664188385
+step=0, distance_error=0.13507041335105896, angle dlo gripper=126.40778945701065
+step=1, distance_error=0.10559412091970444, angle dlo gripper=172.14271181241907
+step=2, distance_error=0.08844608813524246, angle dlo gripper=170.98334445196477
+done with step=2  !
+Episode : 23
+RESET ENV !
+initial distance error = -0.20878401398658752
+step=0, distance_error=0.16685284674167633, angle dlo gripper=111.82054482012458
+step=1, distance_error=0.1777278035879135, angle dlo gripper=117.16685990585165
+step=2, distance_error=0.15246373414993286, angle dlo gripper=135.53377706826453
+step=3, distance_error=0.14707648754119873, angle dlo gripper=140.14907651225093
+step=4, distance_error=0.14295977354049683, angle dlo gripper=137.78066340961968
+step=5, distance_error=0.11867167800664902, angle dlo gripper=159.27418606164488
+step=6, distance_error=0.11483204364776611, angle dlo gripper=174.4492451728125
+step=7, distance_error=0.11899308860301971, angle dlo gripper=173.03456069383876
+step=8, distance_error=0.12409716099500656, angle dlo gripper=158.75048702191188
+step=9, distance_error=0.11164259165525436, angle dlo gripper=152.14158608246208
+step=10, distance_error=0.11131583154201508, angle dlo gripper=153.80962073420682
+step=11, distance_error=0.08454012125730515, angle dlo gripper=153.1878813877171
+done with step=11  !
+Episode : 24
+RESET ENV !
+initial distance error = -0.3311404287815094
+step=0, distance_error=0.29710984230041504, angle dlo gripper=118.07831897987623
+step=1, distance_error=0.24939684569835663, angle dlo gripper=143.15444096086736
+step=2, distance_error=0.2967292368412018, angle dlo gripper=105.02283035345313
+step=3, distance_error=0.24142561852931976, angle dlo gripper=170.93060576925626
+step=4, distance_error=0.25973400473594666, angle dlo gripper=179.0908087704976
+step=5, distance_error=0.22105273604393005, angle dlo gripper=138.81731651737135
+step=6, distance_error=0.14745354652404785, angle dlo gripper=133.1609602551805
+step=7, distance_error=0.10125203430652618, angle dlo gripper=129.43801265876073
+step=8, distance_error=0.10062611848115921, angle dlo gripper=122.25868952718874
+step=9, distance_error=0.12301677465438843, angle dlo gripper=108.5304301342647
+step=10, distance_error=0.12420536577701569, angle dlo gripper=116.91188549361252
+step=11, distance_error=0.12399111688137054, angle dlo gripper=114.74605152824255
+step=12, distance_error=0.07437599450349808, angle dlo gripper=112.99858695881983
+done with step=12  !
+Episode : 25
+RESET ENV !
+initial distance error = -0.21803626418113708
+step=0, distance_error=0.1899218112230301, angle dlo gripper=113.90263636887545
+step=1, distance_error=0.17215290665626526, angle dlo gripper=127.0847169427315
+step=2, distance_error=0.17333649098873138, angle dlo gripper=139.47064578514676
+step=3, distance_error=0.17037571966648102, angle dlo gripper=128.6086995450466
+step=4, distance_error=0.2090718299150467, angle dlo gripper=160.68625763732334
+step=5, distance_error=0.17459557950496674, angle dlo gripper=143.44813183245878
+step=6, distance_error=0.15036192536354065, angle dlo gripper=178.9560703175831
+step=7, distance_error=0.13392005860805511, angle dlo gripper=166.54718448451447
+step=8, distance_error=0.13416503369808197, angle dlo gripper=165.53342770725905
+step=9, distance_error=0.10058271884918213, angle dlo gripper=146.5455566510921
+step=10, distance_error=0.1335536688566208, angle dlo gripper=142.1486998262531
+step=11, distance_error=0.08730494230985641, angle dlo gripper=121.73977823744718
+done with step=11  !
+Episode : 26
+RESET ENV !
+initial distance error = -0.23440128564834595
+step=0, distance_error=0.18921324610710144, angle dlo gripper=123.56674078969415
+step=1, distance_error=0.18450601398944855, angle dlo gripper=114.89668513723961
+step=2, distance_error=0.17865823209285736, angle dlo gripper=121.33867650520428
+step=3, distance_error=0.1260322630405426, angle dlo gripper=178.08468183555033
+step=4, distance_error=0.13216157257556915, angle dlo gripper=169.27709139480524
+step=5, distance_error=0.1414208710193634, angle dlo gripper=143.59926229796852
+step=6, distance_error=0.17743559181690216, angle dlo gripper=149.84021679624345
+step=7, distance_error=0.14419348537921906, angle dlo gripper=135.5011017121183
+step=8, distance_error=0.11733333021402359, angle dlo gripper=122.45308314724873
+step=9, distance_error=0.11441314965486526, angle dlo gripper=109.60038619576815
+step=10, distance_error=0.10642942041158676, angle dlo gripper=109.20126715831051
+step=11, distance_error=0.12098601460456848, angle dlo gripper=117.20006568388115
+step=12, distance_error=0.101588174700737, angle dlo gripper=112.93700862549682
+step=13, distance_error=0.09883394837379456, angle dlo gripper=119.49441935146075
+done with step=13  !
+Episode : 27
+RESET ENV !
+initial distance error = -0.22469259798526764
+step=0, distance_error=0.19685980677604675, angle dlo gripper=110.7187714830268
+step=1, distance_error=0.1707216203212738, angle dlo gripper=135.37671469378424
+step=2, distance_error=0.16189998388290405, angle dlo gripper=176.46900532464315
+step=3, distance_error=0.1454767882823944, angle dlo gripper=154.75637098895865
+step=4, distance_error=0.12018371373414993, angle dlo gripper=149.79522633997078
+step=5, distance_error=0.10508856922388077, angle dlo gripper=150.4411045840952
+step=6, distance_error=0.14085665345191956, angle dlo gripper=118.34891398010649
+step=7, distance_error=0.12818166613578796, angle dlo gripper=117.86306900973997
+step=8, distance_error=0.15429013967514038, angle dlo gripper=108.87350891041108
+step=9, distance_error=0.143571138381958, angle dlo gripper=104.51303905372403
+step=10, distance_error=0.12694396078586578, angle dlo gripper=110.0245154171744
+step=11, distance_error=0.131204292178154, angle dlo gripper=112.85544683330954
+step=12, distance_error=0.11840789020061493, angle dlo gripper=122.55318799670412
+step=13, distance_error=0.14836102724075317, angle dlo gripper=127.94573669128604
+step=14, distance_error=0.10243745148181915, angle dlo gripper=124.77207621387214
+step=15, distance_error=0.0836082398891449, angle dlo gripper=132.23388474966967
+done with step=15  !
+Episode : 28
+RESET ENV !
+initial distance error = -0.26110586524009705
+step=0, distance_error=0.2170005738735199, angle dlo gripper=118.15092741904577
+step=1, distance_error=0.19447964429855347, angle dlo gripper=145.78646155076115
+step=2, distance_error=0.16495966911315918, angle dlo gripper=164.4469706109019
+step=3, distance_error=0.1027040109038353, angle dlo gripper=153.97967492318753
+step=4, distance_error=0.10389001667499542, angle dlo gripper=147.9820797887575
+step=5, distance_error=0.11606834828853607, angle dlo gripper=125.03606581594848
+step=6, distance_error=0.11568202823400497, angle dlo gripper=97.63803026674968
+step=7, distance_error=0.08542844653129578, angle dlo gripper=126.46686676154224
+done with step=7  !
+Episode : 29
+RESET ENV !
+initial distance error = -0.25778114795684814
+step=0, distance_error=0.2083122283220291, angle dlo gripper=107.2717771463516
+step=1, distance_error=0.1759675294160843, angle dlo gripper=122.90876125621094
+step=2, distance_error=0.14746975898742676, angle dlo gripper=132.82895700033873
+step=3, distance_error=0.140056312084198, angle dlo gripper=114.37683143621935
+step=4, distance_error=0.1464317888021469, angle dlo gripper=137.83518593409943
+step=5, distance_error=0.12474668025970459, angle dlo gripper=149.164660056145
+step=6, distance_error=0.10621222853660583, angle dlo gripper=166.69369292243553
+step=7, distance_error=0.07012836635112762, angle dlo gripper=167.63694821537186
+done with step=7  !
+Episode : 30
+RESET ENV !
+initial distance error = -0.3720155656337738
+step=0, distance_error=0.2928813099861145, angle dlo gripper=119.1663088604011
+step=1, distance_error=0.2517078220844269, angle dlo gripper=142.20699877022355
+step=2, distance_error=0.26729461550712585, angle dlo gripper=129.41002676583108
+step=3, distance_error=0.23809203505516052, angle dlo gripper=166.4291808034624
+step=4, distance_error=0.21332119405269623, angle dlo gripper=179.00845985154652
+step=5, distance_error=0.19105280935764313, angle dlo gripper=168.73377100269923
+step=6, distance_error=0.16704660654067993, angle dlo gripper=161.47360207624442
+step=7, distance_error=0.1425800621509552, angle dlo gripper=146.22351164512864
+step=8, distance_error=0.1265576332807541, angle dlo gripper=142.09295167216868
+step=9, distance_error=0.0867524966597557, angle dlo gripper=126.13265288536097
+done with step=9  !
+Episode : 31
+RESET ENV !
+initial distance error = -0.11075902730226517
+step=0, distance_error=0.05838846042752266, angle dlo gripper=118.46365900016475
+done with step=0  !
+Episode : 32
+RESET ENV !
+initial distance error = -0.2788145840167999
+step=0, distance_error=0.22879242897033691, angle dlo gripper=122.05278147494327
+step=1, distance_error=0.2148306518793106, angle dlo gripper=132.93914177837667
+step=2, distance_error=0.21688389778137207, angle dlo gripper=143.2057557062124
+step=3, distance_error=0.19768692553043365, angle dlo gripper=164.71202878308765
+step=4, distance_error=0.15859264135360718, angle dlo gripper=178.15591178881002
+step=5, distance_error=0.13283556699752808, angle dlo gripper=119.52873113995027
+step=6, distance_error=0.09799399226903915, angle dlo gripper=132.67208301082874
+done with step=6  !
+Episode : 33
+RESET ENV !
+initial distance error = -0.20983830094337463
+step=0, distance_error=0.14676222205162048, angle dlo gripper=134.8284788876613
+step=1, distance_error=0.1461362987756729, angle dlo gripper=155.55387452579419
+step=2, distance_error=0.1190798431634903, angle dlo gripper=156.58878975626502
+step=3, distance_error=0.12464126199483871, angle dlo gripper=160.33189595467263
+step=4, distance_error=0.08603480458259583, angle dlo gripper=146.31872515151662
+done with step=4  !
+Episode : 34
+RESET ENV !
+initial distance error = -0.33480358123779297
+step=0, distance_error=0.3129161596298218, angle dlo gripper=114.82832518447631
+step=1, distance_error=0.28183817863464355, angle dlo gripper=120.4971096057758
+step=2, distance_error=0.2499348372220993, angle dlo gripper=131.69718847834653
+step=3, distance_error=0.2442607283592224, angle dlo gripper=101.30248367300027
+step=4, distance_error=0.2097693234682083, angle dlo gripper=132.93353487184274
+step=5, distance_error=0.16832929849624634, angle dlo gripper=153.27537841313776
+step=6, distance_error=0.2169833481311798, angle dlo gripper=144.63885852825823
+step=7, distance_error=0.1962708830833435, angle dlo gripper=172.96451608357907
+step=8, distance_error=0.19559800624847412, angle dlo gripper=170.9359715764899
+step=9, distance_error=0.16457262635231018, angle dlo gripper=161.97756901618234
+step=10, distance_error=0.16574539244174957, angle dlo gripper=162.4128569755961
+step=11, distance_error=0.16804762184619904, angle dlo gripper=133.73054470760388
+step=12, distance_error=0.16863398253917694, angle dlo gripper=136.5180137355948
+step=13, distance_error=0.16474610567092896, angle dlo gripper=123.5914446796353
+step=14, distance_error=0.18444594740867615, angle dlo gripper=118.31399392388137
+step=15, distance_error=0.17309559881687164, angle dlo gripper=130.1832734169517
+step=16, distance_error=0.15036922693252563, angle dlo gripper=129.1712350964901
+step=17, distance_error=0.14590251445770264, angle dlo gripper=139.37332788167728
+step=18, distance_error=0.15434561669826508, angle dlo gripper=146.19195520931976
+step=19, distance_error=0.12655752897262573, angle dlo gripper=147.06909877393616
+step=20, distance_error=0.10087897628545761, angle dlo gripper=155.50760383855922
+step=21, distance_error=0.13236035406589508, angle dlo gripper=166.652857448348
+step=22, distance_error=0.1501024216413498, angle dlo gripper=146.78878648501873
+step=23, distance_error=0.12680982053279877, angle dlo gripper=146.8560461161331
+step=24, distance_error=0.09924239665269852, angle dlo gripper=160.76190357589002
+done with step=24  !
+Episode : 35
+RESET ENV !
+initial distance error = -0.23759005963802338
+step=0, distance_error=0.2260606735944748, angle dlo gripper=110.00005250487999
+step=1, distance_error=0.1688382625579834, angle dlo gripper=154.31085174941774
+step=2, distance_error=0.16439537703990936, angle dlo gripper=156.5220742193665
+step=3, distance_error=0.17181479930877686, angle dlo gripper=121.6663613416317
+step=4, distance_error=0.18013054132461548, angle dlo gripper=121.5777088100738
+step=5, distance_error=0.1854303479194641, angle dlo gripper=109.68282618358677
+step=6, distance_error=0.20796601474285126, angle dlo gripper=119.86894895207685
+step=7, distance_error=0.20663735270500183, angle dlo gripper=124.09138053709002
+step=8, distance_error=0.2138097733259201, angle dlo gripper=121.11739753101833
+step=9, distance_error=0.1870485097169876, angle dlo gripper=113.5537166204435
+step=10, distance_error=0.16894026100635529, angle dlo gripper=124.01488790316827
+step=11, distance_error=0.12753944098949432, angle dlo gripper=132.27314118606046
+step=12, distance_error=0.1411529779434204, angle dlo gripper=135.22817402792077
+step=13, distance_error=0.0981445461511612, angle dlo gripper=131.64834402632937
+done with step=13  !
+Episode : 36
+RESET ENV !
+initial distance error = -0.2508983016014099
+step=0, distance_error=0.2079668939113617, angle dlo gripper=130.89976505428515
+step=1, distance_error=0.19593653082847595, angle dlo gripper=150.23369611616377
+step=2, distance_error=0.19419923424720764, angle dlo gripper=140.33599337753438
+step=3, distance_error=0.17631752789020538, angle dlo gripper=144.98448431886055
+step=4, distance_error=0.16793417930603027, angle dlo gripper=144.69551707606612
+step=5, distance_error=0.12772585451602936, angle dlo gripper=146.43854204711246
+step=6, distance_error=0.13969096541404724, angle dlo gripper=135.92078470405124
+step=7, distance_error=0.10311973094940186, angle dlo gripper=133.16908590221354
+step=8, distance_error=0.09833849221467972, angle dlo gripper=125.33398536144215
+done with step=8  !
+Episode : 37
+RESET ENV !
+initial distance error = -0.2743823528289795
+step=0, distance_error=0.23766933381557465, angle dlo gripper=113.77888155841616
+step=1, distance_error=0.22450032830238342, angle dlo gripper=144.62587215216874
+step=2, distance_error=0.21798032522201538, angle dlo gripper=164.99200391038437
+step=3, distance_error=0.17918294668197632, angle dlo gripper=169.54641771012075
+step=4, distance_error=0.1987118422985077, angle dlo gripper=143.76297455798448
+step=5, distance_error=0.20299609005451202, angle dlo gripper=131.11027692727058
+step=6, distance_error=0.1673508584499359, angle dlo gripper=139.6038794436993
+step=7, distance_error=0.17142435908317566, angle dlo gripper=129.18855650123493
+step=8, distance_error=0.16991916298866272, angle dlo gripper=118.85388041423325
+step=9, distance_error=0.1642531007528305, angle dlo gripper=111.36316797109572
+step=10, distance_error=0.18442478775978088, angle dlo gripper=108.02919625483048
+step=11, distance_error=0.2284761518239975, angle dlo gripper=106.69760175639634
+step=12, distance_error=0.23342365026474, angle dlo gripper=110.06585282888926
+step=13, distance_error=0.24214009940624237, angle dlo gripper=112.29970808100192
+step=14, distance_error=0.25594362616539, angle dlo gripper=106.21197332347039
+step=15, distance_error=0.2558930218219757, angle dlo gripper=106.00644712891487
+step=16, distance_error=0.2558598220348358, angle dlo gripper=105.65334659511974
+step=17, distance_error=0.23727892339229584, angle dlo gripper=107.39681223494581
+step=18, distance_error=0.23788608610630035, angle dlo gripper=107.95992374763976
+step=19, distance_error=0.20872566103935242, angle dlo gripper=105.92012366525151
+step=20, distance_error=0.210171639919281, angle dlo gripper=108.34045391211606
+step=21, distance_error=0.20945222675800323, angle dlo gripper=114.63375711279573
+step=22, distance_error=0.20805296301841736, angle dlo gripper=108.30517922811987
+step=23, distance_error=0.2155684232711792, angle dlo gripper=106.02383776296767
+step=24, distance_error=0.16385804116725922, angle dlo gripper=118.42310831790874
+step=25, distance_error=0.15864260494709015, angle dlo gripper=117.1249206851256
+step=26, distance_error=0.14312443137168884, angle dlo gripper=115.82577161958174
+step=27, distance_error=0.11870677024126053, angle dlo gripper=126.11790957604317
+step=28, distance_error=0.17028416693210602, angle dlo gripper=121.9966414735856
+step=29, distance_error=0.12694178521633148, angle dlo gripper=111.35117905640537
+Episode : 38
+RESET ENV !
+initial distance error = -0.32088702917099
+step=0, distance_error=0.2719649374485016, angle dlo gripper=127.47514035542704
+step=1, distance_error=0.24053949117660522, angle dlo gripper=141.22677023894727
+step=2, distance_error=0.21933969855308533, angle dlo gripper=157.71240072590223
+step=3, distance_error=0.20169614255428314, angle dlo gripper=172.04855190146944
+step=4, distance_error=0.168702632188797, angle dlo gripper=172.60715664972392
+step=5, distance_error=0.14070498943328857, angle dlo gripper=170.91073567782675
+step=6, distance_error=0.13881619274616241, angle dlo gripper=149.40043336611572
+step=7, distance_error=0.13259920477867126, angle dlo gripper=138.2172870094215
+step=8, distance_error=0.14453637599945068, angle dlo gripper=129.14460668377524
+step=9, distance_error=0.1591748595237732, angle dlo gripper=121.32727179549943
+step=10, distance_error=0.1402050405740738, angle dlo gripper=123.8013415467994
+step=11, distance_error=0.12007191777229309, angle dlo gripper=131.03046475239083
+step=12, distance_error=0.14511501789093018, angle dlo gripper=116.54031627686642
+step=13, distance_error=0.15114432573318481, angle dlo gripper=119.82747588409786
+step=14, distance_error=0.09935685247182846, angle dlo gripper=140.7583040971553
+done with step=14  !
+Episode : 39
+RESET ENV !
+initial distance error = -0.18367286026477814
+step=0, distance_error=0.17981353402137756, angle dlo gripper=121.8742159262309
+step=1, distance_error=0.1698300838470459, angle dlo gripper=125.40654623732614
+step=2, distance_error=0.14828403294086456, angle dlo gripper=156.66509427393643
+step=3, distance_error=0.12162992358207703, angle dlo gripper=135.16345355045294
+step=4, distance_error=0.13297206163406372, angle dlo gripper=128.50147912142862
+step=5, distance_error=0.1366998553276062, angle dlo gripper=103.43535350325273
+step=6, distance_error=0.09734459966421127, angle dlo gripper=127.63686088728196
+done with step=6  !
+Episode : 40
+RESET ENV !
+initial distance error = -0.3275480568408966
+step=0, distance_error=0.2483512908220291, angle dlo gripper=120.75772407007665
+step=1, distance_error=0.20248176157474518, angle dlo gripper=151.471328342461
+step=2, distance_error=0.17295964062213898, angle dlo gripper=173.5529265130635
+step=3, distance_error=0.14242307841777802, angle dlo gripper=173.6672838532625
+step=4, distance_error=0.1234171912074089, angle dlo gripper=161.45096950171026
+step=5, distance_error=0.13794460892677307, angle dlo gripper=172.25256982132208
+step=6, distance_error=0.08849601447582245, angle dlo gripper=135.30087173594524
+done with step=6  !
+Episode : 41
+RESET ENV !
+initial distance error = -0.23981772363185883
+step=0, distance_error=0.16459143161773682, angle dlo gripper=117.45505141222996
+step=1, distance_error=0.132847398519516, angle dlo gripper=125.10374967274822
+step=2, distance_error=0.12021179497241974, angle dlo gripper=145.6554887089899
+step=3, distance_error=0.1330806314945221, angle dlo gripper=112.97374433648537
+step=4, distance_error=0.11385274678468704, angle dlo gripper=130.66710911501283
+step=5, distance_error=0.10966331511735916, angle dlo gripper=129.51013800152955
+step=6, distance_error=0.10977628827095032, angle dlo gripper=129.54704492109383
+step=7, distance_error=0.0960678979754448, angle dlo gripper=122.29260159016626
+done with step=7  !
+Episode : 42
+RESET ENV !
+initial distance error = -0.22753407061100006
+step=0, distance_error=0.1605527549982071, angle dlo gripper=119.84872197847234
+step=1, distance_error=0.17677326500415802, angle dlo gripper=107.67585401635385
+step=2, distance_error=0.1628623902797699, angle dlo gripper=173.10399715466056
+step=3, distance_error=0.2086375504732132, angle dlo gripper=164.05384869318252
+step=4, distance_error=0.20110023021697998, angle dlo gripper=126.56157011769344
+step=5, distance_error=0.19091366231441498, angle dlo gripper=130.03125642475592
+step=6, distance_error=0.20620445907115936, angle dlo gripper=139.64705919038389
+step=7, distance_error=0.19101949036121368, angle dlo gripper=128.9448803808826
+step=8, distance_error=0.2178622931241989, angle dlo gripper=135.18568662468704
+step=9, distance_error=0.20066241919994354, angle dlo gripper=125.62133048190425
+step=10, distance_error=0.18549638986587524, angle dlo gripper=122.26532355252151
+step=11, distance_error=0.18346388638019562, angle dlo gripper=125.10651973691867
+step=12, distance_error=0.123447485268116, angle dlo gripper=137.87439205981394
+step=13, distance_error=0.07227107882499695, angle dlo gripper=142.8674753380482
+done with step=13  !
+Episode : 43
+RESET ENV !
+initial distance error = -0.30027398467063904
+step=0, distance_error=0.2574794590473175, angle dlo gripper=130.47042964261072
+step=1, distance_error=0.258134663105011, angle dlo gripper=154.75067873320572
+step=2, distance_error=0.22076363861560822, angle dlo gripper=175.57019022398936
+step=3, distance_error=0.1601395308971405, angle dlo gripper=166.24614559939695
+step=4, distance_error=0.16213226318359375, angle dlo gripper=141.18461161464336
+step=5, distance_error=0.13427458703517914, angle dlo gripper=151.57864522159332
+step=6, distance_error=0.1310158520936966, angle dlo gripper=141.38488028096248
+step=7, distance_error=0.09576793015003204, angle dlo gripper=136.3731130675053
+done with step=7  !
+Episode : 44
+RESET ENV !
+initial distance error = -0.13845765590667725
+step=0, distance_error=0.11387882381677628, angle dlo gripper=116.39589812598592
+step=1, distance_error=0.1259341984987259, angle dlo gripper=116.14701870866531
+step=2, distance_error=0.14534911513328552, angle dlo gripper=115.86794332125152
+step=3, distance_error=0.14192110300064087, angle dlo gripper=137.88182115997083
+step=4, distance_error=0.13586744666099548, angle dlo gripper=138.91161861782362
+step=5, distance_error=0.1356697529554367, angle dlo gripper=176.09729941420437
+step=6, distance_error=0.13669893145561218, angle dlo gripper=158.13736949515885
+step=7, distance_error=0.10508623719215393, angle dlo gripper=155.29420700610362
+step=8, distance_error=0.10420599579811096, angle dlo gripper=156.10530902886862
+step=9, distance_error=0.10408421605825424, angle dlo gripper=156.64283976786268
+step=10, distance_error=0.09777174890041351, angle dlo gripper=147.01160366349188
+done with step=10  !
+Episode : 45
+RESET ENV !
+initial distance error = -0.30021345615386963
+step=0, distance_error=0.2262229472398758, angle dlo gripper=119.95291935255493
+step=1, distance_error=0.2096662074327469, angle dlo gripper=160.21750785929555
+step=2, distance_error=0.1865648776292801, angle dlo gripper=154.26967399641993
+step=3, distance_error=0.17428627610206604, angle dlo gripper=163.28597246866752
+step=4, distance_error=0.15371482074260712, angle dlo gripper=129.69774498488738
+step=5, distance_error=0.120149165391922, angle dlo gripper=138.02554773135043
+step=6, distance_error=0.1556216925382614, angle dlo gripper=121.70646067191038
+step=7, distance_error=0.12098753452301025, angle dlo gripper=141.41764014310155
+step=8, distance_error=0.10610829293727875, angle dlo gripper=138.59492610185666
+step=9, distance_error=0.05333424732089043, angle dlo gripper=127.2498202352103
+done with step=9  !
+Episode : 46
+RESET ENV !
+initial distance error = -0.15043103694915771
+step=0, distance_error=0.17067916691303253, angle dlo gripper=131.4996191425603
+step=1, distance_error=0.13812004029750824, angle dlo gripper=105.56123553306116
+step=2, distance_error=0.08523765206336975, angle dlo gripper=122.90538139519407
+done with step=2  !
+Episode : 47
+RESET ENV !
+initial distance error = -0.2969360947608948
+step=0, distance_error=0.28586456179618835, angle dlo gripper=120.6875637082071
+step=1, distance_error=0.25750163197517395, angle dlo gripper=175.65679267812573
+step=2, distance_error=0.20272791385650635, angle dlo gripper=142.0898302523368
+step=3, distance_error=0.2095210701227188, angle dlo gripper=106.96340557593105
+step=4, distance_error=0.21638113260269165, angle dlo gripper=130.27787917455865
+step=5, distance_error=0.17934782803058624, angle dlo gripper=122.91833434482707
+step=6, distance_error=0.16436855494976044, angle dlo gripper=116.0274843627085
+step=7, distance_error=0.16447927057743073, angle dlo gripper=114.7001440562209
+step=8, distance_error=0.10008333623409271, angle dlo gripper=120.23651141274287
+step=9, distance_error=0.07135873287916183, angle dlo gripper=117.16620410110761
+done with step=9  !
+Episode : 48
+RESET ENV !
+initial distance error = -0.23243309557437897
+step=0, distance_error=0.22361589968204498, angle dlo gripper=112.58205599064804
+step=1, distance_error=0.22557486593723297, angle dlo gripper=137.69782943161243
+step=2, distance_error=0.19561050832271576, angle dlo gripper=136.22975808605398
+step=3, distance_error=0.18197840452194214, angle dlo gripper=170.56031985886182
+step=4, distance_error=0.151234433054924, angle dlo gripper=163.12479678113743
+step=5, distance_error=0.18265123665332794, angle dlo gripper=154.93881986619263
+step=6, distance_error=0.18172267079353333, angle dlo gripper=159.39184866089835
+step=7, distance_error=0.16299556195735931, angle dlo gripper=148.48070467615747
+step=8, distance_error=0.1938859224319458, angle dlo gripper=143.50851139650203
+step=9, distance_error=0.22184839844703674, angle dlo gripper=135.71974459665142
+step=10, distance_error=0.22095687687397003, angle dlo gripper=133.93441717136474
+step=11, distance_error=0.2209969013929367, angle dlo gripper=124.18692011227208
+step=12, distance_error=0.23071837425231934, angle dlo gripper=129.32324553942817
+step=13, distance_error=0.2555340528488159, angle dlo gripper=129.45529243444443
+step=14, distance_error=0.2407829612493515, angle dlo gripper=119.44272820290239
+step=15, distance_error=0.24022306501865387, angle dlo gripper=117.66951092224743
+step=16, distance_error=0.24867242574691772, angle dlo gripper=107.41500035947784
+step=17, distance_error=0.2569502592086792, angle dlo gripper=115.71036953143935
+step=18, distance_error=0.24030695855617523, angle dlo gripper=118.44455264279676
+step=19, distance_error=0.22707679867744446, angle dlo gripper=97.83949012156776
+step=20, distance_error=0.22658470273017883, angle dlo gripper=90.5209283398267
+step=21, distance_error=0.2149151712656021, angle dlo gripper=91.10925994131857
+step=22, distance_error=0.2142045646905899, angle dlo gripper=86.19101996995772
+step=23, distance_error=0.18391640484333038, angle dlo gripper=85.91947709710782
+step=24, distance_error=0.18007495999336243, angle dlo gripper=83.68838492074389
+step=25, distance_error=0.19419223070144653, angle dlo gripper=85.73846714451797
+step=26, distance_error=0.16840407252311707, angle dlo gripper=97.16813014883127
+step=27, distance_error=0.17804796993732452, angle dlo gripper=99.26763880739686
+step=28, distance_error=0.18494437634944916, angle dlo gripper=90.9277029892767
+step=29, distance_error=0.12976142764091492, angle dlo gripper=90.67782625889332
+Episode : 49
+RESET ENV !
+initial distance error = -0.3847264051437378
+step=0, distance_error=0.2952694594860077, angle dlo gripper=123.38538372431506
+step=1, distance_error=0.293982595205307, angle dlo gripper=108.15899025452194
+step=2, distance_error=0.2957567572593689, angle dlo gripper=146.3378584658385
+step=3, distance_error=0.25768381357192993, angle dlo gripper=176.8613248282037
+step=4, distance_error=0.2648574709892273, angle dlo gripper=175.4044199541634
+step=5, distance_error=0.23547126352787018, angle dlo gripper=154.0295324923762
+step=6, distance_error=0.215402290225029, angle dlo gripper=151.27368394383834
+step=7, distance_error=0.1889100819826126, angle dlo gripper=151.86165202020004
+step=8, distance_error=0.225038543343544, angle dlo gripper=143.8900744156503
+step=9, distance_error=0.18577861785888672, angle dlo gripper=137.38306484389227
+step=10, distance_error=0.2212287038564682, angle dlo gripper=121.8818057212659
+step=11, distance_error=0.1798446774482727, angle dlo gripper=127.39842833475333
+step=12, distance_error=0.15058767795562744, angle dlo gripper=132.4505923238663
+step=13, distance_error=0.14842383563518524, angle dlo gripper=124.62302226699683
+step=14, distance_error=0.14006897807121277, angle dlo gripper=131.65533041939813
+step=15, distance_error=0.09825789928436279, angle dlo gripper=135.74055948434284
+done with step=15  !
+Episode : 50
+RESET ENV !
+initial distance error = -0.19821318984031677
+step=0, distance_error=0.196785569190979, angle dlo gripper=133.52760191790458
+step=1, distance_error=0.170705184340477, angle dlo gripper=164.14586647335855
+step=2, distance_error=0.16772396862506866, angle dlo gripper=175.07365592869508
+step=3, distance_error=0.15025407075881958, angle dlo gripper=166.97997262996068
+step=4, distance_error=0.13895636796951294, angle dlo gripper=157.30821198442467
+step=5, distance_error=0.18072612583637238, angle dlo gripper=145.5361969598028
+step=6, distance_error=0.13864582777023315, angle dlo gripper=121.78369369088021
+step=7, distance_error=0.11513320356607437, angle dlo gripper=130.98678456143915
+step=8, distance_error=0.09022469818592072, angle dlo gripper=122.43884306838595
+done with step=8  !
+Episode : 51
+RESET ENV !
+initial distance error = -0.2146902233362198
+step=0, distance_error=0.1397823840379715, angle dlo gripper=120.28429073090682
+step=1, distance_error=0.103515625, angle dlo gripper=129.6931911083507
+step=2, distance_error=0.09303208440542221, angle dlo gripper=126.34849926711
+done with step=2  !
+Episode : 52
+RESET ENV !
+initial distance error = -0.23137976229190826
+step=0, distance_error=0.1581648737192154, angle dlo gripper=128.70029391205853
+step=1, distance_error=0.18160755932331085, angle dlo gripper=143.3753934029552
+step=2, distance_error=0.14506937563419342, angle dlo gripper=160.8419264593518
+step=3, distance_error=0.16995862126350403, angle dlo gripper=175.89024626022402
+step=4, distance_error=0.15303629636764526, angle dlo gripper=162.2456091529765
+step=5, distance_error=0.12540031969547272, angle dlo gripper=159.72685570209833
+step=6, distance_error=0.15214158594608307, angle dlo gripper=121.51130849495429
+step=7, distance_error=0.09614372253417969, angle dlo gripper=125.68129950754039
+done with step=7  !
+Episode : 53
+RESET ENV !
+initial distance error = -0.20112742483615875
+step=0, distance_error=0.14260052144527435, angle dlo gripper=109.17266119810903
+step=1, distance_error=0.17468614876270294, angle dlo gripper=127.74710189334392
+step=2, distance_error=0.172366663813591, angle dlo gripper=140.1357309667024
+step=3, distance_error=0.16104695200920105, angle dlo gripper=151.44221117294583
+step=4, distance_error=0.09798500686883926, angle dlo gripper=119.33761917464714
+done with step=4  !
+Episode : 54
+RESET ENV !
+initial distance error = -0.14830362796783447
+step=0, distance_error=0.14444734156131744, angle dlo gripper=108.98208192623953
+step=1, distance_error=0.1243109181523323, angle dlo gripper=135.59729512644228
+step=2, distance_error=0.1613984853029251, angle dlo gripper=131.5537396634183
+step=3, distance_error=0.1490284949541092, angle dlo gripper=154.09593820035366
+step=4, distance_error=0.14965149760246277, angle dlo gripper=160.78862578636836
+step=5, distance_error=0.10768309235572815, angle dlo gripper=138.54774431793106
+step=6, distance_error=0.14037387073040009, angle dlo gripper=140.63489387443752
+step=7, distance_error=0.13171356916427612, angle dlo gripper=132.79442042285413
+step=8, distance_error=0.10733679682016373, angle dlo gripper=131.07252132761332
+step=9, distance_error=0.06475942581892014, angle dlo gripper=125.59141688737367
+done with step=9  !
+Episode : 55
+RESET ENV !
+initial distance error = -0.165877565741539
+step=0, distance_error=0.11877241730690002, angle dlo gripper=124.14403130762722
+step=1, distance_error=0.09447603672742844, angle dlo gripper=134.53331563528997
+done with step=1  !
+Episode : 56
+RESET ENV !
+initial distance error = -0.27186572551727295
+step=0, distance_error=0.2557139992713928, angle dlo gripper=110.70818732113277
+step=1, distance_error=0.2677997350692749, angle dlo gripper=114.13051306956969
+step=2, distance_error=0.2631199061870575, angle dlo gripper=124.77072934320282
+step=3, distance_error=0.2558731734752655, angle dlo gripper=150.5935800985592
+step=4, distance_error=0.19895195960998535, angle dlo gripper=169.5119540697115
+step=5, distance_error=0.15794262290000916, angle dlo gripper=160.30350150340007
+step=6, distance_error=0.15512359142303467, angle dlo gripper=151.8971223132385
+step=7, distance_error=0.15029311180114746, angle dlo gripper=144.95103030160294
+step=8, distance_error=0.12542901933193207, angle dlo gripper=130.80562298318296
+step=9, distance_error=0.12248947471380234, angle dlo gripper=110.47553031449064
+step=10, distance_error=0.1326296031475067, angle dlo gripper=109.07279330809024
+step=11, distance_error=0.12040094286203384, angle dlo gripper=127.83498113114828
+step=12, distance_error=0.08444807678461075, angle dlo gripper=128.80287204876421
+done with step=12  !
+Episode : 57
+RESET ENV !
+initial distance error = -0.15611326694488525
+step=0, distance_error=0.17232732474803925, angle dlo gripper=107.42395587612427
+step=1, distance_error=0.20133893191814423, angle dlo gripper=121.58936046239032
+step=2, distance_error=0.16196328401565552, angle dlo gripper=150.2827286854571
+step=3, distance_error=0.13505637645721436, angle dlo gripper=163.7091921480716
+step=4, distance_error=0.13387955725193024, angle dlo gripper=159.21442823305006
+step=5, distance_error=0.10258851200342178, angle dlo gripper=129.438513673511
+step=6, distance_error=0.06827861815690994, angle dlo gripper=112.31261075722975
+done with step=6  !
+Episode : 58
+RESET ENV !
+initial distance error = -0.20113714039325714
+step=0, distance_error=0.15447230637073517, angle dlo gripper=110.3394054494953
+step=1, distance_error=0.12391355633735657, angle dlo gripper=140.05553264309734
+step=2, distance_error=0.11777278780937195, angle dlo gripper=137.69410893570574
+step=3, distance_error=0.1381206512451172, angle dlo gripper=111.03459050171314
+step=4, distance_error=0.10074040293693542, angle dlo gripper=140.07679778669151
+step=5, distance_error=0.1050848662853241, angle dlo gripper=152.10305470425985
+step=6, distance_error=0.07319914549589157, angle dlo gripper=177.25380763148732
+done with step=6  !
+Episode : 59
+RESET ENV !
+initial distance error = -0.25274696946144104
+step=0, distance_error=0.2310691773891449, angle dlo gripper=117.92997592253825
+step=1, distance_error=0.2293037623167038, angle dlo gripper=129.54215274008786
+step=2, distance_error=0.22909016907215118, angle dlo gripper=155.07329128731874
+step=3, distance_error=0.19459451735019684, angle dlo gripper=174.14851192800433
+step=4, distance_error=0.19701527059078217, angle dlo gripper=173.34338638947975
+step=5, distance_error=0.16240504384040833, angle dlo gripper=128.5613825507749
+step=6, distance_error=0.17986389994621277, angle dlo gripper=140.75112005698614
+step=7, distance_error=0.24263599514961243, angle dlo gripper=128.7556465116189
+step=8, distance_error=0.24249757826328278, angle dlo gripper=131.88131969602352
+step=9, distance_error=0.23812858760356903, angle dlo gripper=105.8362902979858
+step=10, distance_error=0.24547788500785828, angle dlo gripper=121.76298496994569
+step=11, distance_error=0.20779667794704437, angle dlo gripper=127.75915404642636
+step=12, distance_error=0.14940498769283295, angle dlo gripper=126.740223851342
+step=13, distance_error=0.14926797151565552, angle dlo gripper=132.3316483978575
+step=14, distance_error=0.16442470252513885, angle dlo gripper=134.28095089534955
+step=15, distance_error=0.18031559884548187, angle dlo gripper=133.31199560888905
+step=16, distance_error=0.1851232796907425, angle dlo gripper=132.21560639240855
+step=17, distance_error=0.18515202403068542, angle dlo gripper=130.10524729108468
+step=18, distance_error=0.17102064192295074, angle dlo gripper=124.55176279429254
+step=19, distance_error=0.17115792632102966, angle dlo gripper=122.68368892582744
+step=20, distance_error=0.17125912010669708, angle dlo gripper=121.21352157172213
+step=21, distance_error=0.1546141505241394, angle dlo gripper=102.16044789312461
+step=22, distance_error=0.16011935472488403, angle dlo gripper=104.99894728423789
+step=23, distance_error=0.1614025980234146, angle dlo gripper=113.22087786169752
+step=24, distance_error=0.15288622677326202, angle dlo gripper=104.97266295064678
+step=25, distance_error=0.17698167264461517, angle dlo gripper=111.61703474271617
+step=26, distance_error=0.15047988295555115, angle dlo gripper=89.21796579443834
+step=27, distance_error=0.14480671286582947, angle dlo gripper=86.58171418193965
+step=28, distance_error=0.139786958694458, angle dlo gripper=88.02288622078699
+step=29, distance_error=0.12802021205425262, angle dlo gripper=81.78869766604292
+Episode : 60
+RESET ENV !
+initial distance error = -0.2517864406108856
+step=0, distance_error=0.21381306648254395, angle dlo gripper=122.87587949202207
+step=1, distance_error=0.1763467937707901, angle dlo gripper=141.98899235019908
+step=2, distance_error=0.17393511533737183, angle dlo gripper=154.45826543815247
+step=3, distance_error=0.2002636194229126, angle dlo gripper=114.71424839430355
+step=4, distance_error=0.1814611405134201, angle dlo gripper=164.82453726043752
+step=5, distance_error=0.11721141636371613, angle dlo gripper=156.65651018325696
+step=6, distance_error=0.08264059573411942, angle dlo gripper=142.11654625643857
+done with step=6  !
+Episode : 61
+RESET ENV !
+initial distance error = -0.14606137573719025
+step=0, distance_error=0.11931172013282776, angle dlo gripper=118.7684297577681
+step=1, distance_error=0.11015822738409042, angle dlo gripper=144.75455000778243
+step=2, distance_error=0.09249056130647659, angle dlo gripper=179.92284592432438
+done with step=2  !
+Episode : 62
+RESET ENV !
+initial distance error = -0.26485729217529297
+step=0, distance_error=0.22301144897937775, angle dlo gripper=129.6465049791643
+step=1, distance_error=0.18107452988624573, angle dlo gripper=160.41820360625687
+step=2, distance_error=0.17219087481498718, angle dlo gripper=179.05083085651356
+step=3, distance_error=0.13560156524181366, angle dlo gripper=144.5771698500286
+step=4, distance_error=0.15707097947597504, angle dlo gripper=107.63661098224095
+step=5, distance_error=0.20144549012184143, angle dlo gripper=99.51060744075917
+step=6, distance_error=0.17288488149642944, angle dlo gripper=126.52877055350932
+step=7, distance_error=0.1740124225616455, angle dlo gripper=106.27304964115156
+step=8, distance_error=0.15595151484012604, angle dlo gripper=114.61864240048396
+step=9, distance_error=0.16619811952114105, angle dlo gripper=111.77753095671356
+step=10, distance_error=0.1539267599582672, angle dlo gripper=107.40121123252433
+step=11, distance_error=0.150734081864357, angle dlo gripper=112.71989715357479
+step=12, distance_error=0.14334158599376678, angle dlo gripper=114.35420413434218
+step=13, distance_error=0.1511528044939041, angle dlo gripper=113.57799927256967
+step=14, distance_error=0.15136680006980896, angle dlo gripper=111.97589739658038
+step=15, distance_error=0.1324676275253296, angle dlo gripper=115.2572126607721
+step=16, distance_error=0.11273062229156494, angle dlo gripper=114.67779616910121
+step=17, distance_error=0.10534187406301498, angle dlo gripper=109.2194647446742
+step=18, distance_error=0.10518693178892136, angle dlo gripper=108.2623877877764
+step=19, distance_error=0.13791437447071075, angle dlo gripper=102.2891712011507
+step=20, distance_error=0.1511465460062027, angle dlo gripper=105.29310915085021
+step=21, distance_error=0.14051897823810577, angle dlo gripper=109.75361941479906
+step=22, distance_error=0.11316871643066406, angle dlo gripper=104.53591185886317
+step=23, distance_error=0.13298483192920685, angle dlo gripper=106.93029331348725
+step=24, distance_error=0.11699846386909485, angle dlo gripper=103.9033428261506
+step=25, distance_error=0.09347070008516312, angle dlo gripper=101.68374190391319
+done with step=25  !
+Episode : 63
+RESET ENV !
+initial distance error = -0.21550726890563965
+step=0, distance_error=0.2197221964597702, angle dlo gripper=109.65537488713237
+step=1, distance_error=0.22857365012168884, angle dlo gripper=123.89113891903087
+step=2, distance_error=0.1981974095106125, angle dlo gripper=107.05147142522961
+step=3, distance_error=0.1489320546388626, angle dlo gripper=139.00566305399906
+step=4, distance_error=0.10616892576217651, angle dlo gripper=172.79920947287494
+step=5, distance_error=0.0913030132651329, angle dlo gripper=131.6351392902538
+done with step=5  !
+Episode : 64
+RESET ENV !
+initial distance error = -0.20479318499565125
+step=0, distance_error=0.1637292355298996, angle dlo gripper=131.22097938315295
+step=1, distance_error=0.11855529248714447, angle dlo gripper=172.25388018215838
+step=2, distance_error=0.1387605369091034, angle dlo gripper=96.7348740456503
+step=3, distance_error=0.10944279283285141, angle dlo gripper=119.73091228429446
+step=4, distance_error=0.07412970066070557, angle dlo gripper=125.55717538241797
+done with step=4  !
+Episode : 65
+RESET ENV !
+initial distance error = -0.31650853157043457
+step=0, distance_error=0.2892496585845947, angle dlo gripper=118.72204763039873
+step=1, distance_error=0.3061372637748718, angle dlo gripper=161.3749856949091
+step=2, distance_error=0.25384777784347534, angle dlo gripper=159.45730177142838
+step=3, distance_error=0.23221684992313385, angle dlo gripper=137.58405898178825
+step=4, distance_error=0.2466910034418106, angle dlo gripper=107.71158976185026
+step=5, distance_error=0.2625311017036438, angle dlo gripper=101.64541069790074
+step=6, distance_error=0.26787447929382324, angle dlo gripper=100.45605022015738
+step=7, distance_error=0.24023742973804474, angle dlo gripper=104.3926303921249
+step=8, distance_error=0.224910169839859, angle dlo gripper=105.65038363665587
+step=9, distance_error=0.22494834661483765, angle dlo gripper=105.1224195822154
+step=10, distance_error=0.21920083463191986, angle dlo gripper=102.87897215678383
+step=11, distance_error=0.17208637297153473, angle dlo gripper=110.6098079092078
+step=12, distance_error=0.1539829671382904, angle dlo gripper=114.36683973623165
+step=13, distance_error=0.15920725464820862, angle dlo gripper=111.62755510112301
+step=14, distance_error=0.17715267837047577, angle dlo gripper=104.63356689602894
+step=15, distance_error=0.19162115454673767, angle dlo gripper=102.77368145091226
+step=16, distance_error=0.2193945348262787, angle dlo gripper=96.5496812042139
+step=17, distance_error=0.1767522245645523, angle dlo gripper=105.0523259001261
+step=18, distance_error=0.16095848381519318, angle dlo gripper=106.76265260843759
+step=19, distance_error=0.1631445437669754, angle dlo gripper=102.80782610193444
+step=20, distance_error=0.15802118182182312, angle dlo gripper=103.48453247644115
+step=21, distance_error=0.15284019708633423, angle dlo gripper=104.17410658447972
+step=22, distance_error=0.1642056256532669, angle dlo gripper=98.85860077293472
+step=23, distance_error=0.16192929446697235, angle dlo gripper=101.85680592950452
+step=24, distance_error=0.16182458400726318, angle dlo gripper=101.24724876245698
+step=25, distance_error=0.16174283623695374, angle dlo gripper=100.77643377131326
+step=26, distance_error=0.18245942890644073, angle dlo gripper=95.86252186840967
+step=27, distance_error=0.1824503093957901, angle dlo gripper=96.21482783443062
+step=28, distance_error=0.1825205534696579, angle dlo gripper=97.02709765715514
+step=29, distance_error=0.18757103383541107, angle dlo gripper=95.98382639414922
+Episode : 66
+RESET ENV !
+initial distance error = -0.1946457475423813
+step=0, distance_error=0.15412351489067078, angle dlo gripper=125.82223496678333
+step=1, distance_error=0.1349891722202301, angle dlo gripper=145.19329858572112
+step=2, distance_error=0.13803164660930634, angle dlo gripper=179.40613355537198
+step=3, distance_error=0.15577155351638794, angle dlo gripper=117.15042627201666
+step=4, distance_error=0.16014793515205383, angle dlo gripper=109.4983658640588
+step=5, distance_error=0.14087016880512238, angle dlo gripper=123.53995023185564
+step=6, distance_error=0.1397792249917984, angle dlo gripper=111.97381699574709
+step=7, distance_error=0.15681099891662598, angle dlo gripper=103.07818214594673
+step=8, distance_error=0.14592766761779785, angle dlo gripper=115.4688477546205
+step=9, distance_error=0.1482328623533249, angle dlo gripper=103.80932376766012
+step=10, distance_error=0.14222145080566406, angle dlo gripper=112.55930030988885
+step=11, distance_error=0.14517731964588165, angle dlo gripper=116.15518069227345
+step=12, distance_error=0.18415524065494537, angle dlo gripper=109.86655684909047
+step=13, distance_error=0.12620094418525696, angle dlo gripper=124.82526006527468
+step=14, distance_error=0.12628264725208282, angle dlo gripper=123.21558620594651
+step=15, distance_error=0.15115459263324738, angle dlo gripper=104.53785312799002
+step=16, distance_error=0.13472478091716766, angle dlo gripper=115.89202141363862
+step=17, distance_error=0.11413098871707916, angle dlo gripper=123.719234867937
+step=18, distance_error=0.10836949944496155, angle dlo gripper=117.65032896224976
+step=19, distance_error=0.051609866321086884, angle dlo gripper=126.96378005462677
+done with step=19  !
+Episode : 67
+RESET ENV !
+initial distance error = -0.30117374658584595
+step=0, distance_error=0.2577997148036957, angle dlo gripper=114.39905059684284
+step=1, distance_error=0.22451363503932953, angle dlo gripper=135.64437249335603
+step=2, distance_error=0.1928362250328064, angle dlo gripper=132.68600456902004
+step=3, distance_error=0.1815768927335739, angle dlo gripper=143.3212710905077
+step=4, distance_error=0.20837520062923431, angle dlo gripper=170.12240022949968
+step=5, distance_error=0.19299495220184326, angle dlo gripper=145.04652152972687
+step=6, distance_error=0.16642580926418304, angle dlo gripper=157.90336107140192
+step=7, distance_error=0.17335282266139984, angle dlo gripper=133.1786085308903
+step=8, distance_error=0.1462276577949524, angle dlo gripper=132.57391758292715
+step=9, distance_error=0.15424416959285736, angle dlo gripper=134.55839662350795
+step=10, distance_error=0.12725065648555756, angle dlo gripper=136.28979416380704
+step=11, distance_error=0.12720437347888947, angle dlo gripper=136.18167739689747
+step=12, distance_error=0.10043646395206451, angle dlo gripper=137.7542115601843
+step=13, distance_error=0.10718051344156265, angle dlo gripper=132.3289731927639
+step=14, distance_error=0.09414356201887131, angle dlo gripper=143.29149960385436
+done with step=14  !
+Episode : 68
+RESET ENV !
+initial distance error = -0.13150134682655334
+step=0, distance_error=0.0723167210817337, angle dlo gripper=133.76569204114008
+done with step=0  !
+Episode : 69
+RESET ENV !
+initial distance error = -0.2937409281730652
+step=0, distance_error=0.23746037483215332, angle dlo gripper=112.9935726535795
+step=1, distance_error=0.20557361841201782, angle dlo gripper=128.30658056381648
+step=2, distance_error=0.14537574350833893, angle dlo gripper=158.03675387789485
+step=3, distance_error=0.165363147854805, angle dlo gripper=159.0945818328879
+step=4, distance_error=0.1407320201396942, angle dlo gripper=140.99394589048364
+step=5, distance_error=0.1332147866487503, angle dlo gripper=125.21217040544968
+step=6, distance_error=0.1018407940864563, angle dlo gripper=129.1878610284867
+step=7, distance_error=0.12463032454252243, angle dlo gripper=115.10074991922424
+step=8, distance_error=0.13615258038043976, angle dlo gripper=116.11433044325081
+step=9, distance_error=0.12860247492790222, angle dlo gripper=118.03856345894583
+step=10, distance_error=0.1051362007856369, angle dlo gripper=129.06805972052345
+step=11, distance_error=0.1321432739496231, angle dlo gripper=127.89964450157915
+step=12, distance_error=0.102601557970047, angle dlo gripper=139.00737543593888
+step=13, distance_error=0.11436791718006134, angle dlo gripper=130.45845328148573
+step=14, distance_error=0.10945267975330353, angle dlo gripper=128.8200521761345
+step=15, distance_error=0.07383725792169571, angle dlo gripper=134.27386118407722
+done with step=15  !
+Episode : 70
+RESET ENV !
+initial distance error = -0.2235025316476822
+step=0, distance_error=0.1918226182460785, angle dlo gripper=121.03682204297694
+step=1, distance_error=0.19885475933551788, angle dlo gripper=121.98794646671499
+step=2, distance_error=0.18445855379104614, angle dlo gripper=139.6956137816891
+step=3, distance_error=0.2008647471666336, angle dlo gripper=118.50105866928925
+step=4, distance_error=0.19329388439655304, angle dlo gripper=177.16311510994242
+step=5, distance_error=0.1596093624830246, angle dlo gripper=159.23647543665126
+step=6, distance_error=0.1511445939540863, angle dlo gripper=127.60963030755126
+step=7, distance_error=0.18309460580348969, angle dlo gripper=117.37745257869956
+step=8, distance_error=0.1728624850511551, angle dlo gripper=126.96790037255965
+step=9, distance_error=0.1727580726146698, angle dlo gripper=126.72467102251423
+step=10, distance_error=0.1906302124261856, angle dlo gripper=112.13324192491142
+step=11, distance_error=0.18957602977752686, angle dlo gripper=120.68861360494293
+step=12, distance_error=0.2243872582912445, angle dlo gripper=125.11058016889841
+step=13, distance_error=0.20982767641544342, angle dlo gripper=133.1272813855223
+step=14, distance_error=0.19095861911773682, angle dlo gripper=127.03732693717059
+step=15, distance_error=0.15438103675842285, angle dlo gripper=120.71233643701866
+step=16, distance_error=0.1375350058078766, angle dlo gripper=123.77680142009744
+step=17, distance_error=0.14880578219890594, angle dlo gripper=118.19203609002432
+step=18, distance_error=0.1487700492143631, angle dlo gripper=118.11806774010019
+step=19, distance_error=0.14873559772968292, angle dlo gripper=118.11522765228325
+step=20, distance_error=0.14870236814022064, angle dlo gripper=117.93905101247218
+step=21, distance_error=0.09918764233589172, angle dlo gripper=127.65039093708047
+done with step=21  !
+Episode : 71
+RESET ENV !
+initial distance error = -0.294138103723526
+step=0, distance_error=0.2713485360145569, angle dlo gripper=114.33233410420493
+step=1, distance_error=0.2622062563896179, angle dlo gripper=95.98997784649403
+step=2, distance_error=0.23773151636123657, angle dlo gripper=140.46168226355613
+step=3, distance_error=0.19879011809825897, angle dlo gripper=167.90980844667016
+step=4, distance_error=0.23099687695503235, angle dlo gripper=176.74594536072604
+step=5, distance_error=0.21647199988365173, angle dlo gripper=171.08276039032077
+step=6, distance_error=0.1897045522928238, angle dlo gripper=154.5010076983929
+step=7, distance_error=0.15365341305732727, angle dlo gripper=128.35323063068134
+step=8, distance_error=0.17885136604309082, angle dlo gripper=120.84586137244845
+step=9, distance_error=0.1690577119588852, angle dlo gripper=124.30771211515943
+step=10, distance_error=0.13456988334655762, angle dlo gripper=130.98829906264422
+step=11, distance_error=0.1402120590209961, angle dlo gripper=135.12951088761264
+step=12, distance_error=0.10941850394010544, angle dlo gripper=136.2733855937077
+step=13, distance_error=0.08020582050085068, angle dlo gripper=132.31440710886918
+done with step=13  !
+Episode : 72
+RESET ENV !
+initial distance error = -0.09608365595340729
+step=0, distance_error=0.0750453993678093, angle dlo gripper=116.5753493393459
+done with step=0  !
+Episode : 73
+RESET ENV !
+initial distance error = -0.21844443678855896
+step=0, distance_error=0.19826701283454895, angle dlo gripper=116.19567850640452
+step=1, distance_error=0.22206179797649384, angle dlo gripper=131.06975002823745
+step=2, distance_error=0.19634507596492767, angle dlo gripper=172.0224455059924
+step=3, distance_error=0.2250097543001175, angle dlo gripper=165.4720562552873
+step=4, distance_error=0.23696018755435944, angle dlo gripper=139.0633952848688
+step=5, distance_error=0.2237415760755539, angle dlo gripper=139.0170690041204
+step=6, distance_error=0.22447943687438965, angle dlo gripper=123.61379224983135
+step=7, distance_error=0.2024620920419693, angle dlo gripper=128.85279893121836
+step=8, distance_error=0.2503397762775421, angle dlo gripper=111.71166223139055
+step=9, distance_error=0.19595013558864594, angle dlo gripper=121.94420945186866
+step=10, distance_error=0.15259353816509247, angle dlo gripper=123.68502890785147
+step=11, distance_error=0.20508547127246857, angle dlo gripper=110.60989517779849
+step=12, distance_error=0.14764265716075897, angle dlo gripper=124.22226356247866
+step=13, distance_error=0.20576053857803345, angle dlo gripper=111.8602603480417
+step=14, distance_error=0.19278749823570251, angle dlo gripper=106.29298207013268
+step=15, distance_error=0.16014596819877625, angle dlo gripper=111.48856012865443
+step=16, distance_error=0.1664724349975586, angle dlo gripper=104.96422137283639
+step=17, distance_error=0.15845564007759094, angle dlo gripper=111.23733732263003
+step=18, distance_error=0.18931494653224945, angle dlo gripper=106.1670652773165
+step=19, distance_error=0.20926126837730408, angle dlo gripper=116.6140820424249
+step=20, distance_error=0.22813400626182556, angle dlo gripper=107.41371990805592
+step=21, distance_error=0.21947644650936127, angle dlo gripper=107.2424643053222
+step=22, distance_error=0.20501406490802765, angle dlo gripper=104.11321036575967
+step=23, distance_error=0.19033093750476837, angle dlo gripper=113.9599218351444
+step=24, distance_error=0.2461211383342743, angle dlo gripper=105.19215282266403
+step=25, distance_error=0.18387287855148315, angle dlo gripper=117.99495903246408
+step=26, distance_error=0.18760913610458374, angle dlo gripper=106.5817854856425
+step=27, distance_error=0.13003353774547577, angle dlo gripper=117.40324135126926
+step=28, distance_error=0.13517847657203674, angle dlo gripper=108.12939340529671
+step=29, distance_error=0.1859864443540573, angle dlo gripper=98.2537463422316
+Episode : 74
+RESET ENV !
+initial distance error = -0.2428712248802185
+step=0, distance_error=0.221161887049675, angle dlo gripper=105.53169381976517
+step=1, distance_error=0.19605229794979095, angle dlo gripper=122.11060440448234
+step=2, distance_error=0.2035873830318451, angle dlo gripper=132.0327332487435
+step=3, distance_error=0.20168058574199677, angle dlo gripper=128.1570760376906
+step=4, distance_error=0.18402326107025146, angle dlo gripper=144.28146940736417
+step=5, distance_error=0.15683336555957794, angle dlo gripper=119.74280387296804
+step=6, distance_error=0.15550972521305084, angle dlo gripper=166.78203604560832
+step=7, distance_error=0.09970404207706451, angle dlo gripper=158.09097862859036
+done with step=7  !
+Episode : 75
+RESET ENV !
+initial distance error = -0.301188200712204
+step=0, distance_error=0.260000079870224, angle dlo gripper=111.60744082913799
+step=1, distance_error=0.26545250415802, angle dlo gripper=115.36057871993437
+step=2, distance_error=0.23187749087810516, angle dlo gripper=143.64490174940738
+step=3, distance_error=0.18991057574748993, angle dlo gripper=157.17830564062413
+step=4, distance_error=0.18595010042190552, angle dlo gripper=156.87124704376612
+step=5, distance_error=0.15376198291778564, angle dlo gripper=179.19459025039447
+step=6, distance_error=0.15027591586112976, angle dlo gripper=177.46613263631266
+step=7, distance_error=0.12326817214488983, angle dlo gripper=165.6166781557699
+step=8, distance_error=0.1276482492685318, angle dlo gripper=141.44235125596413
+step=9, distance_error=0.12462154775857925, angle dlo gripper=137.69296505860552
+step=10, distance_error=0.12367134541273117, angle dlo gripper=138.9170428937531
+step=11, distance_error=0.12747225165367126, angle dlo gripper=151.46097360052755
+step=12, distance_error=0.13370850682258606, angle dlo gripper=154.39821057915736
+step=13, distance_error=0.13919813930988312, angle dlo gripper=160.08962900251495
+step=14, distance_error=0.07317689061164856, angle dlo gripper=149.13816189281295
+done with step=14  !
+Episode : 76
+RESET ENV !
+initial distance error = -0.04596155509352684
+step=0, distance_error=0.03880348056554794, angle dlo gripper=111.51280129398747
+done with step=0  !
+Episode : 77
+RESET ENV !
+initial distance error = -0.31650421023368835
+step=0, distance_error=0.24903790652751923, angle dlo gripper=134.28122785352872
+step=1, distance_error=0.25280576944351196, angle dlo gripper=156.65706967702482
+step=2, distance_error=0.20742087066173553, angle dlo gripper=150.5817066176649
+step=3, distance_error=0.1929522305727005, angle dlo gripper=145.5114841831597
+step=4, distance_error=0.19790519773960114, angle dlo gripper=119.30272988060916
+step=5, distance_error=0.18571805953979492, angle dlo gripper=126.87683719414343
+step=6, distance_error=0.13447724282741547, angle dlo gripper=130.30065882520793
+step=7, distance_error=0.134622260928154, angle dlo gripper=113.51143589742524
+step=8, distance_error=0.13594654202461243, angle dlo gripper=104.89159438676441
+step=9, distance_error=0.13593822717666626, angle dlo gripper=104.93876560891337
+step=10, distance_error=0.11955904215574265, angle dlo gripper=111.33522756727534
+step=11, distance_error=0.13852205872535706, angle dlo gripper=103.15675846970485
+step=12, distance_error=0.10367630422115326, angle dlo gripper=113.02760896286816
+step=13, distance_error=0.09707678854465485, angle dlo gripper=113.75256893288872
+done with step=13  !
+Episode : 78
+RESET ENV !
+initial distance error = -0.23095832765102386
+step=0, distance_error=0.20331971347332, angle dlo gripper=116.87543289054749
+step=1, distance_error=0.19862574338912964, angle dlo gripper=135.75199544801671
+step=2, distance_error=0.19276833534240723, angle dlo gripper=141.65923337981647
+step=3, distance_error=0.22501957416534424, angle dlo gripper=145.74089516026189
+step=4, distance_error=0.18889521062374115, angle dlo gripper=174.38032734331745
+step=5, distance_error=0.16372333467006683, angle dlo gripper=166.80756703887837
+step=6, distance_error=0.17371632158756256, angle dlo gripper=157.93968786483646
+step=7, distance_error=0.18556393682956696, angle dlo gripper=145.4970591813371
+step=8, distance_error=0.158100888133049, angle dlo gripper=120.79283773613342
+step=9, distance_error=0.128431499004364, angle dlo gripper=109.75253724642147
+step=10, distance_error=0.0931364968419075, angle dlo gripper=123.7700389857361
+done with step=10  !
+Episode : 79
+RESET ENV !
+initial distance error = -0.1709781140089035
+step=0, distance_error=0.18434365093708038, angle dlo gripper=117.13100744391781
+step=1, distance_error=0.16893306374549866, angle dlo gripper=143.9670775297913
+step=2, distance_error=0.15052807331085205, angle dlo gripper=169.89341367302427
+step=3, distance_error=0.17139258980751038, angle dlo gripper=163.6114041444945
+step=4, distance_error=0.15099427103996277, angle dlo gripper=118.53143366712905
+step=5, distance_error=0.17227604985237122, angle dlo gripper=119.34152186861334
+step=6, distance_error=0.20604832470417023, angle dlo gripper=119.69388331985759
+step=7, distance_error=0.2323325127363205, angle dlo gripper=118.6334080546481
+step=8, distance_error=0.19259795546531677, angle dlo gripper=113.7108225213418
+step=9, distance_error=0.1761985719203949, angle dlo gripper=121.70639077461524
+step=10, distance_error=0.149295836687088, angle dlo gripper=110.10930228842648
+step=11, distance_error=0.16773714125156403, angle dlo gripper=116.3023210058834
+step=12, distance_error=0.18794745206832886, angle dlo gripper=123.36097773316959
+step=13, distance_error=0.17690056562423706, angle dlo gripper=116.37238428110476
+step=14, distance_error=0.1552867293357849, angle dlo gripper=106.31355460291503
+step=15, distance_error=0.18635717034339905, angle dlo gripper=108.54584558492783
+step=16, distance_error=0.16063696146011353, angle dlo gripper=104.20806291633946
+step=17, distance_error=0.14468131959438324, angle dlo gripper=100.77091331471946
+step=18, distance_error=0.16996882855892181, angle dlo gripper=95.36641219701225
+step=19, distance_error=0.15573139488697052, angle dlo gripper=97.15701212018537
+step=20, distance_error=0.15470950305461884, angle dlo gripper=95.94172904019725
+step=21, distance_error=0.16735315322875977, angle dlo gripper=103.22870030613217
+step=22, distance_error=0.10728807002305984, angle dlo gripper=97.44712770095875
+step=23, distance_error=0.11345073580741882, angle dlo gripper=94.2252923329606
+step=24, distance_error=0.11489943414926529, angle dlo gripper=87.35592826815352
+step=25, distance_error=0.1036691889166832, angle dlo gripper=87.68384416667257
+step=26, distance_error=0.13119633495807648, angle dlo gripper=100.25078545455757
+step=27, distance_error=0.10959143191576004, angle dlo gripper=104.50317012325111
+step=28, distance_error=0.08611851185560226, angle dlo gripper=105.78556339885655
+done with step=28  !
+Episode : 80
+RESET ENV !
+initial distance error = -0.274379700422287
+step=0, distance_error=0.22874830663204193, angle dlo gripper=111.94902560424293
+step=1, distance_error=0.22252283990383148, angle dlo gripper=104.78571155916323
+step=2, distance_error=0.22905108332633972, angle dlo gripper=111.9819459653982
+step=3, distance_error=0.23440444469451904, angle dlo gripper=118.03604943398594
+step=4, distance_error=0.24994008243083954, angle dlo gripper=128.6694591139517
+step=5, distance_error=0.2289172112941742, angle dlo gripper=152.42272291040572
+step=6, distance_error=0.22066083550453186, angle dlo gripper=167.24489994862168
+step=7, distance_error=0.1675974577665329, angle dlo gripper=170.9811269455093
+step=8, distance_error=0.163537859916687, angle dlo gripper=178.0893203471658
+step=9, distance_error=0.11489293724298477, angle dlo gripper=162.4909039751921
+step=10, distance_error=0.156778484582901, angle dlo gripper=175.17536049049195
+step=11, distance_error=0.1564006358385086, angle dlo gripper=174.2124856205847
+step=12, distance_error=0.16794836521148682, angle dlo gripper=174.090441801714
+step=13, distance_error=0.14261667430400848, angle dlo gripper=161.41801464896577
+step=14, distance_error=0.14261870086193085, angle dlo gripper=162.29303767954988
+step=15, distance_error=0.1948271095752716, angle dlo gripper=159.24315938783747
+step=16, distance_error=0.18008756637573242, angle dlo gripper=150.8482367264859
+step=17, distance_error=0.141623392701149, angle dlo gripper=154.69394751755874
+step=18, distance_error=0.11170762777328491, angle dlo gripper=147.35546920045638
+step=19, distance_error=0.11381957679986954, angle dlo gripper=134.35136287082494
+step=20, distance_error=0.07335205376148224, angle dlo gripper=129.18170364814978
+done with step=20  !
+Episode : 81
+RESET ENV !
+initial distance error = -0.23171165585517883
+step=0, distance_error=0.1806238889694214, angle dlo gripper=111.32160957724693
+step=1, distance_error=0.1481824666261673, angle dlo gripper=149.0560633810722
+step=2, distance_error=0.16165246069431305, angle dlo gripper=157.5284911457222
+step=3, distance_error=0.15016323328018188, angle dlo gripper=156.60138945354245
+step=4, distance_error=0.1562591791152954, angle dlo gripper=143.0141057595967
+step=5, distance_error=0.1685653030872345, angle dlo gripper=152.11127762448706
+step=6, distance_error=0.16107138991355896, angle dlo gripper=136.10377087857336
+step=7, distance_error=0.11376315355300903, angle dlo gripper=136.67456887904538
+step=8, distance_error=0.14238564670085907, angle dlo gripper=111.23027348769922
+step=9, distance_error=0.12623122334480286, angle dlo gripper=118.05641618783815
+step=10, distance_error=0.14592447876930237, angle dlo gripper=112.91360806998551
+step=11, distance_error=0.15751391649246216, angle dlo gripper=112.34210298163472
+step=12, distance_error=0.11545177549123764, angle dlo gripper=124.49969839286537
+step=13, distance_error=0.10085055232048035, angle dlo gripper=126.14279994034034
+step=14, distance_error=0.11581283807754517, angle dlo gripper=122.32367391316707
+step=15, distance_error=0.08975356817245483, angle dlo gripper=123.05673206626496
+done with step=15  !
+Episode : 82
+RESET ENV !
+initial distance error = -0.24491757154464722
+step=0, distance_error=0.20632939040660858, angle dlo gripper=112.4913997862388
+step=1, distance_error=0.2005835473537445, angle dlo gripper=119.53448930777058
+step=2, distance_error=0.1766931116580963, angle dlo gripper=136.31121619815355
+step=3, distance_error=0.15506339073181152, angle dlo gripper=145.5458960644434
+step=4, distance_error=0.1336723119020462, angle dlo gripper=159.11295307576177
+step=5, distance_error=0.08866629004478455, angle dlo gripper=174.2030482366014
+done with step=5  !
+Episode : 83
+RESET ENV !
+initial distance error = -0.27439144253730774
+step=0, distance_error=0.2510369122028351, angle dlo gripper=111.35849877802937
+step=1, distance_error=0.21953177452087402, angle dlo gripper=159.85183292293308
+step=2, distance_error=0.1897197812795639, angle dlo gripper=164.15438393267945
+step=3, distance_error=0.17052949965000153, angle dlo gripper=170.0799839987277
+step=4, distance_error=0.15999357402324677, angle dlo gripper=151.64983012947062
+step=5, distance_error=0.18189167976379395, angle dlo gripper=157.94427593126673
+step=6, distance_error=0.14033617079257965, angle dlo gripper=154.36020196401606
+step=7, distance_error=0.12093750387430191, angle dlo gripper=141.38170598634576
+step=8, distance_error=0.15012583136558533, angle dlo gripper=137.47137132642357
+step=9, distance_error=0.1470448225736618, angle dlo gripper=137.82843547366582
+step=10, distance_error=0.10503266006708145, angle dlo gripper=147.6308312808674
+step=11, distance_error=0.04556998610496521, angle dlo gripper=150.40658230883716
+done with step=11  !
+Episode : 84
+RESET ENV !
+initial distance error = -0.2025821954011917
+step=0, distance_error=0.21460095047950745, angle dlo gripper=114.2911362794605
+step=1, distance_error=0.19382412731647491, angle dlo gripper=137.62201249988095
+step=2, distance_error=0.16164013743400574, angle dlo gripper=145.064456358223
+step=3, distance_error=0.1775682121515274, angle dlo gripper=162.5879273133605
+step=4, distance_error=0.17023137211799622, angle dlo gripper=166.09900024094568
+step=5, distance_error=0.2223702073097229, angle dlo gripper=164.17903877689986
+step=6, distance_error=0.26301291584968567, angle dlo gripper=150.63100500617517
+step=7, distance_error=0.20908911526203156, angle dlo gripper=154.1761187570573
+step=8, distance_error=0.18826068937778473, angle dlo gripper=127.35055777232654
+step=9, distance_error=0.18814262747764587, angle dlo gripper=128.53383678857702
+step=10, distance_error=0.18814055621623993, angle dlo gripper=129.0683168277609
+step=11, distance_error=0.18813687562942505, angle dlo gripper=129.15928790819095
+step=12, distance_error=0.13687413930892944, angle dlo gripper=130.534664772888
+step=13, distance_error=0.137014240026474, angle dlo gripper=128.01136495846433
+step=14, distance_error=0.1371140331029892, angle dlo gripper=126.43353844372162
+step=15, distance_error=0.1371997445821762, angle dlo gripper=124.97864085878376
+step=16, distance_error=0.08875390887260437, angle dlo gripper=135.82952454948816
+done with step=16  !
+Episode : 85
+RESET ENV !
+initial distance error = -0.3103983402252197
+step=0, distance_error=0.3153781294822693, angle dlo gripper=115.64364808546382
+step=1, distance_error=0.2913169860839844, angle dlo gripper=129.16462622757604
+step=2, distance_error=0.33458539843559265, angle dlo gripper=112.9077405186602
+step=3, distance_error=0.29421061277389526, angle dlo gripper=158.07737905857311
+step=4, distance_error=0.28283432126045227, angle dlo gripper=156.47470772611618
+step=5, distance_error=0.23236031830310822, angle dlo gripper=161.15287995341575
+step=6, distance_error=0.23239365220069885, angle dlo gripper=161.56403194107273
+step=7, distance_error=0.23241986334323883, angle dlo gripper=161.69999401118835
+step=8, distance_error=0.23246076703071594, angle dlo gripper=162.00054020002494
+step=9, distance_error=0.16651171445846558, angle dlo gripper=143.66573729875296
+step=10, distance_error=0.14582091569900513, angle dlo gripper=118.43960615407272
+step=11, distance_error=0.13814298808574677, angle dlo gripper=120.05857902592606
+step=12, distance_error=0.1763354241847992, angle dlo gripper=103.84773412719154
+step=13, distance_error=0.17915558815002441, angle dlo gripper=102.17554857919932
+step=14, distance_error=0.23005986213684082, angle dlo gripper=99.05058799522857
+step=15, distance_error=0.23087286949157715, angle dlo gripper=99.5150557188225
+step=16, distance_error=0.22960102558135986, angle dlo gripper=96.83756359018568
+step=17, distance_error=0.23237298429012299, angle dlo gripper=100.42101641559118
+step=18, distance_error=0.23653660714626312, angle dlo gripper=97.08851480197787
+step=19, distance_error=0.24774551391601562, angle dlo gripper=102.63164723283292
+step=20, distance_error=0.20111453533172607, angle dlo gripper=112.60012069929547
+step=21, distance_error=0.20118187367916107, angle dlo gripper=111.03748805011176
+step=22, distance_error=0.2060416042804718, angle dlo gripper=115.81150354344449
+step=23, distance_error=0.19576990604400635, angle dlo gripper=121.17356766591574
+step=24, distance_error=0.1417977660894394, angle dlo gripper=119.53265850432287
+step=25, distance_error=0.09654413163661957, angle dlo gripper=120.33250058873033
+done with step=25  !
+Episode : 86
+RESET ENV !
+initial distance error = -0.17988835275173187
+step=0, distance_error=0.12431942671537399, angle dlo gripper=110.68230243722346
+step=1, distance_error=0.09939585626125336, angle dlo gripper=142.5578836371686
+done with step=1  !
+Episode : 87
+RESET ENV !
+initial distance error = -0.2648577392101288
+step=0, distance_error=0.24923662841320038, angle dlo gripper=119.92972688027777
+step=1, distance_error=0.25115862488746643, angle dlo gripper=133.80150309734105
+step=2, distance_error=0.244247704744339, angle dlo gripper=163.13779259692117
+step=3, distance_error=0.1873845010995865, angle dlo gripper=170.29988165701502
+step=4, distance_error=0.24279160797595978, angle dlo gripper=155.44689452805497
+step=5, distance_error=0.2353506088256836, angle dlo gripper=122.3143359372546
+step=6, distance_error=0.2479838728904724, angle dlo gripper=115.89408553466497
+step=7, distance_error=0.2350725531578064, angle dlo gripper=110.71178521593153
+step=8, distance_error=0.20819027721881866, angle dlo gripper=112.11264516741178
+step=9, distance_error=0.1544278860092163, angle dlo gripper=116.85737269127962
+step=10, distance_error=0.12871117889881134, angle dlo gripper=123.09628556651646
+step=11, distance_error=0.08293668180704117, angle dlo gripper=125.17392155175774
+done with step=11  !
+Episode : 88
+RESET ENV !
+initial distance error = -0.2309572994709015
+step=0, distance_error=0.2150639444589615, angle dlo gripper=122.10861774693404
+step=1, distance_error=0.2599402070045471, angle dlo gripper=93.15656935477872
+step=2, distance_error=0.24853703379631042, angle dlo gripper=125.92098623026988
+step=3, distance_error=0.24953196942806244, angle dlo gripper=162.57677866477852
+step=4, distance_error=0.19625885784626007, angle dlo gripper=171.55906939232105
+step=5, distance_error=0.1930641084909439, angle dlo gripper=156.4854319686056
+step=6, distance_error=0.1754370778799057, angle dlo gripper=135.64131283483076
+step=7, distance_error=0.19774112105369568, angle dlo gripper=126.75415558744797
+step=8, distance_error=0.186155766248703, angle dlo gripper=113.04925956093109
+step=9, distance_error=0.14225800335407257, angle dlo gripper=115.76197700055073
+step=10, distance_error=0.14219358563423157, angle dlo gripper=115.64117311669543
+step=11, distance_error=0.14217211306095123, angle dlo gripper=115.37711919486844
+step=12, distance_error=0.1421661376953125, angle dlo gripper=115.01674569817457
+step=13, distance_error=0.14218349754810333, angle dlo gripper=114.67842689989298
+step=14, distance_error=0.1421940177679062, angle dlo gripper=114.18343632939045
+step=15, distance_error=0.14219102263450623, angle dlo gripper=113.64560712456428
+step=16, distance_error=0.14222806692123413, angle dlo gripper=113.55256585852938
+step=17, distance_error=0.1262543797492981, angle dlo gripper=105.74810878312337
+step=18, distance_error=0.12550470232963562, angle dlo gripper=101.5887839162404
+step=19, distance_error=0.13304731249809265, angle dlo gripper=101.39730908019594
+step=20, distance_error=0.12933535873889923, angle dlo gripper=109.2682582818927
+step=21, distance_error=0.12942339479923248, angle dlo gripper=108.3222340953603
+step=22, distance_error=0.1295156478881836, angle dlo gripper=107.91502293121752
+step=23, distance_error=0.13537687063217163, angle dlo gripper=115.69932172998188
+step=24, distance_error=0.13550108671188354, angle dlo gripper=114.45058114832526
+step=25, distance_error=0.10978683084249496, angle dlo gripper=115.62688908405259
+step=26, distance_error=0.09238822013139725, angle dlo gripper=104.09382144175889
+done with step=26  !
+Episode : 89
+RESET ENV !
+initial distance error = -0.21394696831703186
+step=0, distance_error=0.1925867795944214, angle dlo gripper=110.63161043776866
+step=1, distance_error=0.1956220269203186, angle dlo gripper=133.28722719478068
+step=2, distance_error=0.1787252277135849, angle dlo gripper=157.8939889299569
+step=3, distance_error=0.15779945254325867, angle dlo gripper=164.5593511661435
+step=4, distance_error=0.16782702505588531, angle dlo gripper=139.3451164588345
+step=5, distance_error=0.1484738439321518, angle dlo gripper=155.33440293270706
+step=6, distance_error=0.11471711099147797, angle dlo gripper=133.36393044487815
+step=7, distance_error=0.12678854167461395, angle dlo gripper=114.53099302040134
+step=8, distance_error=0.08211483061313629, angle dlo gripper=124.89262922147324
+done with step=8  !
+Episode : 90
+RESET ENV !
+initial distance error = -0.24131613969802856
+step=0, distance_error=0.20055198669433594, angle dlo gripper=118.44026334514558
+step=1, distance_error=0.15804700553417206, angle dlo gripper=145.2184959923305
+step=2, distance_error=0.1741766482591629, angle dlo gripper=161.82951409232365
+step=3, distance_error=0.17244116961956024, angle dlo gripper=167.57619576367762
+step=4, distance_error=0.1413956880569458, angle dlo gripper=172.59399719609638
+step=5, distance_error=0.10069160163402557, angle dlo gripper=157.8244275756722
+step=6, distance_error=0.0883522629737854, angle dlo gripper=153.26798716929733
+done with step=6  !
+Episode : 91
+RESET ENV !
+initial distance error = -0.2932763993740082
+step=0, distance_error=0.22658169269561768, angle dlo gripper=128.58316356291735
+step=1, distance_error=0.17069822549819946, angle dlo gripper=162.23844734214137
+step=2, distance_error=0.1360136866569519, angle dlo gripper=179.6239307675094
+step=3, distance_error=0.10959076881408691, angle dlo gripper=147.06669924320818
+step=4, distance_error=0.08837026357650757, angle dlo gripper=146.83523513582008
+done with step=4  !
+Episode : 92
+RESET ENV !
+initial distance error = -0.3086526691913605
+step=0, distance_error=0.29706111550331116, angle dlo gripper=115.97251127141095
+step=1, distance_error=0.2596170902252197, angle dlo gripper=131.98249193937636
+step=2, distance_error=0.25688043236732483, angle dlo gripper=102.47935319380417
+step=3, distance_error=0.27007603645324707, angle dlo gripper=116.83089027659507
+step=4, distance_error=0.2405725121498108, angle dlo gripper=154.37152861846826
+step=5, distance_error=0.21542833745479584, angle dlo gripper=166.05021913493877
+step=6, distance_error=0.2292921394109726, angle dlo gripper=175.78754081994646
+step=7, distance_error=0.22989521920681, angle dlo gripper=176.7050519188202
+step=8, distance_error=0.1887069195508957, angle dlo gripper=145.38316574822616
+step=9, distance_error=0.20078587532043457, angle dlo gripper=122.68907844456922
+step=10, distance_error=0.16571326553821564, angle dlo gripper=130.88895196356435
+step=11, distance_error=0.14539095759391785, angle dlo gripper=141.97810199373276
+step=12, distance_error=0.14474798738956451, angle dlo gripper=142.4244749576648
+step=13, distance_error=0.14446485042572021, angle dlo gripper=142.85822275131184
+step=14, distance_error=0.118487648665905, angle dlo gripper=152.01248105287624
+step=15, distance_error=0.1307716816663742, angle dlo gripper=137.77122505927727
+step=16, distance_error=0.09742090106010437, angle dlo gripper=147.4876164259453
+done with step=16  !
+Episode : 93
+RESET ENV !
+initial distance error = -0.08347056806087494
+step=0, distance_error=0.11075501143932343, angle dlo gripper=111.54184842823697
+step=1, distance_error=0.09204737097024918, angle dlo gripper=137.66448628454447
+done with step=1  !
+Episode : 94
+RESET ENV !
+initial distance error = -0.317884236574173
+step=0, distance_error=0.2664969861507416, angle dlo gripper=108.30269506864722
+step=1, distance_error=0.23265869915485382, angle dlo gripper=134.8245060413917
+step=2, distance_error=0.20826418697834015, angle dlo gripper=138.46563083661852
+step=3, distance_error=0.17380523681640625, angle dlo gripper=154.34305507066713
+step=4, distance_error=0.21133902668952942, angle dlo gripper=142.54961938598376
+step=5, distance_error=0.24353371560573578, angle dlo gripper=148.63926152057485
+step=6, distance_error=0.19889147579669952, angle dlo gripper=168.4955284996494
+step=7, distance_error=0.21530304849147797, angle dlo gripper=159.1790392577582
+step=8, distance_error=0.17782510817050934, angle dlo gripper=158.09998357834368
+step=9, distance_error=0.1908400058746338, angle dlo gripper=152.20771493022482
+step=10, distance_error=0.21164944767951965, angle dlo gripper=134.07067851606595
+step=11, distance_error=0.19773174822330475, angle dlo gripper=145.98353713628362
+step=12, distance_error=0.1427512913942337, angle dlo gripper=139.35463167331932
+step=13, distance_error=0.15577241778373718, angle dlo gripper=134.40640811259806
+step=14, distance_error=0.13185010850429535, angle dlo gripper=140.88926758644135
+step=15, distance_error=0.11687035113573074, angle dlo gripper=145.63013253286738
+step=16, distance_error=0.13821758329868317, angle dlo gripper=140.45971034439714
+step=17, distance_error=0.1202017217874527, angle dlo gripper=149.86346724153321
+step=18, distance_error=0.1164228543639183, angle dlo gripper=157.77664468295555
+step=19, distance_error=0.11341659724712372, angle dlo gripper=161.8121139628797
+step=20, distance_error=0.10588376224040985, angle dlo gripper=151.8219680205865
+step=21, distance_error=0.04404756426811218, angle dlo gripper=143.70372737500776
+done with step=21  !
+Episode : 95
+RESET ENV !
+initial distance error = -0.17995423078536987
+step=0, distance_error=0.16240252554416656, angle dlo gripper=130.42815044528984
+step=1, distance_error=0.18785734474658966, angle dlo gripper=143.1044849414182
+step=2, distance_error=0.16058097779750824, angle dlo gripper=160.5047935767018
+step=3, distance_error=0.13659846782684326, angle dlo gripper=171.8806316033945
+step=4, distance_error=0.13074356317520142, angle dlo gripper=118.84483564835693
+step=5, distance_error=0.11201503872871399, angle dlo gripper=146.6663155184955
+step=6, distance_error=0.1149456799030304, angle dlo gripper=128.066677106229
+step=7, distance_error=0.12005864828824997, angle dlo gripper=150.94665964456328
+step=8, distance_error=0.06447269022464752, angle dlo gripper=139.3658070053411
+done with step=8  !
+Episode : 96
+RESET ENV !
+initial distance error = -0.1819191575050354
+step=0, distance_error=0.21980896592140198, angle dlo gripper=118.51327083374797
+step=1, distance_error=0.18936745822429657, angle dlo gripper=116.9877574556604
+step=2, distance_error=0.20952561497688293, angle dlo gripper=132.80467807200557
+step=3, distance_error=0.20927396416664124, angle dlo gripper=168.88111825926887
+step=4, distance_error=0.1745050996541977, angle dlo gripper=164.0748019830272
+step=5, distance_error=0.1851864457130432, angle dlo gripper=166.91096333481667
+step=6, distance_error=0.1847161203622818, angle dlo gripper=167.62656635291157
+step=7, distance_error=0.16655227541923523, angle dlo gripper=132.44397673326753
+step=8, distance_error=0.1494961977005005, angle dlo gripper=127.64779122896023
+step=9, distance_error=0.12031679600477219, angle dlo gripper=108.17458202890712
+step=10, distance_error=0.10147762298583984, angle dlo gripper=104.46857065790019
+step=11, distance_error=0.11954877525568008, angle dlo gripper=112.1232936237931
+step=12, distance_error=0.13962103426456451, angle dlo gripper=114.48754762924989
+step=13, distance_error=0.1561690717935562, angle dlo gripper=100.33787576860752
+step=14, distance_error=0.15554937720298767, angle dlo gripper=100.0610423333284
+step=15, distance_error=0.13500812649726868, angle dlo gripper=97.02556947655182
+step=16, distance_error=0.09664096683263779, angle dlo gripper=98.74605780372492
+done with step=16  !
+Episode : 97
+RESET ENV !
+initial distance error = -0.18325302004814148
+step=0, distance_error=0.1763705313205719, angle dlo gripper=109.77691737660953
+step=1, distance_error=0.1563442349433899, angle dlo gripper=131.18390334825958
+step=2, distance_error=0.14442890882492065, angle dlo gripper=142.56267308396818
+step=3, distance_error=0.14733700454235077, angle dlo gripper=159.3365648474039
+step=4, distance_error=0.10768555104732513, angle dlo gripper=147.79514763835044
+step=5, distance_error=0.07839859277009964, angle dlo gripper=134.53582398679245
+done with step=5  !
+Episode : 98
+RESET ENV !
+initial distance error = -0.14494094252586365
+step=0, distance_error=0.1470823884010315, angle dlo gripper=116.42774916012985
+step=1, distance_error=0.14635469019412994, angle dlo gripper=131.63591438337573
+step=2, distance_error=0.14426377415657043, angle dlo gripper=111.43267409851224
+step=3, distance_error=0.14303085207939148, angle dlo gripper=140.09031344924446
+step=4, distance_error=0.14088526368141174, angle dlo gripper=164.07110133026268
+step=5, distance_error=0.12231472134590149, angle dlo gripper=162.06262509925685
+step=6, distance_error=0.10243251919746399, angle dlo gripper=136.44400114322272
+step=7, distance_error=0.11811114847660065, angle dlo gripper=147.53127618802682
+step=8, distance_error=0.12900219857692719, angle dlo gripper=143.91858413819202
+step=9, distance_error=0.10858845710754395, angle dlo gripper=123.51849311581555
+step=10, distance_error=0.08237898349761963, angle dlo gripper=115.2562584952996
+done with step=10  !
+Episode : 99
+RESET ENV !
+initial distance error = -0.22054222226142883
+step=0, distance_error=0.14483843743801117, angle dlo gripper=115.65668195844968
+step=1, distance_error=0.1181866005063057, angle dlo gripper=128.85606647555124
+step=2, distance_error=0.11572960764169693, angle dlo gripper=147.61044717467865
+step=3, distance_error=0.11756417900323868, angle dlo gripper=167.47601283183533
+step=4, distance_error=0.11503329873085022, angle dlo gripper=136.53682321282395
+step=5, distance_error=0.09358015656471252, angle dlo gripper=141.7671802629438
+done with step=5  !
+time_set_action = 2.0
+nb dones = 94
+mean distance error = 0.08699474062770605
+sum distance error = 8.699474062770605
+Average steps =  10.69
+std error episode = 0.02246534265577793, min error episode = 0.03880348056554794, max error episode = 0.18757103383541107
+success rate = 0.94
+mean angle dlo gripper = 132.9070348183617sum angle dlo gripper = 13290.703481836168std angle dlo gripper episode = 20.004730768936845, min angle dlo gripper episode = 81.78869766604292, max angle dlo gripper episode = 179.92284592432438mean initial distance error = -0.22816147949546575
+max initial distance error = -0.04596155509352684
+min initial distance error = -0.3847264051437378
+time elapsed = 0:54:59.006778

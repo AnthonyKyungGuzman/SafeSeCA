@@ -1,0 +1,17 @@
+{"time":"2025-07-03T15:17:38.436694137+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-03_15-17-38__0/wandb/run-20250703_151738-llgflrny/logs/debug-core.log"}
+{"time":"2025-07-03T15:17:38.540213459+02:00","level":"INFO","msg":"created new stream","id":"llgflrny"}
+{"time":"2025-07-03T15:17:38.540242775+02:00","level":"INFO","msg":"stream: started","id":"llgflrny"}
+{"time":"2025-07-03T15:17:38.540322948+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"llgflrny"}
+{"time":"2025-07-03T15:17:38.540332659+02:00","level":"INFO","msg":"sender: started","stream_id":"llgflrny"}
+{"time":"2025-07-03T15:17:38.540372375+02:00","level":"INFO","msg":"handler: started","stream_id":"llgflrny"}
+{"time":"2025-07-03T15:17:38.927612354+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-03T15:17:49.157283638+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-07-03T17:12:10.28318103+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-03T17:12:10.283567055+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-03T17:12:11.300037776+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.708522768,"progress":"596.6KB/596.6KB"}],"total_operations":1}}
+{"time":"2025-07-03T17:12:11.379987837+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-03T17:12:11.755067779+02:00","level":"INFO","msg":"stream: closing","id":"llgflrny"}
+{"time":"2025-07-03T17:12:11.755086708+02:00","level":"INFO","msg":"handler: closed","stream_id":"llgflrny"}
+{"time":"2025-07-03T17:12:11.755101761+02:00","level":"INFO","msg":"sender: closed","stream_id":"llgflrny"}
+{"time":"2025-07-03T17:12:11.755096548+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"llgflrny"}
+{"time":"2025-07-03T17:12:11.755148375+02:00","level":"INFO","msg":"stream: closed","id":"llgflrny"}

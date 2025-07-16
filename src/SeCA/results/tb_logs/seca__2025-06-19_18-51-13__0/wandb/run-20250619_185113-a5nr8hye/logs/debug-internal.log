@@ -1,0 +1,17 @@
+{"time":"2025-06-19T18:51:13.551306248+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-06-19_18-51-13__0/wandb/run-20250619_185113-a5nr8hye/logs/debug-core.log"}
+{"time":"2025-06-19T18:51:13.656185522+02:00","level":"INFO","msg":"created new stream","id":"a5nr8hye"}
+{"time":"2025-06-19T18:51:13.656260468+02:00","level":"INFO","msg":"stream: started","id":"a5nr8hye"}
+{"time":"2025-06-19T18:51:13.656369007+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"a5nr8hye"}
+{"time":"2025-06-19T18:51:13.656473067+02:00","level":"INFO","msg":"sender: started","stream_id":"a5nr8hye"}
+{"time":"2025-06-19T18:51:13.656485868+02:00","level":"INFO","msg":"handler: started","stream_id":"a5nr8hye"}
+{"time":"2025-06-19T18:51:14.025526799+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T18:51:24.259674809+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-06-19T20:44:19.465904977+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T20:44:19.466213571+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T20:44:20.53439381+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.759134312,"progress":"530.1KB/530.1KB"}],"total_operations":1}}
+{"time":"2025-06-19T20:44:20.543629485+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T20:44:20.839765056+02:00","level":"INFO","msg":"stream: closing","id":"a5nr8hye"}
+{"time":"2025-06-19T20:44:20.839774545+02:00","level":"INFO","msg":"handler: closed","stream_id":"a5nr8hye"}
+{"time":"2025-06-19T20:44:20.83978158+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a5nr8hye"}
+{"time":"2025-06-19T20:44:20.839816542+02:00","level":"INFO","msg":"sender: closed","stream_id":"a5nr8hye"}
+{"time":"2025-06-19T20:44:20.839829103+02:00","level":"INFO","msg":"stream: closed","id":"a5nr8hye"}

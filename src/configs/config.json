@@ -99,7 +99,7 @@
 		 "log_interval": 2,
 		 "batch_size": 128,
 		 "load_from_dir": true,
-		 "weights_folder": "seca_off_policy",
+		 "weights_folder": "safeSeca",
 		 "max_memory_size": 50000,
 		 "load": true,
 		 "cuda": true

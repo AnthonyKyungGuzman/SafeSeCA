@@ -1,0 +1,17 @@
+{"time":"2025-06-30T23:53:15.416409455+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-06-30_23-53-15__0/wandb/run-20250630_235315-pp3zjee5/logs/debug-core.log"}
+{"time":"2025-06-30T23:53:15.519976152+02:00","level":"INFO","msg":"created new stream","id":"pp3zjee5"}
+{"time":"2025-06-30T23:53:15.520013495+02:00","level":"INFO","msg":"stream: started","id":"pp3zjee5"}
+{"time":"2025-06-30T23:53:15.520065755+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pp3zjee5"}
+{"time":"2025-06-30T23:53:15.520075462+02:00","level":"INFO","msg":"handler: started","stream_id":"pp3zjee5"}
+{"time":"2025-06-30T23:53:15.520095349+02:00","level":"INFO","msg":"sender: started","stream_id":"pp3zjee5"}
+{"time":"2025-06-30T23:53:15.793883193+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-30T23:53:25.997961196+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-07-01T01:50:30.632965002+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-01T01:50:30.633292695+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-01T01:50:31.688155768+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.682398474,"progress":"598.3KB/598.3KB"},{"desc":"uploading summary, console lines 12755-12807","runtime_seconds":0.395486002}],"total_operations":2}}
+{"time":"2025-07-01T01:50:31.8229863+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-01T01:50:32.100038755+02:00","level":"INFO","msg":"stream: closing","id":"pp3zjee5"}
+{"time":"2025-07-01T01:50:32.100051316+02:00","level":"INFO","msg":"handler: closed","stream_id":"pp3zjee5"}
+{"time":"2025-07-01T01:50:32.100057844+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pp3zjee5"}
+{"time":"2025-07-01T01:50:32.100062954+02:00","level":"INFO","msg":"sender: closed","stream_id":"pp3zjee5"}
+{"time":"2025-07-01T01:50:32.100100351+02:00","level":"INFO","msg":"stream: closed","id":"pp3zjee5"}

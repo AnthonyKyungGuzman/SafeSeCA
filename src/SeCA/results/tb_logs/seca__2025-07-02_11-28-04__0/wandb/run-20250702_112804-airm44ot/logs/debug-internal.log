@@ -1,0 +1,8 @@
+{"time":"2025-07-02T11:28:04.2216669+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-02_11-28-04__0/wandb/run-20250702_112804-airm44ot/logs/debug-core.log"}
+{"time":"2025-07-02T11:28:04.32798355+02:00","level":"INFO","msg":"created new stream","id":"airm44ot"}
+{"time":"2025-07-02T11:28:04.328088097+02:00","level":"INFO","msg":"stream: started","id":"airm44ot"}
+{"time":"2025-07-02T11:28:04.328180994+02:00","level":"INFO","msg":"handler: started","stream_id":"airm44ot"}
+{"time":"2025-07-02T11:28:04.328229783+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"airm44ot"}
+{"time":"2025-07-02T11:28:04.328352335+02:00","level":"INFO","msg":"sender: started","stream_id":"airm44ot"}
+{"time":"2025-07-02T11:28:04.728068029+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-02T11:28:15.511180041+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

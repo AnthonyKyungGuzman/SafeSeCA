@@ -1,0 +1,107 @@
+[DEBUG] Logging to runs/sfu9ihcg
+** ENVIRONNEMENT PARAMETERS **
+time_step_sleep = 0.001, n_substeps = 15, gui = True
+GENERATE DB FROM JSON 'database/frite_parameters/parameters_array' !
+load name = db.txt, generate name = generate_db.txt
+path load = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/, path_generate = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/
+****** PandaFriteEnvComplete !!!! ************
+=> LOAD DATABASE Name = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/db.txt
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=0.00000, z=0.00000
+Goal space x_up=0.04000, x_down=0.10000, y_up=0.25000, y_down=0.24000, z_down=0.25000
+Pos space x_up=0.04000, x_down=0.15000, y_up=0.50000, y_down=0.24000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=0.00000, z=0.00000
+Goal space x_up=0.04000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.04000, x_down=0.15000, y_up=0.25000, y_down=0.48000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.20000, y_down=0.20000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.30000, y_down=0.30000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.13000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.25000, y_down=0.23000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.51000, y_down=0.23000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.23000, y_down=0.25000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.23000, y_down=0.50000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+** Gripper Orientation *******************
+index = 0, name = from_initial, type = 0, panda_num=0
+*********************************
+** Goal Space *******************
+index = 1, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.25, y_down = 0.25, z_down = 0.25
+*********************************
+** Goal Space Graphic *******************
+index = 0, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.2, y_down = 0.2, z_down = 0.25
+*********************************
+** Pose Space *******************
+index = 3, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.4, y_down = 0.4, z_down = 0.3
+*********************************
+** Pose Space Graphic *******************
+index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.325, y_down = 0.325, z_down = 0.3
+*********************************
+** Observation Space *******************
+add_frite_parameters = False
+*********************************
+** Action Space *******************
+index = 0, name = 3d, type = 0
+*********************************
+constructor IK_DH
+constructor IK_DH time elapsed = 0:00:00.001929
+
+calculate_DK
+calculate_DK time elapsed = 0:00:00.132294
+
+calculate_Jacobian
+calculate_Jacobian time elapsed = 0:00:00.549121
+
+start init IK DH !
+calculate _A_init
+calculate _A_init time elapsed = 0:00:02.050342
+
+calculate A_final
+calculate _A_init time elapsed = 0:00:00.000084
+
+calculate incremental_ik
+calculate incremental_ik time elapsed = 0:00:21.804631
+
+end init IK DH !
+*** NO ROS VERSION !!!!!!!!!!!! *********
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+$$$$$ CONSTRUCTOR PandaFriteEnvWrapperRewardMax $$$$$

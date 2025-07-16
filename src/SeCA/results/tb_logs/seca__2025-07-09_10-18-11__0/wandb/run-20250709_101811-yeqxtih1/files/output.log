@@ -1,0 +1,2356 @@
+[DEBUG] Logging to runs/yeqxtih1
+** ENVIRONNEMENT PARAMETERS **
+time_step_sleep = 0.001, n_substeps = 15, gui = True
+GENERATE DB FROM JSON 'database/frite_parameters/parameters_array' !
+load name = db.txt, generate name = generate_db.txt
+path load = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/, path_generate = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/
+****** PandaFriteEnvComplete !!!! ************
+=> LOAD DATABASE Name = /home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/db.txt
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=0.00000, z=0.00000
+Goal space x_up=0.04000, x_down=0.10000, y_up=0.25000, y_down=0.24000, z_down=0.25000
+Pos space x_up=0.04000, x_down=0.15000, y_up=0.50000, y_down=0.24000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=0.00000, z=0.00000
+Goal space x_up=0.04000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.04000, x_down=0.15000, y_up=0.25000, y_down=0.48000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.20000, y_down=0.20000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.30000, y_down=0.30000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.13000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=0.50000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.25000, y_down=0.25000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.22000, y_up=0.40000, y_down=0.40000, z_down=0.31000
+Nb Goal random=170.00000
+nb lines = 680, nb points = 4, nb_deformations = 170
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.50000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.25000, y_down=0.23000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.51000, y_down=0.23000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=-0.50000, y=-0.50000, z=0.00000
+Goal space x_up=-0.06000, x_down=0.10000, y_up=0.23000, y_down=0.25000, z_down=0.25000
+Pos space x_up=-0.06000, x_down=0.22000, y_up=0.23000, y_down=0.50000, z_down=0.31000
+Nb Goal random=50.00000
+nb lines = 200, nb points = 4, nb_deformations = 50
+** Gripper Orientation *******************
+index = 0, name = from_initial, type = 0, panda_num=0
+*********************************
+** Goal Space *******************
+index = 1, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.25, y_down = 0.25, z_down = 0.25
+*********************************
+** Goal Space Graphic *******************
+index = 0, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.2, y_down = 0.2, z_down = 0.25
+*********************************
+** Pose Space *******************
+index = 3, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.4, y_down = 0.4, z_down = 0.3
+*********************************
+** Pose Space Graphic *******************
+index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.325, y_down = 0.325, z_down = 0.3
+*********************************
+** Observation Space *******************
+add_frite_parameters = False
+*********************************
+** Action Space *******************
+index = 0, name = 3d, type = 0
+*********************************
+constructor IK_DH
+constructor IK_DH time elapsed = 0:00:00.006717
+
+calculate_DK
+calculate_DK time elapsed = 0:00:00.437538
+
+calculate_Jacobian
+calculate_Jacobian time elapsed = 0:00:02.224777
+
+start init IK DH !
+calculate _A_init
+calculate _A_init time elapsed = 0:00:06.225102
+
+calculate A_final
+calculate _A_init time elapsed = 0:00:00.000143
+
+calculate incremental_ik
+calculate incremental_ik time elapsed = 0:01:14.242121
+
+end init IK DH !
+*** NO ROS VERSION !!!!!!!!!!!! *********
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+$$$$$ CONSTRUCTOR PandaFriteEnvWrapperRewardMax $$$$$
+TEST MODE !
+Loading weights ...
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/controllers/basic_controller.py:152: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent.load_state_dict(th.load(agent_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:226: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1.load_state_dict(th.load(critic_q1_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:227: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2.load_state_dict(th.load(critic_q2_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:232: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent_optimiser.load_state_dict(th.load(agent_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:233: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1_optimiser.load_state_dict(th.load(critic_q1_opt_str.format(path), map_location=lambda storage, loc: storage))
+/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:234: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2_optimiser.load_state_dict(th.load(critic_q2_opt_str.format(path), map_location=lambda storage, loc: storage))
+** ENV MODE TEST **
+n_episodes = 100
+n_steps = 30
+do_reset_env = True
+wait_time_sleep_after_draw_env_box = 0.0
+wait_time_sleep_end_episode = 0.0
+do_episode_hit_return = False
+Episode : 0
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+[DEBUG 10:20:15] matplotlib.pyplot Loaded backend tkagg version 8.6.
+Backend tkagg is interactive backend. Turning interactive mode on.
+action=[[ 1.          1.          1.        ]
+ [-0.28265828 -0.05932709 -0.45434368]]
+step=0, distance_error=0.042515140026807785, angle dlo gripper=47.539424629199004, physical_enery=[2.40571673]
+
+done with step=0  !
+Episode : 1
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.18335548  0.46200925 -0.38289174]]
+step=0, distance_error=0.2827814817428589, angle dlo gripper=60.09996193638189, physical_enery=[3.55609649]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.09283805  0.47093424 -0.37430963]]
+step=1, distance_error=0.24592247605323792, angle dlo gripper=48.97160831568428, physical_enery=[3.6361084]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.28669697  0.46883035 -0.5284625 ]]
+step=2, distance_error=0.21206724643707275, angle dlo gripper=47.71913827160088, physical_enery=[7.71622217]
+
+action=[[ 1.          1.          1.        ]
+ [-0.22592214  1.          0.8085426 ]]
+step=3, distance_error=0.21835121512413025, angle dlo gripper=72.49540994201897, physical_enery=[1.5087387]
+
+action=[[ 1.          1.          1.        ]
+ [-0.9414407   0.57502276 -0.2886589 ]]
+step=4, distance_error=0.17574158310890198, angle dlo gripper=27.843769949663454, physical_enery=[0.38337525]
+
+action=[[1.         1.         1.        ]
+ [0.9771556  0.37455752 1.        ]]
+step=5, distance_error=0.2253245860338211, angle dlo gripper=30.646189507350925, physical_enery=[-2.60429386]
+
+action=[[ 1.          1.          1.        ]
+ [-0.06532376  0.39182875 -0.55533737]]
+step=6, distance_error=0.19335094094276428, angle dlo gripper=0.5200566745814399, physical_enery=[-0.55639465]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3940529   0.40099618 -0.49018884]]
+step=7, distance_error=0.17144134640693665, angle dlo gripper=6.843812662789986, physical_enery=[1.3564961]
+
+action=[[1.        1.        1.       ]
+ [0.8154594 1.        1.       ]]
+step=8, distance_error=0.1692298799753189, angle dlo gripper=1.4856452237984286, physical_enery=[0.98895131]
+
+action=[[1.         1.         1.        ]
+ [1.         1.         0.99781364]]
+step=9, distance_error=0.16842032968997955, angle dlo gripper=5.516595994089357, physical_enery=[0.63123497]
+
+action=[[1.         1.         1.        ]
+ [1.         1.         0.50205487]]
+step=10, distance_error=0.16794820129871368, angle dlo gripper=9.176435614287158, physical_enery=[0.63662531]
+
+action=[[ 1.          1.          1.        ]
+ [-0.677589   -0.11273536  0.3353994 ]]
+step=11, distance_error=0.16787032783031464, angle dlo gripper=28.550327465683722, physical_enery=[-1.81547283]
+
+action=[[1.         1.         1.        ]
+ [0.37736663 0.8916578  0.09451006]]
+step=12, distance_error=0.17235948145389557, angle dlo gripper=22.906814288857788, physical_enery=[-0.56651615]
+
+action=[[ 1.          1.          1.        ]
+ [-0.14809409  0.31579304 -0.5405326 ]]
+step=13, distance_error=0.1495029628276825, angle dlo gripper=25.757771634475745, physical_enery=[-0.5231374]
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=14, distance_error=0.16700150072574615, angle dlo gripper=40.62903657816031, physical_enery=[-5.94027473]
+
+action=[[ 1.          1.          1.        ]
+ [-0.58514345  0.41385627 -0.38648835]]
+step=15, distance_error=0.15846115350723267, angle dlo gripper=39.568872541813334, physical_enery=[-5.07225806]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.1388148  0.8324352]]
+step=16, distance_error=0.15847423672676086, angle dlo gripper=39.52225139406036, physical_enery=[-5.11976782]
+
+action=[[1.        1.        1.       ]
+ [1.        0.4545171 0.7167901]]
+step=17, distance_error=0.15847566723823547, angle dlo gripper=39.06624982054245, physical_enery=[-5.10051936]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.1459662  -0.18516755  0.1291811 ]]
+step=18, distance_error=0.1593143790960312, angle dlo gripper=40.81888731360414, physical_enery=[-5.29018078]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=19, distance_error=0.13110744953155518, angle dlo gripper=45.20675816175037, physical_enery=[-2.42023707]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.2791406  -0.26359153  0.67487174]]
+step=20, distance_error=0.14889416098594666, angle dlo gripper=50.18894206352999, physical_enery=[-3.76704271]
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -0.3115896  0.5340224]]
+step=21, distance_error=0.18920527398586273, angle dlo gripper=60.34649432073104, physical_enery=[-4.80941006]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.38736555  0.39099255 -0.46334225]]
+step=22, distance_error=0.1633337289094925, angle dlo gripper=55.2830710662231, physical_enery=[-4.97093674]
+
+action=[[ 1.          1.          1.        ]
+ [-0.2591303   0.2296264  -0.26349172]]
+step=23, distance_error=0.16088825464248657, angle dlo gripper=56.350805867352406, physical_enery=[-5.79888401]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.7859014  -0.27816486]]
+step=24, distance_error=0.1332760900259018, angle dlo gripper=47.66941690211351, physical_enery=[-1.8202709]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8498935  -0.78019863 -0.68445784]]
+step=25, distance_error=0.10897070914506912, angle dlo gripper=38.66598817291444, physical_enery=[2.35434135]
+
+action=[[1.         1.         1.        ]
+ [1.         0.47475576 1.        ]]
+step=26, distance_error=0.1439506709575653, angle dlo gripper=36.49097787361342, physical_enery=[-1.1506922]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.3497112 -1.        -1.       ]]
+step=27, distance_error=0.12331460416316986, angle dlo gripper=28.335699838223007, physical_enery=[4.59217821]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=28, distance_error=0.122952401638031, angle dlo gripper=27.485898565695067, physical_enery=[2.91300166]
+
+action=[[ 1.          1.          1.        ]
+ [-0.50748456  1.          1.        ]]
+step=29, distance_error=0.14000959694385529, angle dlo gripper=26.54363371208578, physical_enery=[-1.683728]
+
+Episode : 2
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.354714   -0.9277092  -0.01933169]]
+step=0, distance_error=0.18934226036071777, angle dlo gripper=63.54491343463354, physical_enery=[1.47093128]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=1, distance_error=0.16306215524673462, angle dlo gripper=32.356354248124745, physical_enery=[6.90117443]
+
+action=[[1.        1.        1.       ]
+ [1.        0.3694789 1.       ]]
+step=2, distance_error=0.19020193815231323, angle dlo gripper=64.76343030531969, physical_enery=[-1.5530001]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.15499304  0.16434723 -0.23472203]]
+step=3, distance_error=0.18135635554790497, angle dlo gripper=17.47486443175859, physical_enery=[0.33205319]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.59966284 -1.         -1.        ]]
+step=4, distance_error=0.14092408120632172, angle dlo gripper=12.370272518824748, physical_enery=[5.14020471]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.07961258 -0.68554115  0.16872671]]
+step=5, distance_error=0.15423154830932617, angle dlo gripper=38.68256297938606, physical_enery=[1.40806735]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.02581043 -0.5937774 ]]
+step=6, distance_error=0.12106387317180634, angle dlo gripper=38.454158590125076, physical_enery=[3.89677181]
+
+action=[[ 1.         1.         1.       ]
+ [-0.7215409  1.         1.       ]]
+step=7, distance_error=0.13730360567569733, angle dlo gripper=74.37858758043936, physical_enery=[-2.56419597]
+
+action=[[ 1.          1.          1.        ]
+ [-0.25414264  0.16457987 -0.20833346]]
+step=8, distance_error=0.12101668119430542, angle dlo gripper=64.52031504840357, physical_enery=[-0.42139168]
+
+action=[[ 1.          1.          1.        ]
+ [-0.7636724   0.3717427  -0.49913365]]
+step=9, distance_error=0.10973266512155533, angle dlo gripper=64.05265552459282, physical_enery=[0.03331161]
+
+action=[[ 1.          1.          1.        ]
+ [-0.48600328  1.          1.        ]]
+step=10, distance_error=0.16452981531620026, angle dlo gripper=81.21307819596544, physical_enery=[-4.71041389]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.49272564 -1.         -1.        ]]
+step=11, distance_error=0.11049719899892807, angle dlo gripper=58.23454822337223, physical_enery=[1.42408524]
+
+action=[[ 1.         1.         1.       ]
+ [-1.         0.2383999  1.       ]]
+step=12, distance_error=0.16479642689228058, angle dlo gripper=80.08259871220162, physical_enery=[-4.56899299]
+
+action=[[ 1.          1.          1.        ]
+ [-0.34915504  0.28966403 -0.30605778]]
+step=13, distance_error=0.16808822751045227, angle dlo gripper=71.79072043632743, physical_enery=[-2.90069705]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.83454436 -1.         -0.40201026]]
+step=14, distance_error=0.12873251736164093, angle dlo gripper=65.48211789373804, physical_enery=[-0.68281378]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=15, distance_error=0.1561729609966278, angle dlo gripper=76.46778285150117, physical_enery=[-3.83033715]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.447047   -0.47081688]]
+step=16, distance_error=0.15974223613739014, angle dlo gripper=69.86191531946315, physical_enery=[-2.16316567]
+
+action=[[ 1.          1.          1.        ]
+ [-0.03074859  0.38670716 -0.5396288 ]]
+step=17, distance_error=0.1546013206243515, angle dlo gripper=62.08431553368946, physical_enery=[-0.18613558]
+
+action=[[ 1.          1.          1.        ]
+ [-0.07527353  0.63302135  0.07445585]]
+step=18, distance_error=0.17403599619865417, angle dlo gripper=65.41712975888535, physical_enery=[-1.18812506]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4248826  -0.35763913  0.5765956 ]]
+step=19, distance_error=0.17104990780353546, angle dlo gripper=73.53636626352036, physical_enery=[-3.18961617]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.8856891]]
+step=20, distance_error=0.11070282012224197, angle dlo gripper=55.2755594405332, physical_enery=[2.3959883]
+
+action=[[ 1.          1.          1.        ]
+ [-0.01720993 -0.06225333  0.4199886 ]]
+step=21, distance_error=0.12375282496213913, angle dlo gripper=67.18079878231494, physical_enery=[-0.80422214]
+
+action=[[ 1.          1.          1.        ]
+ [-0.64166045  0.07418737 -0.83625746]]
+step=22, distance_error=0.10987018793821335, angle dlo gripper=59.2226400914834, physical_enery=[1.63688956]
+
+action=[[ 1.          1.          1.        ]
+ [-0.13483872 -0.4091253   0.3271396 ]]
+step=23, distance_error=0.11389850825071335, angle dlo gripper=72.35999138684141, physical_enery=[-1.6177056]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.5441022 -0.9322179]]
+step=24, distance_error=0.05836624652147293, angle dlo gripper=57.54464638394917, physical_enery=[2.27747615]
+
+action=[[ 1.          1.          1.        ]
+ [-0.50426424  0.38596925 -0.5600207 ]]
+step=25, distance_error=0.06473428755998611, angle dlo gripper=62.044510368669776, physical_enery=[1.14055432]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=26, distance_error=0.10080656409263611, angle dlo gripper=69.24334266152036, physical_enery=[0.83778919]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.19091491  0.4612041  -0.3807947 ]]
+step=27, distance_error=0.10700962692499161, angle dlo gripper=58.30453066270515, physical_enery=[1.68138935]
+
+action=[[1.         1.         1.        ]
+ [0.26969433 1.         1.        ]]
+step=28, distance_error=0.10699165612459183, angle dlo gripper=59.71234251824927, physical_enery=[1.76313186]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=29, distance_error=0.05451084300875664, angle dlo gripper=53.063627459875946, physical_enery=[1.66257574]
+
+Episode : 3
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.4894175  -0.14198285  0.4111315 ]]
+step=0, distance_error=0.2533545196056366, angle dlo gripper=64.57355668592795, physical_enery=[1.04496626]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4302738   0.19589657 -0.4289737 ]]
+step=1, distance_error=0.23790527880191803, angle dlo gripper=44.61559398428898, physical_enery=[2.30936318]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=2, distance_error=0.21032477915287018, angle dlo gripper=64.17738401797827, physical_enery=[0.51984908]
+
+action=[[ 1.          1.          1.        ]
+ [-0.39055705  0.36375844 -0.59443694]]
+step=3, distance_error=0.17976149916648865, angle dlo gripper=31.81882791690117, physical_enery=[2.61918209]
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=4, distance_error=0.14415955543518066, angle dlo gripper=27.026228938445655, physical_enery=[-2.30230609]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3071634   0.5915382  -0.30939618]]
+step=5, distance_error=0.11440366506576538, angle dlo gripper=1.6007938731953004, physical_enery=[-1.34376891]
+
+action=[[ 1.          1.          1.        ]
+ [-0.03809423 -0.49613473  0.41869128]]
+step=6, distance_error=0.14083951711654663, angle dlo gripper=26.420124329224592, physical_enery=[-2.32812933]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=7, distance_error=0.11485335975885391, angle dlo gripper=19.142599015916602, physical_enery=[-2.46265788]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.2185696   0.41102895 -0.4180047 ]]
+step=8, distance_error=0.11472229659557343, angle dlo gripper=17.03984897595774, physical_enery=[-2.51019603]
+
+action=[[1.         1.         1.        ]
+ [0.42401862 0.5458219  0.02554623]]
+step=9, distance_error=0.11460475623607635, angle dlo gripper=15.566967610465866, physical_enery=[-2.57382561]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.48631084 -0.2903189   0.42753905]]
+step=10, distance_error=0.11448746174573898, angle dlo gripper=13.96703652966093, physical_enery=[-2.60544545]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.5383507]]
+step=11, distance_error=0.11440601199865341, angle dlo gripper=12.954928045850437, physical_enery=[-2.65950162]
+
+action=[[ 1.          1.          1.        ]
+ [-0.92002875  0.9337013   0.1611153 ]]
+step=12, distance_error=0.07269413024187088, angle dlo gripper=37.79624212321468, physical_enery=[-4.45526173]
+
+action=[[ 1.          1.          1.        ]
+ [-0.8573149   0.73705834 -0.20269498]]
+step=13, distance_error=0.05480407178401947, angle dlo gripper=50.13607678647068, physical_enery=[-4.85771562]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.10474508  0.34479135 -0.49557614]]
+step=14, distance_error=0.0353165827691555, angle dlo gripper=46.22122211662176, physical_enery=[-4.39448462]
+
+done with step=14  !
+Episode : 4
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.16923384 -1.         -1.        ]]
+step=0, distance_error=0.1506618708372116, angle dlo gripper=38.62206276804764, physical_enery=[6.76156997]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.97644126 -0.20884755]]
+step=1, distance_error=0.1285797506570816, angle dlo gripper=0.04433795787286954, physical_enery=[2.62785696]
+
+action=[[ 1.          1.          1.        ]
+ [-0.29920745 -0.6826067   0.3068598 ]]
+step=2, distance_error=0.09235177934169769, angle dlo gripper=48.3101548446092, physical_enery=[-0.7948095]
+
+action=[[ 1.          1.          1.        ]
+ [-0.35382432 -0.47948948  0.48774165]]
+step=3, distance_error=0.05757938325405121, angle dlo gripper=81.99181263502518, physical_enery=[-4.04144234]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=4, distance_error=0.07085666060447693, angle dlo gripper=48.86740973416195, physical_enery=[0.78053019]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.81307393 -0.14160885]]
+step=5, distance_error=0.11719465255737305, angle dlo gripper=62.45916099670116, physical_enery=[-1.59607705]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.52818227 -0.6225745   0.37363252]]
+step=6, distance_error=0.07870867103338242, angle dlo gripper=72.37021201131141, physical_enery=[-2.51060454]
+
+action=[[ 1.         1.         1.       ]
+ [-0.8059322  0.2780646  0.9930329]]
+step=7, distance_error=0.060807228088378906, angle dlo gripper=90.4017381546743, physical_enery=[-5.40022185]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=8, distance_error=0.07100372761487961, angle dlo gripper=69.11946371434603, physical_enery=[-1.60195827]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.6106799   0.56724477 -0.22943158]]
+step=9, distance_error=0.08533597737550735, angle dlo gripper=67.68876301076587, physical_enery=[-1.18008243]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.47734845  0.4345031  -0.3499159 ]]
+step=10, distance_error=0.11702564358711243, angle dlo gripper=64.95487237532798, physical_enery=[-0.44837399]
+
+action=[[ 1.          1.          1.        ]
+ [-0.34376013 -0.5327907   0.2893715 ]]
+step=11, distance_error=0.09419529139995575, angle dlo gripper=72.7370632521625, physical_enery=[-2.54140926]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.42907938  0.5208554  -0.34442374]]
+step=12, distance_error=0.11936033517122269, angle dlo gripper=65.96560859851826, physical_enery=[-0.85944743]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3079837  -0.36210814 -0.00401895]]
+step=13, distance_error=0.11122945696115494, angle dlo gripper=69.28407461731526, physical_enery=[-2.0138809]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.99955016 -1.        ]]
+step=14, distance_error=0.14741235971450806, angle dlo gripper=69.60119848705364, physical_enery=[-3.59536224]
+
+action=[[1.         1.         1.        ]
+ [0.88339233 1.         1.        ]]
+step=15, distance_error=0.11495446413755417, angle dlo gripper=76.29467026208984, physical_enery=[-3.18520424]
+
+action=[[ 1.          1.          1.        ]
+ [-0.23473766  0.10809662 -0.19759028]]
+step=16, distance_error=0.12939465045928955, angle dlo gripper=74.96811939423725, physical_enery=[-2.88266651]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.          0.7718928  -0.18997625]]
+step=17, distance_error=0.1518155038356781, angle dlo gripper=71.87712416444823, physical_enery=[-0.4270853]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.32673398 -0.01179423 -0.6320436 ]]
+step=18, distance_error=0.17827792465686798, angle dlo gripper=70.26998975542999, physical_enery=[-0.44815036]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.41744485 -0.47738132  0.41383392]]
+step=19, distance_error=0.15214300155639648, angle dlo gripper=76.97868583160331, physical_enery=[-3.07435909]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.73521966  0.17028208]]
+step=20, distance_error=0.17348217964172363, angle dlo gripper=80.58159657148586, physical_enery=[-3.17263542]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.5985836  -0.462114    0.30977884]]
+step=21, distance_error=0.14283303916454315, angle dlo gripper=80.84608167524043, physical_enery=[-3.02007258]
+
+action=[[ 1.          1.          1.        ]
+ [-0.5215234  -1.         -0.29697394]]
+step=22, distance_error=0.14152644574642181, angle dlo gripper=79.99354662282475, physical_enery=[-4.34080335]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.49982497  0.4557304  -0.47553387]]
+step=23, distance_error=0.16569477319717407, angle dlo gripper=74.52671439343379, physical_enery=[-3.00128063]
+
+action=[[1.         1.         1.        ]
+ [1.         0.09314102 0.60009414]]
+step=24, distance_error=0.13748027384281158, angle dlo gripper=79.37073259103373, physical_enery=[-3.28606003]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.20117198  0.27462244 -0.46845353]]
+step=25, distance_error=0.16339294612407684, angle dlo gripper=75.30835479827655, physical_enery=[-2.56786212]
+
+action=[[ 1.        1.        1.      ]
+ [-0.870435  1.        1.      ]]
+step=26, distance_error=0.15262411534786224, angle dlo gripper=88.05054140967657, physical_enery=[-3.91567028]
+
+action=[[ 1.          1.          1.        ]
+ [-0.30028498  0.56796604 -0.1039506 ]]
+step=27, distance_error=0.1759379655122757, angle dlo gripper=83.55767012100156, physical_enery=[-3.49379983]
+
+action=[[ 1.         1.         1.       ]
+ [-1.         0.618692   0.9477059]]
+step=28, distance_error=0.17971186339855194, angle dlo gripper=93.56489698540587, physical_enery=[-6.14400323]
+
+action=[[ 1.          1.          1.        ]
+ [-0.58656    -0.45655173  0.50819016]]
+step=29, distance_error=0.15784670412540436, angle dlo gripper=94.12941258668579, physical_enery=[-8.49818861]
+
+Episode : 5
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.37140325  0.28473803 -0.3641417 ]]
+step=0, distance_error=0.19796660542488098, angle dlo gripper=57.4214058671608, physical_enery=[2.84105415]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.9520454   0.18240349 -0.6508866 ]]
+step=1, distance_error=0.1662352830171585, angle dlo gripper=48.746542691551696, physical_enery=[7.43791839]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.04912845  0.5373575  -0.36218128]]
+step=2, distance_error=0.13409793376922607, angle dlo gripper=52.21147842242654, physical_enery=[9.29927165]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.15187079 -0.99715084]]
+step=3, distance_error=0.0986706092953682, angle dlo gripper=29.12651551792345, physical_enery=[10.80003557]
+
+action=[[ 1.          1.          1.        ]
+ [-0.99093795  1.          1.        ]]
+step=4, distance_error=0.12389224767684937, angle dlo gripper=68.19360840314856, physical_enery=[2.02897095]
+
+action=[[ 1.          1.          1.        ]
+ [-0.905087    0.53910875 -0.4441272 ]]
+step=5, distance_error=0.1295890510082245, angle dlo gripper=7.622302734069848, physical_enery=[2.57783462]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.75590473 -1.         -1.        ]]
+step=6, distance_error=0.06825462728738785, angle dlo gripper=23.61447535098185, physical_enery=[3.97121492]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.17636466 -0.14373022  0.20184338]]
+step=7, distance_error=0.07013889402151108, angle dlo gripper=36.34741797184188, physical_enery=[2.74414661]
+
+action=[[1.         1.         1.        ]
+ [1.         1.         0.47529513]]
+step=8, distance_error=0.0981508195400238, angle dlo gripper=17.16195781745182, physical_enery=[3.06172111]
+
+action=[[ 1.          1.          1.        ]
+ [-0.5663281   0.26906183  0.6067744 ]]
+step=9, distance_error=0.12193301320075989, angle dlo gripper=40.013290334584184, physical_enery=[0.4332082]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.95886403 -0.17972006  0.67245466]]
+step=10, distance_error=0.12182174623012543, angle dlo gripper=31.601477861780012, physical_enery=[1.23893327]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.41248092 -0.04899001  0.6598658 ]]
+step=11, distance_error=0.14138878881931305, angle dlo gripper=39.66371474680895, physical_enery=[-0.47968569]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.71300626 -0.87845474]]
+step=12, distance_error=0.10702653974294662, angle dlo gripper=39.47299355916098, physical_enery=[3.15012211]
+
+action=[[ 1.          1.          1.        ]
+ [-0.08031443  0.1506361  -0.36669746]]
+step=13, distance_error=0.09945694357156754, angle dlo gripper=40.828754387402256, physical_enery=[3.30084308]
+
+action=[[ 1.          1.          1.        ]
+ [-0.01201638 -0.21757664  0.14575829]]
+step=14, distance_error=0.10144007951021194, angle dlo gripper=46.188319408103126, physical_enery=[2.64068103]
+
+action=[[1.        1.        1.       ]
+ [1.        0.2658632 1.       ]]
+step=15, distance_error=0.12925000488758087, angle dlo gripper=49.45551319821331, physical_enery=[-0.18287784]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.15300183  0.24232969 -0.16080044]]
+step=16, distance_error=0.12524370849132538, angle dlo gripper=37.65170363935849, physical_enery=[1.54570873]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=17, distance_error=0.09081611782312393, angle dlo gripper=41.77564712431899, physical_enery=[3.66392573]
+
+action=[[1.         1.         1.        ]
+ [0.29067242 1.         1.        ]]
+step=18, distance_error=0.12848258018493652, angle dlo gripper=52.501459497314215, physical_enery=[-0.48917643]
+
+action=[[ 1.          1.          1.        ]
+ [-0.22110093  0.3148951  -0.33056125]]
+step=19, distance_error=0.12593699991703033, angle dlo gripper=39.50950880974267, physical_enery=[1.57807179]
+
+action=[[ 1.          1.          1.        ]
+ [-0.15807378  0.2313366   0.5901362 ]]
+step=20, distance_error=0.14998328685760498, angle dlo gripper=53.16935699520231, physical_enery=[-1.38052172]
+
+action=[[ 1.         1.         1.       ]
+ [-0.9932438  1.         1.       ]]
+step=21, distance_error=0.21350333094596863, angle dlo gripper=66.28885384801384, physical_enery=[-3.63179805]
+
+action=[[ 1.          1.          1.        ]
+ [-0.18021254  0.29472432 -0.3348342 ]]
+step=22, distance_error=0.21245312690734863, angle dlo gripper=58.990030211974386, physical_enery=[-3.68893558]
+
+action=[[ 1.          1.          1.        ]
+ [-0.22781555  0.80517507  0.5955561 ]]
+step=23, distance_error=0.24616274237632751, angle dlo gripper=60.925425236092224, physical_enery=[-5.95702581]
+
+action=[[ 1.          1.          1.        ]
+ [-0.38393384 -0.54051137  0.07336517]]
+step=24, distance_error=0.24034428596496582, angle dlo gripper=64.91338308293709, physical_enery=[-5.72753877]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=25, distance_error=0.2402198314666748, angle dlo gripper=64.38974330502494, physical_enery=[-5.79424002]
+
+action=[[ 1.          1.          1.        ]
+ [-0.02265688 -0.11677282  0.67943656]]
+step=26, distance_error=0.23793961107730865, angle dlo gripper=62.19195349355067, physical_enery=[-4.50249361]
+
+action=[[ 1.         1.         1.       ]
+ [-0.7576756 -1.        -1.       ]]
+step=27, distance_error=0.2159033566713333, angle dlo gripper=63.08036867095109, physical_enery=[-3.69088595]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=28, distance_error=0.23220400512218475, angle dlo gripper=64.4314146915104, physical_enery=[-5.38855419]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=29, distance_error=0.24128590524196625, angle dlo gripper=50.96032095827482, physical_enery=[-5.27835257]
+
+Episode : 6
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.73012614 -1.         -0.2846605 ]]
+step=0, distance_error=0.14669765532016754, angle dlo gripper=49.60066776933226, physical_enery=[1.59478334]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.68423903 -0.51629066]]
+step=1, distance_error=0.14397883415222168, angle dlo gripper=5.489754348920769, physical_enery=[1.21598026]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.11979924  0.50171214 -0.4611146 ]]
+step=2, distance_error=0.11305207759141922, angle dlo gripper=17.25473330568755, physical_enery=[2.07409104]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.14403054  0.26873735 -0.6756814 ]]
+step=3, distance_error=0.09293434768915176, angle dlo gripper=25.854583506489377, physical_enery=[2.66593813]
+
+action=[[1.         1.         1.        ]
+ [0.71544737 0.81119126 1.        ]]
+step=4, distance_error=0.07191497087478638, angle dlo gripper=32.47486388716021, physical_enery=[-0.07379489]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.27287993  0.37720373 -0.49322096]]
+step=5, distance_error=0.05105229467153549, angle dlo gripper=25.878042079623754, physical_enery=[2.24105258]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4374457  -0.19380696  0.24524498]]
+step=6, distance_error=0.0663723573088646, angle dlo gripper=36.06264295293113, physical_enery=[1.46080825]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.21060647  0.4635428  -0.43381503]]
+step=7, distance_error=0.04939931258559227, angle dlo gripper=35.18235134495538, physical_enery=[2.68623904]
+
+done with step=7  !
+Episode : 7
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.12885071  0.4781382  -0.40568534]]
+step=0, distance_error=0.1301690936088562, angle dlo gripper=52.3162353613986, physical_enery=[1.9185014]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.03934527 -0.2705188  -0.56978714]]
+step=1, distance_error=0.1298794150352478, angle dlo gripper=22.560599786071975, physical_enery=[3.02760074]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.6430466   0.32525736]]
+step=2, distance_error=0.15720582008361816, angle dlo gripper=39.32853184227213, physical_enery=[-1.08474727]
+
+action=[[1.         1.         1.        ]
+ [0.7195738  1.         0.21741506]]
+step=3, distance_error=0.11854202300310135, angle dlo gripper=25.30870191796015, physical_enery=[-1.11345666]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.64602095  0.03710265 -0.67105025]]
+step=4, distance_error=0.10937992483377457, angle dlo gripper=21.43076075055012, physical_enery=[1.93346897]
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=5, distance_error=0.08226935565471649, angle dlo gripper=65.81907791043422, physical_enery=[-3.47488908]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.2469214   0.40442464 -0.263552  ]]
+step=6, distance_error=0.05927172675728798, angle dlo gripper=55.7266293883613, physical_enery=[-3.4961729]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.4667988]]
+step=7, distance_error=0.09432896226644516, angle dlo gripper=46.54080317239331, physical_enery=[0.68437584]
+
+action=[[ 1.          1.          1.        ]
+ [-0.38997275 -0.28674665  0.33702683]]
+step=8, distance_error=0.10700709372758865, angle dlo gripper=64.93400289417912, physical_enery=[-2.48992029]
+
+action=[[ 1.          1.          1.        ]
+ [-0.20041965  1.          1.        ]]
+step=9, distance_error=0.08011838793754578, angle dlo gripper=71.52898829386744, physical_enery=[-3.62368563]
+
+action=[[1.         1.         1.        ]
+ [1.         1.         0.40492955]]
+step=10, distance_error=0.07002079486846924, angle dlo gripper=60.68129506734587, physical_enery=[-2.65529644]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.2760542   0.17828782 -0.70620054]]
+step=11, distance_error=0.04171343520283699, angle dlo gripper=53.45124514043705, physical_enery=[-1.22622083]
+
+done with step=11  !
+Episode : 8
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.85158074 -1.         -1.        ]]
+step=0, distance_error=0.1843472123146057, angle dlo gripper=42.85283189049005, physical_enery=[7.96820485]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.39824027  0.34130424 -0.4846667 ]]
+step=1, distance_error=0.20252785086631775, angle dlo gripper=24.80271334117876, physical_enery=[4.9395489]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=2, distance_error=0.25773754715919495, angle dlo gripper=75.95909062875621, physical_enery=[0.36517127]
+
+action=[[1.        1.        1.       ]
+ [0.7153635 0.8633208 1.       ]]
+step=3, distance_error=0.30605748295783997, angle dlo gripper=72.91654520188813, physical_enery=[-0.95090341]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=4, distance_error=0.2353849709033966, angle dlo gripper=5.668892528369867, physical_enery=[3.976143]
+
+action=[[ 1.          1.          1.        ]
+ [-0.47769603 -0.51077515 -0.82334626]]
+step=5, distance_error=0.19821009039878845, angle dlo gripper=21.32468122065231, physical_enery=[4.32860472]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.8480147]]
+step=6, distance_error=0.18485264480113983, angle dlo gripper=27.705238893545328, physical_enery=[5.73333025]
+
+action=[[ 1.         1.         1.       ]
+ [-1.         1.         0.9196997]]
+step=7, distance_error=0.19612810015678406, angle dlo gripper=60.205710388733294, physical_enery=[0.14074359]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.7064802  -0.28688595 -1.        ]]
+step=8, distance_error=0.18844221532344818, angle dlo gripper=45.708834864978655, physical_enery=[2.95938441]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.92875654 -0.28377146  0.5440485 ]]
+step=9, distance_error=0.18508195877075195, angle dlo gripper=48.383038434130754, physical_enery=[2.33348519]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8309607  -0.21841103  0.73699427]]
+step=10, distance_error=0.18504931032657623, angle dlo gripper=48.883865043219146, physical_enery=[2.84503888]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=11, distance_error=0.16993401944637299, angle dlo gripper=46.889225591751625, physical_enery=[3.36125169]
+
+action=[[ 1.          1.          1.        ]
+ [-0.2888073  -0.14115122  0.1757851 ]]
+step=12, distance_error=0.15448862314224243, angle dlo gripper=56.48223177071519, physical_enery=[1.78205729]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.22197771  0.40809345 -0.27136752]]
+step=13, distance_error=0.17348134517669678, angle dlo gripper=52.40787602599271, physical_enery=[2.39804038]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.34320945 -0.5733247   0.19668242]]
+step=14, distance_error=0.17330226302146912, angle dlo gripper=58.79811725010558, physical_enery=[1.93259889]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.49372125  0.57530653 -0.2833992 ]]
+step=15, distance_error=0.17301087081432343, angle dlo gripper=65.37721281947778, physical_enery=[-0.26868868]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.38876876]]
+step=16, distance_error=0.17303746938705444, angle dlo gripper=68.01687237935879, physical_enery=[-0.65750333]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.5675121 -0.955076  -1.       ]]
+step=17, distance_error=0.17303618788719177, angle dlo gripper=68.9459607791491, physical_enery=[-0.50792008]
+
+action=[[ 1.          1.          1.        ]
+ [-0.57038164 -1.         -1.        ]]
+step=18, distance_error=0.13465316593647003, angle dlo gripper=56.905054183825285, physical_enery=[1.73924248]
+
+action=[[ 1.          1.          1.        ]
+ [-0.64930177  0.84546566  1.        ]]
+step=19, distance_error=0.13926327228546143, angle dlo gripper=79.88906958486749, physical_enery=[-2.16482168]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=20, distance_error=0.13874666392803192, angle dlo gripper=64.8821263985008, physical_enery=[-0.8591991]
+
+action=[[ 1.         1.         1.       ]
+ [-1.         1.         0.9372651]]
+step=21, distance_error=0.13898363709449768, angle dlo gripper=84.042682388715, physical_enery=[-1.95685158]
+
+action=[[1.         1.         1.        ]
+ [0.7858586  0.73674685 1.        ]]
+step=22, distance_error=0.18183889985084534, angle dlo gripper=89.64141143937923, physical_enery=[-2.04447603]
+
+action=[[ 1.          1.          1.        ]
+ [-0.9688798  -1.         -0.53261244]]
+step=23, distance_error=0.12239266186952591, angle dlo gripper=79.46611529329138, physical_enery=[-1.1674755]
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -1.        -0.2609931]]
+step=24, distance_error=0.07675519585609436, angle dlo gripper=81.86375222081158, physical_enery=[-2.70252315]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.37672272]]
+step=25, distance_error=0.05725488066673279, angle dlo gripper=77.02784887868789, physical_enery=[-3.06710758]
+
+action=[[ 1.          1.          1.        ]
+ [-0.52054113 -0.84493726  0.06439152]]
+step=26, distance_error=0.03559933602809906, angle dlo gripper=82.56516403211862, physical_enery=[-4.47320819]
+
+done with step=26  !
+Episode : 9
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.07307292 -0.6903523   0.27138475]]
+step=0, distance_error=0.17387409508228302, angle dlo gripper=56.436124429228215, physical_enery=[-0.30531411]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=1, distance_error=0.14332613348960876, angle dlo gripper=3.8421391656352455, physical_enery=[3.3456964]
+
+action=[[ 1.          1.          1.        ]
+ [-0.39059657 -0.24492343  0.6896155 ]]
+step=2, distance_error=0.15791384875774384, angle dlo gripper=59.8963335824767, physical_enery=[-2.72006902]
+
+action=[[ 1.         1.         1.       ]
+ [-0.9931587 -1.        -1.       ]]
+step=3, distance_error=0.11781390756368637, angle dlo gripper=51.65710689854495, physical_enery=[-0.60145851]
+
+action=[[1.         1.         1.        ]
+ [0.5142374  1.         0.10671694]]
+step=4, distance_error=0.10238084197044373, angle dlo gripper=54.254259992190015, physical_enery=[-0.84398582]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.6737339  -0.14159347  0.8501591 ]]
+step=5, distance_error=0.14920730888843536, angle dlo gripper=75.97644235667845, physical_enery=[-3.80695843]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.01965218  0.24789129 -0.2592503 ]]
+step=6, distance_error=0.1338752955198288, angle dlo gripper=64.26051902482091, physical_enery=[-1.47287952]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.29893866  0.3890475  -0.31362605]]
+step=7, distance_error=0.1110609918832779, angle dlo gripper=58.14220618094795, physical_enery=[0.08809359]
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -0.8153497 -1.       ]]
+step=8, distance_error=0.055077068507671356, angle dlo gripper=61.45883935599163, physical_enery=[-1.04697677]
+
+action=[[ 1.          1.          1.        ]
+ [-0.16744441  1.          1.        ]]
+step=9, distance_error=0.08241913467645645, angle dlo gripper=81.24968971855688, physical_enery=[-4.34297045]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8777629  -0.41655815 -0.8623327 ]]
+step=10, distance_error=0.05856381356716156, angle dlo gripper=61.270200784392244, physical_enery=[0.29144277]
+
+action=[[ 1.          1.          1.        ]
+ [-0.10090876  0.13609268 -0.7942032 ]]
+step=11, distance_error=0.022926554083824158, angle dlo gripper=58.29943426070942, physical_enery=[0.98776905]
+
+done with step=11  !
+Episode : 10
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.23704484 -0.87200457]]
+step=0, distance_error=0.1224149540066719, angle dlo gripper=44.648846990741816, physical_enery=[6.64477847]
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=1, distance_error=0.11915359646081924, angle dlo gripper=75.32603096442857, physical_enery=[-2.11423103]
+
+action=[[1.         1.         1.        ]
+ [0.49328238 0.7574163  0.0395484 ]]
+step=2, distance_error=0.11984063684940338, angle dlo gripper=38.999609437253014, physical_enery=[-1.61203607]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.32208332  0.24250868 -0.20180494]]
+step=3, distance_error=0.11380892992019653, angle dlo gripper=3.752285728226127, physical_enery=[-1.33936911]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.34337834  0.49869278 -0.3470209 ]]
+step=4, distance_error=0.10019282251596451, angle dlo gripper=4.216317896901558, physical_enery=[0.28243597]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.12121072  0.32662004 -0.18441859]]
+step=5, distance_error=0.08872657269239426, angle dlo gripper=13.818344688988418, physical_enery=[0.61204629]
+
+action=[[ 1.          1.          1.        ]
+ [-0.00989766 -0.2799671   0.5499945 ]]
+step=6, distance_error=0.10322675108909607, angle dlo gripper=37.25754914154419, physical_enery=[-2.23276035]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.894301  -0.8676445]]
+step=7, distance_error=0.08436471223831177, angle dlo gripper=29.061331623942635, physical_enery=[3.62547185]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.9706201 -1.        -1.       ]]
+step=8, distance_error=0.07717417180538177, angle dlo gripper=29.5616137931338, physical_enery=[7.18281119]
+
+action=[[ 1.         1.         1.       ]
+ [-0.7271411 -1.        -1.       ]]
+step=9, distance_error=0.09760582447052002, angle dlo gripper=45.87517345316081, physical_enery=[3.61078096]
+
+action=[[ 1.          1.          1.        ]
+ [-0.37871394 -0.2941002  -1.        ]]
+step=10, distance_error=0.12814420461654663, angle dlo gripper=46.20426184861046, physical_enery=[3.3198741]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.62193775  0.50210357 -0.24578413]]
+step=11, distance_error=0.1254081279039383, angle dlo gripper=48.722157092215696, physical_enery=[2.62235741]
+
+action=[[ 1.          1.          1.        ]
+ [-0.35013127  0.4172265  -0.4384202 ]]
+step=12, distance_error=0.130082905292511, angle dlo gripper=51.29495263670046, physical_enery=[2.27947009]
+
+action=[[1.        1.        1.       ]
+ [0.6932883 1.        1.       ]]
+step=13, distance_error=0.08895350992679596, angle dlo gripper=52.6460411510721, physical_enery=[3.74034471]
+
+action=[[ 1.          1.          1.        ]
+ [-0.01774599 -0.8798539   0.01632594]]
+step=14, distance_error=0.09861184656620026, angle dlo gripper=53.41445135890085, physical_enery=[2.85718295]
+
+action=[[1.         1.         1.        ]
+ [0.51432204 0.93598354 0.7247113 ]]
+step=15, distance_error=0.0739407017827034, angle dlo gripper=55.59407945556809, physical_enery=[1.50908399]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=16, distance_error=0.06748981028795242, angle dlo gripper=26.735662790012043, physical_enery=[0.54156813]
+
+action=[[ 1.          1.          1.        ]
+ [-0.66899043  0.6828004   0.16446455]]
+step=17, distance_error=0.06646256893873215, angle dlo gripper=5.4264422018829634, physical_enery=[1.55071524]
+
+action=[[1.         1.         1.        ]
+ [0.45097718 1.         1.        ]]
+step=18, distance_error=0.0660020112991333, angle dlo gripper=5.797736115113906, physical_enery=[2.67265592]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.7546835  -0.6880139   0.03486631]]
+step=19, distance_error=0.06616510450839996, angle dlo gripper=14.202850878921595, physical_enery=[2.62013578]
+
+action=[[1.        1.        1.       ]
+ [0.4003771 1.        1.       ]]
+step=20, distance_error=0.06596346199512482, angle dlo gripper=7.58522653028578, physical_enery=[2.8996722]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.72930086 -1.        ]]
+step=21, distance_error=0.04302649199962616, angle dlo gripper=35.795492046302684, physical_enery=[3.21928708]
+
+done with step=21  !
+Episode : 11
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.13822688 -0.2045958   0.07811177]]
+step=0, distance_error=0.18403100967407227, angle dlo gripper=66.78538062325788, physical_enery=[1.52865139]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=1, distance_error=0.16430267691612244, angle dlo gripper=38.23806797061587, physical_enery=[7.61635169]
+
+action=[[ 1.          1.          1.        ]
+ [-0.90677214 -0.50510776 -0.52126527]]
+step=2, distance_error=0.14449653029441833, angle dlo gripper=6.72874322242896, physical_enery=[4.81483407]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.9439692  -0.37932107  0.4786429 ]]
+step=3, distance_error=0.12968146800994873, angle dlo gripper=16.106286861301015, physical_enery=[2.69941795]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.0337376   0.08646536 -0.810578  ]]
+step=4, distance_error=0.14031939208507538, angle dlo gripper=9.439004974297603, physical_enery=[5.02450209]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.95159775]]
+step=5, distance_error=0.11464047431945801, angle dlo gripper=26.51340751730595, physical_enery=[4.56551125]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.6229671   0.22263563 -0.7614998 ]]
+step=6, distance_error=0.14106769859790802, angle dlo gripper=32.36532046075391, physical_enery=[4.89820171]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.22916204]]
+step=7, distance_error=0.11439584940671921, angle dlo gripper=50.86456388810234, physical_enery=[0.39477373]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.          0.48391825 -0.16300045]]
+step=8, distance_error=0.12986387312412262, angle dlo gripper=58.77545710593485, physical_enery=[0.26494153]
+
+action=[[ 1.          1.          1.        ]
+ [-0.1938073  -0.5931917   0.21697971]]
+step=9, distance_error=0.10377591848373413, angle dlo gripper=71.4407295622537, physical_enery=[-0.96908456]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=10, distance_error=0.10219346731901169, angle dlo gripper=74.80138622441098, physical_enery=[-1.96035602]
+
+action=[[1.         1.         1.        ]
+ [1.         0.8158624  0.01564446]]
+step=11, distance_error=0.12229829281568527, angle dlo gripper=71.40465275034204, physical_enery=[-1.99828818]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.12024524 -0.4839698   0.43618274]]
+step=12, distance_error=0.1204330176115036, angle dlo gripper=74.09985525914931, physical_enery=[-1.92267821]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3145876   0.24072064 -0.4400318 ]]
+step=13, distance_error=0.13932283222675323, angle dlo gripper=67.41475463765903, physical_enery=[-1.83546765]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8099      0.8210027  -0.12967278]]
+step=14, distance_error=0.16181355714797974, angle dlo gripper=63.33107211949903, physical_enery=[1.3079918]
+
+action=[[1.       1.       1.      ]
+ [1.       1.       0.791333]]
+step=15, distance_error=0.17907816171646118, angle dlo gripper=74.42913393086151, physical_enery=[-1.16417149]
+
+action=[[ 1.          1.          1.        ]
+ [-0.55577946  0.13066497 -0.3738991 ]]
+step=16, distance_error=0.1963721364736557, angle dlo gripper=70.7730159362598, physical_enery=[-0.08663617]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8465649  -1.         -0.37760276]]
+step=17, distance_error=0.16307786107063293, angle dlo gripper=67.85460842510989, physical_enery=[-0.98695121]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.5570875  -0.3592803   0.61572075]]
+step=18, distance_error=0.13345155119895935, angle dlo gripper=77.9267955023915, physical_enery=[-2.31468615]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.4624054 -1.        -0.9307126]]
+step=19, distance_error=0.1428680121898651, angle dlo gripper=68.33932806633095, physical_enery=[-1.38987235]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.249123   0.7515667 -0.1224049]]
+step=20, distance_error=0.1622305065393448, angle dlo gripper=71.84544034557422, physical_enery=[-1.84733523]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.21882698 -0.35257834  0.25877696]]
+step=21, distance_error=0.14601173996925354, angle dlo gripper=77.83398165092217, physical_enery=[-2.94128086]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.27894697 -1.        ]]
+step=22, distance_error=0.1820121854543686, angle dlo gripper=73.16625844869682, physical_enery=[-2.4287999]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.7069941]]
+step=23, distance_error=0.2006993442773819, angle dlo gripper=67.17802770900376, physical_enery=[-1.78823223]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.97464406 -0.07014316 -0.12921049]]
+step=24, distance_error=0.20634238421916962, angle dlo gripper=75.06094147580875, physical_enery=[-3.59858958]
+
+action=[[ 1.          1.          1.        ]
+ [-0.07870124  1.          1.        ]]
+step=25, distance_error=0.17267464101314545, angle dlo gripper=90.47774158042586, physical_enery=[-4.81759183]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.01903509 -0.60988516 -0.8328756 ]]
+step=26, distance_error=0.20154444873332977, angle dlo gripper=79.90155193524677, physical_enery=[-4.14994622]
+
+action=[[1.         1.         1.        ]
+ [0.87645304 0.17015691 1.        ]]
+step=27, distance_error=0.16181746125221252, angle dlo gripper=93.07045004185426, physical_enery=[-5.44799728]
+
+action=[[ 1.          1.          1.        ]
+ [-0.20835766 -0.4856988   0.19315816]]
+step=28, distance_error=0.15151363611221313, angle dlo gripper=91.65211658622954, physical_enery=[-5.45461619]
+
+action=[[ 1.          1.          1.        ]
+ [-0.86156815 -1.         -0.402314  ]]
+step=29, distance_error=0.15171128511428833, angle dlo gripper=90.25953691157547, physical_enery=[-5.23683064]
+
+Episode : 12
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.         1.         1.       ]
+ [-0.7503336 -0.5999691 -1.       ]]
+step=0, distance_error=0.1133120134472847, angle dlo gripper=44.95877834879374, physical_enery=[8.42361342]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.13239901  0.5113498  -0.40728357]]
+step=1, distance_error=0.08832913637161255, angle dlo gripper=30.24014615593859, physical_enery=[4.49090992]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.91013145 -0.16015397  0.80958587]]
+step=2, distance_error=0.11840677261352539, angle dlo gripper=57.131915494143314, physical_enery=[0.89514775]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.369623    0.43051884 -0.4232837 ]]
+step=3, distance_error=0.10333368182182312, angle dlo gripper=31.335508821084773, physical_enery=[3.93903804]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.9576649]]
+step=4, distance_error=0.07817436009645462, angle dlo gripper=2.2752165589900244, physical_enery=[7.65289308]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.07190141 -0.01559075]]
+step=5, distance_error=0.050920236855745316, angle dlo gripper=27.698948295301022, physical_enery=[2.75063371]
+
+action=[[ 1.          1.          1.        ]
+ [-0.15505287  0.25170633 -0.31638524]]
+step=6, distance_error=0.04728671535849571, angle dlo gripper=38.007413515007755, physical_enery=[2.72626422]
+
+done with step=6  !
+Episode : 13
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.78057206 -0.7990906  -1.        ]]
+step=0, distance_error=0.2747214436531067, angle dlo gripper=50.863537424536844, physical_enery=[10.82599048]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.40363473 -1.         -1.        ]]
+step=1, distance_error=0.23102983832359314, angle dlo gripper=20.623790204889275, physical_enery=[7.8818409]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.6695383  -1.         -0.15402567]]
+step=2, distance_error=0.19980782270431519, angle dlo gripper=6.6229117102468535, physical_enery=[4.35835951]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.68428165 -1.         -0.6605613 ]]
+step=3, distance_error=0.1676892340183258, angle dlo gripper=11.167593344790987, physical_enery=[5.49243951]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.23768619  0.66582483]]
+step=4, distance_error=0.16565489768981934, angle dlo gripper=46.60050329033223, physical_enery=[-0.02222914]
+
+action=[[ 1.          1.          1.        ]
+ [-0.09666199  0.31624514 -0.67531276]]
+step=5, distance_error=0.1531858891248703, angle dlo gripper=38.94052852964714, physical_enery=[2.25192156]
+
+action=[[ 1.          1.          1.        ]
+ [-0.26214498 -0.17689016 -1.        ]]
+step=6, distance_error=0.1270749568939209, angle dlo gripper=43.330632585638824, physical_enery=[1.61961494]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.5741013 -1.       ]]
+step=7, distance_error=0.10881809890270233, angle dlo gripper=45.86011586368093, physical_enery=[0.94251511]
+
+action=[[ 1.          1.          1.        ]
+ [-0.11633946 -0.18707153  0.7146623 ]]
+step=8, distance_error=0.09965858608484268, angle dlo gripper=71.0453825943672, physical_enery=[-1.53374026]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=9, distance_error=0.047926705330610275, angle dlo gripper=69.37054448581826, physical_enery=[-4.4817036]
+
+done with step=9  !
+Episode : 14
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.87098837  1.          0.15551445]]
+step=0, distance_error=0.1147051751613617, angle dlo gripper=69.99951537868951, physical_enery=[0.81003599]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.38096306  0.13323802 -0.6868443 ]]
+step=1, distance_error=0.10250990837812424, angle dlo gripper=42.35318025059041, physical_enery=[3.01464865]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.6370282  -0.12717885  0.84368825]]
+step=2, distance_error=0.11611635982990265, angle dlo gripper=57.19388101030282, physical_enery=[-0.42651062]
+
+action=[[1.        1.        1.       ]
+ [1.        1.        0.8922773]]
+step=3, distance_error=0.09214266389608383, angle dlo gripper=51.66984553066678, physical_enery=[-0.2293617]
+
+action=[[ 1.          1.          1.        ]
+ [-0.48697984 -1.         -1.        ]]
+step=4, distance_error=0.11368006467819214, angle dlo gripper=7.364505203852076, physical_enery=[4.83776589]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3470916   0.38813454 -0.38996333]]
+step=5, distance_error=0.10626987367868423, angle dlo gripper=4.414883984896591, physical_enery=[4.82080647]
+
+action=[[ 1.          1.          1.        ]
+ [-0.9832157   1.          0.17428449]]
+step=6, distance_error=0.07378587871789932, angle dlo gripper=9.93284778415071, physical_enery=[1.32864782]
+
+action=[[1.         1.         1.        ]
+ [1.         1.         0.49461624]]
+step=7, distance_error=0.049696918576955795, angle dlo gripper=0.6061506031186354, physical_enery=[-0.2907316]
+
+done with step=7  !
+Episode : 15
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.9434378  -0.5704522  -0.90036803]]
+step=0, distance_error=0.05644778907299042, angle dlo gripper=38.42574376289102, physical_enery=[5.27028383]
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -0.5320572 -0.5167632]]
+step=1, distance_error=0.07530170679092407, angle dlo gripper=5.888079999924628, physical_enery=[2.30335095]
+
+action=[[1.        1.        1.       ]
+ [0.8920386 1.        1.       ]]
+step=2, distance_error=0.03783499449491501, angle dlo gripper=26.697763058997396, physical_enery=[-1.00991788]
+
+done with step=2  !
+Episode : 16
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.46184438  0.46321505 -0.07381313]]
+step=0, distance_error=0.2545967996120453, angle dlo gripper=65.21654610445796, physical_enery=[1.84467746]
+
+action=[[ 1.          1.          1.        ]
+ [-0.42517537  0.5235772  -0.40721506]]
+step=1, distance_error=0.20871421694755554, angle dlo gripper=42.92298479245102, physical_enery=[1.56564784]
+
+action=[[1.        1.        1.       ]
+ [0.7696664 0.8800189 0.98803  ]]
+step=2, distance_error=0.2231597602367401, angle dlo gripper=59.004443205997276, physical_enery=[-0.68641838]
+
+action=[[ 1.          1.          1.        ]
+ [-0.37502185  0.08568259 -0.82853657]]
+step=3, distance_error=0.17309299111366272, angle dlo gripper=17.464447062749542, physical_enery=[2.63506215]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          1.          0.61254275]]
+step=4, distance_error=0.17127351462841034, angle dlo gripper=9.080958588202378, physical_enery=[-1.66917864]
+
+action=[[ 1.          1.          1.        ]
+ [-0.1207819   0.42076448 -0.496057  ]]
+step=5, distance_error=0.1493356078863144, angle dlo gripper=23.826777736196107, physical_enery=[-1.45922768]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.52142155 -0.89034367]]
+step=6, distance_error=0.1261969357728958, angle dlo gripper=41.15278807551903, physical_enery=[-0.14088208]
+
+action=[[1.         1.         1.        ]
+ [0.60511607 0.02679994 0.9499732 ]]
+step=7, distance_error=0.14405524730682373, angle dlo gripper=57.160242876068054, physical_enery=[-3.58257863]
+
+action=[[ 1.          1.          1.        ]
+ [-0.50887674  0.56021243 -0.35567674]]
+step=8, distance_error=0.13053223490715027, angle dlo gripper=57.32229299706492, physical_enery=[-3.09983326]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.2059566   0.20907749 -0.51853466]]
+step=9, distance_error=0.10688666999340057, angle dlo gripper=53.42353329420564, physical_enery=[-1.20206778]
+
+action=[[ 1.          1.          1.        ]
+ [-0.834243   -0.45861042  0.49481535]]
+step=10, distance_error=0.14933887124061584, angle dlo gripper=66.7805419706287, physical_enery=[-4.69553425]
+
+action=[[ 1.          1.          1.        ]
+ [-0.22169913  0.41741958 -0.4308351 ]]
+step=11, distance_error=0.14942781627178192, angle dlo gripper=65.83519069024987, physical_enery=[-4.53646357]
+
+action=[[ 1.         1.         1.       ]
+ [-0.2615562 -0.4438367  0.5082604]]
+step=12, distance_error=0.14944544434547424, angle dlo gripper=65.91232907004881, physical_enery=[-4.49842639]
+
+action=[[ 1.          1.          1.        ]
+ [-0.60229206  1.          1.        ]]
+step=13, distance_error=0.14944301545619965, angle dlo gripper=66.1812051951277, physical_enery=[-4.53999541]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.21811458  0.330719   -0.35403508]]
+step=14, distance_error=0.13057854771614075, angle dlo gripper=58.01253631486169, physical_enery=[-2.5858526]
+
+action=[[ 1.          1.          1.        ]
+ [-0.33486804  0.5747538  -0.38729662]]
+step=15, distance_error=0.13061761856079102, angle dlo gripper=60.03156801750404, physical_enery=[-2.87438379]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.35629326  0.39790547 -0.57148296]]
+step=16, distance_error=0.10312915593385696, angle dlo gripper=50.396889033207685, physical_enery=[-0.98600132]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.24413933 -1.         -1.        ]]
+step=17, distance_error=0.09873395413160324, angle dlo gripper=48.17451197881775, physical_enery=[0.91605616]
+
+action=[[1.        1.        1.       ]
+ [0.3132371 1.        1.       ]]
+step=18, distance_error=0.08807236701250076, angle dlo gripper=52.50585722497284, physical_enery=[-1.00094062]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3279152   0.54812354 -0.1132844 ]]
+step=19, distance_error=0.07433104515075684, angle dlo gripper=44.36068952187361, physical_enery=[-0.15660398]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.35668057  0.5689341 ]]
+step=20, distance_error=0.09277109056711197, angle dlo gripper=41.6193439152226, physical_enery=[0.1624678]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.01673182  0.48367238 -0.20043029]]
+step=21, distance_error=0.08404868841171265, angle dlo gripper=34.44837446537002, physical_enery=[0.70570494]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.29366824  0.33299595 -0.4903597 ]]
+step=22, distance_error=0.06806376576423645, angle dlo gripper=25.640664032359524, physical_enery=[2.18371142]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=23, distance_error=0.04974261671304703, angle dlo gripper=36.83845739610885, physical_enery=[2.6493999]
+
+done with step=23  !
+Episode : 17
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.12036512 -1.         -1.        ]]
+step=0, distance_error=0.19302253425121307, angle dlo gripper=46.35701131284634, physical_enery=[9.19151746]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.00799598 -0.33343232  0.24431886]]
+step=1, distance_error=0.19589687883853912, angle dlo gripper=54.04481549387829, physical_enery=[3.91285332]
+
+action=[[ 1.         1.         1.       ]
+ [-0.8423929  0.8489833  0.6541929]]
+step=2, distance_error=0.2298215627670288, angle dlo gripper=66.20178965303138, physical_enery=[-1.31272787]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.41616616 -1.        ]]
+step=3, distance_error=0.1855284571647644, angle dlo gripper=2.0261264512761556, physical_enery=[4.29533953]
+
+action=[[ 1.         1.         1.       ]
+ [-0.3448926  0.5890559  0.8438122]]
+step=4, distance_error=0.22377735376358032, angle dlo gripper=30.386114457528436, physical_enery=[-1.88054375]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.29423246  0.35371003 -0.3943104 ]]
+step=5, distance_error=0.21494415402412415, angle dlo gripper=23.02556321159838, physical_enery=[1.38511042]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.7266623  0.381436  -0.6006231]]
+step=6, distance_error=0.20681488513946533, angle dlo gripper=17.4518755317317, physical_enery=[4.0626734]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4976379  -0.31971675  0.3598131 ]]
+step=7, distance_error=0.20674407482147217, angle dlo gripper=10.023407455057168, physical_enery=[2.99731364]
+
+action=[[ 1.          1.          1.        ]
+ [-0.26758575 -0.49534988  0.43421707]]
+step=8, distance_error=0.2062336504459381, angle dlo gripper=44.40647639304112, physical_enery=[0.39010645]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.29096648 -0.22372083  0.29433632]]
+step=9, distance_error=0.20610696077346802, angle dlo gripper=40.39293241998524, physical_enery=[0.70566822]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.74289334  0.23357801]]
+step=10, distance_error=0.20609375834465027, angle dlo gripper=40.08285822924651, physical_enery=[0.65574165]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=11, distance_error=0.1504342257976532, angle dlo gripper=50.72235416377325, physical_enery=[2.14438514]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.09940814  0.29745123 -0.09855728]]
+step=12, distance_error=0.1505095511674881, angle dlo gripper=59.84590035390853, physical_enery=[1.24884335]
+
+action=[[ 1.          1.          1.        ]
+ [-0.21288839  0.59448236 -0.3471968 ]]
+step=13, distance_error=0.1546373814344406, angle dlo gripper=57.12957096458278, physical_enery=[1.71219299]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.09239478 -0.39324293  0.35939395]]
+step=14, distance_error=0.15621943771839142, angle dlo gripper=62.30983576404438, physical_enery=[1.39006261]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.43201166  0.45863768 -0.45630467]]
+step=15, distance_error=0.15086548030376434, angle dlo gripper=52.19465409047514, physical_enery=[3.32652779]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.7798046   0.31474382 -0.3113621 ]]
+step=16, distance_error=0.1523825079202652, angle dlo gripper=46.885449440042095, physical_enery=[3.95235997]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.42063746 -0.10543497 -0.60464275]]
+step=17, distance_error=0.1368933916091919, angle dlo gripper=44.96278977147145, physical_enery=[3.45036486]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.8336026 -0.5991841]]
+step=18, distance_error=0.13664376735687256, angle dlo gripper=48.05180638094703, physical_enery=[2.79703767]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.35734454 -0.49836612]]
+step=19, distance_error=0.13813801109790802, angle dlo gripper=49.3112476276313, physical_enery=[3.7798476]
+
+action=[[ 1.          1.          1.        ]
+ [-0.135354    0.41200784 -0.51609087]]
+step=20, distance_error=0.15049278736114502, angle dlo gripper=50.56258413492097, physical_enery=[3.3256611]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=21, distance_error=0.12519486248493195, angle dlo gripper=59.20861586846087, physical_enery=[2.18373507]
+
+action=[[ 1.          1.          1.        ]
+ [-0.33183485  0.6444125  -0.31082195]]
+step=22, distance_error=0.15947555005550385, angle dlo gripper=69.049472373652, physical_enery=[2.34807788]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.88545316 -1.         -0.6437875 ]]
+step=23, distance_error=0.11250608414411545, angle dlo gripper=63.743333007335764, physical_enery=[1.87904086]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.75592583  0.0220237  -0.8169028 ]]
+step=24, distance_error=0.11293817311525345, angle dlo gripper=72.94745721977029, physical_enery=[-3.26464084]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=25, distance_error=0.11292997747659683, angle dlo gripper=74.93156432342448, physical_enery=[-3.92510914]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.2948212 -1.        -1.       ]]
+step=26, distance_error=0.11287552863359451, angle dlo gripper=76.38395808205583, physical_enery=[-4.00956753]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.29937783 -0.5431014 ]]
+step=27, distance_error=0.15821078419685364, angle dlo gripper=78.70294030152246, physical_enery=[-3.8578047]
+
+action=[[ 1.          1.          1.        ]
+ [-0.3313288  -0.2887706   0.62382424]]
+step=28, distance_error=0.1467633992433548, angle dlo gripper=87.45811646765677, physical_enery=[-1.72449063]
+
+action=[[ 1.          1.          1.        ]
+ [-0.58670163 -1.         -1.        ]]
+step=29, distance_error=0.1468033492565155, angle dlo gripper=87.1846180662586, physical_enery=[-2.68686051]
+
+Episode : 18
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.8186038 -1.       ]]
+step=0, distance_error=0.18508115410804749, angle dlo gripper=51.256626002593094, physical_enery=[10.87174258]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.64906484  0.46860507 -0.5174243 ]]
+step=1, distance_error=0.15746483206748962, angle dlo gripper=44.620905961003444, physical_enery=[8.66182439]
+
+action=[[ 1.          1.          1.        ]
+ [-0.4344026  -0.58117783  0.12624343]]
+step=2, distance_error=0.13668304681777954, angle dlo gripper=34.576680666681256, physical_enery=[4.08803705]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.60773456  0.30053264 -0.57653695]]
+step=3, distance_error=0.13523520529270172, angle dlo gripper=17.936708121714133, physical_enery=[5.74056685]
+
+action=[[ 1.         1.         1.       ]
+ [-0.2597075 -0.8638502 -1.       ]]
+step=4, distance_error=0.0979202538728714, angle dlo gripper=11.106592147665935, physical_enery=[5.44972932]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.45866206]]
+step=5, distance_error=0.0875873789191246, angle dlo gripper=25.815766089733643, physical_enery=[4.39203924]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.          0.3247127  -0.61527485]]
+step=6, distance_error=0.07341068238019943, angle dlo gripper=35.12564431250689, physical_enery=[2.85034737]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.41596997  0.43199137 -0.4135902 ]]
+step=7, distance_error=0.07018348574638367, angle dlo gripper=44.64810847435328, physical_enery=[2.4544531]
+
+action=[[1.         1.         1.        ]
+ [1.         0.93349326 1.        ]]
+step=8, distance_error=0.08205944299697876, angle dlo gripper=69.68227566067883, physical_enery=[0.22678644]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.57147294 -1.        ]]
+step=9, distance_error=0.06680833548307419, angle dlo gripper=55.92325530094388, physical_enery=[1.94326162]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.42061204 -0.5366103 ]]
+step=10, distance_error=0.0700848177075386, angle dlo gripper=58.01984026561797, physical_enery=[2.89176829]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.36138743 -0.35560527  0.50378895]]
+step=11, distance_error=0.048851970583200455, angle dlo gripper=67.85382596345836, physical_enery=[-1.07383048]
+
+done with step=11  !
+Episode : 19
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.13985288  0.1762253  -0.23756899]]
+step=0, distance_error=0.22401073575019836, angle dlo gripper=60.50385083382572, physical_enery=[2.06805169]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.25032344  0.6625972  -0.22390094]]
+step=1, distance_error=0.19060106575489044, angle dlo gripper=52.03816711633972, physical_enery=[2.35330591]
+
+action=[[ 1.         1.         1.       ]
+ [-1.         1.         0.6793167]]
+step=2, distance_error=0.16332682967185974, angle dlo gripper=57.53680708529009, physical_enery=[-1.57762136]
+
+action=[[1.         1.         1.        ]
+ [1.         0.83268106 1.        ]]
+step=3, distance_error=0.1213417500257492, angle dlo gripper=46.71702548949972, physical_enery=[-1.13896985]
+
+action=[[ 1.          1.          1.        ]
+ [-0.1648203  -0.19725543  0.19711623]]
+step=4, distance_error=0.12960435450077057, angle dlo gripper=21.09878620669383, physical_enery=[-1.49365714]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8176939  -0.07836223  0.76484007]]
+step=5, distance_error=0.13247889280319214, angle dlo gripper=9.588852897044859, physical_enery=[-1.06345452]
+
+action=[[ 1.         1.         1.       ]
+ [-1.         0.2681972  0.7177623]]
+step=6, distance_error=0.12330418080091476, angle dlo gripper=24.23659166219221, physical_enery=[-2.38094857]
+
+action=[[ 1.          1.          1.        ]
+ [-0.8339568   0.58328664  1.        ]]
+step=7, distance_error=0.11666977405548096, angle dlo gripper=47.10861303741416, physical_enery=[-3.91891177]
+
+action=[[1.         1.         1.        ]
+ [1.         1.         0.58494395]]
+step=8, distance_error=0.06447684019804001, angle dlo gripper=40.17665625195863, physical_enery=[-4.08810286]
+
+action=[[ 1.          1.          1.        ]
+ [-0.9813219   0.15771937 -0.53916234]]
+step=9, distance_error=0.0802268385887146, angle dlo gripper=53.45459866448377, physical_enery=[-3.89567942]
+
+action=[[1.         1.         1.        ]
+ [0.6777906  1.         0.23932847]]
+step=10, distance_error=0.04890941455960274, angle dlo gripper=41.80561380834865, physical_enery=[-3.87465769]
+
+done with step=10  !
+Episode : 20
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-0.2073192   0.7675182  -0.11363905]]
+step=0, distance_error=0.17539136111736298, angle dlo gripper=61.61253832290055, physical_enery=[0.82991538]
+
+action=[[ 1.          1.          1.        ]
+ [-0.10950353  0.29704463 -0.26835692]]
+step=1, distance_error=0.15373393893241882, angle dlo gripper=36.91083767023315, physical_enery=[0.29936232]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.16660109  0.32818395 -0.42593908]]
+step=2, distance_error=0.12838846445083618, angle dlo gripper=16.616570727700406, physical_enery=[1.80354481]
+
+action=[[1.        1.        1.       ]
+ [0.0201285 1.        0.239536 ]]
+step=3, distance_error=0.1254502832889557, angle dlo gripper=14.961926503264777, physical_enery=[-0.46435855]
+
+action=[[ 1.         1.         1.       ]
+ [-1.         0.4626232  0.9649111]]
+step=4, distance_error=0.1299484670162201, angle dlo gripper=32.46694344861692, physical_enery=[-4.05650737]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.53917277  0.3585187 ]]
+step=5, distance_error=0.14999809861183167, angle dlo gripper=31.103026768301277, physical_enery=[-2.53428677]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.25697473  0.22893281 -0.49886745]]
+step=6, distance_error=0.12794698774814606, angle dlo gripper=39.09489180945101, physical_enery=[-1.64093654]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.2578023  -0.32298025  0.33348   ]]
+step=7, distance_error=0.13765734434127808, angle dlo gripper=55.0095580394087, physical_enery=[-3.42973296]
+
+action=[[ 1.          1.          1.        ]
+ [-0.739175   -0.16188502 -0.9525472 ]]
+step=8, distance_error=0.08625714480876923, angle dlo gripper=52.332266771803106, physical_enery=[-0.25673137]
+
+action=[[ 1.          1.          1.        ]
+ [-0.5138586  -0.3577871   0.28108656]]
+step=9, distance_error=0.08934387564659119, angle dlo gripper=68.33775259704302, physical_enery=[-3.47562718]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.6757749 -0.0320513  0.7792247]]
+step=10, distance_error=0.1317293345928192, angle dlo gripper=70.07456630178652, physical_enery=[-3.91595842]
+
+action=[[ 1.          1.          1.        ]
+ [-0.50005823  0.71571696 -0.11852619]]
+step=11, distance_error=0.11633846908807755, angle dlo gripper=68.59645991372092, physical_enery=[-5.24650764]
+
+action=[[ 1.          1.          1.        ]
+ [-0.04345101 -0.03353433  0.53342164]]
+step=12, distance_error=0.12528571486473083, angle dlo gripper=66.71569847516352, physical_enery=[-3.76913523]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=13, distance_error=0.13075171411037445, angle dlo gripper=57.26091115927636, physical_enery=[-2.85304854]
+
+action=[[ 1.          1.          1.        ]
+ [-0.3889641   0.4632118  -0.38704988]]
+step=14, distance_error=0.11105258017778397, angle dlo gripper=57.57805410116052, physical_enery=[-3.95775506]
+
+action=[[ 1.          1.          1.        ]
+ [-0.38302648  0.54034394 -0.1953738 ]]
+step=15, distance_error=0.12323439866304398, angle dlo gripper=57.34278967493874, physical_enery=[-4.59764707]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.65923554 -0.368768  ]]
+step=16, distance_error=0.11396534740924835, angle dlo gripper=62.43213155846051, physical_enery=[-4.93131913]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.          0.50301135 -0.36892566]]
+step=17, distance_error=0.10434861481189728, angle dlo gripper=51.13207287230165, physical_enery=[-1.55825265]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.9233931  -0.13210684 -1.        ]]
+step=18, distance_error=0.08633912354707718, angle dlo gripper=38.590222346468806, physical_enery=[2.777142]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.4757629   0.49181238 -0.47046113]]
+step=19, distance_error=0.10998425632715225, angle dlo gripper=34.2577406791693, physical_enery=[2.78538266]
+
+action=[[ 1.          1.          1.        ]
+ [-0.29188034 -0.82936794 -0.34365636]]
+step=20, distance_error=0.08062906563282013, angle dlo gripper=40.19545324422364, physical_enery=[3.1873566]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.8961476  -0.8279375   0.13513207]]
+step=21, distance_error=0.045135870575904846, angle dlo gripper=45.99931619304914, physical_enery=[2.75759075]
+
+done with step=21  !
+Episode : 21
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.97200334  0.51157683 -0.16869202]]
+step=0, distance_error=0.15577445924282074, angle dlo gripper=67.41217185338289, physical_enery=[3.29359192]
+
+action=[[ 1.          1.          1.        ]
+ [-0.4924966  -0.7158037   0.20833717]]
+step=1, distance_error=0.14640465378761292, angle dlo gripper=63.240619232218094, physical_enery=[0.43758295]
+
+action=[[ 1.          1.          1.        ]
+ [-0.22230296  0.5704766  -0.3412437 ]]
+step=2, distance_error=0.12602148950099945, angle dlo gripper=38.79901625102934, physical_enery=[1.41937839]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.1278288   0.3097956  -0.28962782]]
+step=3, distance_error=0.11379408836364746, angle dlo gripper=21.29429883402176, physical_enery=[2.44894323]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.60637206 -1.        ]]
+step=4, distance_error=0.10595155507326126, angle dlo gripper=1.4854231990637459, physical_enery=[6.41264799]
+
+action=[[1.         1.         1.        ]
+ [0.26170176 0.66942394 0.12763353]]
+step=5, distance_error=0.11450684815645218, angle dlo gripper=6.121275085418148, physical_enery=[4.21443875]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.9234983  -0.48983425 -1.        ]]
+step=6, distance_error=0.1041453406214714, angle dlo gripper=16.789851378750228, physical_enery=[5.77658887]
+
+action=[[ 1.          1.          1.        ]
+ [-0.10319383  0.10811491 -0.4051288 ]]
+step=7, distance_error=0.10691725462675095, angle dlo gripper=30.129835463335525, physical_enery=[3.83616797]
+
+action=[[ 1.          1.          1.        ]
+ [-0.47585523 -0.3316927   0.4449554 ]]
+step=8, distance_error=0.07977879047393799, angle dlo gripper=50.95261394881308, physical_enery=[2.10066772]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.22720811  0.20858446]]
+step=9, distance_error=0.07175962626934052, angle dlo gripper=67.09044941775423, physical_enery=[0.74059966]
+
+action=[[1.         1.         1.        ]
+ [0.12403923 0.9888745  0.27773127]]
+step=10, distance_error=0.09524492174386978, angle dlo gripper=61.2952749732501, physical_enery=[1.15322733]
+
+action=[[ 1.        1.        1.      ]
+ [ 0.884636 -1.       -1.      ]]
+step=11, distance_error=0.07181663811206818, angle dlo gripper=46.88338336121015, physical_enery=[3.56871113]
+
+action=[[ 1.          1.          1.        ]
+ [-0.8810873  -0.80751824  0.13527508]]
+step=12, distance_error=0.05936820060014725, angle dlo gripper=59.921325929755525, physical_enery=[1.73571212]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.34394822 -0.5551666   0.30661064]]
+step=13, distance_error=0.03746270760893822, angle dlo gripper=64.27293520941522, physical_enery=[1.27026649]
+
+done with step=13  !
+Episode : 22
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=0, distance_error=0.10825657844543457, angle dlo gripper=38.93218018327349, physical_enery=[6.90178922]
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -1.        -0.9997903]]
+step=1, distance_error=0.09408973157405853, angle dlo gripper=16.089855556239144, physical_enery=[2.67047819]
+
+action=[[ 1.          1.          1.        ]
+ [-0.51800376  0.52558196 -0.43537185]]
+step=2, distance_error=0.13343322277069092, angle dlo gripper=40.30034239628546, physical_enery=[0.26461738]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.5850648  -0.53524405  0.4479173 ]]
+step=3, distance_error=0.09713726490736008, angle dlo gripper=57.31304419726774, physical_enery=[0.36814189]
+
+action=[[ 1.          1.          1.        ]
+ [-0.4067408  -0.3670453   0.16072813]]
+step=4, distance_error=0.08259212970733643, angle dlo gripper=71.16123714352521, physical_enery=[-1.81366621]
+
+action=[[ 1.          1.          1.        ]
+ [-0.57748324 -0.859447    0.10361169]]
+step=5, distance_error=0.08483768999576569, angle dlo gripper=77.26079841623753, physical_enery=[-3.40150783]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.17689341 -0.38759595]]
+step=6, distance_error=0.1357497274875641, angle dlo gripper=76.22172641214966, physical_enery=[-4.70312499]
+
+action=[[ 1.          1.          1.        ]
+ [-0.5724339   0.24426347 -0.7140319 ]]
+step=7, distance_error=0.13616535067558289, angle dlo gripper=76.69004453224504, physical_enery=[-4.36291031]
+
+action=[[ 1.          1.          1.        ]
+ [-0.37044105 -0.1045487   0.19443728]]
+step=8, distance_error=0.14974798262119293, angle dlo gripper=83.14233451833847, physical_enery=[-4.99863619]
+
+action=[[ 1.         1.         1.       ]
+ [-0.5551343 -1.        -1.       ]]
+step=9, distance_error=0.1500438004732132, angle dlo gripper=82.63690059443059, physical_enery=[-4.89870138]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.47698528 -1.        ]]
+step=10, distance_error=0.15012545883655548, angle dlo gripper=82.79456408017961, physical_enery=[-4.83110849]
+
+action=[[1.         1.         1.        ]
+ [0.45853123 0.9379936  0.1321422 ]]
+step=11, distance_error=0.1327374279499054, angle dlo gripper=79.44349567370064, physical_enery=[-4.43122557]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.02044804  0.10655618 -0.04967648]]
+step=12, distance_error=0.1364997774362564, angle dlo gripper=79.09225717698489, physical_enery=[-4.42189756]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=13, distance_error=0.10589087009429932, angle dlo gripper=82.61379778140463, physical_enery=[-4.96151416]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.01208968 -0.16505842 -0.01819213]]
+step=14, distance_error=0.10204316675662994, angle dlo gripper=77.50446194612381, physical_enery=[-4.03872231]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.05860088  0.2951639  -0.6288828 ]]
+step=15, distance_error=0.11755336821079254, angle dlo gripper=67.18016047906599, physical_enery=[-2.60899108]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.11784913 -0.3040961   0.43027902]]
+step=16, distance_error=0.09884200990200043, angle dlo gripper=76.64938249793038, physical_enery=[-3.65640878]
+
+action=[[ 1.          1.          1.        ]
+ [-0.06251049 -0.2018659   0.24961953]]
+step=17, distance_error=0.09474692493677139, angle dlo gripper=80.22455427457294, physical_enery=[-4.24435794]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.89779365]]
+step=18, distance_error=0.06325703114271164, angle dlo gripper=66.48945620971735, physical_enery=[-1.28247929]
+
+action=[[1.         1.         1.        ]
+ [0.4295946  1.         0.30406013]]
+step=19, distance_error=0.0746416449546814, angle dlo gripper=70.81322563101018, physical_enery=[-1.97435981]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.335996   -0.26037028  0.24680711]]
+step=20, distance_error=0.0535949282348156, angle dlo gripper=74.44789996938304, physical_enery=[-2.31785838]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.38846445 -1.         -1.        ]]
+step=21, distance_error=0.05099620297551155, angle dlo gripper=64.90859300307422, physical_enery=[0.67521594]
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -0.8834223 -1.       ]]
+step=22, distance_error=0.1141686961054802, angle dlo gripper=69.69567720178611, physical_enery=[-2.83709792]
+
+action=[[1.         1.         1.        ]
+ [0.82867813 1.         1.        ]]
+step=23, distance_error=0.06121734902262688, angle dlo gripper=77.38916524442718, physical_enery=[-1.74558644]
+
+action=[[ 1.          1.          1.        ]
+ [-1.         -1.         -0.31163943]]
+step=24, distance_error=0.09692531824111938, angle dlo gripper=79.1129293652917, physical_enery=[-4.19093967]
+
+action=[[ 1.        1.        1.      ]
+ [ 1.       -0.712441 -1.      ]]
+step=25, distance_error=0.12719470262527466, angle dlo gripper=70.1291851072237, physical_enery=[-3.00257763]
+
+action=[[ 1.          1.          1.        ]
+ [-0.84543073  0.8969142   0.48556602]]
+step=26, distance_error=0.10716462135314941, angle dlo gripper=79.09305625818509, physical_enery=[-4.20953383]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=27, distance_error=0.14644508063793182, angle dlo gripper=71.55349191030999, physical_enery=[-3.67434358]
+
+action=[[1.         1.         1.        ]
+ [0.36755204 1.         0.59341747]]
+step=28, distance_error=0.10520771145820618, angle dlo gripper=77.96649664087963, physical_enery=[-3.79658282]
+
+action=[[ 1.          1.          1.        ]
+ [-0.07443369  0.49578038 -0.4118553 ]]
+step=29, distance_error=0.11927963048219681, angle dlo gripper=76.59744817282721, physical_enery=[-3.43629367]
+
+Episode : 23
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-1.         -0.43319556 -0.44700006]]
+step=0, distance_error=0.15342620015144348, angle dlo gripper=47.66636364286509, physical_enery=[2.68733894]
+
+action=[[ 1.          1.          1.        ]
+ [-0.27692208  0.4720987  -0.39496484]]
+step=1, distance_error=0.12135935574769974, angle dlo gripper=25.3036424977374, physical_enery=[2.37258503]
+
+action=[[ 1.          1.          1.        ]
+ [-0.44048747  0.27421513 -0.515928  ]]
+step=2, distance_error=0.09878375381231308, angle dlo gripper=2.232132104986107, physical_enery=[2.52017297]
+
+action=[[ 1.          1.          1.        ]
+ [-0.4573754   0.5035188  -0.46279544]]
+step=3, distance_error=0.07825575023889542, angle dlo gripper=25.996598868644895, physical_enery=[1.50925008]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.7092499  -0.40077943  0.47819617]]
+step=4, distance_error=0.09350623935461044, angle dlo gripper=32.04508699239091, physical_enery=[0.88002292]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -0.7879244 -1.       ]]
+step=5, distance_error=0.13286234438419342, angle dlo gripper=27.202855783221793, physical_enery=[4.37059511]
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=6, distance_error=0.08398325741291046, angle dlo gripper=63.8211089277047, physical_enery=[-0.92346113]
+
+action=[[1.         1.         1.        ]
+ [0.12375272 1.         1.        ]]
+step=7, distance_error=0.07560531795024872, angle dlo gripper=75.22690393830999, physical_enery=[-4.16652918]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.9054281   0.09830777 -0.8931592 ]]
+step=8, distance_error=0.05565667897462845, angle dlo gripper=41.29384480927931, physical_enery=[1.88077043]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.20551644  0.4707967  -0.4355771 ]]
+step=9, distance_error=0.04708866775035858, angle dlo gripper=42.75815051122569, physical_enery=[2.1587937]
+
+done with step=9  !
+Episode : 24
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [ 0.552153   -0.2991051   0.39906865]]
+step=0, distance_error=0.33674919605255127, angle dlo gripper=67.67005039745976, physical_enery=[1.70971939]
+
+action=[[ 1.          1.          1.        ]
+ [-0.9212337  -0.39021254 -0.84618396]]
+step=1, distance_error=0.28861305117607117, angle dlo gripper=36.25310187870903, physical_enery=[5.53982316]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.638575   -0.87114185  0.08431178]]
+step=2, distance_error=0.2748919129371643, angle dlo gripper=30.58153637213428, physical_enery=[3.48845766]
+
+action=[[ 1.          1.          1.        ]
+ [-1.          0.03297361 -0.814635  ]]
+step=3, distance_error=0.23746462166309357, angle dlo gripper=15.022397620003346, physical_enery=[3.73595412]
+
+action=[[ 1.          1.          1.        ]
+ [-0.17005503 -0.14256191  0.58843184]]
+step=4, distance_error=0.2468041479587555, angle dlo gripper=50.49290358279285, physical_enery=[-0.24987255]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=5, distance_error=0.20387038588523865, angle dlo gripper=33.98773817318653, physical_enery=[4.06494658]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.8347493   0.05711075]]
+step=6, distance_error=0.20631550252437592, angle dlo gripper=46.669961972265355, physical_enery=[2.2231169]
+
+action=[[ 1.  1.  1.]
+ [ 1. -1. -1.]]
+step=7, distance_error=0.20581670105457306, angle dlo gripper=49.42286461488058, physical_enery=[1.19159525]
+
+action=[[ 1.          1.          1.        ]
+ [-0.47388935 -0.3221765  -0.83414584]]
+step=8, distance_error=0.1601787656545639, angle dlo gripper=52.009541790412, physical_enery=[1.40826125]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.        -1.        -0.8187372]]
+step=9, distance_error=0.15964512526988983, angle dlo gripper=61.78101778383434, physical_enery=[-0.80885763]
+
+action=[[ 1.         1.         1.       ]
+ [ 1.         0.6001641 -0.3473129]]
+step=10, distance_error=0.17445853352546692, angle dlo gripper=59.74350767097437, physical_enery=[-0.02233597]
+
+action=[[1.        1.        1.       ]
+ [1.        0.3891454 0.7891326]]
+step=11, distance_error=0.1739947497844696, angle dlo gripper=65.79359456675473, physical_enery=[-1.21846714]
+
+action=[[ 1.  1.  1.]
+ [-1. -1. -1.]]
+step=12, distance_error=0.10140867531299591, angle dlo gripper=66.7465472891014, physical_enery=[-2.53968708]
+
+action=[[ 1.          1.          1.        ]
+ [-0.86517227  0.66268694 -0.01251503]]
+step=13, distance_error=0.09671594202518463, angle dlo gripper=73.54845331367137, physical_enery=[-4.01648317]
+
+action=[[ 1.          1.          1.        ]
+ [-0.70730865  0.0082941   0.7400497 ]]
+step=14, distance_error=0.10854208469390869, angle dlo gripper=78.96261061137683, physical_enery=[-4.57403468]
+
+action=[[ 1.  1.  1.]
+ [-1.  1.  1.]]
+step=15, distance_error=0.173064187169075, angle dlo gripper=84.46090436079932, physical_enery=[-4.16958335]
+
+action=[[ 1.         1.         1.       ]
+ [-1.        -1.        -0.6431422]]
+step=16, distance_error=0.17339609563350677, angle dlo gripper=81.6538932578183, physical_enery=[-3.52609267]
+
+action=[[ 1.         1.         1.       ]
+ [ 0.5485828 -1.        -1.       ]]
+step=17, distance_error=0.11127766221761703, angle dlo gripper=73.6427887985553, physical_enery=[-3.09018723]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.12449485  0.14249472 -0.5222619 ]]
+step=18, distance_error=0.1010434627532959, angle dlo gripper=73.5830489410217, physical_enery=[-3.77524619]
+
+action=[[ 1.          1.          1.        ]
+ [-0.95481604 -0.9851853  -0.57846904]]
+step=19, distance_error=0.08125566691160202, angle dlo gripper=76.0597517975992, physical_enery=[-6.12079005]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.47220933 -0.3916426   0.45704716]]
+step=20, distance_error=0.06861084699630737, angle dlo gripper=80.54667689916924, physical_enery=[-5.94408884]
+
+action=[[ 1.          1.          1.        ]
+ [-0.7091109   0.32905048 -0.4147488 ]]
+step=21, distance_error=0.06841044872999191, angle dlo gripper=81.36527233577883, physical_enery=[-5.85634153]
+
+action=[[ 1.         1.         1.       ]
+ [-0.6099296  0.3985813  0.5983938]]
+step=22, distance_error=0.10629873722791672, angle dlo gripper=84.9405899217584, physical_enery=[-6.44228425]
+
+action=[[ 1.          1.          1.        ]
+ [-0.48169172  0.14129493 -0.76839757]]
+step=23, distance_error=0.1061689481139183, angle dlo gripper=82.87110016591299, physical_enery=[-6.09792677]
+
+action=[[ 1.         1.         1.       ]
+ [-0.2792712  1.         1.       ]]
+step=24, distance_error=0.10613909363746643, angle dlo gripper=82.21351091569095, physical_enery=[-5.99731125]
+
+action=[[ 1.          1.          1.        ]
+ [-0.1641591  -0.4071955   0.39259765]]
+step=25, distance_error=0.10612522065639496, angle dlo gripper=81.96789358489802, physical_enery=[-5.92235918]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.49358377 -0.07104254  0.46046162]]
+step=26, distance_error=0.1081058531999588, angle dlo gripper=83.21783408921623, physical_enery=[-5.47563882]
+
+action=[[1.        1.        1.       ]
+ [0.8172258 1.        1.       ]]
+step=27, distance_error=0.15543203055858612, angle dlo gripper=88.37615903383389, physical_enery=[-3.8344466]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.29843283 -0.43930903  0.1955387 ]]
+step=28, distance_error=0.15411531925201416, angle dlo gripper=86.65402498158387, physical_enery=[-3.58195965]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=29, distance_error=0.2166367620229721, angle dlo gripper=92.14487633105723, physical_enery=[-4.72308095]
+
+Episode : 25
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+action=[[ 1.          1.          1.        ]
+ [-1.          0.13765603 -0.08877517]]
+step=0, distance_error=0.19532334804534912, angle dlo gripper=60.92456702750464, physical_enery=[1.07389434]
+
+action=[[ 1.          1.          1.        ]
+ [-0.19981928 -0.34105933  0.48027545]]
+step=1, distance_error=0.2102271169424057, angle dlo gripper=44.152673342551736, physical_enery=[-0.92667679]
+
+action=[[ 1.          1.          1.        ]
+ [-0.9626142   0.905678   -0.07053102]]
+step=2, distance_error=0.17564521729946136, angle dlo gripper=10.36217233782682, physical_enery=[-1.98913234]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -1.         -0.91503274]]
+step=3, distance_error=0.20752491056919098, angle dlo gripper=12.94168199936334, physical_enery=[2.82526714]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.5272631   0.14170316 -0.35665622]]
+step=4, distance_error=0.20078828930854797, angle dlo gripper=17.4296775306546, physical_enery=[3.20477153]
+
+action=[[ 1.         1.         1.       ]
+ [-0.534889   0.412783  -0.5184127]]
+step=5, distance_error=0.18713852763175964, angle dlo gripper=32.85095406963927, physical_enery=[2.71881217]
+
+action=[[ 1.          1.          1.        ]
+ [-0.5250086   1.          0.20702885]]
+step=6, distance_error=0.14980684220790863, angle dlo gripper=48.194204076015694, physical_enery=[0.61023645]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.11174868 -0.7159669   0.12956284]]
+step=7, distance_error=0.17779842019081116, angle dlo gripper=56.51081929221911, physical_enery=[-0.15726599]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.39547333 -0.02532265 -0.881849  ]]
+step=8, distance_error=0.188571035861969, angle dlo gripper=50.303985235647815, physical_enery=[1.5156346]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.42028996 -0.4345675   0.505388  ]]
+step=9, distance_error=0.1982967108488083, angle dlo gripper=62.50797851530301, physical_enery=[0.24779762]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3984833   0.3873499  -0.48140165]]
+step=10, distance_error=0.1895742118358612, angle dlo gripper=52.402784822761035, physical_enery=[1.95998497]
+
+action=[[ 1.          1.          1.        ]
+ [-0.12396079  0.57296777 -0.38687766]]
+step=11, distance_error=0.17660444974899292, angle dlo gripper=49.742677680333145, physical_enery=[2.56327872]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.12810847 -0.29199725 -0.99687976]]
+step=12, distance_error=0.21132619678974152, angle dlo gripper=46.99684731605848, physical_enery=[3.15808286]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.15015867  0.44605803 -0.3981515 ]]
+step=13, distance_error=0.2099139392375946, angle dlo gripper=48.345341259361874, physical_enery=[2.62758082]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.3249333  -0.4866083   0.38694823]]
+step=14, distance_error=0.21235883235931396, angle dlo gripper=50.82475074342699, physical_enery=[5.16384928]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=15, distance_error=0.16520334780216217, angle dlo gripper=48.953239413371136, physical_enery=[1.95837421]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.5138517   0.76803464 -0.17900687]]
+step=16, distance_error=0.15009406208992004, angle dlo gripper=22.9976662928255, physical_enery=[3.28264534]
+
+action=[[ 1.          1.          1.        ]
+ [-0.63968533  1.          1.        ]]
+step=17, distance_error=0.10695065557956696, angle dlo gripper=30.104477674766798, physical_enery=[0.6882814]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.28173855 -0.2327554   0.4109076 ]]
+step=18, distance_error=0.09059178084135056, angle dlo gripper=1.4444166274152792, physical_enery=[0.53219686]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.91096205 -0.58111876  0.24110498]]
+step=19, distance_error=0.0905967503786087, angle dlo gripper=1.71471657403481, physical_enery=[2.12433476]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.          0.00421573 -0.5839102 ]]
+step=20, distance_error=0.11326315253973007, angle dlo gripper=2.502576825429202, physical_enery=[3.78194094]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.10974856 -0.2393042   0.5147416 ]]
+step=21, distance_error=0.11325027048587799, angle dlo gripper=2.588744207438367, physical_enery=[3.43598039]
+
+action=[[1. 1. 1.]
+ [1. 1. 1.]]
+step=22, distance_error=0.11232317239046097, angle dlo gripper=25.093375157285976, physical_enery=[4.82990191]
+
+action=[[ 1.          1.          1.        ]
+ [ 1.         -0.77590156 -1.        ]]
+step=23, distance_error=0.15647535026073456, angle dlo gripper=8.113418143511296, physical_enery=[5.31569391]
+
+action=[[ 1.          1.          1.        ]
+ [-0.4032556   0.7611214   0.76782084]]
+step=24, distance_error=0.11948642134666443, angle dlo gripper=22.89067213648366, physical_enery=[2.71477992]
+
+action=[[ 1.          1.          1.        ]
+ [-0.44814733 -0.4235822   0.319091  ]]
+step=25, distance_error=0.11181836575269699, angle dlo gripper=7.7901211524932705, physical_enery=[2.61632138]
+
+action=[[ 1.          1.          1.        ]
+ [-0.13912566  0.4186777   0.8108275 ]]
+step=26, distance_error=0.08087385445833206, angle dlo gripper=3.670981869844752, physical_enery=[-1.24193751]
+
+action=[[1.         1.         1.        ]
+ [1.         1.         0.20503202]]
+step=27, distance_error=0.07626587152481079, angle dlo gripper=23.886178573430556, physical_enery=[-0.10428968]
+
+action=[[ 1.         1.         1.       ]
+ [-0.9870462  1.         1.       ]]
+step=28, distance_error=0.053380124270915985, angle dlo gripper=27.725558480927646, physical_enery=[-2.44601663]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.26701513 -1.         -0.6689804 ]]
+step=29, distance_error=0.06956271082162857, angle dlo gripper=42.48520336045027, physical_enery=[-0.17862446]

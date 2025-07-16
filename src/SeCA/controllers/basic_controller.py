@@ -14,6 +14,11 @@ class BasicMAC:
         self._build_agents(self.input_shape)
 
         self.hidden_states = []
+
+        self.total_action_count = 0
+        self.unsafe_action_count = 0
+        self.safe_action = 1
+
         
         ########
         self.reset_actions()
@@ -44,7 +49,14 @@ class BasicMAC:
         while not viable or not viable_translation or not viable_orientation:
             if len(agent_mean.shape) > 2:
                 if np.sum(viable_arr == 0) == agent_mean.shape[0]:
+                    # if test_mode:
+                    #     action = agent_mean
+                    # else:
                     action = th.stack([dist.sample() for dist in dists]) 
+                    condition = (action > self.safe_action) | (action < -self.safe_action)
+                    if condition.any():
+                        self.unsafe_action_count += 1
+                    self.total_action_count +=1 
                     action = th.tanh(action)
                     action_nn_np = copy.copy(action)
                     action_nn_np = action_nn_np.squeeze(0).cpu().detach().numpy() if self.args.use_cuda else action_nn_np.squeeze(0).detach().numpy()
@@ -59,6 +71,9 @@ class BasicMAC:
                     if self.args.action_masking:
                         action[zero_indices] = self.masking.ray_masking(action[zero_indices])
             else:
+                # if test_mode:
+                #     action = agent_mean
+                # else:
                 action = dists.sample() 
                 action = th.tanh(action)
                 action_nn_np = copy.copy(action)
@@ -145,5 +160,8 @@ class BasicMAC:
     
     def reset_actions(self):
         self.agents_prev_actions = th.zeros(self.n_agents, self.args.n_actions*2, device="cuda" if self.args.use_cuda else "cpu") #*2 beacuse it is mean and std
+
+    def get_count_of_actions(self):
+        return self.unsafe_action_count, self.total_action_count
 
   

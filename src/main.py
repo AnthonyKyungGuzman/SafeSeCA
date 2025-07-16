@@ -337,6 +337,10 @@ def main():
 		initial_error = 0
 		sum_initial_error = 0
 		list_initial_error = []
+		list_final_angle_dlo_gripper = []
+		angles_dlo_gripper_list = []
+		physical_energy_list = []
+		velocity_list_all_episodes = []
 		
 		
 
@@ -344,6 +348,8 @@ def main():
 			print("Episode : {}".format(episode))
 			file_log.write("Episode : {}\n".format(episode))
 			file_log.flush()
+			velocity_list_per_episode = []
+			velocity_list_per_episode.append(np.array([0.0, 0.0, 0.0]))
 		   
 			if do_reset_env:
 				print("RESET ENV !")
@@ -375,8 +381,8 @@ def main():
 				action = agent.get_action(state, step, pos_orien,test_mode=True)
 				
 				print("action={}".format(action))
-				# file_log.write("action = {}\n".format(action))
-				# file_log.flush()
+				file_log.write("action = {}\n".format(action))
+				file_log.flush()
 
 				
 				new_state, reward, done, info = env.step_bullet(action, panda_num, rank=rank, episode=episode, step=step)
@@ -384,10 +390,14 @@ def main():
 				if (args.gui) and env.is_graphic_mode == False:
 					env.draw_id_to_follow()
 				
-				print("step={}, distance_error={}\n".format(step,info['distance_error']))
-				file_log.write("step={}, distance_error={}\n".format(step,info['distance_error']))
+				physical_energy_step = np.dot(env.get_torque(), env.get_joint_q_values())
+				physical_energy_list.append(physical_energy_step)
+				velocity_list_per_episode.append(action[1])
+				angles_dlo_gripper_list.append(env.get_angle_between_dlo_and_gripper())
+				print("step={}, distance_error={}, angle dlo gripper={}, physical_enery={}\n".format(step,info['distance_error'],env.get_angle_between_dlo_and_gripper(),physical_energy_step))
+				file_log.write("step={}, distance_error={}, angle dlo gripper={}, physical_enery={}\n".format(step,info['distance_error'],env.get_angle_between_dlo_and_gripper(),physical_energy_step))
 				file_log.flush()
-				
+
 				#print("step={}, action={}, reward={}, done={}, info={}".format(step,action,reward, done, info))
 				state = new_state
 			   
@@ -407,6 +417,7 @@ def main():
 			sum_steps += step
 			sum_distance_error += current_distance_error
 			list_episode_error.append(current_distance_error)
+			velocity_list_all_episodes.append(velocity_list_per_episode)
 		print("time_set_action = {}".format(env_time_set_action))
 		print("nb dones = {}".format(nb_dones))
 		print("mean distance error = {}".format(sum_distance_error/n_episodes))
@@ -414,12 +425,55 @@ def main():
 		print("Average steps =  {}".format(sum_steps/n_episodes))
 		print("std error episode = {}, min error episode = {}, max error episode = {}".format(np.std(np.array(list_episode_error)),min(list_episode_error),max(list_episode_error)))
 		print("success rate = {}".format(nb_dones/n_episodes))
+		print("total amount of steps = {}\n".format(sum_steps))
+		print("mean angle dlo gripper = {}".format(np.mean(np.array(angles_dlo_gripper_list))))
+		print("sum angle dlo gripper = {}".format(np.sum(np.array(angles_dlo_gripper_list))))
+		print("std angle dlo gripper episode = {}, min angle dlo gripper episode = {}, max angle dlo gripper episode = {}".format(np.std(np.array(angles_dlo_gripper_list)),min(angles_dlo_gripper_list),max(angles_dlo_gripper_list)))
+		
+		physical_energy_arr  = np.array(physical_energy_list)
+		energy_consumed_arr =  physical_energy_arr[physical_energy_arr > 0]
+		physical_energy_arr_abs = np.absolute(physical_energy_arr)
+		print("net physical energy = {}".format(np.sum(physical_energy_arr_abs)))
+		print("net mean physical energy = {}, std net physical energy= {}, min net physical energy = {}, max net phyiscal energy = {}".format(np.mean(physical_energy_arr_abs),np.std(physical_energy_arr_abs),np.min(physical_energy_arr_abs), np.max(physical_energy_arr_abs)))
+		print("physical energy consumed = {}".format(np.sum(energy_consumed_arr)))
+		print("mean physical energy consumed = {}, std physical energy consumed= {}, min physical energy consumed= {}, max phyiscal energy consumed= {}".format(np.mean(energy_consumed_arr),np.std(energy_consumed_arr),np.min(energy_consumed_arr), np.max(energy_consumed_arr)))
+
+
+
+		dt = env.get_dt() # Time step
+		all_jerks = []
+		all_velocities = []
+
+		for vel_sequence in velocity_list_all_episodes:
+			jerks = []
+			all_velocities.append(vel_sequence[0])
+			all_velocities.append(vel_sequence[1])
+			for t in range(2, len(vel_sequence)):
+				all_velocities.append(vel_sequence[t])
+				v0 = vel_sequence[t - 2]
+				v1 = vel_sequence[t - 1]
+				v2 = vel_sequence[t]
+				jerk = (v2 - 2 * v1 + v0) / (dt ** 2)
+				all_jerks.append(jerk)
+		
+
+		all_jerk_norms =  np.linalg.norm(np.array(all_jerks), axis=1)
+		all_velocities_norms =  np.linalg.norm(np.array(all_velocities), axis=1)
+		all_velocities_power = np.power(all_velocities_norms,2)
+		print("Total smoothness = {}".format(np.sum(all_jerk_norms))) 
+		print("Mean smoothness = {}, std smoothness= {}, min smootheness={}, max smootheness={}".format(np.mean(all_jerk_norms),np.std(all_jerk_norms),np.min(all_jerk_norms), np.max(all_jerk_norms))) 
+		print("velocity norm sum={}, velocity norms mean = {}, std velocity norm= {}, min velocity norm={}, max velocity norm={}".format(np.sum(all_velocities_norms),np.mean(all_velocities_norms),np.std(all_velocities_norms),np.min(all_velocities_norms), np.max(all_velocities_norms))) 
+		print("velocity norms squared sum={}, velocity norms squared mean = {}, std velocity norm squared= {}, min velocity norm squared={}, max velocity norm squared={}".format(np.sum(all_velocities_power),np.mean(all_velocities_power),np.std(all_velocities_power),np.min(all_velocities_power), np.max(all_velocities_power))) 
+		unsafe_action_count, total_action_count = agent.get_count_of_actions()
+		print("unsafe action count = {}, total action count = {}".format(unsafe_action_count, total_action_count)) 
+
 		# initial error
 		print("mean initial distance error = {}".format(sum_initial_error/n_episodes))
 		print("max initial distance error = {}".format(max(list_initial_error)))
 		print("min initial distance error = {}".format(min(list_initial_error)))
 		print("time elapsed = {}".format(datetime.now()-start))
 		
+
 		
 		file_log.write("time_set_action = {}\n".format(env_time_set_action))
 		file_log.write("nb dones = {}\n".format(nb_dones))
@@ -428,6 +482,21 @@ def main():
 		file_log.write("Average steps =  {}\n".format(sum_steps/n_episodes))
 		file_log.write("std error episode = {}, min error episode = {}, max error episode = {}\n".format(np.std(np.array(list_episode_error)),min(list_episode_error),max(list_episode_error)))
 		file_log.write("success rate = {}\n".format(nb_dones/n_episodes))
+		file_log.write("total amount of steps = {}\n".format(sum_steps))
+		file_log.write("mean angle dlo gripper = {}\n".format(np.mean(np.array(angles_dlo_gripper_list))))
+		file_log.write("sum angle dlo gripper = {}\n".format(np.sum(np.array(angles_dlo_gripper_list))))
+		file_log.write("std angle dlo gripper episode = {}, min angle dlo gripper episode = {}, max angle dlo gripper episode = {}\n".format(np.std(np.array(angles_dlo_gripper_list)),min(angles_dlo_gripper_list),max(angles_dlo_gripper_list)))
+		file_log.write("net physical energy = {}\n".format(np.sum(physical_energy_arr_abs)))
+		file_log.write("net mean physical energy = {}, std net physical energy= {}, min net physical energy = {}, max net phyiscal energy = {}\n".format(np.mean(physical_energy_arr_abs),np.std(physical_energy_arr_abs),np.min(physical_energy_arr_abs), np.max(physical_energy_arr_abs)))
+		file_log.write("physical energy consumed = {}\n".format(np.sum(energy_consumed_arr)))
+		file_log.write("mean physical energy consumed = {}, std physical energy consumed= {}, min physical energy consumed= {}, max phyiscal energy consumed= {}\n".format(np.mean(energy_consumed_arr),np.std(energy_consumed_arr),np.min(energy_consumed_arr), np.max(energy_consumed_arr)))
+		file_log.write("Total smoothness = {}\n".format(np.sum(all_jerk_norms))) 
+		file_log.write("Mean smoothness = {}, std smoothness= {}, min smootheness={}, max smootheness={}\n".format(np.mean(all_jerk_norms),np.std(all_jerk_norms),np.min(all_jerk_norms), np.max(all_jerk_norms))) 
+		file_log.write("velocity norm sum={}, velocity norms mean = {}, std velocity norm= {}, min velocity norm={}, max velocity norm={}\n".format(np.sum(all_velocities_norms),np.mean(all_velocities_norms),np.std(all_velocities_norms),np.min(all_velocities_norms), np.max(all_velocities_norms))) 
+		file_log.write("velocity norms squared sum={}, velocity norms squared mean = {}, std velocity norm squared= {}, min velocity norm squared={}, max velocity norm squared={}\n".format(np.sum(all_velocities_power),np.mean(all_velocities_power),np.std(all_velocities_power),np.min(all_velocities_power), np.max(all_velocities_power))) 
+		file_log.write("unsafe action count = {}, total action count = {}\n".format(unsafe_action_count, total_action_count))
+
+
 		# initial error
 		file_log.write("mean initial distance error = {}\n".format(sum_initial_error/n_episodes))
 		file_log.write("max initial distance error = {}\n".format(max(list_initial_error)))

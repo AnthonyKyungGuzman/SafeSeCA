@@ -1,0 +1,17 @@
+{"time":"2025-07-02T17:56:53.198002727+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-02_17-56-53__0/wandb/run-20250702_175653-4tpe051u/logs/debug-core.log"}
+{"time":"2025-07-02T17:56:53.301022607+02:00","level":"INFO","msg":"created new stream","id":"4tpe051u"}
+{"time":"2025-07-02T17:56:53.301061866+02:00","level":"INFO","msg":"stream: started","id":"4tpe051u"}
+{"time":"2025-07-02T17:56:53.30106719+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"4tpe051u"}
+{"time":"2025-07-02T17:56:53.30109926+02:00","level":"INFO","msg":"sender: started","stream_id":"4tpe051u"}
+{"time":"2025-07-02T17:56:53.301133432+02:00","level":"INFO","msg":"handler: started","stream_id":"4tpe051u"}
+{"time":"2025-07-02T17:56:53.602429357+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-02T17:57:03.793703775+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-07-02T18:52:54.239310819+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-02T18:52:54.239720322+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-02T18:52:55.19788447+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-02T18:52:55.273493604+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 5714-5722","runtime_seconds":0.075533409}],"total_operations":1}}
+{"time":"2025-07-02T18:52:55.471297829+02:00","level":"INFO","msg":"stream: closing","id":"4tpe051u"}
+{"time":"2025-07-02T18:52:55.471306266+02:00","level":"INFO","msg":"handler: closed","stream_id":"4tpe051u"}
+{"time":"2025-07-02T18:52:55.471312297+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4tpe051u"}
+{"time":"2025-07-02T18:52:55.471317119+02:00","level":"INFO","msg":"sender: closed","stream_id":"4tpe051u"}
+{"time":"2025-07-02T18:52:55.471344533+02:00","level":"INFO","msg":"stream: closed","id":"4tpe051u"}

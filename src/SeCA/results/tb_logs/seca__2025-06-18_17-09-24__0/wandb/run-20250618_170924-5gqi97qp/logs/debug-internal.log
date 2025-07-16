@@ -1,0 +1,16 @@
+{"time":"2025-06-18T17:09:24.035262229+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-06-18_17-09-24__0/wandb/run-20250618_170924-5gqi97qp/logs/debug-core.log"}
+{"time":"2025-06-18T17:09:24.138806322+02:00","level":"INFO","msg":"created new stream","id":"5gqi97qp"}
+{"time":"2025-06-18T17:09:24.138828045+02:00","level":"INFO","msg":"stream: started","id":"5gqi97qp"}
+{"time":"2025-06-18T17:09:24.138842526+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"5gqi97qp"}
+{"time":"2025-06-18T17:09:24.138885749+02:00","level":"INFO","msg":"handler: started","stream_id":"5gqi97qp"}
+{"time":"2025-06-18T17:09:24.138926398+02:00","level":"INFO","msg":"sender: started","stream_id":"5gqi97qp"}
+{"time":"2025-06-18T17:09:24.51066684+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-18T17:09:34.774873553+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-06-18T17:10:14.111592248+02:00","level":"INFO","msg":"stream: closing","id":"5gqi97qp"}
+{"time":"2025-06-18T17:10:14.11162032+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-18T17:10:14.112078834+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-18T17:10:14.698212422+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-18T17:10:14.922152515+02:00","level":"INFO","msg":"handler: closed","stream_id":"5gqi97qp"}
+{"time":"2025-06-18T17:10:14.922180295+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5gqi97qp"}
+{"time":"2025-06-18T17:10:14.922196372+02:00","level":"INFO","msg":"sender: closed","stream_id":"5gqi97qp"}
+{"time":"2025-06-18T17:10:14.922222403+02:00","level":"INFO","msg":"stream: closed","id":"5gqi97qp"}
