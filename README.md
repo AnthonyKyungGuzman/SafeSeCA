@@ -24,6 +24,8 @@ SafeSeCA/
         ├──db.txt                   # Database for training, same as db_seen.txt
         ├──db_unseen.txt            # Database for testing, unseen deformations
         ├──db_seen.txt
+    |──DDPG/
+        |──ddpg_config.yaml
     ├──SeCA/
         ├──config/
             ├──default.yaml         # Config for the networks, number of environments, masking and viability
@@ -32,6 +34,7 @@ SafeSeCA/
         ├──weights/
             ├──seca_off_policy/     # Action replacement weights
             ├──safeSeca/            # SafeSeCA weights
+            |──DDPG_SingleAgent/    # DDPG-SA basline comparison
 
 ```
 
@@ -74,7 +77,7 @@ cd src
 python main.py --mode test --config_file ./src/configs/config.json --algo_config_file seca --gui True
 ```
 
-## 🚀 Testing DDPG-SA
+## Testing DDPG-SA
 Follow the same steps in testing for SafeSeCA, but also change the load parameter to True in in the config file in src/DDPG/ddpg_config.yaml
 
 ```bash
