@@ -1,0 +1,16 @@
+{"time":"2025-10-03T21:16:18.04958121+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DO/SafeSeCA_ws/MultiSeCA_DLO/src/DDPG/results/tb_logs/DDPG_SingleAgent__2025-10-03_21-16-18__0/wandb/run-20251003_211618-d7ol8yo1/logs/debug-core.log"}
+{"time":"2025-10-03T21:16:18.153050721+02:00","level":"INFO","msg":"created new stream","id":"d7ol8yo1"}
+{"time":"2025-10-03T21:16:18.153084911+02:00","level":"INFO","msg":"stream: started","id":"d7ol8yo1"}
+{"time":"2025-10-03T21:16:18.153148031+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"d7ol8yo1"}
+{"time":"2025-10-03T21:16:18.153159346+02:00","level":"INFO","msg":"sender: started","stream_id":"d7ol8yo1"}
+{"time":"2025-10-03T21:16:18.153248276+02:00","level":"INFO","msg":"handler: started","stream_id":"d7ol8yo1"}
+{"time":"2025-10-03T21:16:18.408228998+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-03T21:46:21.443919669+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-03T21:46:21.444297251+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-03T21:46:22.460515041+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.707186671,"progress":"602.9KB/602.9KB"}],"total_operations":1}}
+{"time":"2025-10-03T21:46:22.603677536+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-03T21:46:22.916126816+02:00","level":"INFO","msg":"stream: closing","id":"d7ol8yo1"}
+{"time":"2025-10-03T21:46:22.916135233+02:00","level":"INFO","msg":"handler: closed","stream_id":"d7ol8yo1"}
+{"time":"2025-10-03T21:46:22.916140604+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"d7ol8yo1"}
+{"time":"2025-10-03T21:46:22.916181748+02:00","level":"INFO","msg":"sender: closed","stream_id":"d7ol8yo1"}
+{"time":"2025-10-03T21:46:22.916186613+02:00","level":"INFO","msg":"stream: closed","id":"d7ol8yo1"}

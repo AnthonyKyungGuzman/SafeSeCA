@@ -1,0 +1,23 @@
+
+name: "DDPG_SingleAgent"
+use_cuda: True # Use gpu by default unless it isn't available
+load: True
+
+# --- RL hyperparameters ---
+gamma: 0.99
+lr: 0.00001 #0.0025 # Learning rate for agents
+critic_lr: 0.00001 # Learning rate for critics
+grad_norm_clip: 10 # Reduce magnitude of gradients above this L2 norm
+tau: 0.005
+
+# --- Agent parameters ---
+mlp_hidden_dim: 256
+n_agents: 1   #number of agents
+n_actions: 6
+n_states: 36 
+
+# --- Experiment running params ---
+n_workers: 1
+
+# --- Env params
+action_index: 1

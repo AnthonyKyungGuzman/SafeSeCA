@@ -1,0 +1,8 @@
+{"time":"2025-07-29T17:06:59.79593389+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-29_17-06-59__0/wandb/run-20250729_170659-pepzk21c/logs/debug-core.log"}
+{"time":"2025-07-29T17:06:59.904604443+02:00","level":"INFO","msg":"created new stream","id":"pepzk21c"}
+{"time":"2025-07-29T17:06:59.904645188+02:00","level":"INFO","msg":"stream: started","id":"pepzk21c"}
+{"time":"2025-07-29T17:06:59.904717974+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pepzk21c"}
+{"time":"2025-07-29T17:06:59.904775609+02:00","level":"INFO","msg":"sender: started","stream_id":"pepzk21c"}
+{"time":"2025-07-29T17:06:59.904853193+02:00","level":"INFO","msg":"handler: started","stream_id":"pepzk21c"}
+{"time":"2025-07-29T17:07:00.31719147+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-29T17:07:10.647821416+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

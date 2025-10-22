@@ -1,0 +1,17 @@
+{"time":"2025-10-03T18:22:24.184364041+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DO/SafeSeCA_ws/MultiSeCA_DLO/src/DDPG/results/tb_logs/DDPG_SingleAgent__2025-10-03_18-22-24__0/wandb/run-20251003_182224-6z6ymphd/logs/debug-core.log"}
+{"time":"2025-10-03T18:22:24.28843379+02:00","level":"INFO","msg":"created new stream","id":"6z6ymphd"}
+{"time":"2025-10-03T18:22:24.288480683+02:00","level":"INFO","msg":"stream: started","id":"6z6ymphd"}
+{"time":"2025-10-03T18:22:24.288559904+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"6z6ymphd"}
+{"time":"2025-10-03T18:22:24.288592893+02:00","level":"INFO","msg":"sender: started","stream_id":"6z6ymphd"}
+{"time":"2025-10-03T18:22:24.288749541+02:00","level":"INFO","msg":"handler: started","stream_id":"6z6ymphd"}
+{"time":"2025-10-03T18:22:24.557363559+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-03T18:34:40.133766554+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/kyung-guzman/ddpg_dlo/6z6ymphd/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-03T18:52:13.521471955+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-03T18:52:13.52181957+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-03T18:52:14.530167693+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.718816135,"progress":"592.6KB/592.6KB"}],"total_operations":1}}
+{"time":"2025-10-03T18:52:14.646609757+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-03T18:52:14.954661192+02:00","level":"INFO","msg":"stream: closing","id":"6z6ymphd"}
+{"time":"2025-10-03T18:52:14.954669299+02:00","level":"INFO","msg":"handler: closed","stream_id":"6z6ymphd"}
+{"time":"2025-10-03T18:52:14.954678972+02:00","level":"INFO","msg":"sender: closed","stream_id":"6z6ymphd"}
+{"time":"2025-10-03T18:52:14.954674951+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6z6ymphd"}
+{"time":"2025-10-03T18:52:14.954702277+02:00","level":"INFO","msg":"stream: closed","id":"6z6ymphd"}

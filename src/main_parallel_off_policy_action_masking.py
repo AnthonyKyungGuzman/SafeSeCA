@@ -242,6 +242,9 @@ def SeCA_setup(params):
     params.seca_args.batch_size = params.batch_size
     params.seca_args.logger = params.logger
     params.seca_args.state_shape = params.seca_args.n_states - 6 # removed 6, so the states going into the criitc do not include any action distribution params, which will be added later at the time of inference
+    params.state_shape = params.seca_args.state_shape
+    params.n_actions = params.seca_args.n_actions
+
 
 	 # Default/Base scheme
     scheme = {

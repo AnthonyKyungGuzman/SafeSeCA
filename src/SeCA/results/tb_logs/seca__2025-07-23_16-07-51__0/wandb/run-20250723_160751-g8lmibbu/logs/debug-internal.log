@@ -1,0 +1,8 @@
+{"time":"2025-07-23T16:07:51.106401152+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/results/tb_logs/seca__2025-07-23_16-07-51__0/wandb/run-20250723_160751-g8lmibbu/logs/debug-core.log"}
+{"time":"2025-07-23T16:07:51.217021379+02:00","level":"INFO","msg":"created new stream","id":"g8lmibbu"}
+{"time":"2025-07-23T16:07:51.217096325+02:00","level":"INFO","msg":"stream: started","id":"g8lmibbu"}
+{"time":"2025-07-23T16:07:51.217152841+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"g8lmibbu"}
+{"time":"2025-07-23T16:07:51.217203136+02:00","level":"INFO","msg":"handler: started","stream_id":"g8lmibbu"}
+{"time":"2025-07-23T16:07:51.217316549+02:00","level":"INFO","msg":"sender: started","stream_id":"g8lmibbu"}
+{"time":"2025-07-23T16:07:51.606315689+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-23T16:08:01.938088744+02:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

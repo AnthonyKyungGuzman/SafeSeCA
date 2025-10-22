@@ -1,0 +1,7 @@
+{"time":"2025-10-17T17:56:07.635752695+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DO/SafeSeCA_ws/MultiSeCA_DLO/src/DDPG/results/tb_logs/DDPG_SingleAgent__2025-10-17_17-56-07__0/wandb/run-20251017_175607-0mxolj7w/logs/debug-core.log"}
+{"time":"2025-10-17T17:56:07.740869138+02:00","level":"INFO","msg":"created new stream","id":"0mxolj7w"}
+{"time":"2025-10-17T17:56:07.740959509+02:00","level":"INFO","msg":"stream: started","id":"0mxolj7w"}
+{"time":"2025-10-17T17:56:07.741113174+02:00","level":"INFO","msg":"sender: started","stream_id":"0mxolj7w"}
+{"time":"2025-10-17T17:56:07.741092715+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"0mxolj7w"}
+{"time":"2025-10-17T17:56:07.741183655+02:00","level":"INFO","msg":"handler: started","stream_id":"0mxolj7w"}
+{"time":"2025-10-17T17:56:08.083443859+02:00","level":"INFO","msg":"Starting system monitor"}

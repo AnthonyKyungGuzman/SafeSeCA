@@ -125,8 +125,13 @@ def subproc_worker(pipe, parent_pipe, worker_id, params, obs_bufs, obs_shapes, o
                 break
             else:
                 raise RuntimeError(f'Unrecognized command {cmd}')
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        pipe.send(("error", str(e)))
     finally:
         env.close()
+        pipe.close()
 
 
 
@@ -134,7 +139,7 @@ class VecEnv:
     def __init__(self, num_workers, sim_params, context='spawn'):
         ctx = mp.get_context(context)
         
-        observation_space, action_space = sim_params.seca_args.state_shape, sim_params.seca_args.n_actions
+        observation_space, action_space = sim_params.state_shape, sim_params.n_actions
         self.spec = sim_params
 
         self.moving_avg_return = [MovingAverageReward(window_size=100) for i in range(num_workers)]

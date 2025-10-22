@@ -1328,7 +1328,7 @@ class PandaFriteEnvComplete(gym.Env):
 			if max_distance != 0.0 and max_distance <= 0.0001:
 				finish = True
 			
-			print("total seconds = {}".format((datetime.now()-start).total_seconds()))
+			# print("total seconds = {}".format((datetime.now()-start).total_seconds()))
 			if ((datetime.now()-start).total_seconds() > 60):
 			# if ((datetime.now()-start).total_seconds() > 3):
 				finish = True

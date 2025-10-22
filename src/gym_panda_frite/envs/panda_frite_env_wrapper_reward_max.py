@@ -59,8 +59,10 @@ class PandaFriteEnvWrapperRewardMax(Wrapper):
 		return obs, reward
 		
 	def step_bullet(self, action, panda_num, rank=None, episode=None, step=None):
-		# obs, reward, done, info = self.env.step_bullet(action,panda_num,rank,episode,step)
-		obs, reward, done, info = self.env.step_bullet_translation_orientation(action,panda_num,rank,episode,step)
+		if self.env.is_action_6D():
+			obs, reward, done, info = self.env.step_bullet(action,panda_num,rank,episode,step)
+		else:
+			obs, reward, done, info = self.env.step_bullet_translation_orientation(action,panda_num,rank,episode,step)
 		done = True
 		
 		nb_mesh_to_follow = len(self.env.position_mesh_to_follow)

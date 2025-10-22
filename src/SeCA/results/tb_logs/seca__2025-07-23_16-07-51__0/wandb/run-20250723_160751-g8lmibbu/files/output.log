@@ -1,0 +1,473 @@
+[DEBUG] Logging to runs/g8lmibbu
+** ENVIRONNEMENT PARAMETERS **
+time_step_sleep = 0.001, n_substeps = 15, gui = True
+GENERATE DB FROM JSON 'database/frite_parameters/parameters_array' !
+load name = db.txt, generate name = generate_db.txt
+path load = /media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/, path_generate = /media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/
+****** PandaFriteEnvComplete !!!! ************
+=> LOAD DATABASE Name = /media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/configs/db.txt
+E=2.50000, NU=0.30000, TIMESTEP=0.00300, factor_dt_factor=1.00000
+Gripper rot x=0.00000, y=0.00000, z=0.00000
+Goal space x_up=0.05000, x_down=0.10000, y_up=0.20000, y_down=0.20000, z_down=0.25000
+Pos space x_up=0.05000, x_down=0.15000, y_up=0.32500, y_down=0.32500, z_down=0.30000
+Nb Goal random=1000.00000
+nb lines = 4000, nb points = 4, nb_deformations = 1000
+** Gripper Orientation *******************
+index = 0, name = from_initial, type = 0, panda_num=0
+*********************************
+** Goal Space *******************
+index = 1, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.25, y_down = 0.25, z_down = 0.25
+*********************************
+** Goal Space Graphic *******************
+index = 0, name = small, x_up= 0.05, x_down = 0.1, y_up = 0.2, y_down = 0.2, z_down = 0.25
+*********************************
+** Pose Space *******************
+index = 3, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.4, y_down = 0.4, z_down = 0.3
+*********************************
+** Pose Space Graphic *******************
+index = 2, name = large, x_up= 0.05, x_down = 0.15, y_up = 0.325, y_down = 0.325, z_down = 0.3
+*********************************
+** Observation Space *******************
+add_frite_parameters = False
+*********************************
+** Action Space *******************
+index = 0, name = 3d, type = 0
+*********************************
+constructor IK_DH
+constructor IK_DH time elapsed = 0:00:00.006678
+
+calculate_DK
+calculate_DK time elapsed = 0:00:00.474293
+
+calculate_Jacobian
+calculate_Jacobian time elapsed = 0:00:02.230158
+
+start init IK DH !
+calculate _A_init
+calculate _A_init time elapsed = 0:00:06.430480
+
+calculate A_final
+calculate _A_init time elapsed = 0:00:00.000163
+
+calculate incremental_ik
+calculate incremental_ik time elapsed = 0:01:16.771083
+
+end init IK DH !
+*** NO ROS VERSION !!!!!!!!!!!! *********
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+/home/anthony/anaconda3/envs/seca_dlo_action_masking/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+$$$$$ CONSTRUCTOR PandaFriteEnvWrapperRewardMax $$$$$
+TEST MODE !
+Loading weights ...
+/media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/controllers/basic_controller.py:152: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent.load_state_dict(th.load(agent_str.format(path), map_location=lambda storage, loc: storage))
+/media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:226: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1.load_state_dict(th.load(critic_q1_str.format(path), map_location=lambda storage, loc: storage))
+/media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:227: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2.load_state_dict(th.load(critic_q2_str.format(path), map_location=lambda storage, loc: storage))
+/media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:232: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.agent_optimiser.load_state_dict(th.load(agent_opt_str.format(path), map_location=lambda storage, loc: storage))
+/media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:233: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q1_optimiser.load_state_dict(th.load(critic_q1_opt_str.format(path), map_location=lambda storage, loc: storage))
+/media/anthony/BACKUP/anthony/research/DLO/SafeSeCA_ws/MultiSeCA_DLO/src/SeCA/learners/seca_learner.py:234: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.critic_q2_optimiser.load_state_dict(th.load(critic_q2_opt_str.format(path), map_location=lambda storage, loc: storage))
+** ENV MODE TEST **
+n_episodes = 100
+n_steps = 30
+do_reset_env = True
+wait_time_sleep_after_draw_env_box = 0.0
+wait_time_sleep_end_episode = 0.0
+do_episode_hit_return = False
+Episode : 0
+RESET ENV !
+Panda_0 arm has 12 joints
+*** PANDA Initial pos=[ 5.54500000e-01 -3.20388816e-12  5.21100000e-01], orien=[ 1.00000000e+00 -2.24154029e-13  5.30897989e-17  4.89679979e-12], panda_num=0
+** NB Action values = 3
+Using 3D action
+*** NB Observation values = 42
+Use JSON E=2500000.0, NU=0.3
+total seconds = 0.000111
+total seconds = 0.081271
+action=[[ 1.          1.          1.        ]
+ [-0.17754622  0.21102619 -0.32390556]]
+total seconds = 0.000104
+total seconds = 0.075831
+total seconds = 0.256094
+total seconds = 0.352487
+total seconds = 0.450559
+total seconds = 0.554656
+total seconds = 0.652492
+total seconds = 0.653451
+total seconds = 0.744086
+total seconds = 0.746605
+total seconds = 0.97915
+total seconds = 1.112289
+total seconds = 1.208871
+total seconds = 1.303375
+total seconds = 1.303756
+total seconds = 1.304035
+total seconds = 1.403357
+total seconds = 1.494626
+total seconds = 1.495104
+total seconds = 1.58363
+total seconds = 1.584077
+total seconds = 1.668332
+total seconds = 1.669188
+total seconds = 1.753441
+total seconds = 1.834447
+total seconds = 1.912672
+total seconds = 1.996695
+total seconds = 2.088222
+total seconds = 2.088619
+total seconds = 2.088944
+total seconds = 2.183437
+total seconds = 2.184016
+total seconds = 2.273829
+total seconds = 2.274223
+total seconds = 2.36286
+total seconds = 2.45343
+total seconds = 2.45387
+total seconds = 2.541842
+total seconds = 2.645018
+total seconds = 2.846081
+total seconds = 2.848705
+total seconds = 3.051939
+total seconds = 3.253348
+total seconds = 3.341148
+total seconds = 3.436759
+total seconds = 3.53169
+total seconds = 3.626072
+total seconds = 3.723457
+total seconds = 3.907435
+total seconds = 4.002013
+total seconds = 4.004448
+total seconds = 4.092638
+total seconds = 4.188241
+total seconds = 4.266126
+total seconds = 4.347681
+total seconds = 4.431068
+total seconds = 4.515122
+total seconds = 4.593507
+total seconds = 4.771277
+total seconds = 4.772425
+total seconds = 4.865106
+total seconds = 4.952412
+total seconds = 5.03912
+total seconds = 5.122694
+total seconds = 5.123349
+total seconds = 5.20577
+total seconds = 5.289967
+total seconds = 5.290882
+total seconds = 5.291158
+total seconds = 5.373271
+total seconds = 5.456399
+total seconds = 5.542544
+total seconds = 5.543113
+total seconds = 5.543583
+total seconds = 5.634608
+total seconds = 5.725475
+total seconds = 5.725964
+total seconds = 5.83835
+total seconds = 5.841083
+total seconds = 6.058042
+total seconds = 6.151787
+total seconds = 6.153027
+total seconds = 6.239581
+total seconds = 6.328378
+total seconds = 6.328699
+total seconds = 6.329029
+total seconds = 6.416844
+total seconds = 6.497367
+total seconds = 6.579941
+total seconds = 6.660874
+total seconds = 6.66123
+total seconds = 6.745704
+total seconds = 6.747087
+total seconds = 6.828232
+total seconds = 6.828517
+total seconds = 6.828825
+total seconds = 6.923072
+total seconds = 7.024833
+total seconds = 7.025419
+total seconds = 7.025827
+total seconds = 7.210563
+total seconds = 7.212046
+total seconds = 7.30154
+total seconds = 7.303277
+total seconds = 7.304029
+total seconds = 7.401086
+step=0, distance_error=0.2706320881843567, angle dlo gripper=64.15329511451883, physical_enery=[1.64506118]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.36932334  0.501633   -0.43532032]]
+total seconds = 7e-05
+total seconds = 0.079328
+total seconds = 0.161425
+total seconds = 0.244486
+total seconds = 0.32323
+total seconds = 0.411639
+total seconds = 0.496333
+total seconds = 0.496957
+total seconds = 0.497406
+total seconds = 0.579937
+total seconds = 0.580518
+total seconds = 0.66302
+total seconds = 0.663461
+total seconds = 0.66391
+total seconds = 0.664348
+total seconds = 0.745292
+total seconds = 0.746464
+total seconds = 0.827552
+total seconds = 0.829595
+total seconds = 0.829881
+total seconds = 0.830107
+total seconds = 0.91192
+total seconds = 0.913133
+total seconds = 0.996693
+total seconds = 1.07844
+total seconds = 1.0791
+total seconds = 1.160798
+total seconds = 1.162285
+total seconds = 1.238121
+total seconds = 1.239698
+total seconds = 1.332526
+total seconds = 1.33308
+total seconds = 1.421972
+total seconds = 1.516448
+total seconds = 1.647086
+total seconds = 1.760747
+total seconds = 1.859598
+total seconds = 1.950646
+total seconds = 1.953293
+total seconds = 2.044402
+total seconds = 2.133258
+total seconds = 2.133832
+total seconds = 2.134116
+total seconds = 2.223087
+total seconds = 2.224263
+total seconds = 2.313684
+total seconds = 2.314711
+total seconds = 2.398838
+total seconds = 2.399234
+total seconds = 2.478543
+total seconds = 2.479688
+total seconds = 2.568565
+total seconds = 2.656207
+total seconds = 2.748982
+total seconds = 2.838873
+total seconds = 2.930218
+total seconds = 3.014095
+total seconds = 3.100523
+total seconds = 3.101159
+total seconds = 3.187216
+total seconds = 3.18771
+total seconds = 3.27191
+total seconds = 3.353471
+total seconds = 3.353788
+total seconds = 3.354103
+total seconds = 3.354784
+total seconds = 3.437647
+total seconds = 3.519924
+total seconds = 3.520287
+total seconds = 3.520655
+total seconds = 3.601559
+total seconds = 3.60215
+total seconds = 3.602399
+total seconds = 3.60262
+total seconds = 3.602846
+total seconds = 3.685585
+total seconds = 3.685882
+total seconds = 3.68624
+total seconds = 3.686615
+total seconds = 3.770791
+total seconds = 3.771171
+total seconds = 3.772022
+total seconds = 3.852009
+total seconds = 3.852249
+total seconds = 3.852464
+total seconds = 3.852681
+total seconds = 3.935592
+total seconds = 3.936034
+total seconds = 3.93632
+total seconds = 3.936713
+total seconds = 4.018407
+total seconds = 4.018674
+total seconds = 4.018962
+total seconds = 4.10048
+total seconds = 4.101478
+total seconds = 4.183298
+total seconds = 4.184495
+total seconds = 4.185284
+total seconds = 4.185599
+total seconds = 4.266486
+total seconds = 4.35555
+total seconds = 4.450112
+total seconds = 4.531271
+total seconds = 4.532472
+total seconds = 4.616309
+total seconds = 4.699538
+total seconds = 4.701063
+total seconds = 4.785971
+total seconds = 4.786721
+total seconds = 4.787066
+total seconds = 4.871186
+total seconds = 4.871702
+total seconds = 4.872068
+total seconds = 4.87243
+total seconds = 5.048372
+total seconds = 5.049624
+total seconds = 5.126449
+total seconds = 5.211512
+total seconds = 5.29057
+total seconds = 5.387204
+total seconds = 5.480548
+total seconds = 5.643083
+total seconds = 5.723232
+step=1, distance_error=0.24463817477226257, angle dlo gripper=53.19956275684736, physical_enery=[3.3877697]
+
+action=[[ 1.          1.          1.        ]
+ [ 0.11207036  0.3080622  -0.38264322]]
+total seconds = 6.7e-05
+total seconds = 0.080896
+total seconds = 0.081292
+total seconds = 0.081665
+total seconds = 0.081981
+total seconds = 0.164515
+total seconds = 0.16504
+total seconds = 0.165354
+total seconds = 0.165612
+total seconds = 0.165868
+total seconds = 0.166122
+total seconds = 0.247029
+total seconds = 0.247435
+total seconds = 0.329881
+total seconds = 0.412553
+total seconds = 0.413943
+total seconds = 0.496828
+total seconds = 0.579819
+total seconds = 0.580254
+total seconds = 0.580508
+total seconds = 0.66145
+total seconds = 0.740313
+total seconds = 0.829471
+total seconds = 0.829903
+total seconds = 0.913925
+total seconds = 0.914892
+total seconds = 0.998525
+total seconds = 0.999043
+total seconds = 0.999351
+total seconds = 0.999644
+total seconds = 1.08049
+total seconds = 1.081274
+total seconds = 1.165635
+total seconds = 1.16686
+total seconds = 1.167212
+total seconds = 1.248432
+total seconds = 1.24885
+total seconds = 1.24912
+total seconds = 1.2494
+total seconds = 1.249644
+total seconds = 1.249873
+total seconds = 1.250189
+total seconds = 1.250472
+total seconds = 1.250748
+total seconds = 1.338315
+total seconds = 1.419326
+total seconds = 1.502981
+total seconds = 1.583801
+total seconds = 1.584389
+total seconds = 1.584747
+total seconds = 1.666011
+total seconds = 1.666643
+total seconds = 1.667044
+total seconds = 1.667423
+total seconds = 1.749258
+total seconds = 1.749636
+total seconds = 1.749881
+total seconds = 1.830618
+total seconds = 1.831015
+total seconds = 1.912854
+total seconds = 1.914051
+total seconds = 1.997198
+total seconds = 1.997688
+total seconds = 2.180645
+total seconds = 2.181883
+total seconds = 2.182402
+total seconds = 2.182873
+total seconds = 2.267832
+total seconds = 2.268174
+total seconds = 2.268504
+total seconds = 2.268817
+total seconds = 2.26913
+total seconds = 2.269469
+total seconds = 2.353339
+total seconds = 2.437461
+total seconds = 2.439574
+total seconds = 2.522986
+total seconds = 2.686411
+total seconds = 2.687102
+total seconds = 2.774182
+total seconds = 2.857964
+total seconds = 2.936605
+total seconds = 2.937087
+total seconds = 3.017365
+total seconds = 3.017708
+total seconds = 3.099825
+total seconds = 3.101147
+total seconds = 3.101525
+total seconds = 3.101857
+total seconds = 3.102158
+total seconds = 3.102421
+total seconds = 3.10267
+total seconds = 3.102993
+total seconds = 3.184555
+total seconds = 3.185462
+total seconds = 3.18594
+total seconds = 3.267835
+total seconds = 3.268554
+total seconds = 3.268815
+total seconds = 3.26909
+total seconds = 3.269428
+total seconds = 3.350695
+total seconds = 3.351209
+total seconds = 3.351487
+total seconds = 3.433066
+total seconds = 3.433447
+total seconds = 3.433738
+total seconds = 3.515289
+total seconds = 3.515877
+total seconds = 3.599577
+total seconds = 3.600193
+total seconds = 3.684863
+total seconds = 3.685103
+total seconds = 3.685414
+total seconds = 3.768276
+total seconds = 3.768672
+total seconds = 3.7689
+total seconds = 3.769229
+total seconds = 3.861338
+total seconds = 3.94145
+total seconds = 4.107065
+total seconds = 4.10823
+total seconds = 4.187404
+total seconds = 4.188035
+total seconds = 4.188893
+total seconds = 4.189622
+total seconds = 4.310969
+total seconds = 4.415677
+total seconds = 4.499865
+total seconds = 4.500501
+total seconds = 4.586718
+total seconds = 4.588435
+total seconds = 4.677576
+total seconds = 4.677966
+total seconds = 4.76469
+total seconds = 4.766502
+total seconds = 4.8616
+step=2, distance_error=0.2181454449892044, angle dlo gripper=49.0153855220521, physical_enery=[5.83253622]
