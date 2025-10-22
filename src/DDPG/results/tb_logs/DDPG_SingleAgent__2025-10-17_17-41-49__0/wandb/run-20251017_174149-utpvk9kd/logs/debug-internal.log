@@ -1,7 +1,0 @@
-{"time":"2025-10-17T17:41:49.096250298+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/anthony/research/DO/SafeSeCA_ws/MultiSeCA_DLO/src/DDPG/results/tb_logs/DDPG_SingleAgent__2025-10-17_17-41-49__0/wandb/run-20251017_174149-utpvk9kd/logs/debug-core.log"}
-{"time":"2025-10-17T17:41:49.20097194+02:00","level":"INFO","msg":"created new stream","id":"utpvk9kd"}
-{"time":"2025-10-17T17:41:49.201020207+02:00","level":"INFO","msg":"stream: started","id":"utpvk9kd"}
-{"time":"2025-10-17T17:41:49.201107373+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"utpvk9kd"}
-{"time":"2025-10-17T17:41:49.201157741+02:00","level":"INFO","msg":"handler: started","stream_id":"utpvk9kd"}
-{"time":"2025-10-17T17:41:49.201268137+02:00","level":"INFO","msg":"sender: started","stream_id":"utpvk9kd"}
-{"time":"2025-10-17T17:41:49.490103626+02:00","level":"INFO","msg":"Starting system monitor"}
