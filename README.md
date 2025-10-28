@@ -13,7 +13,7 @@
 This paper introduces SafeSeCA, a new Multi-Agent Reinforcement Learning (MARL) framework designed for a 3D deformation of large soft Deformable Linear Objects (DLOs) using safe and viable actions. We provide the robot with safe actions through the application of continuous action masking via zonotope-based ray masks, and with actions that are kinematically feasible according to its current configuration, which we denominate as viable actions. This proactive approach eliminates the need for external constraints. The framework tackles the challenges of controlling these complex objects by using two cooperative agents to manage gripper translation and rotation, thereby simplifying the action space into a safe and viable action space. We adapt Sequential Credit Assignment (SeCA) for continuous actions and off-policy learning to handle credit assignment in this cooperative setup with a shared reward. Additionally, a sequential agent architecture is introduced to improve policy coordination. Simulation results in PyBullet demonstrate that SafeSeCA can effectively learn DLO deformation policies while guaranteeing safe and viable robot actions.
 
 ## 🎬 Video Comparison 
-[![Video Comparison](https://img.youtube.com/vi/0gsRpAa9RhU/0.jpg)](https://youtu.be/0gsRpAa9RhU)
+[![Video Comparison](https://img.youtube.com/vi/r3Q_fGCeccE/0.jpg)](https://youtu.be/r3Q_fGCeccE)
 
 
 ## 📁 Folder structure
@@ -57,7 +57,9 @@ pip install -r requirements.txt
 ##  Training SafeSeCA
 ```bash
 cd src
-python main_parallel_off_policy_action_masking.py --config_file ./src/configs/config.json --algo_config_file seca 
+mkdir logs
+mkdir -p SeCA/results/tb_logs
+python main_parallel_off_policy_action_masking.py --config_file ./configs/config.json --algo_config_file seca 
 ```
 
 When training you can setup the trainig to use it with or withou out masking and viabilty in the src/SeCA/config/default.yaml file.
@@ -65,7 +67,7 @@ When training you can setup the trainig to use it with or withou out masking and
 ## Training DDPG-SA
 ```bash
 cd src
-python DDPG_single_agent_parallel_off_policy.py --config_file ./src/configs/config.json
+python DDPG_single_agent_parallel_off_policy.py --config_file ./configs/config.json
 ```
 
 When training you can setup the trainig to use n amount of parallel environments in the config file in src/DDPG/ddpg_config.yaml
@@ -78,7 +80,7 @@ Then run the following command.
 
 ```bash
 cd src
-python main.py --mode test --config_file ./src/configs/config.json --algo_config_file seca --gui True
+python main.py --mode test --config_file ./configs/config.json --algo_config_file seca --gui True
 ```
 
 ## Testing DDPG-SA
@@ -86,12 +88,12 @@ Follow the same steps in testing for SafeSeCA, but also change the load paramete
 
 ```bash
 cd src
-python main_ddpg.py --mode test --config_file ./src/configs/config.json --gui True
+python main_ddpg.py --mode test --config_file ./configs/config.json --gui True
 ```
 
 
 ## Generate dataset
 ```bash
 cd src
-python main.py --mode generate_db --config_file ./src/configs/config.json --algo_config_file seca --gui True
+python main.py --mode generate_db --config_file ./configs/config.json --algo_config_file seca --gui True
 ```
