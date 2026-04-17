@@ -13,7 +13,7 @@
 This paper introduces SafeSeCA, a new Multi-Agent Reinforcement Learning (MARL) framework designed for a 3D deformation of large soft Deformable Linear Objects (DLOs) using safe and viable actions. We provide the robot with safe actions through the application of continuous action masking via zonotope-based ray masks, and with actions that are kinematically feasible according to its current configuration, which we denominate as viable actions. This proactive approach eliminates the need for external constraints. The framework tackles the challenges of controlling these complex objects by using two cooperative agents to manage gripper translation and rotation, thereby simplifying the action space into a safe and viable action space. We adapt Sequential Credit Assignment (SeCA) for continuous actions and off-policy learning to handle credit assignment in this cooperative setup with a shared reward. Additionally, a sequential agent architecture is introduced to improve policy coordination. Simulation results in PyBullet demonstrate that SafeSeCA can effectively learn DLO deformation policies while guaranteeing safe and viable robot actions.
 
 ## 🎬 Video Comparison 
-[![Video Comparison](https://img.youtube.com/vi/u-qLdGTudBE/0.jpg)](https://youtu.be/u-qLdGTudBE)
+[![Video Comparison](https://img.youtube.com/vi/NfnVz_1yqak/0.jpg)](https://youtu.be/NfnVz_1yqak)
 
 
 ## 📁 Folder structure
