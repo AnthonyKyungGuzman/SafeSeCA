@@ -97,3 +97,25 @@ python main_ddpg.py --mode test --config_file ./configs/config.json --gui True
 cd src
 python main.py --mode generate_db --config_file ./configs/config.json --algo_config_file seca --gui True
 ```
+
+
+## Citation
+If you find our papers/code useful for your research, please cite our work as follows.
+A. K. Guzman-Leguel, R. Aragüés and C. Sagüés, "SafeSeCA: Safe Action Decomposition for 3D Deformation of Large Soft-Linear Objects," 2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA), Vasteras, Sweden, 2026, pp. 1-8, doi: 10.1109/ETFA68377.2026.11724911.
+
+```bash
+@INPROCEEDINGS{11724911,
+  author={Guzman-Leguel, Anthony K. and Aragüés, Rosario and Sagüés, Carlos},
+  booktitle={2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)}, 
+  title={SafeSeCA: Safe Action Decomposition for 3D Deformation of Large Soft-Linear Objects}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Learning (artificial intelligence);Printing;Training;Timing;Safety;Equations;Weighted sum model;Joints;Conferences;Robots;reinforcement learning;deformable linear objects;multi-agent;action decomposition},
+  doi={10.1109/ETFA68377.2026.11724911}}
+
+```
+
+## Acknowledgements
+This work was supported via projects PID2021-124137OB-I00 and PID2024-159279OB-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF/EU, by project REMAIN S1/1.1/E0111 (Interreg Sudoe Programme, ERDF), via project DGA T45_23R (Gobierno de Arag´on), and by SECIHTI, Mexico (grant 2020415).
